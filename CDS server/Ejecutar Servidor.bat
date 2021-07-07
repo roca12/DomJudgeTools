@@ -1,0 +1,1 @@
+start "title" call bin\.\server.bat start cds 

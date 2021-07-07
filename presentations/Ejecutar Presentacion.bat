@@ -1,0 +1,1 @@
+start "title" call .\standalone.bat http://192.168.0.4/domjudge/api/contests/1 score score --display_name "{team.name} ({org.name})" --p 41 42 43 44 45 46 47 49

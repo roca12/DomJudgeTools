@@ -1,0 +1,10 @@
+---- ICPC Presentation Client (2.3.491) ----
+OS:  Windows 10 (amd64/10.0)
+JRE: Oracle Corporation (12.0.2)
+Folder: C:\Users\diego\Documents\DomJudge\presentations
+Host: ROCA12ULTRA / 192.168.0.3
+Locale/TZ: es_CO / hora estándar de Colombia
+Args: https://192.168.0.3:8443/api/contests/4/ presentations presentat1ons 
+Log started 2021.07.07 13:19.12
+
+2021.07.07 13:19.13 E Invalid user or password

@@ -1,0 +1,12 @@
+Lanzando defaultServer (Open Liberty 21.0.0.1/wlp-1.0.48.cl210120210113-1459) en Java HotSpot(TM) 64-Bit Server VM, versión 12.0.2+10 (es_CO)
+[AUDITAR ] CWWKE0001I: El servidor defaultServer se ha lanzado.
+[ERROR   ] CWWKF0001E: No se ha podido encontrar una definición de característica para webprofile-8.0
+[AUDITAR ] CWWKF0011I: El servidor defaultServer está preparado para ejecutar un planeta más inteligente. El servidor defaultServer se ha iniciado en 6,888 segundos.
+[AUDITAR ] CWWKE0055I: Conclusión del servidor solicitada el miércoles, 7 de julio de 2021 a las 11:50 a. m.. El servidor defaultServer se está cerrando.
+[AUDITAR ] CWWKE1100I: Esperando hasta 30 segundos para que el servidor se desactive temporalmente.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.ibm.ws.kernel.service.location.internal.Activator (file:/C:/Users/diego/Documents/DomJudge/wlp/lib/com.ibm.ws.kernel.service_1.3.48.jar) to field javax.naming.spi.NamingManager.initctx_factory_builder
+WARNING: Please consider reporting this to the maintainers of com.ibm.ws.kernel.service.location.internal.Activator
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[AUDITAR ] CWWKE0036I: El servidor defaultServer se ha detenido después de 8 minutos, 46,029 segundos.

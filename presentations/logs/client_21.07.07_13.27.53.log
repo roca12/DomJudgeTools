@@ -1,0 +1,1451 @@
+---- ICPC Presentation Client (2.3.491) ----
+OS:  Windows 10 (amd64/10.0)
+JRE: Oracle Corporation (12.0.2)
+Folder: C:\Users\diego\Documents\DomJudge\presentations
+Host: ROCA12ULTRA / 192.168.0.3
+Locale/TZ: es_CO / hora estándar de Colombia
+Args: https://192.168.0.3:8443/api/contests/5/ presentation presentat1on 
+Log started 2021.07.07 13:27.54
+
+2021.07.07 13:27.54 I Contest source verified
+2021.07.07 13:27.54 I Download https://192.168.0.3:8443/presentation/ to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\listing.dir (200) (7.8kb in 54ms)
+2021.07.07 13:27.54 I Updates found on CDS: 1
+2021.07.07 13:27.54 I Version check: 2.3.491 (local) vs 2.3.491 (remote)
+2021.07.07 13:27.55 I Display 1 found, modes:
+2021.07.07 13:27.55 I    1366x768 @ 60hz in 32bit
+2021.07.07 13:27.55 I    1280x720 @ 60hz in 32bit
+2021.07.07 13:27.55 I    1024x768 @ 60hz in 32bit
+2021.07.07 13:27.55 I    800x600 @ 60hz in 32bit
+2021.07.07 13:27.55 I    640x480 @ 60hz in 32bit
+2021.07.07 13:27.55 I    Config: false, true, true, DirectColorModel
+2021.07.07 13:27.55 I Display 2 found, modes:
+2021.07.07 13:27.55 I    1920x1080 @ 75hz in 32bit
+2021.07.07 13:27.55 I    1920x1080 @ 60hz in 32bit
+2021.07.07 13:27.55 I    1920x1080 @ 59hz in 32bit
+2021.07.07 13:27.55 I    1920x1080 @ 50hz in 32bit
+2021.07.07 13:27.55 I    1680x1050 @ 75hz in 32bit
+2021.07.07 13:27.55 I    1680x1050 @ 60hz in 32bit
+2021.07.07 13:27.55 I    1600x900 @ 75hz in 32bit
+2021.07.07 13:27.55 I    1600x900 @ 60hz in 32bit
+2021.07.07 13:27.55 I    1440x900 @ 75hz in 32bit
+2021.07.07 13:27.55 I    1440x900 @ 60hz in 32bit
+2021.07.07 13:27.55 I    1366x768 @ 75hz in 32bit
+2021.07.07 13:27.55 I    1366x768 @ 60hz in 32bit
+2021.07.07 13:27.55 I    1280x1024 @ 75hz in 32bit
+2021.07.07 13:27.55 I    1280x1024 @ 60hz in 32bit
+2021.07.07 13:27.55 I    1280x800 @ 75hz in 32bit
+2021.07.07 13:27.55 I    1280x800 @ 60hz in 32bit
+2021.07.07 13:27.55 I    1280x720 @ 75hz in 32bit
+2021.07.07 13:27.55 I    1280x720 @ 60hz in 32bit
+2021.07.07 13:27.55 I    1280x720 @ 59hz in 32bit
+2021.07.07 13:27.55 I    1280x720 @ 50hz in 32bit
+2021.07.07 13:27.55 I    1024x768 @ 75hz in 32bit
+2021.07.07 13:27.55 I    1024x768 @ 60hz in 32bit
+2021.07.07 13:27.55 I    800x600 @ 75hz in 32bit
+2021.07.07 13:27.55 I    800x600 @ 60hz in 32bit
+2021.07.07 13:27.55 I    720x576 @ 75hz in 32bit
+2021.07.07 13:27.55 I    720x576 @ 60hz in 32bit
+2021.07.07 13:27.55 I    720x576 @ 59hz in 32bit
+2021.07.07 13:27.55 I    720x576 @ 50hz in 32bit
+2021.07.07 13:27.55 I    720x480 @ 75hz in 32bit
+2021.07.07 13:27.55 I    720x480 @ 60hz in 32bit
+2021.07.07 13:27.55 I    720x480 @ 59hz in 32bit
+2021.07.07 13:27.55 I    720x400 @ 75hz in 32bit
+2021.07.07 13:27.55 I    720x400 @ 70hz in 32bit
+2021.07.07 13:27.55 I    720x400 @ 60hz in 32bit
+2021.07.07 13:27.55 I    720x400 @ 59hz in 32bit
+2021.07.07 13:27.55 I    640x480 @ 75hz in 32bit
+2021.07.07 13:27.55 I    640x480 @ 60hz in 32bit
+2021.07.07 13:27.55 I    640x480 @ 59hz in 32bit
+2021.07.07 13:27.55 I    Config: false, true, true, DirectColorModel
+2021.07.07 13:27.55 I Presentation Client [192.168.0.3] connecting to RESTContestSource[presentation|presentat1on@https://192.168.0.3:8443/api/contests/5]
+2021.07.07 13:27.55 192.168.0.3 connecting...
+2021.07.07 13:27.55 192.168.0.3 connected
+2021.07.07 13:27.55 I < {"type":"ping"}
+2021.07.07 13:27.55 I Applying display config DisplayConfig 1 (r=java.awt.Rectangle[x=1920,y=313,width=1366,height=768],in=java.awt.Insets[top=0,left=0,bottom=40,right=0])
+2021.07.07 13:27.55 I > {"type":"ping"}
+2021.07.07 13:27.56 I > {"type":"info","source":"b833456f","width":1366,"height":768,"hidden":false,"display":"1w"}
+2021.07.07 13:27.56 I > {"type":"info","source":"b833456f","client.type":"presentation","version":"2.3.491","os.name":"Windows 10","os.version...
+2021.07.07 13:27.56 I > {"type":"info","source":"b833456f","presentation":null,"fps":0,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBw...
+2021.07.07 13:27.56 I < {"type":"ping"}
+2021.07.07 13:27.56 I > {"type":"ping"}
+2021.07.07 13:27.56 I < {"type":"ping"}
+2021.07.07 13:27.56 I > {"type":"ping"}
+2021.07.07 13:27.56 I < {"type":"time","time":1625682476928}
+2021.07.07 13:27.56 I Nano time diff: 1625669661117
+2021.07.07 13:27.56 I Nano time diff: 11
+2021.07.07 13:27.56 I > {"type":"ping"}
+2021.07.07 13:28.02 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.BetterFi...
+2021.07.07 13:28.02 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.BetterFireworksPresentation
+2021.07.07 13:28.02 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.BetterFireworksPresentation
+2021.07.07 13:28.02 I Class loaded ok
+2021.07.07 13:28.02 I New presentation plan now
+2021.07.07 13:28.02 I Initializing presentation BetterFireworksPresentation
+2021.07.07 13:28.02 I Building presentation plan
+2021.07.07 13:28.02 I Building presentation plan
+2021.07.07 13:28.02 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, BetterFireworksPresentation > null > null, 0]
+2021.07.07 13:28.02 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, BetterFireworksPresentation > null > null, 0]
+2021.07.07 13:28.02 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":2,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:28.05 I < {"type":"ping"}
+2021.07.07 13:28.05 I > {"type":"ping"}
+2021.07.07 13:28.06 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":45,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:28.10 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":35,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:28.14 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":36,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:28.18 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":28,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:28.22 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":27,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:28.26 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":41,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:28.31 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":44,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:28.35 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":27,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:28.35 I < {"type":"ping"}
+2021.07.07 13:28.35 I > {"type":"ping"}
+2021.07.07 13:28.39 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":29,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:28.43 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":32,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:28.47 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":47,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:28.51 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":42,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:28.55 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":36,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:28.59 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":31,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:29.03 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":33,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:29.05 I < {"type":"ping"}
+2021.07.07 13:29.05 I > {"type":"ping"}
+2021.07.07 13:29.07 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":32,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:29.11 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":30,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:29.15 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":38,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:29.19 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":41,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:29.23 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":40,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:29.27 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":20,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:29.31 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":28,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:29.35 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":36,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:29.35 I < {"type":"ping"}
+2021.07.07 13:29.35 I > {"type":"ping"}
+2021.07.07 13:29.39 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":35,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:29.43 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":29,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:29.47 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":38,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:29.51 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":40,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:29.55 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":38,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:29.59 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":28,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:30.03 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.floor.Ba...
+2021.07.07 13:30.03 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.floor.BalloonFloorPresentation
+2021.07.07 13:30.03 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.floor.BalloonFloorPresentation
+2021.07.07 13:30.03 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":27,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:30.03 I Loading contest from RESTContestSource[presentation|presentat1on@https://192.168.0.3:8443/api/contests/5]
+2021.07.07 13:30.03 I Reading feed cache
+2021.07.07 13:30.03 I Done reading feed cache
+2021.07.07 13:30.04 I Contest buffering: 2.23
+2021.07.07 13:30.06 I Class loaded ok
+2021.07.07 13:30.06 I New presentation plan now
+2021.07.07 13:30.06 I Initializing presentation BalloonFloorPresentation
+2021.07.07 13:30.06 I Building presentation plan
+2021.07.07 13:30.06 I Building presentation plan
+2021.07.07 13:30.06 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, BalloonFloorPresentation > null > null, 0]
+2021.07.07 13:30.06 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.OrgLogoF...
+2021.07.07 13:30.06 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.OrgLogoFadePresentation
+2021.07.07 13:30.06 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.OrgLogoFadePresentation
+2021.07.07 13:30.06 I Class loaded ok
+2021.07.07 13:30.06 I New presentation plan now
+2021.07.07 13:30.06 I Initializing presentation OrgLogoFadePresentation
+2021.07.07 13:30.06 I Building presentation plan
+2021.07.07 13:30.06 I Building presentation plan
+2021.07.07 13:30.06 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, OrgLogoFadePresentation > null > null, 0]
+2021.07.07 13:30.06 I < {"type":"ping"}
+2021.07.07 13:30.06 I > {"type":"ping"}
+2021.07.07 13:30.06 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.OrgLogoW...
+2021.07.07 13:30.06 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.OrgLogoWallPresentation
+2021.07.07 13:30.06 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.OrgLogoWallPresentation
+2021.07.07 13:30.06 I Class loaded ok
+2021.07.07 13:30.06 I New presentation plan now
+2021.07.07 13:30.06 I Initializing presentation OrgLogoWallPresentation
+2021.07.07 13:30.06 I Building presentation plan
+2021.07.07 13:30.06 I Building presentation plan
+2021.07.07 13:30.06 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 11000
+  Segment [0 -> 11000, OrgLogoWallPresentation > null > null, 0]
+2021.07.07 13:30.06 I Ending presentation plan: null
+2021.07.07 13:30.06 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 11000
+  Segment [0 -> 11000, OrgLogoWallPresentation > null > null, 0]
+2021.07.07 13:30.07 I > {"type":"info","source":"b833456f","presentation":"OrgLogoWallPresentation","fps":23,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
+2021.07.07 13:30.09 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.StaffPre...
+2021.07.07 13:30.09 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.StaffPresentation
+2021.07.07 13:30.09 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.StaffPresentation
+2021.07.07 13:30.09 I Class loaded ok
+2021.07.07 13:30.09 I New presentation plan now
+2021.07.07 13:30.09 I Initializing presentation StaffPresentation
+2021.07.07 13:30.09 I Download https://192.168.0.3:8443/contests/5/staff-members.tsv to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\contests\5\staff-members.tsv (200) (2.2kb in 61ms)
+2021.07.07 13:30.09 E Error loading staff list
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at org.icpc.tools.presentation.contest.internal.presentations.StaffPresentation.init(StaffPresentation.java:70)
+	at org.icpc.tools.presentation.core.internal.PresentationWindowImpl.setPresentations(PresentationWindowImpl.java:446)
+	at org.icpc.tools.presentation.contest.internal.PresentationClient.setPresentations(PresentationClient.java:217)
+	at org.icpc.tools.presentation.contest.internal.PresentationClient.handleProperty(PresentationClient.java:129)
+	at org.icpc.tools.presentation.contest.internal.PresentationClient$3.propertyUpdated(PresentationClient.java:86)
+	at org.icpc.tools.client.core.BasicClient.firePropertyChangedEvent(BasicClient.java:541)
+	at org.icpc.tools.client.core.BasicClient.handleProperties(BasicClient.java:206)
+	at org.icpc.tools.client.core.BasicClient.onMessage(BasicClient.java:700)
+	at org.icpc.tools.client.core.BasicClient.access$000(BasicClient.java:45)
+	at org.icpc.tools.client.core.BasicClient$WSClientEndpoint$1.onMessage(BasicClient.java:89)
+	at org.icpc.tools.client.core.BasicClient$WSClientEndpoint$1.onMessage(BasicClient.java:85)
+	at org.glassfish.tyrus.core.TyrusSession.notifyMessageHandlers(TyrusSession.java:559)
+	at org.glassfish.tyrus.core.TyrusEndpointWrapper.onMessage(TyrusEndpointWrapper.java:855)
+	at org.glassfish.tyrus.core.TyrusWebSocket.onMessage(TyrusWebSocket.java:196)
+	at org.glassfish.tyrus.core.frame.TextFrame.respond(TextFrame.java:115)
+	at org.glassfish.tyrus.core.ProtocolHandler.process(ProtocolHandler.java:819)
+	at org.glassfish.tyrus.client.TyrusClientEngine$TyrusReadHandler.handle(TyrusClientEngine.java:724)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter$ProcessTask.execute(GrizzlyClientFilter.java:452)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:91)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:68)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter.handleRead(GrizzlyClientFilter.java:248)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:283)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:200)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:132)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:111)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:536)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2021.07.07 13:30.09 I Building presentation plan
+2021.07.07 13:30.09 I Building presentation plan
+2021.07.07 13:30.09 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, StaffPresentation > null > null, 0]
+2021.07.07 13:30.09 I Ending presentation plan: null
+2021.07.07 13:30.09 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, StaffPresentation > null > null, 0]
+2021.07.07 13:30.11 I > {"type":"info","source":"b833456f","presentation":"StaffPresentation","fps":46,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:30.15 I > {"type":"info","source":"b833456f","presentation":"StaffPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:30.16 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Ball...
+2021.07.07 13:30.16 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation
+2021.07.07 13:30.16 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation
+2021.07.07 13:30.16 I Class loaded ok
+2021.07.07 13:30.16 I New presentation plan now
+2021.07.07 13:30.16 I Initializing presentation BalloonMapPresentation
+2021.07.07 13:30.18 I Building presentation plan
+2021.07.07 13:30.18 I Building presentation plan
+2021.07.07 13:30.18 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, BalloonMapPresentation > null > null, 0]
+2021.07.07 13:30.18 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Ball...
+2021.07.07 13:30.18 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation
+2021.07.07 13:30.18 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation
+2021.07.07 13:30.18 I Class loaded ok
+2021.07.07 13:30.18 I New presentation plan now
+2021.07.07 13:30.18 I Initializing presentation BalloonMapPresentation
+2021.07.07 13:30.18 I Building presentation plan
+2021.07.07 13:30.18 I Building presentation plan
+2021.07.07 13:30.18 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, BalloonMapPresentation > null > null, 0]
+2021.07.07 13:30.18 I Ending presentation plan: null
+2021.07.07 13:30.18 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, BalloonMapPresentation > null > null, 0]
+2021.07.07 13:30.18 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Grou...
+2021.07.07 13:30.18 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.map.GroupPresentation
+2021.07.07 13:30.18 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.map.GroupPresentation
+2021.07.07 13:30.18 I Class loaded ok
+2021.07.07 13:30.18 I New presentation plan now
+2021.07.07 13:30.18 I Initializing presentation GroupPresentation
+2021.07.07 13:30.18 I Building presentation plan
+2021.07.07 13:30.18 I Building presentation plan
+2021.07.07 13:30.18 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 12000
+  Segment [0 -> 12000, GroupPresentation > null > null, 0]
+2021.07.07 13:30.18 I Ending presentation plan: null
+2021.07.07 13:30.18 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 12000
+  Segment [0 -> 12000, GroupPresentation > null > null, 0]
+2021.07.07 13:30.19 I > {"type":"info","source":"b833456f","presentation":"GroupPresentation","fps":52,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:30.22 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.AllGroupsLe...
+2021.07.07 13:30.22 presentation: 1100|org.icpc.tools.presentation.contest.internal.scoreboard.AllGroupsLeaderboardPresentation
+2021.07.07 13:30.22 I Attempting to load class: org.icpc.tools.presentation.contest.internal.scoreboard.AllGroupsLeaderboardPresentation
+2021.07.07 13:30.22 I Class loaded ok
+2021.07.07 13:30.22 I New presentation plan now
+2021.07.07 13:30.22 I Initializing presentation AllGroupsLeaderboardPresentation
+2021.07.07 13:30.22 I Building presentation plan
+2021.07.07 13:30.22 I Building presentation plan
+2021.07.07 13:30.22 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, AllGroupsLeaderboardPresentation > null > null, 0]
+2021.07.07 13:30.22 I Ending presentation plan: null
+2021.07.07 13:30.22 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, AllGroupsLeaderboardPresentation > null > null, 0]
+2021.07.07 13:30.23 I > {"type":"info","source":"b833456f","presentation":"AllGroupsLeaderboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgA...
+2021.07.07 13:30.27 I > {"type":"info","source":"b833456f","presentation":"AllGroupsLeaderboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgA...
+2021.07.07 13:30.28 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSoluti...
+2021.07.07 13:30.28 presentation: 1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation
+2021.07.07 13:30.28 I Attempting to load class: org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation
+2021.07.07 13:30.28 I Class loaded ok
+2021.07.07 13:30.28 I New presentation plan now
+2021.07.07 13:30.28 I Initializing presentation FirstSolutionPresentation
+2021.07.07 13:30.28 I Building presentation plan
+2021.07.07 13:30.28 I Building presentation plan
+2021.07.07 13:30.28 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, FirstSolutionPresentation > null > null, 0]
+2021.07.07 13:30.28 I Ending presentation plan: null
+2021.07.07 13:30.28 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, FirstSolutionPresentation > null > null, 0]
+2021.07.07 13:30.28 I Download https://192.168.0.3:8443/presentation/fts/2013.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2013.png (404)
+2021.07.07 13:30.28 I Download https://192.168.0.3:8443/presentation/fts/2014.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2014.png (404)
+2021.07.07 13:30.28 I Download https://192.168.0.3:8443/presentation/fts/2015.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2015.png (404)
+2021.07.07 13:30.28 I Download https://192.168.0.3:8443/presentation/fts/2016.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2016.png (404)
+2021.07.07 13:30.28 I Download https://192.168.0.3:8443/presentation/fts/2017.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2017.png (404)
+2021.07.07 13:30.28 I Download https://192.168.0.3:8443/presentation/fts/2018.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2018.png (404)
+2021.07.07 13:30.31 I > {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:30.35 I > {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:30.35 I < {"type":"ping"}
+2021.07.07 13:30.35 I > {"type":"ping"}
+2021.07.07 13:30.38 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSoluti...
+2021.07.07 13:30.38 presentation: 1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation
+2021.07.07 13:30.38 I Attempting to load class: org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation
+2021.07.07 13:30.38 I Class loaded ok
+2021.07.07 13:30.38 I New presentation plan now
+2021.07.07 13:30.38 I Initializing presentation FirstSolutionPresentation
+2021.07.07 13:30.38 I Building presentation plan
+2021.07.07 13:30.38 I Building presentation plan
+2021.07.07 13:30.38 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, FirstSolutionPresentation > null > null, 0]
+2021.07.07 13:30.38 I Ending presentation plan: null
+2021.07.07 13:30.38 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, FirstSolutionPresentation > null > null, 0]
+2021.07.07 13:30.38 I Download https://192.168.0.3:8443/presentation/fts/2013.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2013.png (404)
+2021.07.07 13:30.38 I Download https://192.168.0.3:8443/presentation/fts/2014.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2014.png (404)
+2021.07.07 13:30.38 I Download https://192.168.0.3:8443/presentation/fts/2015.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2015.png (404)
+2021.07.07 13:30.38 I Download https://192.168.0.3:8443/presentation/fts/2016.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2016.png (404)
+2021.07.07 13:30.38 I Download https://192.168.0.3:8443/presentation/fts/2017.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2017.png (404)
+2021.07.07 13:30.38 I Download https://192.168.0.3:8443/presentation/fts/2018.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2018.png (404)
+2021.07.07 13:30.39 I > {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:30.39 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstToSolv...
+2021.07.07 13:30.39 presentation: 1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstToSolvePresentation
+2021.07.07 13:30.39 I Attempting to load class: org.icpc.tools.presentation.contest.internal.scoreboard.FirstToSolvePresentation
+2021.07.07 13:30.39 I Class loaded ok
+2021.07.07 13:30.39 I New presentation plan now
+2021.07.07 13:30.39 I Initializing presentation FirstToSolvePresentation
+2021.07.07 13:30.39 I Building presentation plan
+2021.07.07 13:30.39 I Building presentation plan
+2021.07.07 13:30.39 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, FirstToSolvePresentation > null > null, 0]
+2021.07.07 13:30.39 I Ending presentation plan: null
+2021.07.07 13:30.39 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, FirstToSolvePresentation > null > null, 0]
+2021.07.07 13:30.40 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.GroupLeader...
+2021.07.07 13:30.40 presentation: 1100|org.icpc.tools.presentation.contest.internal.scoreboard.GroupLeaderboardPresentation
+2021.07.07 13:30.40 I Attempting to load class: org.icpc.tools.presentation.contest.internal.scoreboard.GroupLeaderboardPresentation
+2021.07.07 13:30.40 I Class loaded ok
+2021.07.07 13:30.40 I New presentation plan now
+2021.07.07 13:30.40 I Initializing presentation GroupLeaderboardPresentation
+2021.07.07 13:30.40 I Building presentation plan
+2021.07.07 13:30.40 I Building presentation plan
+2021.07.07 13:30.40 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, GroupLeaderboardPresentation > null > null, 0]
+2021.07.07 13:30.40 I Ending presentation plan: null
+2021.07.07 13:30.40 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, GroupLeaderboardPresentation > null > null, 0]
+2021.07.07 13:30.41 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresen...
+2021.07.07 13:30.41 presentation: 1100|org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresentation
+2021.07.07 13:30.41 I Attempting to load class: org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresentation
+2021.07.07 13:30.41 I Class loaded ok
+2021.07.07 13:30.41 I New presentation plan now
+2021.07.07 13:30.41 I Initializing presentation JudgePresentation
+2021.07.07 13:30.41 I Building presentation plan
+2021.07.07 13:30.41 I Building presentation plan
+2021.07.07 13:30.41 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, JudgePresentation > null > null, 0]
+2021.07.07 13:30.41 I Ending presentation plan: null
+2021.07.07 13:30.41 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, JudgePresentation > null > null, 0]
+2021.07.07 13:30.43 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.Leaderboard...
+2021.07.07 13:30.43 presentation: 1100|org.icpc.tools.presentation.contest.internal.scoreboard.LeaderboardPresentation
+2021.07.07 13:30.43 I Attempting to load class: org.icpc.tools.presentation.contest.internal.scoreboard.LeaderboardPresentation
+2021.07.07 13:30.43 I Class loaded ok
+2021.07.07 13:30.43 I New presentation plan now
+2021.07.07 13:30.43 I Initializing presentation LeaderboardPresentation
+2021.07.07 13:30.43 I Building presentation plan
+2021.07.07 13:30.43 I Building presentation plan
+2021.07.07 13:30.43 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, LeaderboardPresentation > null > null, 0]
+2021.07.07 13:30.43 I Ending presentation plan: null
+2021.07.07 13:30.43 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, LeaderboardPresentation > null > null, 0]
+2021.07.07 13:30.43 I > {"type":"info","source":"b833456f","presentation":"LeaderboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
+2021.07.07 13:30.47 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.TeamDisp...
+2021.07.07 13:30.47 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.TeamDisplayPresentation
+2021.07.07 13:30.47 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.TeamDisplayPresentation
+2021.07.07 13:30.47 I Class loaded ok
+2021.07.07 13:30.47 I New presentation plan now
+2021.07.07 13:30.47 I Initializing presentation TeamDisplayPresentation
+2021.07.07 13:30.47 I Floor map team: teams
+  id: 3
+  name: ARTEMISA
+  icpc_id: null
+  group_ids: ["3"]
+  organization_id: 3
+  photo: null
+  video: null
+  backup: null
+  key_log: null
+  tool_data: null
+  desktop: null
+  webcam: null
+  audio: null
+2021.07.07 13:30.47 I -1 < > -1
+2021.07.07 13:30.47 I Building presentation plan
+2021.07.07 13:30.47 I Building presentation plan
+2021.07.07 13:30.47 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, TeamDisplayPresentation > null > null, 0]
+2021.07.07 13:30.47 I Ending presentation plan: null
+2021.07.07 13:30.47 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, TeamDisplayPresentation > null > null, 0]
+2021.07.07 13:30.47 I Getting contest object from https://192.168.0.3:8443/api/contests/5/teams/3 - TEAM
+2021.07.07 13:30.47 I Getting contest object from https://192.168.0.3:8443/api/contests/5/organizations/3 - ORGANIZATION
+2021.07.07 13:30.47 I > {"type":"info","source":"b833456f","presentation":"TeamDisplayPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
+2021.07.07 13:30.51 I > {"type":"info","source":"b833456f","presentation":"TeamDisplayPresentation","fps":20,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
+2021.07.07 13:30.54 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.StaticLo...
+2021.07.07 13:30.54 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.StaticLogoPresentation
+2021.07.07 13:30.54 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.StaticLogoPresentation
+2021.07.07 13:30.54 I Class loaded ok
+2021.07.07 13:30.54 I New presentation plan now
+2021.07.07 13:30.54 I Initializing presentation StaticLogoPresentation
+2021.07.07 13:30.54 I Building presentation plan
+2021.07.07 13:30.54 I Building presentation plan
+2021.07.07 13:30.54 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, StaticLogoPresentation > null > null, 0]
+2021.07.07 13:30.54 I Ending presentation plan: null
+2021.07.07 13:30.54 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, StaticLogoPresentation > null > null, 0]
+2021.07.07 13:30.55 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.SnakePre...
+2021.07.07 13:30.55 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.SnakePresentation
+2021.07.07 13:30.55 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.SnakePresentation
+2021.07.07 13:30.55 I Class loaded ok
+2021.07.07 13:30.55 I New presentation plan now
+2021.07.07 13:30.55 I Initializing presentation SnakePresentation
+2021.07.07 13:30.55 I Team position: 2 -> 3 3
+2021.07.07 13:30.55 I Building presentation plan
+2021.07.07 13:30.55 I Building presentation plan
+2021.07.07 13:30.55 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 8500
+  Segment [0 -> 8500, SnakePresentation > null > null, 0]
+2021.07.07 13:30.55 I Ending presentation plan: null
+2021.07.07 13:30.55 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 8500
+  Segment [0 -> 8500, SnakePresentation > null > null, 0]
+2021.07.07 13:30.55 I > {"type":"info","source":"b833456f","presentation":"SnakePresentation","fps":11,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:30.57 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.SnakePre...
+2021.07.07 13:30.57 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.SnakePresentation
+2021.07.07 13:30.57 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.SnakePresentation
+2021.07.07 13:30.57 I Class loaded ok
+2021.07.07 13:30.57 I New presentation plan now
+2021.07.07 13:30.57 I Initializing presentation SnakePresentation
+2021.07.07 13:30.57 I Team position: 2 -> 3 3
+2021.07.07 13:30.57 I Building presentation plan
+2021.07.07 13:30.57 I Building presentation plan
+2021.07.07 13:30.57 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 8500
+  Segment [0 -> 8500, SnakePresentation > null > null, 0]
+2021.07.07 13:30.57 I Ending presentation plan: null
+2021.07.07 13:30.57 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 8500
+  Segment [0 -> 8500, SnakePresentation > null > null, 0]
+2021.07.07 13:30.59 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.SnakePre...
+2021.07.07 13:30.59 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.SnakePresentation
+2021.07.07 13:30.59 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.SnakePresentation
+2021.07.07 13:30.59 I Class loaded ok
+2021.07.07 13:30.59 I New presentation plan now
+2021.07.07 13:30.59 I Initializing presentation SnakePresentation
+2021.07.07 13:30.59 I Team position: 2 -> 3 3
+2021.07.07 13:30.59 I Building presentation plan
+2021.07.07 13:30.59 I Building presentation plan
+2021.07.07 13:30.59 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 8500
+  Segment [0 -> 8500, SnakePresentation > null > null, 0]
+2021.07.07 13:30.59 I Ending presentation plan: null
+2021.07.07 13:30.59 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 8500
+  Segment [0 -> 8500, SnakePresentation > null > null, 0]
+2021.07.07 13:30.59 I > {"type":"info","source":"b833456f","presentation":"SnakePresentation","fps":20,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:31.00 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.ICPCTeam...
+2021.07.07 13:31.00 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.ICPCTeamPresentation
+2021.07.07 13:31.00 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.ICPCTeamPresentation
+2021.07.07 13:31.00 I Class loaded ok
+2021.07.07 13:31.00 I New presentation plan now
+2021.07.07 13:31.00 I Initializing presentation ICPCTeamPresentation
+2021.07.07 13:31.00 I Building presentation plan
+2021.07.07 13:31.00 I Building presentation plan
+2021.07.07 13:31.00 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, ICPCTeamPresentation > null > null, 0]
+2021.07.07 13:31.00 I Ending presentation plan: null
+2021.07.07 13:31.00 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, ICPCTeamPresentation > null > null, 0]
+2021.07.07 13:31.03 I > {"type":"info","source":"b833456f","presentation":"ICPCTeamPresentation","fps":20,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+2021.07.07 13:31.05 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.TeamVide...
+2021.07.07 13:31.05 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.TeamVideoPresentation
+2021.07.07 13:31.05 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.TeamVideoPresentation
+2021.07.07 13:31.05 I Class loaded ok
+2021.07.07 13:31.05 I New presentation plan now
+2021.07.07 13:31.05 I Initializing presentation TeamVideoPresentation
+2021.07.07 13:31.05 E Error setting new presentation
+java.lang.UnsatisfiedLinkError: Unable to load library 'libvlc':
+No se puede encontrar el módulo especificado.
+
+No se puede encontrar el módulo especificado.
+
+No se puede encontrar el módulo especificado.
+
+Native library (win32-x86-64/libvlc.dll) not found in resource path (C:\Users\diego\Documents\DomJudge\presentations\\lib\contestModel.jar;C:\Users\diego\Documents\DomJudge\presentations\\lib\jna-5.2.0.jar;C:\Users\diego\Documents\DomJudge\presentations\\lib\jna-platform-5.2.0.jar;C:\Users\diego\Documents\DomJudge\presentations\\lib\presentations.jar;C:\Users\diego\Documents\DomJudge\presentations\\lib\presentCore.jar;C:\Users\diego\Documents\DomJudge\presentations\\lib\snakeyaml-1.27.jar;C:\Users\diego\Documents\DomJudge\presentations\\lib\tyrus-standalone-client-1.17.jar;C:\Users\diego\Documents\DomJudge\presentations\\lib\vlcj-4.7.0.jar;C:\Users\diego\Documents\DomJudge\presentations\\lib\vlcj-natives-4.1.0.jar)
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:302)
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:455)
+	at com.sun.jna.Native.register(Native.java:1716)
+	at com.sun.jna.Native.register(Native.java:1437)
+	at uk.co.caprica.vlcj.binding.LibVlc.<clinit>(LibVlc.java:98)
+	at uk.co.caprica.vlcj.support.version.LibVlcVersion.<init>(LibVlcVersion.java:49)
+	at uk.co.caprica.vlcj.factory.MediaPlayerFactory.checkVersion(MediaPlayerFactory.java:195)
+	at uk.co.caprica.vlcj.factory.MediaPlayerFactory.discoverNativeLibrary(MediaPlayerFactory.java:181)
+	at uk.co.caprica.vlcj.factory.MediaPlayerFactory.<init>(MediaPlayerFactory.java:108)
+	at uk.co.caprica.vlcj.factory.MediaPlayerFactory.<init>(MediaPlayerFactory.java:163)
+	at org.icpc.tools.presentation.contest.internal.presentations.TeamVideoPresentation.init(TeamVideoPresentation.java:31)
+	at org.icpc.tools.presentation.core.internal.PresentationWindowImpl.setPresentations(PresentationWindowImpl.java:446)
+	at org.icpc.tools.presentation.contest.internal.PresentationClient.setPresentations(PresentationClient.java:217)
+	at org.icpc.tools.presentation.contest.internal.PresentationClient.handleProperty(PresentationClient.java:129)
+	at org.icpc.tools.presentation.contest.internal.PresentationClient$3.propertyUpdated(PresentationClient.java:86)
+	at org.icpc.tools.client.core.BasicClient.firePropertyChangedEvent(BasicClient.java:541)
+	at org.icpc.tools.client.core.BasicClient.handleProperties(BasicClient.java:206)
+	at org.icpc.tools.client.core.BasicClient.onMessage(BasicClient.java:700)
+	at org.icpc.tools.client.core.BasicClient.access$000(BasicClient.java:45)
+	at org.icpc.tools.client.core.BasicClient$WSClientEndpoint$1.onMessage(BasicClient.java:89)
+	at org.icpc.tools.client.core.BasicClient$WSClientEndpoint$1.onMessage(BasicClient.java:85)
+	at org.glassfish.tyrus.core.TyrusSession.notifyMessageHandlers(TyrusSession.java:559)
+	at org.glassfish.tyrus.core.TyrusEndpointWrapper.onMessage(TyrusEndpointWrapper.java:855)
+	at org.glassfish.tyrus.core.TyrusWebSocket.onMessage(TyrusWebSocket.java:196)
+	at org.glassfish.tyrus.core.frame.TextFrame.respond(TextFrame.java:115)
+	at org.glassfish.tyrus.core.ProtocolHandler.process(ProtocolHandler.java:819)
+	at org.glassfish.tyrus.client.TyrusClientEngine$TyrusReadHandler.handle(TyrusClientEngine.java:724)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter$ProcessTask.execute(GrizzlyClientFilter.java:452)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:91)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:68)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter.handleRead(GrizzlyClientFilter.java:248)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:283)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:200)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:132)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:111)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:536)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+	Suppressed: java.lang.UnsatisfiedLinkError: No se puede encontrar el módulo especificado.
+
+		at com.sun.jna.Native.open(Native Method)
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:191)
+		... 44 more
+	Suppressed: java.lang.UnsatisfiedLinkError: No se puede encontrar el módulo especificado.
+
+		at com.sun.jna.Native.open(Native Method)
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:204)
+		... 44 more
+	Suppressed: java.lang.UnsatisfiedLinkError: No se puede encontrar el módulo especificado.
+
+		at com.sun.jna.Native.open(Native Method)
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:265)
+		... 44 more
+	Suppressed: java.io.IOException: Native library (win32-x86-64/libvlc.dll) not found in resource path (C:\Users\diego\Documents\DomJudge\presentations\\lib\contestModel.jar;C:\Users\diego\Documents\DomJudge\presentations\\lib\jna-5.2.0.jar;C:\Users\diego\Documents\DomJudge\presentations\\lib\jna-platform-5.2.0.jar;C:\Users\diego\Documents\DomJudge\presentations\\lib\presentations.jar;C:\Users\diego\Documents\DomJudge\presentations\\lib\presentCore.jar;C:\Users\diego\Documents\DomJudge\presentations\\lib\snakeyaml-1.27.jar;C:\Users\diego\Documents\DomJudge\presentations\\lib\tyrus-standalone-client-1.17.jar;C:\Users\diego\Documents\DomJudge\presentations\\lib\vlcj-4.7.0.jar;C:\Users\diego\Documents\DomJudge\presentations\\lib\vlcj-natives-4.1.0.jar)
+		at com.sun.jna.Native.extractFromResourcePath(Native.java:1089)
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:276)
+		... 44 more
+2021.07.07 13:31.05 I < {"type":"ping"}
+2021.07.07 13:31.05 I > {"type":"ping"}
+2021.07.07 13:31.05 I < {"type":"time","time":1625682665841}
+2021.07.07 13:31.05 I Nano time diff: 28
+2021.07.07 13:31.05 I Nano time diff: 28
+2021.07.07 13:31.05 I > {"type":"ping"}
+2021.07.07 13:31.07 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.TeamVide...
+2021.07.07 13:31.07 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.TeamVideoPresentation
+2021.07.07 13:31.07 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.TeamVideoPresentation
+2021.07.07 13:31.07 I Class loaded ok
+2021.07.07 13:31.07 I New presentation plan now
+2021.07.07 13:31.07 I Initializing presentation TeamVideoPresentation
+2021.07.07 13:31.07 E Error setting new presentation
+uk.co.caprica.vlcj.factory.NativeLibraryMappingException: Failed to properly initialise the native library
+	at uk.co.caprica.vlcj.factory.MediaPlayerFactory.discoverNativeLibrary(MediaPlayerFactory.java:184)
+	at uk.co.caprica.vlcj.factory.MediaPlayerFactory.<init>(MediaPlayerFactory.java:108)
+	at uk.co.caprica.vlcj.factory.MediaPlayerFactory.<init>(MediaPlayerFactory.java:163)
+	at org.icpc.tools.presentation.contest.internal.presentations.TeamVideoPresentation.init(TeamVideoPresentation.java:31)
+	at org.icpc.tools.presentation.core.internal.PresentationWindowImpl.setPresentations(PresentationWindowImpl.java:446)
+	at org.icpc.tools.presentation.contest.internal.PresentationClient.setPresentations(PresentationClient.java:217)
+	at org.icpc.tools.presentation.contest.internal.PresentationClient.handleProperty(PresentationClient.java:129)
+	at org.icpc.tools.presentation.contest.internal.PresentationClient$3.propertyUpdated(PresentationClient.java:86)
+	at org.icpc.tools.client.core.BasicClient.firePropertyChangedEvent(BasicClient.java:541)
+	at org.icpc.tools.client.core.BasicClient.handleProperties(BasicClient.java:206)
+	at org.icpc.tools.client.core.BasicClient.onMessage(BasicClient.java:700)
+	at org.icpc.tools.client.core.BasicClient.access$000(BasicClient.java:45)
+	at org.icpc.tools.client.core.BasicClient$WSClientEndpoint$1.onMessage(BasicClient.java:89)
+	at org.icpc.tools.client.core.BasicClient$WSClientEndpoint$1.onMessage(BasicClient.java:85)
+	at org.glassfish.tyrus.core.TyrusSession.notifyMessageHandlers(TyrusSession.java:559)
+	at org.glassfish.tyrus.core.TyrusEndpointWrapper.onMessage(TyrusEndpointWrapper.java:855)
+	at org.glassfish.tyrus.core.TyrusWebSocket.onMessage(TyrusWebSocket.java:196)
+	at org.glassfish.tyrus.core.frame.TextFrame.respond(TextFrame.java:115)
+	at org.glassfish.tyrus.core.ProtocolHandler.process(ProtocolHandler.java:819)
+	at org.glassfish.tyrus.client.TyrusClientEngine$TyrusReadHandler.handle(TyrusClientEngine.java:724)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter$ProcessTask.execute(GrizzlyClientFilter.java:452)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:91)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:68)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter.handleRead(GrizzlyClientFilter.java:248)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:283)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:200)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:132)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:111)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:536)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class uk.co.caprica.vlcj.binding.LibVlc
+	at uk.co.caprica.vlcj.support.version.LibVlcVersion.<init>(LibVlcVersion.java:49)
+	at uk.co.caprica.vlcj.factory.MediaPlayerFactory.checkVersion(MediaPlayerFactory.java:195)
+	at uk.co.caprica.vlcj.factory.MediaPlayerFactory.discoverNativeLibrary(MediaPlayerFactory.java:181)
+	... 37 more
+2021.07.07 13:31.07 I > {"type":"info","source":"b833456f","presentation":"ICPCTeamPresentation","fps":20,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+2021.07.07 13:31.08 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.TeamVide...
+2021.07.07 13:31.08 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.TeamVideoPresentation
+2021.07.07 13:31.08 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.TeamVideoPresentation
+2021.07.07 13:31.08 I Class loaded ok
+2021.07.07 13:31.08 I New presentation plan now
+2021.07.07 13:31.08 I Initializing presentation TeamVideoPresentation
+Logging second instance of exception, will not log again
+2021.07.07 13:31.08 E Error setting new presentation
+uk.co.caprica.vlcj.factory.NativeLibraryMappingException: Failed to properly initialise the native library
+	at uk.co.caprica.vlcj.factory.MediaPlayerFactory.discoverNativeLibrary(MediaPlayerFactory.java:184)
+	at uk.co.caprica.vlcj.factory.MediaPlayerFactory.<init>(MediaPlayerFactory.java:108)
+	at uk.co.caprica.vlcj.factory.MediaPlayerFactory.<init>(MediaPlayerFactory.java:163)
+	at org.icpc.tools.presentation.contest.internal.presentations.TeamVideoPresentation.init(TeamVideoPresentation.java:31)
+	at org.icpc.tools.presentation.core.internal.PresentationWindowImpl.setPresentations(PresentationWindowImpl.java:446)
+	at org.icpc.tools.presentation.contest.internal.PresentationClient.setPresentations(PresentationClient.java:217)
+	at org.icpc.tools.presentation.contest.internal.PresentationClient.handleProperty(PresentationClient.java:129)
+	at org.icpc.tools.presentation.contest.internal.PresentationClient$3.propertyUpdated(PresentationClient.java:86)
+	at org.icpc.tools.client.core.BasicClient.firePropertyChangedEvent(BasicClient.java:541)
+	at org.icpc.tools.client.core.BasicClient.handleProperties(BasicClient.java:206)
+	at org.icpc.tools.client.core.BasicClient.onMessage(BasicClient.java:700)
+	at org.icpc.tools.client.core.BasicClient.access$000(BasicClient.java:45)
+	at org.icpc.tools.client.core.BasicClient$WSClientEndpoint$1.onMessage(BasicClient.java:89)
+	at org.icpc.tools.client.core.BasicClient$WSClientEndpoint$1.onMessage(BasicClient.java:85)
+	at org.glassfish.tyrus.core.TyrusSession.notifyMessageHandlers(TyrusSession.java:559)
+	at org.glassfish.tyrus.core.TyrusEndpointWrapper.onMessage(TyrusEndpointWrapper.java:855)
+	at org.glassfish.tyrus.core.TyrusWebSocket.onMessage(TyrusWebSocket.java:196)
+	at org.glassfish.tyrus.core.frame.TextFrame.respond(TextFrame.java:115)
+	at org.glassfish.tyrus.core.ProtocolHandler.process(ProtocolHandler.java:819)
+	at org.glassfish.tyrus.client.TyrusClientEngine$TyrusReadHandler.handle(TyrusClientEngine.java:724)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter$ProcessTask.execute(GrizzlyClientFilter.java:452)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:91)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:68)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter.handleRead(GrizzlyClientFilter.java:248)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:283)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:200)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:132)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:111)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:536)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class uk.co.caprica.vlcj.binding.LibVlc
+	at uk.co.caprica.vlcj.support.version.LibVlcVersion.<init>(LibVlcVersion.java:49)
+	at uk.co.caprica.vlcj.factory.MediaPlayerFactory.checkVersion(MediaPlayerFactory.java:195)
+	at uk.co.caprica.vlcj.factory.MediaPlayerFactory.discoverNativeLibrary(MediaPlayerFactory.java:181)
+	... 37 more
+2021.07.07 13:31.09 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.TeamVide...
+2021.07.07 13:31.09 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.TeamVideoPresentation
+2021.07.07 13:31.09 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.TeamVideoPresentation
+2021.07.07 13:31.09 I Class loaded ok
+2021.07.07 13:31.09 I New presentation plan now
+2021.07.07 13:31.09 I Initializing presentation TeamVideoPresentation
+2021.07.07 13:31.10 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.WavePres...
+2021.07.07 13:31.10 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.WavePresentation
+2021.07.07 13:31.10 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.WavePresentation
+2021.07.07 13:31.10 I Class loaded ok
+2021.07.07 13:31.10 I New presentation plan now
+2021.07.07 13:31.10 I Initializing presentation WavePresentation
+2021.07.07 13:31.10 I Floor map team: NaN -> NaN NaN
+2021.07.07 13:31.10 I Building presentation plan
+2021.07.07 13:31.10 I Building presentation plan
+2021.07.07 13:31.10 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 31500
+  Segment [0 -> 31500, WavePresentation > null > null, 0]
+2021.07.07 13:31.10 I Ending presentation plan: null
+2021.07.07 13:31.10 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 31500
+  Segment [0 -> 31500, WavePresentation > null > null, 0]
+2021.07.07 13:31.11 I > {"type":"info","source":"b833456f","presentation":"WavePresentation","fps":20,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wB...
+2021.07.07 13:31.12 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.test.Tes...
+2021.07.07 13:31.12 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.test.TestAlignmentPresentation
+2021.07.07 13:31.12 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.test.TestAlignmentPresentation
+2021.07.07 13:31.12 I Class loaded ok
+2021.07.07 13:31.12 I New presentation plan now
+2021.07.07 13:31.12 I Initializing presentation TestAlignmentPresentation
+2021.07.07 13:31.12 I Building presentation plan
+2021.07.07 13:31.12 I Building presentation plan
+2021.07.07 13:31.12 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, TestAlignmentPresentation > null > null, 0]
+2021.07.07 13:31.12 I Ending presentation plan: null
+2021.07.07 13:31.12 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, TestAlignmentPresentation > null > null, 0]
+2021.07.07 13:31.12 I > {"type":"info","source":"b833456f","presentation":"TestAlignmentPresentation","fps":0,"image":"/9j/4AAQSkZJRgABAgAAAQA...
+2021.07.07 13:31.17 I > {"type":"info","source":"b833456f","presentation":"TestAlignmentPresentation","fps":0,"image":"/9j/4AAQSkZJRgABAgAAAQA...
+2021.07.07 13:31.18 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.test.BSo...
+2021.07.07 13:31.18 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.test.BSoDPresentation
+2021.07.07 13:31.18 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.test.BSoDPresentation
+2021.07.07 13:31.18 I Class loaded ok
+2021.07.07 13:31.18 I New presentation plan now
+2021.07.07 13:31.18 I Initializing presentation BSoDPresentation
+2021.07.07 13:31.18 I Building presentation plan
+2021.07.07 13:31.18 I Building presentation plan
+2021.07.07 13:31.18 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, BSoDPresentation > null > null, 0]
+2021.07.07 13:31.18 I Ending presentation plan: null
+2021.07.07 13:31.18 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, BSoDPresentation > null > null, 0]
+2021.07.07 13:31.18 I > {"type":"info","source":"b833456f","presentation":"BSoDPresentation","fps":0,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBD...
+2021.07.07 13:31.22 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.test.Tes...
+2021.07.07 13:31.22 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.test.TestChartPresentation
+2021.07.07 13:31.22 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.test.TestChartPresentation
+2021.07.07 13:31.22 I Class loaded ok
+2021.07.07 13:31.22 I New presentation plan now
+2021.07.07 13:31.22 I Initializing presentation TestChartPresentation
+2021.07.07 13:31.22 I Building presentation plan
+2021.07.07 13:31.22 I Building presentation plan
+2021.07.07 13:31.22 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, TestChartPresentation > null > null, 0]
+2021.07.07 13:31.22 I Ending presentation plan: null
+2021.07.07 13:31.22 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, TestChartPresentation > null > null, 0]
+2021.07.07 13:31.22 I > {"type":"info","source":"b833456f","presentation":"TestChartPresentation","fps":0,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+2021.07.07 13:31.26 I > {"type":"info","source":"b833456f","presentation":"TestChartPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+2021.07.07 13:31.27 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.test.Tes...
+2021.07.07 13:31.27 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.test.TestClockPresentation
+2021.07.07 13:31.27 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.test.TestClockPresentation
+2021.07.07 13:31.27 I Class loaded ok
+2021.07.07 13:31.27 I New presentation plan now
+2021.07.07 13:31.27 I Initializing presentation TestClockPresentation
+2021.07.07 13:31.27 I Building presentation plan
+2021.07.07 13:31.27 I Building presentation plan
+2021.07.07 13:31.27 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, TestClockPresentation > null > null, 0]
+2021.07.07 13:31.27 I Ending presentation plan: null
+2021.07.07 13:31.27 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, TestClockPresentation > null > null, 0]
+2021.07.07 13:31.28 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.test.FPS...
+2021.07.07 13:31.28 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.test.FPSPresentation
+2021.07.07 13:31.28 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.test.FPSPresentation
+2021.07.07 13:31.28 I Class loaded ok
+2021.07.07 13:31.28 I New presentation plan now
+2021.07.07 13:31.28 I Initializing presentation FPSPresentation
+2021.07.07 13:31.28 I Building presentation plan
+2021.07.07 13:31.28 I Building presentation plan
+2021.07.07 13:31.28 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, FPSPresentation > null > null, 0]
+2021.07.07 13:31.28 I Ending presentation plan: null
+2021.07.07 13:31.28 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, FPSPresentation > null > null, 0]
+2021.07.07 13:31.30 I > {"type":"info","source":"b833456f","presentation":"FPSPresentation","fps":47,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBD...
+2021.07.07 13:31.34 I > {"type":"info","source":"b833456f","presentation":"FPSPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBD...
+2021.07.07 13:31.35 I < {"type":"ping"}
+2021.07.07 13:31.35 I > {"type":"ping"}
+2021.07.07 13:31.36 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.test.Tes...
+2021.07.07 13:31.36 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.test.TestSyncPresentation
+2021.07.07 13:31.36 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.test.TestSyncPresentation
+2021.07.07 13:31.36 I Class loaded ok
+2021.07.07 13:31.36 I New presentation plan now
+2021.07.07 13:31.36 I Initializing presentation TestSyncPresentation
+2021.07.07 13:31.36 I Building presentation plan
+2021.07.07 13:31.36 I Building presentation plan
+2021.07.07 13:31.36 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 8000
+  Segment [0 -> 8000, TestSyncPresentation > null > null, 0]
+2021.07.07 13:31.36 I Ending presentation plan: null
+2021.07.07 13:31.36 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 8000
+  Segment [0 -> 8000, TestSyncPresentation > null > null, 0]
+2021.07.07 13:31.38 I > {"type":"info","source":"b833456f","presentation":"TestSyncPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+2021.07.07 13:31.38 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.tile.TilePictureScoreb...
+2021.07.07 13:31.38 presentation: 1100|org.icpc.tools.presentation.contest.internal.tile.TilePictureScoreboardPresentation
+2021.07.07 13:31.38 I Attempting to load class: org.icpc.tools.presentation.contest.internal.tile.TilePictureScoreboardPresentation
+2021.07.07 13:31.38 I Class loaded ok
+2021.07.07 13:31.38 I New presentation plan now
+2021.07.07 13:31.38 I Initializing presentation TilePictureScoreboardPresentation
+2021.07.07 13:31.38 I Building presentation plan
+2021.07.07 13:31.38 I Building presentation plan
+2021.07.07 13:31.38 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, TilePictureScoreboardPresentation > null > null, 0]
+2021.07.07 13:31.38 I Ending presentation plan: null
+2021.07.07 13:31.38 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, TilePictureScoreboardPresentation > null > null, 0]
+2021.07.07 13:31.40 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.tile.TileListScoreboar...
+2021.07.07 13:31.40 presentation: 1100|org.icpc.tools.presentation.contest.internal.tile.TileListScoreboardPresentation
+2021.07.07 13:31.40 I Attempting to load class: org.icpc.tools.presentation.contest.internal.tile.TileListScoreboardPresentation
+2021.07.07 13:31.40 I Class loaded ok
+2021.07.07 13:31.40 I New presentation plan now
+2021.07.07 13:31.40 I Initializing presentation TileListScoreboardPresentation
+2021.07.07 13:31.40 I Building presentation plan
+2021.07.07 13:31.40 I Building presentation plan
+2021.07.07 13:31.40 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 14000
+  Segment [0 -> 14000, TileListScoreboardPresentation > null > null, 0]
+2021.07.07 13:31.40 I Ending presentation plan: null
+2021.07.07 13:31.40 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 14000
+  Segment [0 -> 14000, TileListScoreboardPresentation > null > null, 0]
+2021.07.07 13:31.42 I > {"type":"info","source":"b833456f","presentation":"TileListScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABA...
+2021.07.07 13:31.46 I > {"type":"info","source":"b833456f","presentation":"TileListScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABA...
+2021.07.07 13:31.50 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.tile.TileRankScoreboar...
+2021.07.07 13:31.50 presentation: 1100|org.icpc.tools.presentation.contest.internal.tile.TileRankScoreboardPresentation
+2021.07.07 13:31.50 I Attempting to load class: org.icpc.tools.presentation.contest.internal.tile.TileRankScoreboardPresentation
+2021.07.07 13:31.50 I Class loaded ok
+2021.07.07 13:31.50 I New presentation plan now
+2021.07.07 13:31.50 I Initializing presentation TileRankScoreboardPresentation
+2021.07.07 13:31.50 I Building presentation plan
+2021.07.07 13:31.50 I Building presentation plan
+2021.07.07 13:31.50 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 7857
+  Segment [0 -> 7857, TileRankScoreboardPresentation > null > null, 0]
+2021.07.07 13:31.50 I Ending presentation plan: null
+2021.07.07 13:31.50 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 7857
+  Segment [0 -> 7857, TileRankScoreboardPresentation > null > null, 0]
+2021.07.07 13:31.50 I > {"type":"info","source":"b833456f","presentation":"TileRankScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABA...
+2021.07.07 13:31.54 I > {"type":"info","source":"b833456f","presentation":"TileRankScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABA...
+2021.07.07 13:31.57 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.tile.TileScoreboardPre...
+2021.07.07 13:31.57 presentation: 1100|org.icpc.tools.presentation.contest.internal.tile.TileScoreboardPresentation
+2021.07.07 13:31.57 I Attempting to load class: org.icpc.tools.presentation.contest.internal.tile.TileScoreboardPresentation
+2021.07.07 13:31.57 I Class loaded ok
+2021.07.07 13:31.57 I New presentation plan now
+2021.07.07 13:31.57 I Initializing presentation TileScoreboardPresentation
+2021.07.07 13:31.57 I Building presentation plan
+2021.07.07 13:31.57 I Building presentation plan
+2021.07.07 13:31.57 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 14000
+  Segment [0 -> 14000, TileScoreboardPresentation > null > null, 0]
+2021.07.07 13:31.57 I Ending presentation plan: null
+2021.07.07 13:31.57 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 14000
+  Segment [0 -> 14000, TileScoreboardPresentation > null > null, 0]
+2021.07.07 13:31.58 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:32.02 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:32.04 I Contest buffering: 2.5
+2021.07.07 13:32.05 I < {"type":"ping"}
+2021.07.07 13:32.05 I > {"type":"ping"}
+2021.07.07 13:32.05 I < {"type":"time","time":1625682725572}
+2021.07.07 13:32.05 I Nano time diff: 28
+2021.07.07 13:32.05 I Nano time diff: 28
+2021.07.07 13:32.05 I > {"type":"ping"}
+2021.07.07 13:32.06 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:32.10 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:32.14 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:32.18 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:32.22 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:32.26 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:32.28 E Error notifying listener
+java.lang.NullPointerException
+	at org.icpc.tools.contest.model.FloorMap.calculateShortestPaths(FloorMap.java:353)
+	at org.icpc.tools.contest.model.FloorMap.getPath(FloorMap.java:404)
+	at org.icpc.tools.presentation.contest.internal.presentations.floor.BalloonFloorPresentation.createSubmissionRecord(BalloonFloorPresentation.java:167)
+	at org.icpc.tools.presentation.contest.internal.presentations.floor.BalloonFloorPresentation.handleSubmission(BalloonFloorPresentation.java:156)
+	at org.icpc.tools.presentation.contest.internal.presentations.floor.BalloonFloorPresentation.lambda$new$0(BalloonFloorPresentation.java:76)
+	at org.icpc.tools.contest.model.internal.Contest.notifyListeners(Contest.java:399)
+	at org.icpc.tools.contest.model.internal.Contest.add(Contest.java:136)
+	at org.icpc.tools.contest.model.internal.BufferedContest.flush(BufferedContest.java:58)
+	at org.icpc.tools.contest.model.internal.BufferedContest.access$200(BufferedContest.java:9)
+	at org.icpc.tools.contest.model.internal.BufferedContest$1.run(BufferedContest.java:43)
+2021.07.07 13:32.30 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:32.34 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:32.35 I < {"type":"ping"}
+2021.07.07 13:32.35 I > {"type":"ping"}
+2021.07.07 13:32.38 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:32.42 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:32.46 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:32.50 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:32.54 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:32.58 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:33.02 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:33.05 I < {"type":"ping"}
+2021.07.07 13:33.05 I > {"type":"ping"}
+2021.07.07 13:33.06 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:33.10 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:33.14 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:33.18 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:33.20 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.HistoricalCompar...
+2021.07.07 13:33.20 presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.HistoricalComparisonChart
+2021.07.07 13:33.20 I Attempting to load class: org.icpc.tools.presentation.contest.internal.chart.HistoricalComparisonChart
+2021.07.07 13:33.20 I Class loaded ok
+2021.07.07 13:33.20 I New presentation plan now
+2021.07.07 13:33.20 I Initializing presentation HistoricalComparisonChart
+2021.07.07 13:33.20 I Download https://192.168.0.3:8443/presentation/historical/events2013.json to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\historical\events2013.json (404)
+2021.07.07 13:33.20 E Error loading past contest
+java.io.FileNotFoundException: C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\historical\events2013.json (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at org.icpc.tools.presentation.contest.internal.chart.HistoricalComparisonChart.init(HistoricalComparisonChart.java:67)
+	at org.icpc.tools.presentation.core.internal.PresentationWindowImpl.setPresentations(PresentationWindowImpl.java:446)
+	at org.icpc.tools.presentation.contest.internal.PresentationClient.setPresentations(PresentationClient.java:217)
+	at org.icpc.tools.presentation.contest.internal.PresentationClient.handleProperty(PresentationClient.java:129)
+	at org.icpc.tools.presentation.contest.internal.PresentationClient$3.propertyUpdated(PresentationClient.java:86)
+	at org.icpc.tools.client.core.BasicClient.firePropertyChangedEvent(BasicClient.java:541)
+	at org.icpc.tools.client.core.BasicClient.handleProperties(BasicClient.java:206)
+	at org.icpc.tools.client.core.BasicClient.onMessage(BasicClient.java:700)
+	at org.icpc.tools.client.core.BasicClient.access$000(BasicClient.java:45)
+	at org.icpc.tools.client.core.BasicClient$WSClientEndpoint$1.onMessage(BasicClient.java:89)
+	at org.icpc.tools.client.core.BasicClient$WSClientEndpoint$1.onMessage(BasicClient.java:85)
+	at org.glassfish.tyrus.core.TyrusSession.notifyMessageHandlers(TyrusSession.java:559)
+	at org.glassfish.tyrus.core.TyrusEndpointWrapper.onMessage(TyrusEndpointWrapper.java:855)
+	at org.glassfish.tyrus.core.TyrusWebSocket.onMessage(TyrusWebSocket.java:196)
+	at org.glassfish.tyrus.core.frame.TextFrame.respond(TextFrame.java:115)
+	at org.glassfish.tyrus.core.ProtocolHandler.process(ProtocolHandler.java:819)
+	at org.glassfish.tyrus.client.TyrusClientEngine$TyrusReadHandler.handle(TyrusClientEngine.java:724)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter$ProcessTask.execute(GrizzlyClientFilter.java:452)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:91)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:68)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter.handleRead(GrizzlyClientFilter.java:248)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:283)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:200)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:132)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:111)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:536)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2021.07.07 13:33.20 I Download https://192.168.0.3:8443/presentation/historical/events2014.json to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\historical\events2014.json (404)
+2021.07.07 13:33.20 I Download https://192.168.0.3:8443/presentation/historical/events2015.json to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\historical\events2015.json (404)
+2021.07.07 13:33.20 I Download https://192.168.0.3:8443/presentation/historical/events2016.json to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\historical\events2016.json (404)
+2021.07.07 13:33.20 I Building presentation plan
+2021.07.07 13:33.20 I Building presentation plan
+2021.07.07 13:33.20 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, HistoricalComparisonChart > null > null, 0]
+2021.07.07 13:33.20 I Ending presentation plan: null
+2021.07.07 13:33.20 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, HistoricalComparisonChart > null > null, 0]
+2021.07.07 13:33.22 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:33.23 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthC...
+2021.07.07 13:33.23 presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthChart
+2021.07.07 13:33.23 I Attempting to load class: org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthChart
+2021.07.07 13:33.23 I Class loaded ok
+2021.07.07 13:33.23 I New presentation plan now
+2021.07.07 13:33.23 I Initializing presentation JudgeQueueDepthChart
+2021.07.07 13:33.23 I Building presentation plan
+2021.07.07 13:33.23 I Building presentation plan
+2021.07.07 13:33.23 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, JudgeQueueDepthChart > null > null, 0]
+2021.07.07 13:33.23 I Ending presentation plan: null
+2021.07.07 13:33.23 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, JudgeQueueDepthChart > null > null, 0]
+2021.07.07 13:33.26 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.JudgementChart"}...
+2021.07.07 13:33.26 presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.JudgementChart
+2021.07.07 13:33.26 I Attempting to load class: org.icpc.tools.presentation.contest.internal.chart.JudgementChart
+2021.07.07 13:33.26 I Class loaded ok
+2021.07.07 13:33.26 I New presentation plan now
+2021.07.07 13:33.26 I Initializing presentation JudgementChart
+2021.07.07 13:33.26 I Building presentation plan
+2021.07.07 13:33.26 I Building presentation plan
+2021.07.07 13:33.26 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, JudgementChart > null > null, 0]
+2021.07.07 13:33.26 I Ending presentation plan: null
+2021.07.07 13:33.26 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, JudgementChart > null > null, 0]
+2021.07.07 13:33.26 I > {"type":"info","source":"b833456f","presentation":"JudgementChart","fps":27,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDA...
+2021.07.07 13:33.30 I > {"type":"info","source":"b833456f","presentation":"JudgementChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDA...
+2021.07.07 13:33.34 I > {"type":"info","source":"b833456f","presentation":"JudgementChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDA...
+2021.07.07 13:33.35 I < {"type":"ping"}
+2021.07.07 13:33.35 I > {"type":"ping"}
+2021.07.07 13:33.35 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.LanguageSummaryC...
+2021.07.07 13:33.35 presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.LanguageSummaryChart
+2021.07.07 13:33.35 I Attempting to load class: org.icpc.tools.presentation.contest.internal.chart.LanguageSummaryChart
+2021.07.07 13:33.35 I Class loaded ok
+2021.07.07 13:33.35 I New presentation plan now
+2021.07.07 13:33.35 I Initializing presentation LanguageSummaryChart
+2021.07.07 13:33.35 I Building presentation plan
+2021.07.07 13:33.35 I Building presentation plan
+2021.07.07 13:33.35 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, LanguageSummaryChart > null > null, 0]
+2021.07.07 13:33.35 I Ending presentation plan: null
+2021.07.07 13:33.35 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, LanguageSummaryChart > null > null, 0]
+2021.07.07 13:33.38 I > {"type":"info","source":"b833456f","presentation":"LanguageSummaryChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+2021.07.07 13:33.42 I > {"type":"info","source":"b833456f","presentation":"LanguageSummaryChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+2021.07.07 13:33.43 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.ProblemSummaryCh...
+2021.07.07 13:33.43 presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.ProblemSummaryChart
+2021.07.07 13:33.43 I Attempting to load class: org.icpc.tools.presentation.contest.internal.chart.ProblemSummaryChart
+2021.07.07 13:33.43 I Class loaded ok
+2021.07.07 13:33.43 I New presentation plan now
+2021.07.07 13:33.43 I Initializing presentation ProblemSummaryChart
+2021.07.07 13:33.43 I Building presentation plan
+2021.07.07 13:33.43 I Building presentation plan
+2021.07.07 13:33.43 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, ProblemSummaryChart > null > null, 0]
+2021.07.07 13:33.43 I Ending presentation plan: null
+2021.07.07 13:33.43 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, ProblemSummaryChart > null > null, 0]
+2021.07.07 13:33.46 I > {"type":"info","source":"b833456f","presentation":"ProblemSummaryChart","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/...
+2021.07.07 13:33.50 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.ScoreboardChart"...
+2021.07.07 13:33.50 presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.ScoreboardChart
+2021.07.07 13:33.50 I Attempting to load class: org.icpc.tools.presentation.contest.internal.chart.ScoreboardChart
+2021.07.07 13:33.50 I Class loaded ok
+2021.07.07 13:33.50 I New presentation plan now
+2021.07.07 13:33.50 I Initializing presentation ScoreboardChart
+2021.07.07 13:33.50 I Building presentation plan
+2021.07.07 13:33.50 I Building presentation plan
+2021.07.07 13:33.50 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, ScoreboardChart > null > null, 0]
+2021.07.07 13:33.50 I Ending presentation plan: null
+2021.07.07 13:33.50 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, ScoreboardChart > null > null, 0]
+2021.07.07 13:33.50 I > {"type":"info","source":"b833456f","presentation":"ScoreboardChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBD...
+2021.07.07 13:33.53 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.ScoreboardChart"...
+2021.07.07 13:33.53 presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.ScoreboardChart
+2021.07.07 13:33.53 I Attempting to load class: org.icpc.tools.presentation.contest.internal.chart.ScoreboardChart
+2021.07.07 13:33.53 I Class loaded ok
+2021.07.07 13:33.53 I New presentation plan now
+2021.07.07 13:33.53 I Initializing presentation ScoreboardChart
+2021.07.07 13:33.53 I Building presentation plan
+2021.07.07 13:33.53 I Building presentation plan
+2021.07.07 13:33.53 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, ScoreboardChart > null > null, 0]
+2021.07.07 13:33.53 I Ending presentation plan: null
+2021.07.07 13:33.53 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, ScoreboardChart > null > null, 0]
+2021.07.07 13:33.54 I > {"type":"info","source":"b833456f","presentation":"ScoreboardChart","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBD...
+2021.07.07 13:33.55 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.ProblemSummaryCh...
+2021.07.07 13:33.55 presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.ProblemSummaryChart
+2021.07.07 13:33.55 I Attempting to load class: org.icpc.tools.presentation.contest.internal.chart.ProblemSummaryChart
+2021.07.07 13:33.55 I Class loaded ok
+2021.07.07 13:33.55 I New presentation plan now
+2021.07.07 13:33.55 I Initializing presentation ProblemSummaryChart
+2021.07.07 13:33.55 I Building presentation plan
+2021.07.07 13:33.55 I Building presentation plan
+2021.07.07 13:33.55 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, ProblemSummaryChart > null > null, 0]
+2021.07.07 13:33.55 I Ending presentation plan: null
+2021.07.07 13:33.55 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, ProblemSummaryChart > null > null, 0]
+2021.07.07 13:33.57 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.ProblemDetailCha...
+2021.07.07 13:33.57 presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.ProblemDetailChart
+2021.07.07 13:33.57 I Attempting to load class: org.icpc.tools.presentation.contest.internal.chart.ProblemDetailChart
+2021.07.07 13:33.57 I Class loaded ok
+2021.07.07 13:33.57 I New presentation plan now
+2021.07.07 13:33.57 I Initializing presentation ProblemDetailChart
+2021.07.07 13:33.57 I Building presentation plan
+2021.07.07 13:33.57 I Building presentation plan
+2021.07.07 13:33.57 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, ProblemDetailChart > null > null, 0]
+2021.07.07 13:33.57 I Ending presentation plan: null
+2021.07.07 13:33.57 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, ProblemDetailChart > null > null, 0]
+2021.07.07 13:33.58 I > {"type":"info","source":"b833456f","presentation":"ProblemDetailChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2...
+2021.07.07 13:34.00 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.HistoricalCompar...
+2021.07.07 13:34.00 presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.HistoricalComparisonChart
+2021.07.07 13:34.00 I Attempting to load class: org.icpc.tools.presentation.contest.internal.chart.HistoricalComparisonChart
+2021.07.07 13:34.00 I Class loaded ok
+2021.07.07 13:34.00 I New presentation plan now
+2021.07.07 13:34.00 I Initializing presentation HistoricalComparisonChart
+2021.07.07 13:34.00 I Download https://192.168.0.3:8443/presentation/historical/events2013.json to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\historical\events2013.json (404)
+2021.07.07 13:34.00 I Download https://192.168.0.3:8443/presentation/historical/events2014.json to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\historical\events2014.json (404)
+2021.07.07 13:34.00 I Download https://192.168.0.3:8443/presentation/historical/events2015.json to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\historical\events2015.json (404)
+2021.07.07 13:34.00 I Download https://192.168.0.3:8443/presentation/historical/events2016.json to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\historical\events2016.json (404)
+2021.07.07 13:34.00 I Building presentation plan
+2021.07.07 13:34.00 I Building presentation plan
+2021.07.07 13:34.00 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, HistoricalComparisonChart > null > null, 0]
+2021.07.07 13:34.00 I Ending presentation plan: null
+2021.07.07 13:34.00 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, HistoricalComparisonChart > null > null, 0]
+2021.07.07 13:34.02 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:34.05 I < {"type":"ping"}
+2021.07.07 13:34.05 I > {"type":"ping"}
+2021.07.07 13:34.07 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:34.11 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:34.15 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:34.19 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:34.23 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:34.27 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:34.31 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:34.35 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:34.35 I < {"type":"ping"}
+2021.07.07 13:34.35 I > {"type":"ping"}
+2021.07.07 13:34.39 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:34.43 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:34.47 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:34.51 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:34.55 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:34.59 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:35.03 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:35.05 I < {"type":"ping"}
+2021.07.07 13:35.05 I > {"type":"ping"}
+2021.07.07 13:35.07 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:35.11 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:35.15 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:35.19 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:35.23 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:35.27 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:35.31 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:35.35 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:35.35 I < {"type":"ping"}
+2021.07.07 13:35.35 I > {"type":"ping"}
+2021.07.07 13:35.39 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":57,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:35.43 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:35.47 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:35.51 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:35.55 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:35.59 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:36.03 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:36.05 I < {"type":"ping"}
+2021.07.07 13:36.05 I > {"type":"ping"}
+2021.07.07 13:36.07 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:36.11 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:36.15 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:36.19 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:36.23 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:36.24 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.BetterFi...
+2021.07.07 13:36.24 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.BetterFireworksPresentation
+2021.07.07 13:36.24 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.BetterFireworksPresentation
+2021.07.07 13:36.24 I Class loaded ok
+2021.07.07 13:36.24 I New presentation plan now
+2021.07.07 13:36.24 I Initializing presentation BetterFireworksPresentation
+2021.07.07 13:36.24 I Building presentation plan
+2021.07.07 13:36.24 I Building presentation plan
+2021.07.07 13:36.24 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, BetterFireworksPresentation > null > null, 0]
+2021.07.07 13:36.24 I Ending presentation plan: null
+2021.07.07 13:36.24 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, BetterFireworksPresentation > null > null, 0]
+2021.07.07 13:36.27 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:36.31 I > {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":59,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:36.32 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.clock.Cl...
+2021.07.07 13:36.32 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.clock.ClockPresentation
+2021.07.07 13:36.32 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.clock.ClockPresentation
+2021.07.07 13:36.32 I Class loaded ok
+2021.07.07 13:36.32 I New presentation plan now
+2021.07.07 13:36.32 I Initializing presentation ClockPresentation
+2021.07.07 13:36.32 I Building presentation plan
+2021.07.07 13:36.32 I Building presentation plan
+2021.07.07 13:36.32 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, ClockPresentation > null > null, 0]
+2021.07.07 13:36.32 I Ending presentation plan: null
+2021.07.07 13:36.32 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, ClockPresentation > null > null, 0]
+2021.07.07 13:36.35 I > {"type":"info","source":"b833456f","presentation":"ClockPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:36.35 I < {"type":"ping"}
+2021.07.07 13:36.35 I > {"type":"ping"}
+2021.07.07 13:36.39 I > {"type":"info","source":"b833456f","presentation":"ClockPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:36.43 I > {"type":"info","source":"b833456f","presentation":"ClockPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:36.46 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.clock.St...
+2021.07.07 13:36.46 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.clock.StatusCountdownPresentation
+2021.07.07 13:36.46 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.clock.StatusCountdownPresentation
+2021.07.07 13:36.46 I Class loaded ok
+2021.07.07 13:36.46 I New presentation plan now
+2021.07.07 13:36.46 I Initializing presentation StatusCountdownPresentation
+2021.07.07 13:36.46 I Building presentation plan
+2021.07.07 13:36.46 I Building presentation plan
+2021.07.07 13:36.46 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, StatusCountdownPresentation > null > null, 0]
+2021.07.07 13:36.46 I Ending presentation plan: null
+2021.07.07 13:36.46 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, StatusCountdownPresentation > null > null, 0]
+2021.07.07 13:36.47 I > {"type":"info","source":"b833456f","presentation":"StatusCountdownPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAA...
+2021.07.07 13:36.48 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.clock.Po...
+2021.07.07 13:36.48 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.clock.PolarCountdownPresentation
+2021.07.07 13:36.48 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.clock.PolarCountdownPresentation
+2021.07.07 13:36.48 I Class loaded ok
+2021.07.07 13:36.48 I New presentation plan now
+2021.07.07 13:36.48 I Initializing presentation PolarCountdownPresentation
+2021.07.07 13:36.48 I Building presentation plan
+2021.07.07 13:36.48 I Building presentation plan
+2021.07.07 13:36.48 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, PolarCountdownPresentation > null > null, 0]
+2021.07.07 13:36.48 I Ending presentation plan: null
+2021.07.07 13:36.48 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, PolarCountdownPresentation > null > null, 0]
+2021.07.07 13:36.51 I > {"type":"info","source":"b833456f","presentation":"PolarCountdownPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:36.54 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.HistoricalCompar...
+2021.07.07 13:36.54 presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.HistoricalComparisonChart
+2021.07.07 13:36.54 I Attempting to load class: org.icpc.tools.presentation.contest.internal.chart.HistoricalComparisonChart
+2021.07.07 13:36.54 I Class loaded ok
+2021.07.07 13:36.54 I New presentation plan now
+2021.07.07 13:36.54 I Initializing presentation HistoricalComparisonChart
+2021.07.07 13:36.54 I Download https://192.168.0.3:8443/presentation/historical/events2013.json to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\historical\events2013.json (404)
+2021.07.07 13:36.54 I Download https://192.168.0.3:8443/presentation/historical/events2014.json to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\historical\events2014.json (404)
+2021.07.07 13:36.54 I Download https://192.168.0.3:8443/presentation/historical/events2015.json to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\historical\events2015.json (404)
+2021.07.07 13:36.54 I Download https://192.168.0.3:8443/presentation/historical/events2016.json to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\historical\events2016.json (404)
+2021.07.07 13:36.54 I Building presentation plan
+2021.07.07 13:36.54 I Building presentation plan
+2021.07.07 13:36.54 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, HistoricalComparisonChart > null > null, 0]
+2021.07.07 13:36.54 I Ending presentation plan: null
+2021.07.07 13:36.54 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, HistoricalComparisonChart > null > null, 0]
+2021.07.07 13:36.55 I > {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:36.56 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthC...
+2021.07.07 13:36.56 presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthChart
+2021.07.07 13:36.56 I Attempting to load class: org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthChart
+2021.07.07 13:36.56 I Class loaded ok
+2021.07.07 13:36.56 I New presentation plan now
+2021.07.07 13:36.56 I Initializing presentation JudgeQueueDepthChart
+2021.07.07 13:36.56 I Building presentation plan
+2021.07.07 13:36.56 I Building presentation plan
+2021.07.07 13:36.56 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, JudgeQueueDepthChart > null > null, 0]
+2021.07.07 13:36.56 I Ending presentation plan: null
+2021.07.07 13:36.56 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, JudgeQueueDepthChart > null > null, 0]
+2021.07.07 13:36.58 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.JudgementChart"}...
+2021.07.07 13:36.58 presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.JudgementChart
+2021.07.07 13:36.58 I Attempting to load class: org.icpc.tools.presentation.contest.internal.chart.JudgementChart
+2021.07.07 13:36.58 I Class loaded ok
+2021.07.07 13:36.58 I New presentation plan now
+2021.07.07 13:36.58 I Initializing presentation JudgementChart
+2021.07.07 13:36.58 I Building presentation plan
+2021.07.07 13:36.58 I Building presentation plan
+2021.07.07 13:36.58 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, JudgementChart > null > null, 0]
+2021.07.07 13:36.58 I Ending presentation plan: null
+2021.07.07 13:36.58 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, JudgementChart > null > null, 0]
+2021.07.07 13:36.59 I > {"type":"info","source":"b833456f","presentation":"JudgementChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDA...
+2021.07.07 13:37.02 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.ProblemDetailCha...
+2021.07.07 13:37.02 presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.ProblemDetailChart
+2021.07.07 13:37.02 I Attempting to load class: org.icpc.tools.presentation.contest.internal.chart.ProblemDetailChart
+2021.07.07 13:37.02 I Class loaded ok
+2021.07.07 13:37.02 I New presentation plan now
+2021.07.07 13:37.02 I Initializing presentation ProblemDetailChart
+2021.07.07 13:37.02 I Building presentation plan
+2021.07.07 13:37.02 I Building presentation plan
+2021.07.07 13:37.02 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, ProblemDetailChart > null > null, 0]
+2021.07.07 13:37.02 I Ending presentation plan: null
+2021.07.07 13:37.02 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 15000
+  Segment [0 -> 15000, ProblemDetailChart > null > null, 0]
+2021.07.07 13:37.03 I > {"type":"info","source":"b833456f","presentation":"ProblemDetailChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2...
+2021.07.07 13:37.05 I < {"type":"ping"}
+2021.07.07 13:37.05 I > {"type":"ping"}
+2021.07.07 13:37.07 I > {"type":"info","source":"b833456f","presentation":"ProblemDetailChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2...
+2021.07.07 13:37.11 I > {"type":"info","source":"b833456f","presentation":"ProblemDetailChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2...
+2021.07.07 13:37.12 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSoluti...
+2021.07.07 13:37.12 presentation: 1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation
+2021.07.07 13:37.12 I Attempting to load class: org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation
+2021.07.07 13:37.12 I Class loaded ok
+2021.07.07 13:37.12 I New presentation plan now
+2021.07.07 13:37.12 I Initializing presentation FirstSolutionPresentation
+2021.07.07 13:37.12 I Building presentation plan
+2021.07.07 13:37.12 I Building presentation plan
+2021.07.07 13:37.12 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, FirstSolutionPresentation > null > null, 0]
+2021.07.07 13:37.12 I Ending presentation plan: null
+2021.07.07 13:37.12 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, FirstSolutionPresentation > null > null, 0]
+2021.07.07 13:37.12 I Download https://192.168.0.3:8443/presentation/fts/2013.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2013.png (404)
+2021.07.07 13:37.12 I Download https://192.168.0.3:8443/presentation/fts/2014.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2014.png (404)
+2021.07.07 13:37.12 I Download https://192.168.0.3:8443/presentation/fts/2015.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2015.png (404)
+2021.07.07 13:37.12 I Download https://192.168.0.3:8443/presentation/fts/2016.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2016.png (404)
+2021.07.07 13:37.12 I Download https://192.168.0.3:8443/presentation/fts/2017.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2017.png (404)
+2021.07.07 13:37.12 I Download https://192.168.0.3:8443/presentation/fts/2018.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\fts\2018.png (404)
+2021.07.07 13:37.15 I > {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+2021.07.07 13:37.16 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstToSolv...
+2021.07.07 13:37.16 presentation: 1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstToSolvePresentation
+2021.07.07 13:37.16 I Attempting to load class: org.icpc.tools.presentation.contest.internal.scoreboard.FirstToSolvePresentation
+2021.07.07 13:37.16 I Class loaded ok
+2021.07.07 13:37.16 I New presentation plan now
+2021.07.07 13:37.16 I Initializing presentation FirstToSolvePresentation
+2021.07.07 13:37.16 I Building presentation plan
+2021.07.07 13:37.16 I Building presentation plan
+2021.07.07 13:37.16 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, FirstToSolvePresentation > null > null, 0]
+2021.07.07 13:37.16 I Ending presentation plan: null
+2021.07.07 13:37.16 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, FirstToSolvePresentation > null > null, 0]
+2021.07.07 13:37.19 I > {"type":"info","source":"b833456f","presentation":"FirstToSolvePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQA...
+2021.07.07 13:37.19 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresen...
+2021.07.07 13:37.19 presentation: 1100|org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresentation
+2021.07.07 13:37.19 I Attempting to load class: org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresentation
+2021.07.07 13:37.19 I Class loaded ok
+2021.07.07 13:37.19 I New presentation plan now
+2021.07.07 13:37.19 I Initializing presentation JudgePresentation
+2021.07.07 13:37.19 I Building presentation plan
+2021.07.07 13:37.19 I Building presentation plan
+2021.07.07 13:37.19 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, JudgePresentation > null > null, 0]
+2021.07.07 13:37.20 I Ending presentation plan: null
+2021.07.07 13:37.20 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, JudgePresentation > null > null, 0]
+2021.07.07 13:37.23 I > {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:37.27 I > {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:37.31 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.ScoreboardP...
+2021.07.07 13:37.31 presentation: 1100|org.icpc.tools.presentation.contest.internal.scoreboard.ScoreboardPresentation
+2021.07.07 13:37.31 I Attempting to load class: org.icpc.tools.presentation.contest.internal.scoreboard.ScoreboardPresentation
+2021.07.07 13:37.31 I Class loaded ok
+2021.07.07 13:37.31 I New presentation plan now
+2021.07.07 13:37.31 I Initializing presentation ScoreboardPresentation
+2021.07.07 13:37.31 I Building presentation plan
+2021.07.07 13:37.31 I Building presentation plan
+2021.07.07 13:37.31 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 16000
+  Segment [0 -> 16000, ScoreboardPresentation > null > null, 0]
+2021.07.07 13:37.31 I Ending presentation plan: null
+2021.07.07 13:37.31 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 16000
+  Segment [0 -> 16000, ScoreboardPresentation > null > null, 0]
+2021.07.07 13:37.31 I > {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+2021.07.07 13:37.35 I > {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+2021.07.07 13:37.35 I < {"type":"ping"}
+2021.07.07 13:37.35 I > {"type":"ping"}
+2021.07.07 13:37.39 I > {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+2021.07.07 13:37.43 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.tile.TileScoreboardPre...
+2021.07.07 13:37.43 presentation: 1100|org.icpc.tools.presentation.contest.internal.tile.TileScoreboardPresentation
+2021.07.07 13:37.43 I Attempting to load class: org.icpc.tools.presentation.contest.internal.tile.TileScoreboardPresentation
+2021.07.07 13:37.43 I Class loaded ok
+2021.07.07 13:37.43 I New presentation plan now
+2021.07.07 13:37.43 I Initializing presentation TileScoreboardPresentation
+2021.07.07 13:37.43 I Building presentation plan
+2021.07.07 13:37.43 I Building presentation plan
+2021.07.07 13:37.43 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 14000
+  Segment [0 -> 14000, TileScoreboardPresentation > null > null, 0]
+2021.07.07 13:37.43 I Ending presentation plan: null
+2021.07.07 13:37.43 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 14000
+  Segment [0 -> 14000, TileScoreboardPresentation > null > null, 0]
+2021.07.07 13:37.43 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:37.47 I > {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAA...
+2021.07.07 13:37.49 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.tile.TileListScoreboar...
+2021.07.07 13:37.49 presentation: 1100|org.icpc.tools.presentation.contest.internal.tile.TileListScoreboardPresentation
+2021.07.07 13:37.49 I Attempting to load class: org.icpc.tools.presentation.contest.internal.tile.TileListScoreboardPresentation
+2021.07.07 13:37.49 I Class loaded ok
+2021.07.07 13:37.49 I New presentation plan now
+2021.07.07 13:37.49 I Initializing presentation TileListScoreboardPresentation
+2021.07.07 13:37.49 I Building presentation plan
+2021.07.07 13:37.49 I Building presentation plan
+2021.07.07 13:37.49 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 14000
+  Segment [0 -> 14000, TileListScoreboardPresentation > null > null, 0]
+2021.07.07 13:37.49 I Ending presentation plan: null
+2021.07.07 13:37.49 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 14000
+  Segment [0 -> 14000, TileListScoreboardPresentation > null > null, 0]
+2021.07.07 13:37.50 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.tile.TileRankScoreboar...
+2021.07.07 13:37.50 presentation: 1100|org.icpc.tools.presentation.contest.internal.tile.TileRankScoreboardPresentation
+2021.07.07 13:37.50 I Attempting to load class: org.icpc.tools.presentation.contest.internal.tile.TileRankScoreboardPresentation
+2021.07.07 13:37.50 I Class loaded ok
+2021.07.07 13:37.50 I New presentation plan now
+2021.07.07 13:37.50 I Initializing presentation TileRankScoreboardPresentation
+2021.07.07 13:37.50 I Building presentation plan
+2021.07.07 13:37.50 I Building presentation plan
+2021.07.07 13:37.50 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 7857
+  Segment [0 -> 7857, TileRankScoreboardPresentation > null > null, 0]
+2021.07.07 13:37.50 I Ending presentation plan: null
+2021.07.07 13:37.50 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 7857
+  Segment [0 -> 7857, TileRankScoreboardPresentation > null > null, 0]
+2021.07.07 13:37.51 I > {"type":"info","source":"b833456f","presentation":"TileRankScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABA...
+2021.07.07 13:37.55 I > {"type":"info","source":"b833456f","presentation":"TileRankScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABA...
+2021.07.07 13:37.59 I > {"type":"info","source":"b833456f","presentation":"TileRankScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABA...
+2021.07.07 13:38.00 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Grou...
+2021.07.07 13:38.00 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.map.GroupPresentation
+2021.07.07 13:38.00 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.map.GroupPresentation
+2021.07.07 13:38.00 I Class loaded ok
+2021.07.07 13:38.00 I New presentation plan now
+2021.07.07 13:38.00 I Initializing presentation GroupPresentation
+2021.07.07 13:38.00 I Building presentation plan
+2021.07.07 13:38.00 I Building presentation plan
+2021.07.07 13:38.00 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 12000
+  Segment [0 -> 12000, GroupPresentation > null > null, 0]
+2021.07.07 13:38.00 I Ending presentation plan: null
+2021.07.07 13:38.00 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 12000
+  Segment [0 -> 12000, GroupPresentation > null > null, 0]
+2021.07.07 13:38.03 I > {"type":"info","source":"b833456f","presentation":"GroupPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:38.03 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Ball...
+2021.07.07 13:38.03 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation
+2021.07.07 13:38.03 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation
+2021.07.07 13:38.03 I Class loaded ok
+2021.07.07 13:38.03 I New presentation plan now
+2021.07.07 13:38.03 I Initializing presentation BalloonMapPresentation
+2021.07.07 13:38.04 I Building presentation plan
+2021.07.07 13:38.04 I Building presentation plan
+2021.07.07 13:38.04 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, BalloonMapPresentation > null > null, 0]
+2021.07.07 13:38.04 I Ending presentation plan: null
+2021.07.07 13:38.04 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, BalloonMapPresentation > null > null, 0]
+2021.07.07 13:38.05 I < {"type":"ping"}
+2021.07.07 13:38.05 I > {"type":"ping"}
+2021.07.07 13:38.06 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Team...
+2021.07.07 13:38.06 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.map.TeamIntroPresentation
+2021.07.07 13:38.06 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.map.TeamIntroPresentation
+2021.07.07 13:38.06 I Class loaded ok
+2021.07.07 13:38.06 I New presentation plan now
+2021.07.07 13:38.06 I Initializing presentation TeamIntroPresentation
+2021.07.07 13:38.06 I Building presentation plan
+2021.07.07 13:38.06 I Building presentation plan
+2021.07.07 13:38.06 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 35500
+  Segment [0 -> 35500, TeamIntroPresentation > null > null, 0]
+2021.07.07 13:38.06 I Ending presentation plan: null
+2021.07.07 13:38.06 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 35500
+  Segment [0 -> 35500, TeamIntroPresentation > null > null, 0]
+2021.07.07 13:38.07 I > {"type":"info","source":"b833456f","presentation":"TeamIntroPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+2021.07.07 13:38.11 I > {"type":"info","source":"b833456f","presentation":"TeamIntroPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+2021.07.07 13:38.15 I > {"type":"info","source":"b833456f","presentation":"TeamIntroPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+2021.07.07 13:38.19 I > {"type":"info","source":"b833456f","presentation":"TeamIntroPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+2021.07.07 13:38.23 I > {"type":"info","source":"b833456f","presentation":"TeamIntroPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+2021.07.07 13:38.27 I > {"type":"info","source":"b833456f","presentation":"TeamIntroPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+2021.07.07 13:38.31 I > {"type":"info","source":"b833456f","presentation":"TeamIntroPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+2021.07.07 13:38.35 I > {"type":"info","source":"b833456f","presentation":"TeamIntroPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+2021.07.07 13:38.35 I < {"type":"ping"}
+2021.07.07 13:38.35 I > {"type":"ping"}
+2021.07.07 13:38.39 I > {"type":"info","source":"b833456f","presentation":"TeamIntroPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+2021.07.07 13:38.43 I > {"type":"info","source":"b833456f","presentation":"TeamIntroPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+2021.07.07 13:38.47 I > {"type":"info","source":"b833456f","presentation":"TeamIntroPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+2021.07.07 13:38.51 I > {"type":"info","source":"b833456f","presentation":"TeamIntroPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+2021.07.07 13:38.52 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Ball...
+2021.07.07 13:38.52 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation
+2021.07.07 13:38.52 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation
+2021.07.07 13:38.52 I Class loaded ok
+2021.07.07 13:38.52 I New presentation plan now
+2021.07.07 13:38.52 I Initializing presentation BalloonMapPresentation
+2021.07.07 13:38.52 I Building presentation plan
+2021.07.07 13:38.52 I Building presentation plan
+2021.07.07 13:38.52 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, BalloonMapPresentation > null > null, 0]
+2021.07.07 13:38.52 I Ending presentation plan: null
+2021.07.07 13:38.52 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, BalloonMapPresentation > null > null, 0]
+2021.07.07 13:38.55 I > {"type":"info","source":"b833456f","presentation":"BalloonMapPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+2021.07.07 13:38.59 I > {"type":"info","source":"b833456f","presentation":"BalloonMapPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+2021.07.07 13:39.03 I > {"type":"info","source":"b833456f","presentation":"BalloonMapPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+2021.07.07 13:39.05 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Grou...
+2021.07.07 13:39.05 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.map.GroupPresentation
+2021.07.07 13:39.05 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.map.GroupPresentation
+2021.07.07 13:39.05 I Class loaded ok
+2021.07.07 13:39.05 I New presentation plan now
+2021.07.07 13:39.05 I Initializing presentation GroupPresentation
+2021.07.07 13:39.05 I Building presentation plan
+2021.07.07 13:39.05 I Building presentation plan
+2021.07.07 13:39.05 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 12000
+  Segment [0 -> 12000, GroupPresentation > null > null, 0]
+2021.07.07 13:39.05 I Ending presentation plan: null
+2021.07.07 13:39.05 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 12000
+  Segment [0 -> 12000, GroupPresentation > null > null, 0]
+2021.07.07 13:39.05 I < {"type":"ping"}
+2021.07.07 13:39.05 I > {"type":"ping"}
+2021.07.07 13:39.07 I > {"type":"info","source":"b833456f","presentation":"GroupPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:39.11 I > {"type":"info","source":"b833456f","presentation":"GroupPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:39.15 I > {"type":"info","source":"b833456f","presentation":"GroupPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:39.19 I > {"type":"info","source":"b833456f","presentation":"GroupPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:39.23 I > {"type":"info","source":"b833456f","presentation":"GroupPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:39.27 I > {"type":"info","source":"b833456f","presentation":"GroupPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+2021.07.07 13:39.28 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Ball...
+2021.07.07 13:39.28 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation
+2021.07.07 13:39.28 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation
+2021.07.07 13:39.28 I Class loaded ok
+2021.07.07 13:39.28 I New presentation plan now
+2021.07.07 13:39.28 I Initializing presentation BalloonMapPresentation
+2021.07.07 13:39.28 I Building presentation plan
+2021.07.07 13:39.28 I Building presentation plan
+2021.07.07 13:39.28 I Next presentation plan: Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, BalloonMapPresentation > null > null, 0]
+2021.07.07 13:39.28 I Ending presentation plan: null
+2021.07.07 13:39.28 I Switching presentation plans: null -> Presentation plan 1100 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, BalloonMapPresentation > null > null, 0]
+2021.07.07 13:39.31 I > {"type":"info","source":"b833456f","presentation":"BalloonMapPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+2021.07.07 13:39.35 I < {"type":"ping"}
+2021.07.07 13:39.35 I > {"type":"ping"}
+2021.07.07 13:39.35 I > {"type":"info","source":"b833456f","presentation":"BalloonMapPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...

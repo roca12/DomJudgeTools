@@ -1,0 +1,22 @@
+---- ICPC Award Utility (2.3.491) ----
+OS:  Windows 10 (amd64/10.0)
+JRE: Oracle Corporation (12.0.2)
+Folder: C:\Users\diego\Documents\DomJudge\resolver
+Host: ROCA12ULTRA / 192.168.0.3
+Locale/TZ: es_CO / hora estándar de Colombia
+Args: 
+Log started 2021.07.07 13:01.26
+
+2021.07.07 13:01.52 I Loading contest from RESTContestSource[admin|adm1n@https://localhost:8443/api/contests/3]
+2021.07.07 13:01.52 I Checking feed cache: C:\Users\diego\Documents\DomJudge\resolver\logs\events-3-admin.log
+2021.07.07 13:01.52 I First comment: ! 0
+2021.07.07 13:01.52 I Found feed cache up to event id: cdD31
+2021.07.07 13:01.53 W Contest has been reset! Throwing out cache and reconnecting
+2021.07.07 13:01.53 E Error reading event feed: Contest has been reset
+2021.07.07 13:01.53 I Waiting to reconnect
+2021.07.07 13:01.58 I Checking feed cache: C:\Users\diego\Documents\DomJudge\resolver\logs\events-3-admin.log
+2021.07.07 13:01.58 I First comment: null
+2021.07.07 13:01.58 I Found feed cache up to event id: null
+2021.07.07 13:01.58 I Reading feed cache
+2021.07.07 13:01.58 I Done reading feed cache
+2021.07.07 13:02.04 E Warning: contest not done updating!

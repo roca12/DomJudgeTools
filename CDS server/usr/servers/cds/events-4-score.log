@@ -1,0 +1,135 @@
+! 0
+{"id":"167","type":"contests","op":"create","data":{"formal_name":"test2","penalty_time":20,"start_time":"2021-07-07T20:12:01+02:00","end_time":"2021-07-09T20:12:01+02:00","duration":"48:00:00.000","scoreboard_freeze_duration":"24:00:00.000","id":"4","external_id":null,"name":"test2","shortname":"test2"},"time":"2021-07-07T20:12:27.972+02:00"}
+{"id":"168","type":"judgement-types","op":"create","data":{"id":"AC","name":"correct","penalty":false,"solved":true},"time":"2021-07-07T20:12:27.985+02:00"}
+{"id":"169","type":"judgement-types","op":"create","data":{"id":"CE","name":"compiler error","penalty":true,"solved":false},"time":"2021-07-07T20:12:27.988+02:00"}
+{"id":"170","type":"judgement-types","op":"create","data":{"id":"MLE","name":"memory limit","penalty":true,"solved":false},"time":"2021-07-07T20:12:27.990+02:00"}
+{"id":"171","type":"judgement-types","op":"create","data":{"id":"NO","name":"no output","penalty":true,"solved":false},"time":"2021-07-07T20:12:27.991+02:00"}
+{"id":"172","type":"judgement-types","op":"create","data":{"id":"OLE","name":"output limit","penalty":true,"solved":false},"time":"2021-07-07T20:12:27.994+02:00"}
+{"id":"173","type":"judgement-types","op":"create","data":{"id":"PE","name":"presentation error","penalty":true,"solved":false},"time":"2021-07-07T20:12:27.996+02:00"}
+{"id":"174","type":"judgement-types","op":"create","data":{"id":"RTE","name":"run error","penalty":true,"solved":false},"time":"2021-07-07T20:12:27.998+02:00"}
+{"id":"175","type":"judgement-types","op":"create","data":{"id":"TLE","name":"timelimit","penalty":true,"solved":false},"time":"2021-07-07T20:12:28.000+02:00"}
+{"id":"176","type":"judgement-types","op":"create","data":{"id":"WA","name":"wrong answer","penalty":true,"solved":false},"time":"2021-07-07T20:12:28.001+02:00"}
+{"id":"177","type":"languages","op":"create","data":{"id":"c","name":"C","extensions":["c"],"allow_judge":true,"time_factor":1,"require_entry_point":false,"entry_point_description":null},"time":"2021-07-07T20:12:28.006+02:00"}
+{"id":"178","type":"languages","op":"create","data":{"id":"cpp","name":"C++","extensions":["cpp","cc","cxx","c++"],"allow_judge":true,"time_factor":1,"require_entry_point":false,"entry_point_description":null},"time":"2021-07-07T20:12:28.008+02:00"}
+{"id":"179","type":"languages","op":"create","data":{"id":"csharp","name":"C#","extensions":["csharp","cs"],"allow_judge":true,"time_factor":1,"require_entry_point":false,"entry_point_description":null},"time":"2021-07-07T20:12:28.009+02:00"}
+{"id":"180","type":"languages","op":"create","data":{"id":"java","name":"Java","extensions":["java"],"allow_judge":true,"time_factor":1,"require_entry_point":false,"entry_point_description":"Main class"},"time":"2021-07-07T20:12:28.012+02:00"}
+{"id":"181","type":"languages","op":"create","data":{"id":"pl","name":"Perl","extensions":["pl"],"allow_judge":true,"time_factor":1,"require_entry_point":false,"entry_point_description":"Main file"},"time":"2021-07-07T20:12:28.013+02:00"}
+{"id":"182","type":"languages","op":"create","data":{"id":"python3","name":"Python 3","extensions":["py3"],"allow_judge":true,"time_factor":1,"require_entry_point":false,"entry_point_description":"Main file"},"time":"2021-07-07T20:12:28.015+02:00"}
+{"id":"183","type":"languages","op":"create","data":{"id":"sh","name":"POSIX shell","extensions":["sh"],"allow_judge":true,"time_factor":1,"require_entry_point":false,"entry_point_description":"Main file"},"time":"2021-07-07T20:12:28.016+02:00"}
+{"id":"184","type":"problems","op":"create","data":{"ordinal":2,"short_name":"Hello","id":"1","label":"Hello","time_limit":5,"externalid":"hello","name":"Hello World","rgb":"#ebff36","color":"greenyellow","test_data_count":1},"time":"2021-07-07T20:12:28.031+02:00"}
+{"id":"185","type":"problems","op":"create","data":{"ordinal":1,"short_name":"Float","id":"2","label":"Float","time_limit":5,"externalid":"fltcmp","name":"Float special compare test","rgb":"#00ff00","color":"lime","test_data_count":3},"time":"2021-07-07T20:12:28.034+02:00"}
+{"id":"186","type":"problems","op":"create","data":{"ordinal":0,"short_name":"Boolean","id":"3","label":"Boolean","time_limit":5,"externalid":"boolfind","name":"Boolean switch search","rgb":"#ff0055","color":"crimson","test_data_count":1},"time":"2021-07-07T20:12:28.036+02:00"}
+{"id":"187","type":"groups","op":"create","data":{"hidden":true,"icpc_id":"1","id":"1","name":"System","sortorder":9,"color":"#ff2bea"},"time":"2021-07-07T20:12:28.040+02:00"}
+{"id":"188","type":"groups","op":"create","data":{"hidden":false,"icpc_id":"2","id":"2","name":"Self-Registered","sortorder":8,"color":"#33cc44"},"time":"2021-07-07T20:12:28.043+02:00"}
+{"id":"189","type":"groups","op":"create","data":{"hidden":false,"icpc_id":"3","id":"3","name":"Participants","sortorder":0,"color":"#ffc7ce"},"time":"2021-07-07T20:12:28.045+02:00"}
+{"id":"190","type":"groups","op":"create","data":{"hidden":false,"icpc_id":"4","id":"4","name":"Observers","sortorder":1,"color":"#ffcc33"},"time":"2021-07-07T20:12:28.047+02:00"}
+{"id":"191","type":"groups","op":"create","data":{"hidden":true,"icpc_id":"5","id":"5","name":"Organisation","sortorder":1,"color":"#ff99cc"},"time":"2021-07-07T20:12:28.049+02:00"}
+{"id":"192","type":"organizations","op":"create","data":{"icpc_id":"3","shortname":"UECCI","id":"3","name":"UECCI","formal_name":"GPC - UNIECCI","country":"COL"},"time":"2021-07-07T20:12:28.053+02:00"}
+{"id":"193","type":"teams","op":"create","data":{"externalid":null,"group_ids":["1"],"affiliation":null,"nationality":null,"id":"1","icpc_id":null,"name":"DOMjudge","organization_id":null,"members":null},"time":"2021-07-07T20:12:28.058+02:00"}
+{"id":"194","type":"teams","op":"create","data":{"externalid":null,"group_ids":["3"],"affiliation":null,"nationality":null,"id":"2","icpc_id":null,"name":"Example teamname","organization_id":null,"members":null},"time":"2021-07-07T20:12:28.061+02:00"}
+{"id":"195","type":"teams","op":"create","data":{"externalid":null,"group_ids":["3"],"affiliation":"GPC - UNIECCI","nationality":"COL","id":"3","icpc_id":null,"name":"ARTEMISA","organization_id":"3","members":null},"time":"2021-07-07T20:12:28.062+02:00"}
+{"id":"196","type":"state","op":"update","data":{"started":"2021-07-07T20:12:01.000+02:00","ended":null,"frozen":null,"thawed":null,"finalized":null,"end_of_updates":null},"time":"2021-07-07T20:12:28.066+02:00"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"id":"197","type":"submissions","op":"create","data":{"language_id":"python3","time":"2021-07-07T20:21:57.056+02:00","contest_time":"0:09:56.056","id":"5","externalid":null,"team_id":"2","problem_id":"1","entry_point":null,"files":[{"href":"contests/4/submissions/5/files","mime":"application/zip"}]},"time":"2021-07-07T20:21:57.086+02:00"}
+{"id":"198","type":"judgements","op":"create","data":{"max_run_time":null,"start_time":"2021-07-07T20:21:57.828+02:00","start_contest_time":"0:09:56.828","end_time":null,"end_contest_time":null,"id":"6","submission_id":"5","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":null},"time":"2021-07-07T20:21:57.856+02:00"}
+{"id":"199","type":"submissions","op":"update","data":{"language_id":"python3","time":"2021-07-07T20:21:57.056+02:00","contest_time":"0:09:56.056","id":"5","externalid":null,"team_id":"2","problem_id":"1","entry_point":"","files":[{"href":"contests/4/submissions/5/files","mime":"application/zip"}]},"time":"2021-07-07T20:21:59.239+02:00"}
+{"id":"200","type":"runs","op":"create","data":{"run_time":0.038,"time":"2021-07-07T20:22:00.597+02:00","contest_time":"0:09:59.597","ordinal":1,"id":"4","judgement_id":"6","judgement_type_id":"AC"},"time":"2021-07-07T20:22:00.643+02:00"}
+{"id":"201","type":"judgements","op":"update","data":{"max_run_time":0.038,"start_time":"2021-07-07T20:21:57.828+02:00","start_contest_time":"0:09:56.828","end_time":"2021-07-07T20:22:00.658+02:00","end_contest_time":"0:09:59.658","id":"6","submission_id":"5","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":"AC"},"time":"2021-07-07T20:22:00.685+02:00"}
+
+
+
+
+
+
+
+{"id":"202","type":"languages","op":"update","data":{"id":"ruby","name":"Ruby","extensions":["rb"],"allow_judge":true,"time_factor":1,"require_entry_point":false,"entry_point_description":"Main file"},"time":"2021-07-07T20:23:18.943+02:00"}
+
+
+
+{"id":"203","type":"languages","op":"update","data":{"id":"kotlin","name":"Kotlin","extensions":["kt"],"allow_judge":true,"time_factor":1,"require_entry_point":true,"entry_point_description":"Main class"},"time":"2021-07-07T20:23:55.464+02:00"}
+
+
+
+
+
+
+
+
+
+
+{"id":"204","type":"contests","op":"create","data":{"formal_name":"test2","penalty_time":20,"start_time":"2021-07-07T20:12:01+02:00","end_time":"2021-07-09T20:12:01+02:00","duration":"48:00:00.000","scoreboard_freeze_duration":"24:00:00.000","id":"4","external_id":null,"name":"test2","shortname":"test2"},"time":"2021-07-07T20:25:40.027+02:00"}
+
+
+{"id":"205","type":"contests","op":"update","data":{"formal_name":"test2","penalty_time":20,"start_time":"2021-07-07T20:12:01+02:00","end_time":"2021-07-09T20:12:01+02:00","duration":"48:00:00.000","scoreboard_freeze_duration":"24:00:00.000","id":"4","external_id":null,"name":"test2","shortname":"test2"},"time":"2021-07-07T20:26:02.683+02:00"}
+{"id":"206","type":"state","op":"update","data":{"started":"2021-07-07T20:12:01.000+02:00","ended":null,"frozen":"2021-07-07T20:26:10.000+02:00","thawed":null,"finalized":null,"end_of_updates":null},"time":"2021-07-07T20:26:10.695+02:00"}
+{"id":"207","type":"contests","op":"update","data":{"formal_name":"test2","penalty_time":20,"start_time":"2021-07-07T20:12:01+02:00","end_time":"2021-07-09T20:12:01+02:00","duration":"48:00:00.000","scoreboard_freeze_duration":"47:45:51.000","id":"4","external_id":null,"name":"test2","shortname":"test2"},"time":"2021-07-07T20:26:10.692+02:00"}
+{"id":"208","type":"state","op":"update","data":{"started":"2021-07-07T20:12:01.000+02:00","ended":"2021-07-07T20:26:11.000+02:00","frozen":"2021-07-07T20:26:10.000+02:00","thawed":null,"finalized":null,"end_of_updates":null},"time":"2021-07-07T20:26:11.482+02:00"}
+{"id":"209","type":"contests","op":"update","data":{"formal_name":"test2","penalty_time":20,"start_time":"2021-07-07T20:12:01+02:00","end_time":"2021-07-07T20:26:11+02:00","duration":"0:14:10.000","scoreboard_freeze_duration":"0:00:01.000","id":"4","external_id":null,"name":"test2","shortname":"test2"},"time":"2021-07-07T20:26:11.479+02:00"}
+{"id":"210","type":"state","op":"update","data":{"started":"2021-07-07T20:12:01.000+02:00","ended":"2021-07-07T20:26:11.000+02:00","frozen":"2021-07-07T20:26:10.000+02:00","thawed":"2021-07-07T20:26:12.000+02:00","finalized":null,"end_of_updates":null},"time":"2021-07-07T20:26:12.256+02:00"}
+{"id":"211","type":"contests","op":"update","data":{"formal_name":"test2","penalty_time":20,"start_time":"2021-07-07T20:12:01+02:00","end_time":"2021-07-07T20:26:11+02:00","duration":"0:14:10.000","scoreboard_freeze_duration":"0:00:01.000","id":"4","external_id":null,"name":"test2","shortname":"test2"},"time":"2021-07-07T20:26:12.254+02:00"}
+{"id":"212","type":"state","op":"update","data":{"started":"2021-07-07T20:12:01.000+02:00","ended":"2021-07-07T20:26:11.000+02:00","frozen":"2021-07-07T20:26:10.000+02:00","thawed":"2021-07-07T20:26:12.000+02:00","finalized":"2021-07-07T20:26:15.436+02:00","end_of_updates":null},"time":"2021-07-07T20:26:15.732+02:00"}
+{"id":"213","type":"state","op":"update","data":{"started":"2021-07-07T20:12:01.000+02:00","ended":"2021-07-07T20:26:11.000+02:00","frozen":"2021-07-07T20:26:10.000+02:00","thawed":"2021-07-07T20:26:12.000+02:00","finalized":"2021-07-07T20:26:15.436+02:00","end_of_updates":"2021-07-07T20:26:15.436+02:00"},"time":"2021-07-07T20:26:15.735+02:00"}
+
+
+
+
+
+
+
+
+!Connection closed normally after event 213

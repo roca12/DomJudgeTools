@@ -1,0 +1,19 @@
+********************************************************************************
+product = Open Liberty 21.0.0.1 (wlp-1.0.48.cl210120210113-1459)
+wlp.install.dir = C:/Users/diego/Documents/DomJudge/wlp/
+java.home = C:\Program Files\Java\jdk-12.0.2
+java.version = 12.0.2
+java.runtime = Java(TM) SE Runtime Environment (12.0.2+10)
+os = Windows 10 (10.0; amd64) (es_CO)
+process = 6456@ROCA12ULTRA
+********************************************************************************
+[7/07/21, 11:41:25:361 COT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: El servidor defaultServer se ha lanzado.
+[7/07/21, 11:41:27:204 COT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: El kernel se ha iniciado después de 6,681 segundos
+[7/07/21, 11:41:27:307 COT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: La actualización de características se ha iniciado.
+[7/07/21, 11:41:27:336 COT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            E CWWKF0001E: No se ha podido encontrar una definición de característica para webprofile-8.0
+[7/07/21, 11:41:27:407 COT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: La actualización de características se ha completado en 0,208 segundos.
+[7/07/21, 11:41:27:408 COT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: El servidor defaultServer está preparado para ejecutar un planeta más inteligente. El servidor defaultServer se ha iniciado en 6,888 segundos.
+[7/07/21, 11:50:06:464 COT] 00000012 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Conclusión del servidor solicitada el miércoles, 7 de julio de 2021 a las 11:50 a. m.. El servidor defaultServer se está cerrando.
+[7/07/21, 11:50:06:468 COT] 00000033 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Esperando hasta 30 segundos para que el servidor se desactive temporalmente.
+[7/07/21, 11:50:06:473 COT] 00000033 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: La desactivación temporal del servidor ha finalizado.
+[7/07/21, 11:50:06:550 COT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: El servidor defaultServer se ha detenido después de 8 minutos, 46,029 segundos.

@@ -1,0 +1,48 @@
+! 0
+{"type":"contests","id":"cd@0","op":"create","data":{"id":"4","name":"test2","formal_name":"test2","start_time":"2021-07-07T13:12:01.000-05","duration":"48:00:00.000","scoreboard_freeze_duration":"24:00:00.000","penalty_time":20}}
+{"type":"judgement-types","id":"cd@1","op":"create","data":{"id":"AC","name":"correct","penalty":false,"solved":true}}
+{"type":"judgement-types","id":"cd@2","op":"create","data":{"id":"CE","name":"compiler error","penalty":true,"solved":false}}
+{"type":"judgement-types","id":"cd@3","op":"create","data":{"id":"MLE","name":"memory limit","penalty":true,"solved":false}}
+{"type":"judgement-types","id":"cd@4","op":"create","data":{"id":"NO","name":"no output","penalty":true,"solved":false}}
+{"type":"judgement-types","id":"cd@5","op":"create","data":{"id":"OLE","name":"output limit","penalty":true,"solved":false}}
+{"type":"judgement-types","id":"cd@6","op":"create","data":{"id":"PE","name":"presentation error","penalty":true,"solved":false}}
+{"type":"judgement-types","id":"cd@7","op":"create","data":{"id":"RTE","name":"run error","penalty":true,"solved":false}}
+{"type":"judgement-types","id":"cd@8","op":"create","data":{"id":"TLE","name":"timelimit","penalty":true,"solved":false}}
+{"type":"judgement-types","id":"cd@9","op":"create","data":{"id":"WA","name":"wrong answer","penalty":true,"solved":false}}
+{"type":"languages","id":"cd@10","op":"create","data":{"id":"c","name":"C"}}
+{"type":"languages","id":"cd@11","op":"create","data":{"id":"cpp","name":"C++"}}
+{"type":"languages","id":"cd@12","op":"create","data":{"id":"csharp","name":"C#"}}
+{"type":"languages","id":"cd@13","op":"create","data":{"id":"java","name":"Java"}}
+{"type":"languages","id":"cd@14","op":"create","data":{"id":"pl","name":"Perl"}}
+{"type":"languages","id":"cd@15","op":"create","data":{"id":"python3","name":"Python 3"}}
+{"type":"languages","id":"cd@16","op":"create","data":{"id":"sh","name":"POSIX shell"}}
+{"type":"groups","id":"cd@17","op":"create","data":{"id":"2","icpc_id":"2","name":"Self-Registered"}}
+{"type":"groups","id":"cd@18","op":"create","data":{"id":"3","icpc_id":"3","name":"Participants"}}
+{"type":"groups","id":"cd@19","op":"create","data":{"id":"4","icpc_id":"4","name":"Observers"}}
+{"type":"organizations","id":"cd@20","op":"create","data":{"id":"3","icpc_id":"3","name":"UECCI","formal_name":"GPC - UNIECCI","country":"COL"}}
+{"type":"teams","id":"cd@21","op":"create","data":{"id":"2","name":"Example teamname","group_ids":["3"]}}
+{"type":"teams","id":"cd@22","op":"create","data":{"id":"3","name":"ARTEMISA","group_ids":["3"],"organization_id":"3"}}
+{"type":"state","id":"cd@23","op":"create","data":{"started":"2021-07-07T13:12:01.000-05","ended":null,"finalized":null,"end_of_updates":null}}
+{"type":"problems","id":"cd@24","op":"create","data":{"id":"3","label":"Boolean","name":"Boolean switch search","ordinal":0,"color":"crimson","rgb":"#ff0055","test_data_count":1,"time_limit":5}}
+{"type":"problems","id":"cd@25","op":"create","data":{"id":"2","label":"Float","name":"Float special compare test","ordinal":1,"color":"lime","rgb":"#00ff00","test_data_count":3,"time_limit":5}}
+{"type":"problems","id":"cd@26","op":"create","data":{"id":"1","label":"Hello","name":"Hello World","ordinal":2,"color":"greenyellow","rgb":"#ebff36","test_data_count":1,"time_limit":5}}
+{"type":"submissions","id":"cd@27","op":"create","data":{"id":"5","problem_id":"1","team_id":"2","language_id":"python3","files":[{"href":"contests/4/submissions/5/files","mime":"application/zip"}],"contest_time":"0:09:56.056","time":"2021-07-07T13:21:57.056-05"}}
+{"type":"judgements","id":"cd@28","op":"create","data":{"id":"6","submission_id":"5","judgement_type_id":null,"start_contest_time":"0:09:56.828","start_time":"2021-07-07T13:21:57.828-05","end_contest_time":null,"end_time":null}}
+{"type":"submissions","id":"cd@29","op":"update","data":{"id":"5","problem_id":"1","team_id":"2","language_id":"python3","entry_point":"","files":[{"href":"contests/4/submissions/5/files","mime":"application/zip"}],"contest_time":"0:09:56.056","time":"2021-07-07T13:21:57.056-05"}}
+{"type":"judgements","id":"cd@30","op":"update","data":{"id":"6","submission_id":"5","judgement_type_id":"AC","max_run_time":0.038,"start_contest_time":"0:09:56.828","start_time":"2021-07-07T13:21:57.828-05","end_contest_time":"0:09:59.658","end_time":"2021-07-07T13:22:00.658-05"}}
+{"type":"languages","id":"cd@31","op":"create","data":{"id":"ruby","name":"Ruby"}}
+{"type":"languages","id":"cd@32","op":"create","data":{"id":"kotlin","name":"Kotlin"}}
+
+{"type":"state","id":"cd@33","op":"update","data":{"started":"2021-07-07T13:12:01.000-05","ended":null,"frozen":"2021-07-07T13:26:10.000-05","finalized":null,"end_of_updates":null}}
+{"type":"contests","id":"cd@34","op":"update","data":{"id":"4","name":"test2","formal_name":"test2","start_time":"2021-07-07T13:12:01.000-05","duration":"48:00:00.000","scoreboard_freeze_duration":"47:45:51.000","penalty_time":20}}
+{"type":"state","id":"cd@35","op":"update","data":{"started":"2021-07-07T13:12:01.000-05","ended":"2021-07-07T13:26:11.000-05","frozen":"2021-07-07T13:26:10.000-05","finalized":null,"end_of_updates":null}}
+{"type":"contests","id":"cd@36","op":"update","data":{"id":"4","name":"test2","formal_name":"test2","start_time":"2021-07-07T13:12:01.000-05","duration":"0:14:10.000","scoreboard_freeze_duration":"0:00:01.000","penalty_time":20}}
+{"type":"state","id":"cd@37","op":"update","data":{"started":"2021-07-07T13:12:01.000-05","ended":"2021-07-07T13:26:11.000-05","frozen":"2021-07-07T13:26:10.000-05","thawed":"2021-07-07T13:26:12.000-05","finalized":null,"end_of_updates":null}}
+{"type":"state","id":"cd@38","op":"update","data":{"started":"2021-07-07T13:12:01.000-05","ended":"2021-07-07T13:26:11.000-05","frozen":"2021-07-07T13:26:10.000-05","thawed":"2021-07-07T13:26:12.000-05","finalized":"2021-07-07T13:26:15.436-05","end_of_updates":null}}
+{"type":"state","id":"cd@39","op":"update","data":{"started":"2021-07-07T13:12:01.000-05","ended":"2021-07-07T13:26:11.000-05","frozen":"2021-07-07T13:26:10.000-05","thawed":"2021-07-07T13:26:12.000-05","finalized":"2021-07-07T13:26:15.436-05","end_of_updates":"2021-07-07T13:26:15.436-05"}}
+
+!Connection closed normally after event cd@39
+
+!Connecting at event cd@39
+
+!Connection closed normally after event cd@39

@@ -1,0 +1,1 @@
+./standalone.bat http://192.168.0.4/domjudge/api/contests/1 score score --p  20 21 22 25 26 28
