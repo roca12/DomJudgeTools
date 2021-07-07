@@ -1,6 +1,7 @@
 
  Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
 ------+------+---------------------------+---------------------------+---------------------------
-     0      1   7/07/21, 12:34:35:795 COT   7/07/21, 12:34:35:795 COT javax.servlet.ServletException com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter 144
+     0      4   7/07/21, 12:34:35:795 COT   7/07/21, 12:34:49:992 COT javax.servlet.ServletException com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter 144
                                                                             - C:\Users\diego\Documents\DomJudge\CDS server\usr\servers\cds\logs\ffdc\ffdc_21.07.07_12.34.35.0.log
+                                                                            - C:\Users\diego\Documents\DomJudge\CDS server\usr\servers\cds\logs\ffdc\ffdc_21.07.07_12.34.35.1.log
 ------+------+---------------------------+---------------------------+---------------------------

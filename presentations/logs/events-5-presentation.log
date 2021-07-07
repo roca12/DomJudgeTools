@@ -40,3 +40,31 @@
 
 
 
+
+!Connecting at event cdR35
+
+
+
+
+
+
+!Connecting at event cdR35
+
+
+!Connecting at event cdR35
+
+
+!Connecting at event cdR35
+
+{"type":"submissions","id":"cdR36","op":"create","data":{"id":"8","problem_id":"3","team_id":"2","language_id":"python3","files":[{"href":"contests/5/submissions/8/files","mime":"application/zip"}],"contest_time":"0:51:42.200","time":"2021-07-07T14:23:47.200-05"}}
+{"type":"judgements","id":"cdR37","op":"create","data":{"id":"9","submission_id":"8","judgement_type_id":null,"start_contest_time":"0:51:44.047","start_time":"2021-07-07T14:23:49.047-05","end_contest_time":null,"end_time":null}}
+{"type":"submissions","id":"cdR38","op":"update","data":{"id":"8","problem_id":"3","team_id":"2","language_id":"python3","entry_point":"","files":[{"href":"contests/5/submissions/8/files","mime":"application/zip"}],"contest_time":"0:51:42.200","time":"2021-07-07T14:23:47.200-05"}}
+{"type":"judgements","id":"cdR39","op":"update","data":{"id":"9","submission_id":"8","judgement_type_id":"WA","max_run_time":0.012,"start_contest_time":"0:51:44.047","start_time":"2021-07-07T14:23:49.047-05","end_contest_time":"0:51:47.193","end_time":"2021-07-07T14:23:52.193-05"}}
+{"type":"submissions","id":"cdR40","op":"create","data":{"id":"9","problem_id":"1","team_id":"2","language_id":"python3","files":[{"href":"contests/5/submissions/9/files","mime":"application/zip"}],"contest_time":"0:52:03.356","time":"2021-07-07T14:24:08.356-05"}}
+{"type":"judgements","id":"cdR41","op":"create","data":{"id":"10","submission_id":"9","judgement_type_id":null,"start_contest_time":"0:52:08.113","start_time":"2021-07-07T14:24:13.113-05","end_contest_time":null,"end_time":null}}
+{"type":"submissions","id":"cdR42","op":"update","data":{"id":"9","problem_id":"1","team_id":"2","language_id":"python3","entry_point":"","files":[{"href":"contests/5/submissions/9/files","mime":"application/zip"}],"contest_time":"0:52:03.356","time":"2021-07-07T14:24:08.356-05"}}
+{"type":"judgements","id":"cdR43","op":"update","data":{"id":"10","submission_id":"9","judgement_type_id":"AC","max_run_time":0.021,"start_contest_time":"0:52:08.113","start_time":"2021-07-07T14:24:13.113-05","end_contest_time":"0:52:09.432","end_time":"2021-07-07T14:24:14.432-05"}}
+{"type":"submissions","id":"cdR44","op":"create","data":{"id":"10","problem_id":"2","team_id":"2","language_id":"python3","files":[{"href":"contests/5/submissions/10/files","mime":"application/zip"}],"contest_time":"0:52:30.065","time":"2021-07-07T14:24:35.065-05"}}
+{"type":"judgements","id":"cdR45","op":"create","data":{"id":"11","submission_id":"10","judgement_type_id":null,"start_contest_time":"0:52:30.462","start_time":"2021-07-07T14:24:35.462-05","end_contest_time":null,"end_time":null}}
+{"type":"submissions","id":"cdR46","op":"update","data":{"id":"10","problem_id":"2","team_id":"2","language_id":"python3","entry_point":"","files":[{"href":"contests/5/submissions/10/files","mime":"application/zip"}],"contest_time":"0:52:30.065","time":"2021-07-07T14:24:35.065-05"}}
+{"type":"judgements","id":"cdR47","op":"update","data":{"id":"11","submission_id":"10","judgement_type_id":"WA","max_run_time":0.015,"start_contest_time":"0:52:30.462","start_time":"2021-07-07T14:24:35.462-05","end_contest_time":"0:52:32.482","end_time":"2021-07-07T14:24:37.482-05"}}

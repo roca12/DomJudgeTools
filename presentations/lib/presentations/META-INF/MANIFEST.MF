@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.10.5
+Created-By: 1.8.0_275-b01 (Oracle Corporation)
+Specification-Version: 2.3
+Implementation-Title: ICPC Presentation Client
+Implementation-Version: 491
+Built-On: Monday, March 29 2021 17:12 UTC
+Built-On-Date: 20210329
+Main-Class: org.icpc.tools.presentation.contest.internal.CDSPresentati
+ onClient
+Class-Path: contestModel.jar presentCore.jar
+
