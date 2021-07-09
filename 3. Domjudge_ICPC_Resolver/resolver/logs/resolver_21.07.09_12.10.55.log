@@ -1,0 +1,25 @@
+---- ICPC Resolver (2.3.491) ----
+OS:  Windows 10 (amd64/10.0)
+JRE: Oracle Corporation (12.0.2)
+Folder: C:\Users\diego\Documents\DomJudge\resolver
+Host: ROCA12ULTRA / 192.168.0.3
+Locale/TZ: es_CO / hora estándar de Colombia
+Args: https://192.168.0.3:8443/api/contests/5 admin adm1n --side 
+Log started 2021.07.09 12:10.55
+
+2021.07.09 12:10.55 I Option found: --side 
+2021.07.09 12:10.57 I Contest source verified
+2021.07.09 12:10.57 I Loading from RESTContestSource[admin|adm1n@https://192.168.0.3:8443/api/contests/5]
+2021.07.09 12:10.57 I Contest source verified
+2021.07.09 12:10.57 I Loading contest from RESTContestSource[admin|adm1n@https://192.168.0.3:8443/api/contests/5]
+2021.07.09 12:10.57 I Checking feed cache: C:\Users\diego\Documents\DomJudge\resolver\logs\events-5-admin.log
+2021.07.09 12:10.57 I First comment: ! 0
+2021.07.09 12:10.57 I Found feed cache up to event id: cdC65
+2021.07.09 12:10.58 I Reading feed cache
+2021.07.09 12:10.58 I Done reading feed cache
+2021.07.09 12:10.58 I Contest loaded
+2021.07.09 12:10.58 I Checking for predetermined steps
+2021.07.09 12:10.58 I Download https://192.168.0.3:8443/api/resolver.tsv to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\resolver.tsv (200) (9.9kb in 93ms)
+2021.07.09 12:10.58 I Predetermined steps found in C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\resolver.tsv
+2021.07.09 12:10.58 I Initializing resolver...
+2021.07.09 12:10.58 Generating awards

@@ -1,0 +1,10 @@
+---- ICPC Presentation Admin (2.3.491) ----
+OS:  Windows 10 (amd64/10.0)
+JRE: Oracle Corporation (12.0.2)
+Folder: C:\Users\diego\Documents\DomJudge\presentationAdmin
+Host: ROCA12ULTRA / 192.168.0.3
+Locale/TZ: es_CO / hora estándar de Colombia
+Args: https://192.168.0.3:8443/api/contests/5 presAdmin padm1n 
+Log started 2021.07.09 11:08.18
+
+2021.07.09 11:08.20 E URL should not contain a path

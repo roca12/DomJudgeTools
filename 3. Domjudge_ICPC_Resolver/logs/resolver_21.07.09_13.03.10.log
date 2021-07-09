@@ -1,0 +1,332 @@
+---- ICPC Resolver (2.3.491) ----
+OS:  Windows 10 (amd64/10.0)
+JRE: Oracle Corporation (12.0.2)
+Folder: C:\Users\diego\Documents\DomJudge\icpc-resolver-from-domjudge-master
+Host: ROCA12ULTRA / 192.168.0.3
+Locale/TZ: es_CO / hora estándar de Colombia
+Args: events.xml 
+Log started 2021.07.09 13:03.10
+
+2021.07.09 13:03.10 I Contest source verified
+2021.07.09 13:03.10 I Loading from FileContestSource[events.xml]
+2021.07.09 13:03.10 I Contest source verified
+2021.07.09 13:03.10 I Loading contest from FileContestSource[events.xml]
+2021.07.09 13:03.10 I Contest loaded
+2021.07.09 13:03.10 W Contest is not valid. Run "eventFeed --validate" for details
+2021.07.09 13:03.10 I Checking for predetermined steps
+2021.07.09 13:03.10 I No predetermined steps found
+2021.07.09 13:03.10 I Initializing resolver...
+2021.07.09 13:03.10 I Removing 0 teams and 0 total objects
+2021.07.09 13:03.10 I Removing 0 invalid submissions
+2021.07.09 13:03.10 I Resolving...
+2021.07.09 13:03.10 Resolving 0 pending submissions out of the 5 total submissions in the contest... 
+2021.07.09 13:03.10 I Resolving row: 2
+2021.07.09 13:03.10 I Award at row: 2 4 
+2021.07.09 13:03.10 I Resolving row: 1
+2021.07.09 13:03.10 I Award at row: 1 3 
+2021.07.09 13:03.10 I Resolving row: 0
+2021.07.09 13:03.10 I Award at row: 0 2 
+2021.07.09 13:03.10 Done resolving
+2021.07.09 13:03.10   Playback time: 0m 0s
+2021.07.09 13:03.10   Total pauses: 17
+2021.07.09 13:03.10 I   Contest states: 1
+2021.07.09 13:03.10 I   Total steps: 45
+2021.07.09 13:03.10 I   Time to resolve: 44ms
+2021.07.09 13:03.10 I Resolution steps:
+2021.07.09 13:03.10 I   Change contest state
+2021.07.09 13:03.10 I   Show presentation SPLASH
+2021.07.09 13:03.10 I   Pause 0
+2021.07.09 13:03.10 I   Select team (none)
+2021.07.09 13:03.10 I   Select submission (none)
+2021.07.09 13:03.10 I   Submissions to judge: (none)
+2021.07.09 13:03.10 I   Scroll to row 0
+2021.07.09 13:03.10 I   Show presentation SCOREBOARD
+2021.07.09 13:03.10 I   Pause 1
+2021.07.09 13:03.10 I   Scroll to row 0
+2021.07.09 13:03.10 I   Pause 2
+2021.07.09 13:03.10 I   Select team 4: NMA
+2021.07.09 13:03.10 I   Pause 3
+2021.07.09 13:03.10 I   Scroll to row 0
+2021.07.09 13:03.10 I   Select team 4: NMA
+2021.07.09 13:03.10 I   Pause 4
+2021.07.09 13:03.10 I   Select team 4: NMA HIGHLIGHT
+2021.07.09 13:03.10 I   Pause 5
+2021.07.09 13:03.10 I   Show presentation TEAM_AWARD
+2021.07.09 13:03.10 I   Award (2nd Place)
+2021.07.09 13:03.10 I   Pause 6
+2021.07.09 13:03.10 I   Show presentation SCOREBOARD
+2021.07.09 13:03.10 I   Pause 7
+2021.07.09 13:03.10 I   Scroll to row 0
+2021.07.09 13:03.10 I   Select team 3: ARTEMISA
+2021.07.09 13:03.10 I   Pause 8
+2021.07.09 13:03.10 I   Select team 3: ARTEMISA HIGHLIGHT
+2021.07.09 13:03.10 I   Pause 9
+2021.07.09 13:03.10 I   Show presentation TEAM_AWARD
+2021.07.09 13:03.10 I   Award (2nd Place)
+2021.07.09 13:03.10 I   Pause 10
+2021.07.09 13:03.10 I   Show presentation SCOREBOARD
+2021.07.09 13:03.10 I   Pause 11
+2021.07.09 13:03.10 I   Scroll to row 0
+2021.07.09 13:03.10 I   Select team 2: Example teamname
+2021.07.09 13:03.10 I   Pause 12
+2021.07.09 13:03.10 I   Select team 2: Example teamname FTS_HIGHLIGHT
+2021.07.09 13:03.10 I   Pause 13
+2021.07.09 13:03.10 I   Show presentation TEAM_AWARD
+2021.07.09 13:03.10 I   Awards (First to solve problem C, 1st Place, First WA)
+2021.07.09 13:03.10 I   Pause 14
+2021.07.09 13:03.10 I   Show presentation SCOREBOARD
+2021.07.09 13:03.10 I   Pause 15
+2021.07.09 13:03.10 I   Select team (none)
+2021.07.09 13:03.10 I   Pause 16
+2021.07.09 13:03.10 I Resolution steps:
+2021.07.09 13:03.10 I   Change contest state
+2021.07.09 13:03.10 I   Show presentation SPLASH
+2021.07.09 13:03.10 I   Pause 0
+2021.07.09 13:03.10 I   Select team (none)
+2021.07.09 13:03.10 I   Select submission (none)
+2021.07.09 13:03.10 I   Submissions to judge: (none)
+2021.07.09 13:03.10 I   Scroll to row 0
+2021.07.09 13:03.10 I   Show presentation SCOREBOARD
+2021.07.09 13:03.10 I   Pause 1
+2021.07.09 13:03.10 I   Scroll to row 0
+2021.07.09 13:03.10 I   Pause 2
+2021.07.09 13:03.10 I   Select team 4: NMA
+2021.07.09 13:03.10 I   Pause 3
+2021.07.09 13:03.10 I   Scroll to row 0
+2021.07.09 13:03.10 I   Select team 4: NMA
+2021.07.09 13:03.10 I   Pause 4
+2021.07.09 13:03.10 I   Select team 4: NMA HIGHLIGHT
+2021.07.09 13:03.10 I   Pause 5
+2021.07.09 13:03.10 I   Show presentation TEAM_AWARD
+2021.07.09 13:03.10 I   Award (2nd Place)
+2021.07.09 13:03.10 I   Pause 6
+2021.07.09 13:03.10 I   Show presentation SCOREBOARD
+2021.07.09 13:03.10 I   Pause 7
+2021.07.09 13:03.10 I   Scroll to row 0
+2021.07.09 13:03.10 I   Select team 3: ARTEMISA
+2021.07.09 13:03.10 I   Pause 8
+2021.07.09 13:03.10 I   Select team 3: ARTEMISA HIGHLIGHT
+2021.07.09 13:03.10 I   Pause 9
+2021.07.09 13:03.10 I   Show presentation TEAM_AWARD
+2021.07.09 13:03.10 I   Award (2nd Place)
+2021.07.09 13:03.10 I   Pause 10
+2021.07.09 13:03.10 I   Show presentation SCOREBOARD
+2021.07.09 13:03.10 I   Pause 11
+2021.07.09 13:03.10 I   Scroll to row 0
+2021.07.09 13:03.10 I   Select team 2: Example teamname
+2021.07.09 13:03.10 I   Pause 12
+2021.07.09 13:03.10 I   Select team 2: Example teamname FTS_HIGHLIGHT
+2021.07.09 13:03.10 I   Pause 13
+2021.07.09 13:03.10 I   Show presentation TEAM_AWARD
+2021.07.09 13:03.10 I   Awards (First to solve problem C, 1st Place, First WA)
+2021.07.09 13:03.10 I   Pause 14
+2021.07.09 13:03.10 I   Show presentation SCOREBOARD
+2021.07.09 13:03.10 I   Pause 15
+2021.07.09 13:03.10 I   Select team (none)
+2021.07.09 13:03.10 I   Pause 16
+2021.07.09 13:03.11 I Display 1 found, modes:
+2021.07.09 13:03.11 I    1366x768 @ 60hz in 32bit
+2021.07.09 13:03.11 I    1280x720 @ 60hz in 32bit
+2021.07.09 13:03.11 I    1024x768 @ 60hz in 32bit
+2021.07.09 13:03.11 I    800x600 @ 60hz in 32bit
+2021.07.09 13:03.11 I    640x480 @ 60hz in 32bit
+2021.07.09 13:03.11 I    Config: false, true, true, DirectColorModel
+2021.07.09 13:03.11 I Display 2 found, modes:
+2021.07.09 13:03.11 I    1920x1080 @ 75hz in 32bit
+2021.07.09 13:03.11 I    1920x1080 @ 60hz in 32bit
+2021.07.09 13:03.11 I    1920x1080 @ 59hz in 32bit
+2021.07.09 13:03.11 I    1920x1080 @ 50hz in 32bit
+2021.07.09 13:03.11 I    1680x1050 @ 75hz in 32bit
+2021.07.09 13:03.11 I    1680x1050 @ 60hz in 32bit
+2021.07.09 13:03.11 I    1600x900 @ 75hz in 32bit
+2021.07.09 13:03.11 I    1600x900 @ 60hz in 32bit
+2021.07.09 13:03.11 I    1440x900 @ 75hz in 32bit
+2021.07.09 13:03.11 I    1440x900 @ 60hz in 32bit
+2021.07.09 13:03.11 I    1366x768 @ 75hz in 32bit
+2021.07.09 13:03.11 I    1366x768 @ 60hz in 32bit
+2021.07.09 13:03.11 I    1280x1024 @ 75hz in 32bit
+2021.07.09 13:03.11 I    1280x1024 @ 60hz in 32bit
+2021.07.09 13:03.11 I    1280x800 @ 75hz in 32bit
+2021.07.09 13:03.11 I    1280x800 @ 60hz in 32bit
+2021.07.09 13:03.11 I    1280x720 @ 75hz in 32bit
+2021.07.09 13:03.11 I    1280x720 @ 60hz in 32bit
+2021.07.09 13:03.11 I    1280x720 @ 59hz in 32bit
+2021.07.09 13:03.11 I    1280x720 @ 50hz in 32bit
+2021.07.09 13:03.11 I    1024x768 @ 75hz in 32bit
+2021.07.09 13:03.11 I    1024x768 @ 60hz in 32bit
+2021.07.09 13:03.11 I    800x600 @ 75hz in 32bit
+2021.07.09 13:03.11 I    800x600 @ 60hz in 32bit
+2021.07.09 13:03.11 I    720x576 @ 75hz in 32bit
+2021.07.09 13:03.11 I    720x576 @ 60hz in 32bit
+2021.07.09 13:03.11 I    720x576 @ 59hz in 32bit
+2021.07.09 13:03.11 I    720x576 @ 50hz in 32bit
+2021.07.09 13:03.11 I    720x480 @ 75hz in 32bit
+2021.07.09 13:03.11 I    720x480 @ 60hz in 32bit
+2021.07.09 13:03.11 I    720x480 @ 59hz in 32bit
+2021.07.09 13:03.11 I    720x400 @ 75hz in 32bit
+2021.07.09 13:03.11 I    720x400 @ 70hz in 32bit
+2021.07.09 13:03.11 I    720x400 @ 60hz in 32bit
+2021.07.09 13:03.11 I    720x400 @ 59hz in 32bit
+2021.07.09 13:03.11 I    640x480 @ 75hz in 32bit
+2021.07.09 13:03.11 I    640x480 @ 60hz in 32bit
+2021.07.09 13:03.11 I    640x480 @ 59hz in 32bit
+2021.07.09 13:03.11 I    Config: false, true, true, DirectColorModel
+2021.07.09 13:03.11 I Applying display config DisplayConfig 1 (r=java.awt.Rectangle[x=1920,y=313,width=1366,height=768],in=java.awt.Insets[top=0,left=0,bottom=40,right=0])
+2021.07.09 13:03.11 I **Action: FORWARD from -1**
+2021.07.09 13:03.11 I Resolving to: 0 / true
+2021.07.09 13:03.11 I Step 0 <  Change contest state
+2021.07.09 13:03.11 I Step 1 <  Show presentation SPLASH
+2021.07.09 13:03.11 I New presentation plan in 0ms
+2021.07.09 13:03.11 I Initializing presentation SplashPresentation
+2021.07.09 13:03.11 I Building presentation plan
+2021.07.09 13:03.11 I Building presentation plan
+2021.07.09 13:03.11 I Next presentation plan: Presentation plan 1625853791716 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, SplashPresentation > null > null, 0]
+2021.07.09 13:03.11 I **Paused at -1**
+2021.07.09 13:03.11 I Switching presentation plans: null -> Presentation plan 1625853791716 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, SplashPresentation > null > null, 0]
+2021.07.09 13:03.32 I **Action: FORWARD from 0**
+2021.07.09 13:03.32 I Resolving to: 1 / true
+2021.07.09 13:03.32 I Step 3 <  Select team (none)
+2021.07.09 13:03.32 I Step 4 <  Select submission (none)
+2021.07.09 13:03.32 I Step 5 <  Submissions to judge: (none)
+2021.07.09 13:03.32 I Step 6 <  Scroll to row 0
+2021.07.09 13:03.32 I Step 7 <  Show presentation SCOREBOARD
+2021.07.09 13:03.32 I New presentation plan in 0ms
+2021.07.09 13:03.32 I Initializing presentation 
+2021.07.09 13:03.32 I Building presentation plan
+2021.07.09 13:03.32 I Building presentation plan
+2021.07.09 13:03.32 I Next presentation plan: Presentation plan 1625853812901 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.07.09 13:03.32 I **Paused at 0**
+2021.07.09 13:03.32 I Ending presentation plan: null
+2021.07.09 13:03.32 I Switching presentation plans: null -> Presentation plan 1625853812901 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.07.09 13:03.42 I **Action: FORWARD from 1**
+2021.07.09 13:03.42 I Resolving to: 2 / true
+2021.07.09 13:03.42 I Step 9 <  Scroll to row 0
+2021.07.09 13:03.42 I **Paused at 1**
+2021.07.09 13:03.44 I **Action: FORWARD from 2**
+2021.07.09 13:03.44 I Resolving to: 3 / true
+2021.07.09 13:03.44 I Step 11 <  Select team 4: NMA
+2021.07.09 13:03.44 I **Paused at 2**
+2021.07.09 13:03.46 I **Action: FORWARD from 3**
+2021.07.09 13:03.46 I Resolving to: 4 / true
+2021.07.09 13:03.46 I Step 13 <  Scroll to row 0
+2021.07.09 13:03.46 I Step 14 <  Select team 4: NMA
+2021.07.09 13:03.46 I **Paused at 3**
+2021.07.09 13:03.47 I **Action: FORWARD from 4**
+2021.07.09 13:03.47 I Resolving to: 5 / true
+2021.07.09 13:03.47 I Step 16 <  Select team 4: NMA HIGHLIGHT
+2021.07.09 13:03.47 I **Paused at 4**
+2021.07.09 13:03.48 I **Action: FORWARD from 5**
+2021.07.09 13:03.48 I Resolving to: 6 / true
+2021.07.09 13:03.48 I Step 18 <  Show presentation TEAM_AWARD
+2021.07.09 13:03.48 I New presentation plan in 0ms
+2021.07.09 13:03.48 I Initializing presentation 
+2021.07.09 13:03.48 I Building presentation plan
+2021.07.09 13:03.48 I Building presentation plan
+2021.07.09 13:03.48 I Next presentation plan: Presentation plan 1625853828844 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.07.09 13:03.48 I Step 19 <  Award (2nd Place)
+2021.07.09 13:03.48 I **Paused at 5**
+2021.07.09 13:03.48 I Ending presentation plan: null
+2021.07.09 13:03.48 I Switching presentation plans: null -> Presentation plan 1625853828844 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.07.09 13:03.50 I **Action: FORWARD from 6**
+2021.07.09 13:03.50 I Resolving to: 7 / true
+2021.07.09 13:03.50 I Step 21 <  Show presentation SCOREBOARD
+2021.07.09 13:03.50 I New presentation plan in 0ms
+2021.07.09 13:03.50 I Initializing presentation 
+2021.07.09 13:03.50 I Building presentation plan
+2021.07.09 13:03.50 I Building presentation plan
+2021.07.09 13:03.50 I Next presentation plan: Presentation plan 1625853830564 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.07.09 13:03.50 I **Paused at 6**
+2021.07.09 13:03.50 I Ending presentation plan: null
+2021.07.09 13:03.50 I Switching presentation plans: null -> Presentation plan 1625853830564 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.07.09 13:03.52 I **Action: FORWARD from 7**
+2021.07.09 13:03.52 I Resolving to: 8 / true
+2021.07.09 13:03.52 I Step 23 <  Scroll to row 0
+2021.07.09 13:03.52 I Step 24 <  Select team 3: ARTEMISA
+2021.07.09 13:03.52 I **Paused at 7**
+2021.07.09 13:03.59 I **Action: FORWARD from 8**
+2021.07.09 13:03.59 I Resolving to: 9 / true
+2021.07.09 13:03.59 I Step 26 <  Select team 3: ARTEMISA HIGHLIGHT
+2021.07.09 13:03.59 I **Paused at 8**
+2021.07.09 13:04.00 I **Action: FORWARD from 9**
+2021.07.09 13:04.00 I Resolving to: 10 / true
+2021.07.09 13:04.00 I Step 28 <  Show presentation TEAM_AWARD
+2021.07.09 13:04.00 I New presentation plan in 0ms
+2021.07.09 13:04.00 I Initializing presentation 
+2021.07.09 13:04.00 I Building presentation plan
+2021.07.09 13:04.00 I Building presentation plan
+2021.07.09 13:04.00 I Next presentation plan: Presentation plan 1625853840332 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.07.09 13:04.00 I Step 29 <  Award (2nd Place)
+2021.07.09 13:04.00 I **Paused at 9**
+2021.07.09 13:04.00 I Ending presentation plan: null
+2021.07.09 13:04.00 I Switching presentation plans: null -> Presentation plan 1625853840332 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.07.09 13:04.01 I **Action: FORWARD from 10**
+2021.07.09 13:04.01 I Resolving to: 11 / true
+2021.07.09 13:04.01 I Step 31 <  Show presentation SCOREBOARD
+2021.07.09 13:04.01 I New presentation plan in 0ms
+2021.07.09 13:04.01 I Initializing presentation 
+2021.07.09 13:04.01 I Building presentation plan
+2021.07.09 13:04.01 I Building presentation plan
+2021.07.09 13:04.01 I Next presentation plan: Presentation plan 1625853841046 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.07.09 13:04.01 I **Paused at 10**
+2021.07.09 13:04.01 I Ending presentation plan: null
+2021.07.09 13:04.01 I Switching presentation plans: null -> Presentation plan 1625853841046 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.07.09 13:04.01 I **Action: FORWARD from 11**
+2021.07.09 13:04.01 I Resolving to: 12 / true
+2021.07.09 13:04.01 I Step 33 <  Scroll to row 0
+2021.07.09 13:04.01 I Step 34 <  Select team 2: Example teamname
+2021.07.09 13:04.01 I **Paused at 11**
+2021.07.09 13:04.02 I **Action: FORWARD from 12**
+2021.07.09 13:04.02 I Resolving to: 13 / true
+2021.07.09 13:04.02 I Step 36 <  Select team 2: Example teamname FTS_HIGHLIGHT
+2021.07.09 13:04.02 I **Paused at 12**
+2021.07.09 13:04.03 I **Action: FORWARD from 13**
+2021.07.09 13:04.03 I Resolving to: 14 / true
+2021.07.09 13:04.03 I Step 38 <  Show presentation TEAM_AWARD
+2021.07.09 13:04.03 I New presentation plan in 0ms
+2021.07.09 13:04.03 I Initializing presentation 
+2021.07.09 13:04.03 I Building presentation plan
+2021.07.09 13:04.03 I Building presentation plan
+2021.07.09 13:04.03 I Next presentation plan: Presentation plan 1625853843620 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.07.09 13:04.03 I Step 39 <  Awards (First to solve problem C, 1st Place, First WA)
+2021.07.09 13:04.03 I **Paused at 13**
+2021.07.09 13:04.03 I Ending presentation plan: null
+2021.07.09 13:04.03 I Switching presentation plans: null -> Presentation plan 1625853843620 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.07.09 13:04.04 I **Action: FORWARD from 14**
+2021.07.09 13:04.04 I Resolving to: 15 / true
+2021.07.09 13:04.04 I Step 41 <  Show presentation SCOREBOARD
+2021.07.09 13:04.04 I New presentation plan in 0ms
+2021.07.09 13:04.04 I Initializing presentation 
+2021.07.09 13:04.04 I Building presentation plan
+2021.07.09 13:04.04 I Building presentation plan
+2021.07.09 13:04.04 I Next presentation plan: Presentation plan 1625853844396 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.07.09 13:04.04 I **Paused at 14**
+2021.07.09 13:04.04 I Ending presentation plan: null
+2021.07.09 13:04.04 I Switching presentation plans: null -> Presentation plan 1625853844396 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.07.09 13:04.05 I **Action: FORWARD from 15**
+2021.07.09 13:04.05 I Resolving to: 16 / true
+2021.07.09 13:04.05 I Step 43 <  Select team (none)
+2021.07.09 13:04.05 I **Paused at 15**
+2021.07.09 13:04.05 I **Action: FORWARD from 16**
+2021.07.09 13:04.05 I **Paused at 16**
+2021.07.09 13:04.06 I **Action: FORWARD from 16**
+2021.07.09 13:04.06 I **Paused at 16**
+2021.07.09 13:04.06 I **Action: FORWARD from 16**
+2021.07.09 13:04.06 I **Paused at 16**
+2021.07.09 13:04.07 I **Action: FORWARD from 16**
+2021.07.09 13:04.07 I **Paused at 16**

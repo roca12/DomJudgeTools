@@ -1,0 +1,11 @@
+---- ICPC Presentation Client (2.3.491) ----
+OS:  Windows 10 (amd64/10.0)
+JRE: Oracle Corporation (12.0.2)
+Folder: C:\Users\diego\Documents\DomJudge\presentations
+Host: ROCA12ULTRA / 192.168.0.3
+Locale/TZ: es_CO / hora estándar de Colombia
+Args: https://192.168.0.3:8443/api/contests/5/ presentation presentat1on 
+Log started 2021.07.09 10:58.38
+
+2021.07.09 10:58.40 I Check for /api/contests/ URL failed
+2021.07.09 10:58.40 E Possible Contest API at https://192.168.0.3:8443/api/contests/5/contests/, but no contests found

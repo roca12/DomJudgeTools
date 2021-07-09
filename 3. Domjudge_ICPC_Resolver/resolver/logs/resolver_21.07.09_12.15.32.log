@@ -1,0 +1,28 @@
+---- ICPC Resolver (2.3.491) ----
+OS:  Windows 10 (amd64/10.0)
+JRE: Oracle Corporation (12.0.2)
+Folder: C:\Users\diego\Documents\DomJudge\resolver
+Host: ROCA12ULTRA / 192.168.0.3
+Locale/TZ: es_CO / hora estándar de Colombia
+Args: https://192.168.0.3:8443 admin adm1n --presenter --fast 0.7 --rowDisplayOffset 4 --info 
+Log started 2021.07.09 12:15.32
+
+2021.07.09 12:15.32 I Option found: --presenter 
+2021.07.09 12:15.32 I Option found: --fast 0.7
+2021.07.09 12:15.32 I Option found: --rowdisplayoffset 4
+2021.07.09 12:15.32 I Option found: --info 
+2021.07.09 12:15.34 The URL did not point to a specific contest, but one contest was found.
+2021.07.09 12:15.34 Auto-connecting to: https://192.168.0.3:8443/api/contests/5
+2021.07.09 12:15.34 I Contest source verified
+2021.07.09 12:15.34 I Loading from RESTContestSource[admin|adm1n@https://192.168.0.3:8443/api/contests/5]
+2021.07.09 12:15.34 I Contest source verified
+2021.07.09 12:15.34 I Loading contest from RESTContestSource[admin|adm1n@https://192.168.0.3:8443/api/contests/5]
+2021.07.09 12:15.34 I Reading feed cache
+2021.07.09 12:15.34 I Done reading feed cache
+2021.07.09 12:15.34 I Contest loaded
+2021.07.09 12:15.34 Scoreboard written to C:\Users\diego\Documents\DomJudge\resolver\logs\scoreboard.json
+2021.07.09 12:15.34 I Checking for predetermined steps
+2021.07.09 12:15.34 I Download https://192.168.0.3:8443/api/resolver.tsv to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803\resolver.tsv (200) (9.9kb in 71ms)
+2021.07.09 12:15.34 I Predetermined steps found in C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803\resolver.tsv
+2021.07.09 12:15.34 I Initializing resolver...
+2021.07.09 12:15.35 Generating awards

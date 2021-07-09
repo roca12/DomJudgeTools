@@ -1,4 +1,5 @@
 1. verificar ip del CDS
 2. verificar ip y link de la api de la competencia
-3. cambiar ips en archivo de configuración de la cds, de los clientes y las presentaciones
+3. cambiar ips en archivo de configuración de la cds, de los clientes, las presentaciones, 
+	el administrador de presentaciones y resolver
 4. instalar el bat en los clientes necesarios

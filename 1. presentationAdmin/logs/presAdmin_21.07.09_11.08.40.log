@@ -1,0 +1,31 @@
+---- ICPC Presentation Admin (2.3.491) ----
+OS:  Windows 10 (amd64/10.0)
+JRE: Oracle Corporation (12.0.2)
+Folder: C:\Users\diego\Documents\DomJudge\presentationAdmin
+Host: ROCA12ULTRA / 192.168.0.3
+Locale/TZ: es_CO / hora estándar de Colombia
+Args: https://192.168.0.3:8443 presAdmin padm1n 
+Log started 2021.07.09 11:08.40
+
+2021.07.09 11:08.42 I Download https://192.168.0.3:8443/presentation/ to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803\presentation\listing.dir (200) (8.1kb in 288ms)
+2021.07.09 11:08.43 I Updates found on CDS: 0
+2021.07.09 11:08.44 presAdmin connecting...
+2021.07.09 11:08.46 presAdmin connected
+2021.07.09 11:08.46 I > {"type":"pres_list"}
+2021.07.09 11:08.46 I > {"type":"info","source":"6720a0f7","client.type":"pres-admin","version":"2.3.491","os.name":"Windows 10","os.version":...
+2021.07.09 11:08.47 I < {"type":"clients","clients":[]}
+2021.07.09 11:08.47 I < {"type":"ping"}
+2021.07.09 11:08.47 I > {"type":"ping"}
+2021.07.09 11:08.47 I < {"type":"pres_list","file":"UEsDBBQACAgIADFf51IAAAAAAAAAAAAAAAAaAAAATUVUQS1JTkYvcHJlc2VudGF0aW9ucy54bWzNnOtz2zYSwL/3r8...
+2021.07.09 11:08.47 I Looking for presentations in C:\Users\diego\AppData\Local\Temp\presentAdmin17212204700861961307zip
+2021.07.09 11:08.47 I    Found 65 presentations
+2021.07.09 11:08.48 I    Found 19 transitions
+2021.07.09 11:08.48 I < {"type":"ping"}
+2021.07.09 11:08.48 I > {"type":"ping"}
+2021.07.09 11:08.48 I < {"type":"ping"}
+2021.07.09 11:08.48 I > {"type":"ping"}
+2021.07.09 11:08.49 I < {"type":"ping"}
+2021.07.09 11:08.49 I > {"type":"ping"}
+2021.07.09 11:08.49 I < {"type":"time","time":1625846929479}
+2021.07.09 11:08.49 I Nano time diff: 1625839126121
+2021.07.09 11:08.49 I > {"type":"ping"}

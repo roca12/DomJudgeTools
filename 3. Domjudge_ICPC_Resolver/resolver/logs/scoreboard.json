@@ -1,0 +1,14 @@
+{ "event_id":"cds66",
+  "time":"2021-07-07T14:24:37.482-05",
+  "contest_time":"0:52:32.482",
+  "state": {"started":"2021-07-07T13:32:05.000-05","ended":"2021-07-09T12:04:46.000-05","frozen":"2021-07-08T13:40:00.000-05","thawed":"2021-07-09T12:04:50.000-05","finalized":"2021-07-09T12:04:54.924-05","end_of_updates":"2021-07-09T12:04:54.924-05"},
+  "rows": [
+{"rank":1,"team_id":"2","score":{"num_solved":1,"total_time":0},
+  "problems":[
+   {"problem_id":"3","num_judged":1,"num_pending":0,"solved":false},
+   {"problem_id":"2","num_judged":2,"num_pending":0,"solved":false},
+   {"problem_id":"1","num_judged":1,"num_pending":0,"solved":true,"time":0,"first_to_solve":true}
+  ]},
+{"rank":2,"team_id":"3","score":{"num_solved":0,"total_time":0},
+  "problems":[]}
+]}
