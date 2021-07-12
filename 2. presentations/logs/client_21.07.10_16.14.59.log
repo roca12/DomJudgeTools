@@ -1,0 +1,69 @@
+---- ICPC Presentation Client (2.3.491) ----
+OS:  Windows 10 (amd64/10.0)
+JRE: Oracle Corporation (12.0.2)
+Folder: C:\Users\diego\Documents\DomJudge\2. presentations
+Host: ROCA12ULTRA / 192.168.0.3
+Locale/TZ: es_CO / hora estándar de Colombia
+Args: https://192.168.0.3:8443/api/contests/5/ presentation presentat1on 
+Log started 2021.07.10 16:14.59
+
+2021.07.10 16:15.00 I Contest source verified
+2021.07.10 16:15.01 I Download https://192.168.0.3:8443/presentation/ to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.19216803apicontests5\presentation\listing.dir (200) (7.8kb in 393ms)
+2021.07.10 16:15.01 I Updates found on CDS: 1
+2021.07.10 16:15.01 I Version check: 2.3.491 (local) vs 2.3.491 (remote)
+2021.07.10 16:15.02 I Display 1 found, modes:
+2021.07.10 16:15.02 I    1366x768 @ 60hz in 32bit
+2021.07.10 16:15.02 I    1280x720 @ 60hz in 32bit
+2021.07.10 16:15.02 I    1024x768 @ 60hz in 32bit
+2021.07.10 16:15.02 I    800x600 @ 60hz in 32bit
+2021.07.10 16:15.02 I    640x480 @ 60hz in 32bit
+2021.07.10 16:15.02 I    Config: false, true, true, DirectColorModel
+2021.07.10 16:15.02 I Display 2 found, modes:
+2021.07.10 16:15.02 I    1920x1080 @ 75hz in 32bit
+2021.07.10 16:15.02 I    1920x1080 @ 60hz in 32bit
+2021.07.10 16:15.02 I    1920x1080 @ 59hz in 32bit
+2021.07.10 16:15.02 I    1920x1080 @ 50hz in 32bit
+2021.07.10 16:15.02 I    1680x1050 @ 75hz in 32bit
+2021.07.10 16:15.02 I    1680x1050 @ 60hz in 32bit
+2021.07.10 16:15.02 I    1600x900 @ 75hz in 32bit
+2021.07.10 16:15.02 I    1600x900 @ 60hz in 32bit
+2021.07.10 16:15.02 I    1440x900 @ 75hz in 32bit
+2021.07.10 16:15.02 I    1440x900 @ 60hz in 32bit
+2021.07.10 16:15.02 I    1366x768 @ 75hz in 32bit
+2021.07.10 16:15.02 I    1366x768 @ 60hz in 32bit
+2021.07.10 16:15.02 I    1280x1024 @ 75hz in 32bit
+2021.07.10 16:15.02 I    1280x1024 @ 60hz in 32bit
+2021.07.10 16:15.02 I    1280x800 @ 75hz in 32bit
+2021.07.10 16:15.02 I    1280x800 @ 60hz in 32bit
+2021.07.10 16:15.02 I    1280x720 @ 75hz in 32bit
+2021.07.10 16:15.02 I    1280x720 @ 60hz in 32bit
+2021.07.10 16:15.02 I    1280x720 @ 59hz in 32bit
+2021.07.10 16:15.02 I    1280x720 @ 50hz in 32bit
+2021.07.10 16:15.02 I    1024x768 @ 75hz in 32bit
+2021.07.10 16:15.02 I    1024x768 @ 60hz in 32bit
+2021.07.10 16:15.02 I    800x600 @ 75hz in 32bit
+2021.07.10 16:15.02 I    800x600 @ 60hz in 32bit
+2021.07.10 16:15.02 I    720x576 @ 75hz in 32bit
+2021.07.10 16:15.02 I    720x576 @ 60hz in 32bit
+2021.07.10 16:15.02 I    720x576 @ 59hz in 32bit
+2021.07.10 16:15.02 I    720x576 @ 50hz in 32bit
+2021.07.10 16:15.02 I    720x480 @ 75hz in 32bit
+2021.07.10 16:15.02 I    720x480 @ 60hz in 32bit
+2021.07.10 16:15.02 I    720x480 @ 59hz in 32bit
+2021.07.10 16:15.02 I    720x400 @ 75hz in 32bit
+2021.07.10 16:15.02 I    720x400 @ 70hz in 32bit
+2021.07.10 16:15.02 I    720x400 @ 60hz in 32bit
+2021.07.10 16:15.02 I    720x400 @ 59hz in 32bit
+2021.07.10 16:15.02 I    640x480 @ 75hz in 32bit
+2021.07.10 16:15.02 I    640x480 @ 60hz in 32bit
+2021.07.10 16:15.02 I    640x480 @ 59hz in 32bit
+2021.07.10 16:15.02 I    Config: false, true, true, DirectColorModel
+2021.07.10 16:15.02 I Presentation Client [192.168.0.3] connecting to RESTContestSource[presentation|presentat1on@https://192.168.0.3:8443/api/contests/5]
+2021.07.10 16:15.02 192.168.0.3 connecting...
+2021.07.10 16:15.03 192.168.0.3 connected
+2021.07.10 16:15.03 I Applying display config DisplayConfig 1 (r=java.awt.Rectangle[x=1920,y=313,width=1366,height=768],in=java.awt.Insets[top=0,left=0,bottom=40,right=0])
+2021.07.10 16:15.03 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.BetterFi...
+2021.07.10 16:15.03 presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.BetterFireworksPresentation|org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthChart|org.icpc.tools.presentation.contest.internal.chart.JudgementChart|org.icpc.tools.presentation.contest.internal.chart.LanguageSummaryChart|org.icpc.tools.presentation.contest.internal.chart.ProblemComparisonChart|org.icpc.tools.presentation.contest.internal.chart.ProblemDetailChart|org.icpc.tools.presentation.contest.internal.chart.ProblemSummaryChart|org.icpc.tools.presentation.contest.internal.chart.TotalProblemsChart|t/org.icpc.tools.presentation.core.transition.SlidesTransition|t/org.icpc.tools.presentation.core.transition.SlidesTransition|t/org.icpc.tools.presentation.core.transition.SlidesTransition|t/org.icpc.tools.presentation.core.transition.SlidesTransition|t/org.icpc.tools.presentation.core.transition.SlidesTransition|t/org.icpc.tools.presentation.core.transition.SlidesTransition|t/org.icpc.tools.presentation.core.transition.SlidesTransition|t/org.icpc.tools.presentation.core.transition.SlidesTransition
+2021.07.10 16:15.03 I Attempting to load class: org.icpc.tools.presentation.contest.internal.presentations.BetterFireworksPresentation
+2021.07.10 16:15.03 I Class loaded ok
+2021.07.10 16:15.03 I Attempting to load class: org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthChart
