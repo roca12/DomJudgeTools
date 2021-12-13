@@ -1,0 +1,21 @@
+---- ICPC Resolver (2.3.491) ----
+OS:  Windows 10 (amd64/10.0)
+JRE: Oracle Corporation (12.0.2)
+Folder: C:\Users\diego\Documents\DomJudge\3. Domjudge_ICPC_Resolver\resolver
+Host: ROCA12ULTRA / 192.168.0.3
+Locale/TZ: es_CO / hora estándar de Colombia
+Args: https://localhost:8443/api/contests/3/ admin adm1n --client --test 
+Log started 2021.12.09 10:11.29
+
+2021.12.09 10:11.29 I Option found: --client 
+2021.12.09 10:11.29 I Option found: --test 
+2021.12.09 10:11.31 The URL did not point to a specific contest, but one contest was found.
+2021.12.09 10:11.31 Auto-connecting to: https://localhost:8443/api/contests/5
+2021.12.09 10:11.31 I Contest source verified
+2021.12.09 10:11.31 I Loading from RESTContestSource[admin|adm1n@https://localhost:8443/api/contests/5]
+2021.12.09 10:11.31 I Contest source verified
+2021.12.09 10:11.31 I Loading contest from RESTContestSource[admin|adm1n@https://localhost:8443/api/contests/5]
+2021.12.09 10:11.31 I Reading feed cache
+2021.12.09 10:11.31 I Done reading feed cache
+2021.12.09 10:11.31 I Contest loaded
+2021.12.09 10:11.31 E Test mode cannot be used on contests that are done updating.

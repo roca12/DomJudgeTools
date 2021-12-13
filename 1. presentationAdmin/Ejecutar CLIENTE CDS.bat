@@ -1,1 +1,1 @@
-start "presAdmin" call .\presAdmin.bat https://192.168.0.3:8443 presAdmin padm1n
+start "presAdmin" call .\presAdmin.bat https://localhost:8443 presAdmin padm1n

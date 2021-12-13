@@ -1,1 +1,1 @@
-start "title" call bin\.\server.bat start cds 
+start "RUN CDS SERVER" call bin\.\server.bat start cds 

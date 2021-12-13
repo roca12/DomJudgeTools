@@ -5,55 +5,1177 @@ java.home = C:\Program Files\Java\jdk-12.0.2
 java.version = 12.0.2
 java.runtime = Java(TM) SE Runtime Environment (12.0.2+10)
 os = Windows 10 (10.0; amd64) (es_CO)
-process = 8952@ROCA12ULTRA
+process = 2612@ROCA12ULTRA
 ********************************************************************************
-[26/07/21, 20:06:34:691 COT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: El servidor cds se ha lanzado.
-[26/07/21, 20:06:37:363 COT] 00000016 com.ibm.ws.config.xml.internal.XMLConfigParser               A CWWKG0028A: El proceso ha incluido el recurso de configuración: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\users.xml
-[26/07/21, 20:06:37:879 COT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: El kernel se ha iniciado después de 8,688 segundos
-[26/07/21, 20:06:37:971 COT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: La actualización de características se ha iniciado.
-[26/07/21, 20:06:39:011 COT] 00000015 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: El servicio de seguridad se está iniciando...
-[26/07/21, 20:06:39:663 COT] 00000019 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Supervisando aplicaciones de dropins.
-[26/07/21, 20:06:41:195 COT] 00000019 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: La instancia de memoria caché dinámica de WebSphere con nombre baseCache se ha inicializado correctamente.
-[26/07/21, 20:06:41:210 COT] 00000019 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: Se está utilizando el proveedor de memoria caché default.
-[26/07/21, 20:06:41:211 COT] 00000019 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: La memoria caché dinámica (memoria caché de objeto) se ha inicializado correctamente.
-[26/07/21, 20:06:50:937 COT] 00000015 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: Se ha activado el plugin de autenticación colectivo con el nombre de clase NullCollectiveAuthenticationPlugin. 
-[26/07/21, 20:06:51:583 COT] 00000028 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0008I: El servicio de seguridad está listo.
-[26/07/21, 20:06:51:588 COT] 00000028 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: La configuración de LTPA estará lista después de 0,838 segundos.
-[26/07/21, 20:06:52:586 COT] 0000001e com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: C:/Users/diego/Documents/DomJudge/0. CDS server/usr/servers/cds/resources/security/key.jks of type: JKS
-[26/07/21, 20:06:52:776 COT] 00000015 com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: Se está utilizando la clase AuthConfigFactory com.ibm.ws.security.jaspi.ProviderRegistry de JASPIC (Java Authentication SPI for Containers) predeterminada porque la propiedad de seguridad Java authconfigprovider.factory no está establecida. 
-[26/07/21, 20:06:58:367 COT] 00000028 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando la aplicación CDS.
-[26/07/21, 20:06:58:368 COT] 00000028 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0136I: La aplicación CDS está utilizando el archivo de archivado en la ubicación C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\apps\CDS.war.
-[26/07/21, 20:07:00:526 COT] 00000028 com.ibm.ws.session.WASSessionCore                            I SESN8501I: El gestor de sesiones no ha encontrado una ubicación de almacenamiento persistente; los objetos HttpSession se almacenarán en la memoria del servidor de aplicaciones local.
-[26/07/21, 20:07:00:692 COT] 00000028 org.jboss.weld.Version                                       I WELD-000900: 3.1.4 (Final)
-[26/07/21, 20:07:02:250 COT] 00000028 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Cargando módulo web: CDS.
-[26/07/21, 20:07:02:271 COT] 00000028 com.ibm.ws.webcontainer                                      I SRVE0250I: El módulo web CDS se ha enlazado con default_host.
-[26/07/21, 20:07:02:272 COT] 00000028 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicación web disponible (default_host): http://roca12ultra:8080/
-[26/07/21, 20:07:02:650 COT] 00000029 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Se creará un nuevo contexto de sesión para la clave de aplicación default_host/
-[26/07/21, 20:07:02:668 COT] 00000029 com.ibm.ws.util                                              I SESN0172I: El gestor de sesiones está utilizando la implementación de SecureRandom Java por omisión para la generación del ID de sesión.
-[26/07/21, 20:07:02:788 COT] 00000029 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: La memoria caché dinámica (memoria caché de objeto) se ha inicializado correctamente.
-[26/07/21, 20:07:02:855 COT] 00000029 com.ibm.ws.wsoc.EndpointManager                              I CWWKH0046I: Añadiendo un ServerEndpoint de WebSocket con el siguiente URI: /presentation/ws
-[26/07/21, 20:07:02:863 COT] 00000029 com.ibm.ws.wsoc.EndpointManager                              I CWWKH0046I: Añadiendo un ServerEndpoint de WebSocket con el siguiente URI: /contests/{id}/startstatus
-[26/07/21, 20:07:02:994 COT] 00000029 SystemOut                                                    O --- CDS (2.3.491) ---
-[26/07/21, 20:07:03:211 COT] 00000029 SystemOut                                                    O Loading CDS configuration from: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\config\cdsConfig.xml
-[26/07/21, 20:07:03:297 COT] 00000029 SystemOut                                                    O Configured contests:
-[26/07/21, 20:07:03:298 COT] 00000029 SystemOut                                                    O    5 on disk at /home/myuser/contests/test - CCS configured (score@http://192.168.0.4/domjudge/api/contests/5), Not recording reactions
-[26/07/21, 20:07:03:300 COT] 00000029 SystemErr                                                    R Could not read from CDS config! No contests loaded
-[26/07/21, 20:07:03:392 COT] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: La aplicación CDS se ha iniciado en 5,026 segundos.
-[26/07/21, 20:07:03:429 COT] 00000022 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: El canal TCP defaultHttpEndpoint se ha iniciado y ahora está a la escucha de solicitudes en el host *  (IPv6) puerto 8080.
-[26/07/21, 20:07:03:432 COT] 00000022 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: El canal TCP defaultHttpEndpoint-ssl se ha iniciado y ahora está a la escucha de solicitudes en el host *  (IPv6) puerto 8443.
-[26/07/21, 20:07:03:521 COT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: El servidor ha instalado las características siguientes: [appSecurity-3.0, cdi-2.0, distributedMap-1.0, el-3.0, jndi-1.0, jsp-2.3, servlet-4.0, ssl-1.0, websocket-1.1].
-[26/07/21, 20:07:03:522 COT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: La actualización de características se ha completado en 25,659 segundos.
-[26/07/21, 20:07:03:522 COT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: El servidor cds está preparado para ejecutar un planeta más inteligente. El servidor cds se ha iniciado en 34,350 segundos.
-[26/07/21, 20:07:07:904 COT] 00000028 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Se ha generado automáticamente un archivo de configuración para un plug-in de servidor web para este servidor en C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\logs\state\plugin-cfg.xml.
-[26/07/21, 20:07:09:348 COT] 00000012 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Conclusión del servidor solicitada el lunes, 26 de julio de 2021 a las 8:07 p. m.. El servidor cds se está cerrando.
-[26/07/21, 20:07:09:378 COT] 00000040 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Esperando hasta 30 segundos para que el servidor se desactive temporalmente.
-[26/07/21, 20:07:09:406 COT] 00000029 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: El canal TCP defaultHttpEndpoint-ssl ha detenido la escucha de solicitudes en el host *  (IPv6) puerto 8443.
-[26/07/21, 20:07:09:408 COT] 00000029 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: El canal TCP defaultHttpEndpoint ha detenido la escucha de solicitudes en el host *  (IPv6) puerto 8080.
-[26/07/21, 20:07:09:409 COT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicación web eliminada (default_host): http://roca12ultra:8080/
-[26/07/21, 20:07:10:422 COT] 00000040 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: La desactivación temporal del servidor ha finalizado.
-[26/07/21, 20:07:10:455 COT] 00000026 SystemOut                                                    O Shutting down
-[26/07/21, 20:07:10:457 COT] 00000026 SystemOut                                                    O Metrics for contest 5 [REST:0,Feed:0,WS:0,Web:0,Dwnld:0,Scr:0,XML:0,Desktop:0,Webcam:0,Audio:0,Total:0]
-[26/07/21, 20:07:10:524 COT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: La aplicación CDS se ha detenido correctamente.
-[26/07/21, 20:07:10:731 COT] 00000040 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: El servicio de seguridad se ha detenido.
-[26/07/21, 20:07:10:770 COT] 00000040 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: Se ha desactivado el plugin de autenticación colectiva con el nombre de clase NullCollectiveAuthenticationPlugin. 
-[26/07/21, 20:07:11:735 COT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: El servidor cds se ha detenido después de 42,561 segundos.
+[9/12/21, 9:57:14:393 COT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: El servidor cds se ha lanzado.
+[9/12/21, 9:57:20:324 COT] 00000016 com.ibm.ws.config.xml.internal.XMLConfigParser               A CWWKG0028A: El proceso ha incluido el recurso de configuración: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\users.xml
+[9/12/21, 9:57:20:756 COT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: El kernel se ha iniciado después de 28,624 segundos
+[9/12/21, 9:57:20:881 COT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: La actualización de características se ha iniciado.
+[9/12/21, 9:57:21:815 COT] 00000015 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: El servicio de seguridad se está iniciando...
+[9/12/21, 9:57:22:562 COT] 00000017 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Supervisando aplicaciones de dropins.
+[9/12/21, 9:57:24:032 COT] 00000018 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: La instancia de memoria caché dinámica de WebSphere con nombre baseCache se ha inicializado correctamente.
+[9/12/21, 9:57:24:071 COT] 00000018 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: Se está utilizando el proveedor de memoria caché default.
+[9/12/21, 9:57:24:072 COT] 00000018 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: La memoria caché dinámica (memoria caché de objeto) se ha inicializado correctamente.
+[9/12/21, 9:57:40:194 COT] 00000015 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: Se ha activado el plugin de autenticación colectivo con el nombre de clase NullCollectiveAuthenticationPlugin. 
+[9/12/21, 9:57:41:187 COT] 00000025 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0008I: El servicio de seguridad está listo.
+[9/12/21, 9:57:41:205 COT] 00000025 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: La configuración de LTPA estará lista después de 1,228 segundos.
+[9/12/21, 9:57:42:297 COT] 0000001e com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: C:/Users/diego/Documents/DomJudge/0. CDS server/usr/servers/cds/resources/security/key.jks of type: JKS
+[9/12/21, 9:57:42:493 COT] 00000015 com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: Se está utilizando la clase AuthConfigFactory com.ibm.ws.security.jaspi.ProviderRegistry de JASPIC (Java Authentication SPI for Containers) predeterminada porque la propiedad de seguridad Java authconfigprovider.factory no está establecida. 
+[9/12/21, 9:57:51:261 COT] 00000028 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando la aplicación CDS.
+[9/12/21, 9:57:51:262 COT] 00000028 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0136I: La aplicación CDS está utilizando el archivo de archivado en la ubicación C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\apps\CDS.war.
+[9/12/21, 9:57:53:540 COT] 00000028 com.ibm.ws.session.WASSessionCore                            I SESN8501I: El gestor de sesiones no ha encontrado una ubicación de almacenamiento persistente; los objetos HttpSession se almacenarán en la memoria del servidor de aplicaciones local.
+[9/12/21, 9:57:53:744 COT] 00000028 org.jboss.weld.Version                                       I WELD-000900: 3.1.4 (Final)
+[9/12/21, 9:57:55:524 COT] 00000028 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Cargando módulo web: CDS.
+[9/12/21, 9:57:55:531 COT] 00000028 com.ibm.ws.webcontainer                                      I SRVE0250I: El módulo web CDS se ha enlazado con default_host.
+[9/12/21, 9:57:55:533 COT] 00000028 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicación web disponible (default_host): http://roca12ultra:8080/
+[9/12/21, 9:57:55:871 COT] 00000023 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Se creará un nuevo contexto de sesión para la clave de aplicación default_host/
+[9/12/21, 9:57:55:891 COT] 00000023 com.ibm.ws.util                                              I SESN0172I: El gestor de sesiones está utilizando la implementación de SecureRandom Java por omisión para la generación del ID de sesión.
+[9/12/21, 9:57:55:984 COT] 00000023 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: La memoria caché dinámica (memoria caché de objeto) se ha inicializado correctamente.
+[9/12/21, 9:57:56:036 COT] 00000023 com.ibm.ws.wsoc.EndpointManager                              I CWWKH0046I: Añadiendo un ServerEndpoint de WebSocket con el siguiente URI: /contests/{id}/startstatus
+[9/12/21, 9:57:56:044 COT] 00000023 com.ibm.ws.wsoc.EndpointManager                              I CWWKH0046I: Añadiendo un ServerEndpoint de WebSocket con el siguiente URI: /presentation/ws
+[9/12/21, 9:57:56:153 COT] 00000023 SystemOut                                                    O --- CDS (2.3.491) ---
+[9/12/21, 9:57:56:298 COT] 00000023 SystemOut                                                    O Loading CDS configuration from: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\config\cdsConfig.xml
+[9/12/21, 9:57:56:388 COT] 00000023 SystemOut                                                    O Configured contests:
+[9/12/21, 9:57:56:391 COT] 00000023 SystemOut                                                    O    5 on disk at /home/myuser/contests/test - CCS configured (score@http://192.168.0.4/domjudge/api/contests/5), Not recording reactions
+[9/12/21, 9:57:56:393 COT] 00000023 SystemErr                                                    R Could not read from CDS config! No contests loaded
+[9/12/21, 9:57:56:399 COT] 00000023 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: La aplicación CDS se ha iniciado en 5,139 segundos.
+[9/12/21, 9:57:56:579 COT] 00000022 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: El canal TCP defaultHttpEndpoint se ha iniciado y ahora está a la escucha de solicitudes en el host *  (IPv6) puerto 8080.
+[9/12/21, 9:57:56:621 COT] 00000022 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: El canal TCP defaultHttpEndpoint-ssl se ha iniciado y ahora está a la escucha de solicitudes en el host *  (IPv6) puerto 8443.
+[9/12/21, 9:57:56:700 COT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: El servidor ha instalado las características siguientes: [appSecurity-3.0, cdi-2.0, distributedMap-1.0, el-3.0, jndi-1.0, jsp-2.3, servlet-4.0, ssl-1.0, websocket-1.1].
+[9/12/21, 9:57:56:702 COT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: La actualización de características se ha completado en 35,947 segundos.
+[9/12/21, 9:57:56:702 COT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: El servidor cds está preparado para ejecutar un planeta más inteligente. El servidor cds se ha iniciado en 64,574 segundos.
+[9/12/21, 9:58:12:481 COT] 00000028 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Se ha generado automáticamente un archivo de configuración para un plug-in de servidor web para este servidor en C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\logs\state\plugin-cfg.xml.
+[9/12/21, 9:58:44:711 COT] 00000028 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [CDS] [/] [org.icpc.tools.cds.web.WelcomeServlet]: Inicialización satisfactoria.
+[9/12/21, 9:58:45:231 COT] 00000028 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [CDS] [/] [/WEB-INF/jsps/welcome.jsp]: Inicialización satisfactoria.
+[9/12/21, 9:58:51:367 COT] 0000008b SystemOut                                                    O Loading contest from RESTContestSource[score|score@http://192.168.0.4/domjudge/api/contests/5]
+[9/12/21, 9:58:51:369 COT] 0000008b SystemOut                                                    O Importing contest info
+[9/12/21, 9:58:51:385 COT] 0000008b SystemOut                                                    O Contest config file (contest.yaml) not found
+[9/12/21, 9:58:51:385 COT] 0000008b SystemOut                                                    O Importing problem set
+[9/12/21, 9:58:51:385 COT] 0000008b SystemOut                                                    O Problem config file (problemset.yaml) not found
+[9/12/21, 9:58:51:386 COT] 0000008b SystemOut                                                    O Importing groups
+[9/12/21, 9:58:51:386 COT] 0000008b SystemOut                                                    O Group config file (groups.json/groups.tsv) not found
+[9/12/21, 9:58:51:386 COT] 0000008b SystemOut                                                    O Importing organizations
+[9/12/21, 9:58:51:387 COT] 0000008b SystemOut                                                    O Institutions config file (institutions.json/institutions2.tsv/institutions.tsv) not found
+[9/12/21, 9:58:51:387 COT] 0000008b SystemOut                                                    O Importing teams
+[9/12/21, 9:58:51:387 COT] 0000008b SystemOut                                                    O Team config file (teams.json/teams2.tsv/teams.tsv) not found
+[9/12/21, 9:58:51:388 COT] 0000008b SystemOut                                                    O Importing team-members
+[9/12/21, 9:58:51:388 COT] 0000008b SystemOut                                                    O Team member config file (members.json/members.tsv) not found
+[9/12/21, 9:58:51:388 COT] 0000008b SystemOut                                                    O Importing contest floor map
+[9/12/21, 9:58:51:391 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 9:58:53:709 COT] 0000008b SystemErr                                                    R Error reading feed
+[9/12/21, 9:58:53:709 COT] 0000008b SystemErr                                                    R    java.net.ConnectException: Connection refused: connect
+[9/12/21, 9:58:53:710 COT] 0000008b SystemErr                                                    R    at org.icpc.tools.contest.model.feed.RESTContestSource.connect(RESTContestSource.java:567)
+[9/12/21, 9:58:53:710 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 9:58:53:710 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 9:58:58:280 COT] 00000092 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [CDS] [/] [org.icpc.tools.cds.service.LoginServlet]: Inicialización satisfactoria.
+[9/12/21, 9:58:58:329 COT] 00000092 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [CDS] [/] [/WEB-INF/jsps/login.jsp]: Inicialización satisfactoria.
+[9/12/21, 9:58:58:710 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 9:58:58:713 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 9:58:58:714 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 9:58:58:715 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 9:59:00:719 COT] 0000008b SystemErr                                                    R Logging second instance of exception, will not log again
+[9/12/21, 9:59:00:719 COT] 0000008b SystemErr                                                    R Error reading feed
+[9/12/21, 9:59:00:719 COT] 0000008b SystemErr                                                    R    java.net.ConnectException: Connection refused: connect
+[9/12/21, 9:59:00:720 COT] 0000008b SystemErr                                                    R    at org.icpc.tools.contest.model.feed.RESTContestSource.connect(RESTContestSource.java:567)
+[9/12/21, 9:59:00:720 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 9:59:00:720 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 9:59:05:721 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 9:59:05:721 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 9:59:05:722 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 9:59:05:722 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 9:59:06:059 COT] 00000022 y.authentication.jaas.modules.UsernameAndPasswordLoginModule A CWWKS1100A: La autenticación no se ha ejecutado correctamente para el ID de usuario admin. Se ha especificado un ID de usuario o una contraseña no válidos.
+[9/12/21, 9:59:06:180 COT] 00000027 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [CDS] [/] [/WEB-INF/jsps/loginError.jsp]: Inicialización satisfactoria.
+[9/12/21, 9:59:07:728 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 9:59:07:728 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 9:59:12:730 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 9:59:12:730 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 9:59:12:731 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 9:59:12:731 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 9:59:14:734 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 9:59:14:734 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 9:59:19:736 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 9:59:19:736 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 9:59:19:737 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 9:59:19:737 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 9:59:21:740 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 9:59:21:741 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 9:59:26:741 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 9:59:26:741 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 9:59:26:743 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 9:59:26:743 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 9:59:28:748 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 9:59:28:748 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 9:59:33:749 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 9:59:33:749 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 9:59:33:750 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 9:59:33:750 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 9:59:35:766 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 9:59:35:766 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 9:59:40:766 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 9:59:40:766 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 9:59:40:767 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 9:59:40:767 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 9:59:42:771 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 9:59:42:771 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 9:59:47:773 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 9:59:47:773 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 9:59:47:774 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 9:59:47:774 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 9:59:49:780 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 9:59:49:780 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 9:59:54:781 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 9:59:54:781 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 9:59:54:782 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 9:59:54:782 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 9:59:56:398 COT] 000000b1 SystemOut                                                    O ----- CDS config change detected -----
+[9/12/21, 9:59:56:401 COT] 000000b1 SystemOut                                                    O Configured contests:
+[9/12/21, 9:59:56:402 COT] 000000b1 SystemOut                                                    O    5 on disk at /home/myuser/contests/test - CCS configured (score@http://192.168.0.5/domjudge/api/contests/5), Not recording reactions
+[9/12/21, 9:59:56:402 COT] 000000b1 SystemOut                                                    O Error reading CDS config, changes will be ignored until the file is fixed
+[9/12/21, 9:59:56:796 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 9:59:56:796 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:00:01:797 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:00:01:797 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:00:01:799 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:00:01:799 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 10:00:03:805 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:00:03:805 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:00:08:806 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:00:08:806 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:00:08:807 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:00:08:808 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 10:00:10:821 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:00:10:821 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:00:15:822 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:00:15:822 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:00:15:823 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:00:15:823 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 10:00:17:828 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:00:17:828 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:00:22:830 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:00:22:830 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:00:22:831 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:00:22:831 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 10:00:24:850 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:00:24:851 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:00:29:852 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:00:29:852 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:00:29:854 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:00:29:854 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 10:00:31:856 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:00:31:856 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:00:36:857 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:00:36:857 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:00:36:858 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:00:36:858 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 10:00:38:874 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:00:38:874 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:00:43:875 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:00:43:875 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:00:43:876 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:00:43:876 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 10:00:45:882 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:00:45:882 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:00:50:883 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:00:50:883 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:00:50:884 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:00:50:885 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 10:00:52:892 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:00:52:894 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:00:57:896 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:00:57:896 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:00:57:897 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:00:57:898 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 10:00:59:901 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:00:59:901 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:01:04:901 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:01:04:901 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:01:04:902 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:01:04:902 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 10:01:06:906 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:01:06:907 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:01:11:907 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:01:11:908 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:01:11:909 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:01:11:910 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 10:01:13:919 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:01:13:920 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:01:18:920 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:01:18:920 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:01:18:921 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:01:18:921 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 10:01:20:925 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:01:20:925 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:01:25:157 COT] 00000182 SystemOut                                                    O Loading contest from RESTContestSource[score|score@http://192.168.0.5/domjudge/api/contests/5]
+[9/12/21, 10:01:25:158 COT] 00000182 SystemOut                                                    O Importing contest info
+[9/12/21, 10:01:25:159 COT] 00000182 SystemOut                                                    O Contest config file (contest.yaml) not found
+[9/12/21, 10:01:25:159 COT] 00000182 SystemOut                                                    O Importing problem set
+[9/12/21, 10:01:25:160 COT] 00000182 SystemOut                                                    O Problem config file (problemset.yaml) not found
+[9/12/21, 10:01:25:160 COT] 00000182 SystemOut                                                    O Importing groups
+[9/12/21, 10:01:25:160 COT] 00000182 SystemOut                                                    O Group config file (groups.json/groups.tsv) not found
+[9/12/21, 10:01:25:160 COT] 00000182 SystemOut                                                    O Importing organizations
+[9/12/21, 10:01:25:161 COT] 00000182 SystemOut                                                    O Institutions config file (institutions.json/institutions2.tsv/institutions.tsv) not found
+[9/12/21, 10:01:25:161 COT] 00000182 SystemOut                                                    O Importing teams
+[9/12/21, 10:01:25:161 COT] 00000182 SystemOut                                                    O Team config file (teams.json/teams2.tsv/teams.tsv) not found
+[9/12/21, 10:01:25:161 COT] 00000182 SystemOut                                                    O Importing team-members
+[9/12/21, 10:01:25:162 COT] 00000182 SystemOut                                                    O Team member config file (members.json/members.tsv) not found
+[9/12/21, 10:01:25:162 COT] 00000182 SystemOut                                                    O Importing contest floor map
+[9/12/21, 10:01:25:162 COT] 00000182 SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:01:25:163 COT] 00000182 SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:01:25:163 COT] 00000182 SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:01:25:164 COT] 00000182 SystemOut                                                    O Found feed cache up to event id: null
+[9/12/21, 10:01:25:524 COT] 00000182 SystemOut                                                    O Reading feed cache
+[9/12/21, 10:01:25:525 COT] 00000182 SystemOut                                                    O Done reading feed cache
+[9/12/21, 10:01:25:557 COT] 00000182 SystemOut                                                    O Unknown property ignored: contests/end_time
+[9/12/21, 10:01:25:560 COT] 00000182 SystemOut                                                    O Unknown property ignored: contests/external_id
+[9/12/21, 10:01:25:561 COT] 00000182 SystemOut                                                    O Unknown property ignored: contests/shortname
+[9/12/21, 10:01:25:598 COT] 00000182 SystemOut                                                    O Unknown property ignored: languages/extensions
+[9/12/21, 10:01:25:598 COT] 00000182 SystemOut                                                    O Unknown property ignored: languages/allow_judge
+[9/12/21, 10:01:25:599 COT] 00000182 SystemOut                                                    O Unknown property ignored: languages/time_factor
+[9/12/21, 10:01:25:599 COT] 00000182 SystemOut                                                    O Unknown property ignored: languages/require_entry_point
+[9/12/21, 10:01:25:599 COT] 00000182 SystemOut                                                    O Unknown property ignored: languages/entry_point_description
+[9/12/21, 10:01:25:607 COT] 00000182 SystemOut                                                    O Unknown property ignored: problems/short_name
+[9/12/21, 10:01:25:609 COT] 00000182 SystemOut                                                    O Unknown property ignored: problems/externalid
+[9/12/21, 10:01:25:612 COT] 00000182 SystemOut                                                    O Unknown property ignored: groups/sortorder
+[9/12/21, 10:01:25:612 COT] 00000182 SystemOut                                                    O Unknown property ignored: groups/color
+[9/12/21, 10:01:25:616 COT] 00000182 SystemOut                                                    O Unknown property ignored: organizations/shortname
+[9/12/21, 10:01:25:623 COT] 00000182 SystemOut                                                    O Unknown property ignored: teams/externalid
+[9/12/21, 10:01:25:624 COT] 00000182 SystemOut                                                    O Unknown property ignored: teams/affiliation
+[9/12/21, 10:01:25:624 COT] 00000182 SystemOut                                                    O Unknown property ignored: teams/nationality
+[9/12/21, 10:01:25:625 COT] 00000182 SystemOut                                                    O Unknown property ignored: teams/members
+[9/12/21, 10:01:25:662 COT] 00000182 SystemOut                                                    O Contest started: 5
+[9/12/21, 10:01:25:667 COT] 00000182 SystemOut                                                    O Unknown property ignored: submissions/externalid
+[9/12/21, 10:01:25:904 COT] 00000182 SystemOut                                                    O Download http://192.168.0.5/domjudge/api/contests/5/submissions/6/files to \home\myuser\contests\test\submissions\6\files.zip (200) (0.1kb in 222ms)
+[9/12/21, 10:01:25:925 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:01:25:925 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:01:25:926 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:01:25:926 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 246
+[9/12/21, 10:01:26:170 COT] 00000182 SystemOut                                                    O Unknown property ignored: judgements/valid
+[9/12/21, 10:01:26:170 COT] 00000182 SystemOut                                                    O Unknown property ignored: judgements/judgehost
+[9/12/21, 10:01:26:286 COT] 00000182 SystemOut                                                    O Download http://192.168.0.5/domjudge/api/contests/5/submissions/7/files to \home\myuser\contests\test\submissions\7\files.zip (200) (0.1kb in 108ms)
+[9/12/21, 10:01:26:404 COT] 00000182 SystemOut                                                    O Download http://192.168.0.5/domjudge/api/contests/5/submissions/8/files to \home\myuser\contests\test\submissions\8\files.zip (200) (0.1kb in 106ms)
+[9/12/21, 10:01:26:528 COT] 00000182 SystemOut                                                    O Download http://192.168.0.5/domjudge/api/contests/5/submissions/9/files to \home\myuser\contests\test\submissions\9\files.zip (200) (0.1kb in 103ms)
+[9/12/21, 10:01:26:634 COT] 00000182 SystemOut                                                    O Download http://192.168.0.5/domjudge/api/contests/5/submissions/10/files to \home\myuser\contests\test\submissions\10\files.zip (200) (0.1kb in 99ms)
+[9/12/21, 10:01:26:653 COT] 00000182 SystemOut                                                    O Contest freeze! Cutting off unauthorized video feeds
+[9/12/21, 10:01:26:654 COT] 00000182 SystemOut                                                    O Contest frozen: 5
+[9/12/21, 10:01:26:659 COT] 00000182 SystemOut                                                    O Contest unfrozen: 5
+[9/12/21, 10:01:26:661 COT] 00000182 SystemOut                                                    O Contest unfrozen: 5
+[9/12/21, 10:01:26:661 COT] 00000182 SystemOut                                                    O Contest finalized: 5
+[9/12/21, 10:01:26:662 COT] 00000182 SystemOut                                                    O Contest unfrozen: 5
+[9/12/21, 10:01:26:663 COT] 00000182 SystemOut                                                    O Contest end of updates: 5
+[9/12/21, 10:01:26:665 COT] 00000182 SystemOut                                                    O Unknown property ignored: languages/filter_compiler_files
+[9/12/21, 10:01:27:929 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:01:27:929 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:01:32:930 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:01:32:931 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:01:32:932 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:01:32:933 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:01:34:938 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:01:34:938 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:01:35:822 COT] 00000024 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [CDS] [/] [org.icpc.tools.cds.service.ContestWebService]: Inicialización satisfactoria.
+[9/12/21, 10:01:35:968 COT] 00000024 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [CDS] [/] [/WEB-INF/jsps/scoreboard.jsp]: Inicialización satisfactoria.
+[9/12/21, 10:01:35:579 COT] 00000023 com.ibm.ws.channel.ssl.internal.SSLHandshakeErrorTracker     E CWWKO0801E: No se ha podido inicializar la conexión SSL. Se ha denegado el acceso no autorizado o los valores de seguridad han caducado. La excepción es javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:285)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:180)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:164)
+	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:681)
+	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:636)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:454)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:433)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:634)
+	at com.ibm.ws.channel.ssl.internal.SSLUtils.handleHandshake(SSLUtils.java:904)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink.readyInbound(SSLConnectionLink.java:589)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink.ready(SSLConnectionLink.java:336)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+.
+[9/12/21, 10:01:37:477 COT] 00000022 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [CDS] [/] [org.icpc.tools.cds.service.ContestRESTService]: Inicialización satisfactoria.
+[9/12/21, 10:01:39:938 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:01:39:938 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:01:39:939 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:01:39:939 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:01:41:942 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:01:41:942 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:01:46:943 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:01:46:943 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:01:46:945 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:01:46:945 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:01:48:960 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:01:48:960 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:01:53:961 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:01:53:961 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:01:53:962 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:01:53:962 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:01:55:965 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:01:55:966 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:02:00:966 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:02:00:966 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:02:00:967 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:02:00:968 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:02:02:972 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:02:02:972 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:02:05:774 COT] 00000092 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [CDS] [/] [org.icpc.tools.cds.presentations.PresentationFilesServlet]: Inicialización satisfactoria.
+[9/12/21, 10:02:05:841 COT] 00000092 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [CDS] [/] [/WEB-INF/jsps/directory.jsp]: Inicialización satisfactoria.
+[9/12/21, 10:02:07:972 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:02:07:973 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:02:07:977 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:02:07:978 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:02:08:386 COT] 00000024 SystemOut                                                    O Client connected: presAdmin [uid 6720a0f7]
+[9/12/21, 10:02:08:405 COT] 00000024 SystemOut                                                    O 6720a0f7 < {"type":"pres_list"}
+[9/12/21, 10:02:08:410 COT] 00000024 SystemOut                                                    O Sending presentation lists
+[9/12/21, 10:02:08:615 COT] 00000094 SystemOut                                                    O 6720a0f7 < {"type":"info","source":"6720a0f7","client.type":"pres-admin","version":"2.3.491","os.name":"Windows 10","os.version":...
+[9/12/21, 10:02:08:897 COT] 00000047 SystemOut                                                    O 6720a0f7 > {"type":"clients","clients":[]}
+[9/12/21, 10:02:08:915 COT] 00000047 SystemOut                                                    O 6720a0f7 > {"type":"pres_list","file":"UEsDBBQACAgIADFf51IAAAAAAAAAAAAAAAAaAAAATUVUQS1JTkYvcHJlc2VudGF0aW9ucy54bWzNnOtz2zYSwL/3r8...
+[9/12/21, 10:02:09:985 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:02:09:986 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:02:11:043 COT] 00000024 SystemOut                                                    O 6720a0f7 - Syncing time to 3ms. Recent pings: [7ms, 420ms, 1ms, 1ms]
+[9/12/21, 10:02:11:057 COT] 00000135 SystemOut                                                    O 6720a0f7 > {"type":"time","time":1639062131048}
+[9/12/21, 10:02:14:987 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:02:14:987 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:02:14:988 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:02:14:988 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:02:16:993 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:02:16:994 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:02:21:995 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:02:21:995 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:02:21:996 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:02:21:997 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:02:24:001 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:02:24:001 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:02:29:003 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:02:29:004 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:02:29:006 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:02:29:006 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:02:31:021 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:02:31:021 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:02:36:022 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:02:36:022 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:02:36:023 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:02:36:023 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:02:38:036 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:02:38:036 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:02:43:037 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:02:43:037 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:02:43:038 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:02:43:038 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:02:45:040 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:02:45:040 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:02:50:041 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:02:50:041 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:02:50:043 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:02:50:043 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:02:52:047 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:02:52:047 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:02:52:814 COT] 00000094 SystemOut                                                    O Client disconnected: presAdmin [uid 6720a0f7]
+[9/12/21, 10:02:57:047 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:02:57:050 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:02:57:054 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:02:57:055 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:02:59:060 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:02:59:060 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:03:00:526 COT] 00000024 SystemOut                                                    O Client connected: presAdmin [uid 6720a0f7]
+[9/12/21, 10:03:00:596 COT] 00000022 SystemOut                                                    O 6720a0f7 < {"type":"pres_list"}
+[9/12/21, 10:03:00:597 COT] 00000022 SystemOut                                                    O Sending presentation lists
+[9/12/21, 10:03:00:737 COT] 00000092 SystemOut                                                    O 6720a0f7 < {"type":"info","source":"6720a0f7","client.type":"pres-admin","version":"2.3.491","os.name":"Windows 10","os.version":...
+[9/12/21, 10:03:01:028 COT] 00000167 SystemOut                                                    O 6720a0f7 > {"type":"clients","clients":[]}
+[9/12/21, 10:03:01:033 COT] 00000167 SystemOut                                                    O 6720a0f7 > {"type":"pres_list","file":"UEsDBBQACAgIADFf51IAAAAAAAAAAAAAAAAaAAAATUVUQS1JTkYvcHJlc2VudGF0aW9ucy54bWzNnOtz2zYSwL/3r8...
+[9/12/21, 10:03:02:934 COT] 00000025 SystemOut                                                    O 6720a0f7 - Syncing time to 12ms. Recent pings: [36ms, 350ms, 1ms, 1ms]
+[9/12/21, 10:03:02:946 COT] 00000081 SystemOut                                                    O 6720a0f7 > {"type":"time","time":1639062182946}
+[9/12/21, 10:03:04:060 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:03:04:060 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:03:04:061 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:03:04:061 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:03:06:076 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:03:06:076 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:03:11:077 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:03:11:077 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:03:11:078 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:03:11:079 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:03:13:085 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:03:13:085 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:03:16:166 COT] 00000094 SystemOut                                                    O 6720a0f7 < {"type":"properties","clients":[],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboar...
+[9/12/21, 10:03:18:085 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:03:18:085 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:03:18:086 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:03:18:087 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:03:20:092 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:03:20:092 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:03:25:092 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:03:25:096 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:03:25:097 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:03:25:097 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:03:27:101 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:03:27:104 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:03:32:105 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:03:32:106 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:03:32:108 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:03:32:108 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:03:34:114 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:03:34:115 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:03:37:275 COT] 00000025 SystemOut                                                    O Client connected: 192.168.0.3 [uid b833456f]
+[9/12/21, 10:03:37:778 COT] 0000010b SystemOut                                                    O 6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f"}]}
+[9/12/21, 10:03:37:951 COT] 00000029 SystemOut                                                    O Client disconnected: 192.168.0.3 [uid b833456f]
+[9/12/21, 10:03:38:453 COT] 0000003b SystemOut                                                    O 6720a0f7 > {"type":"clients","clients":[]}
+[9/12/21, 10:03:39:115 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:03:39:115 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:03:39:116 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:03:39:116 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:03:41:121 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:03:41:121 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:03:46:121 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:03:46:121 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:03:46:123 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:03:46:123 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:03:48:129 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:03:48:129 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:03:53:020 COT] 00000092 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [CDS] [/] [/WEB-INF/jsps/admin.jsp]: Inicialización satisfactoria.
+[9/12/21, 10:03:53:129 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:03:53:130 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:03:53:131 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:03:53:132 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:03:55:146 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:03:55:146 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:04:00:147 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:04:00:148 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:04:00:149 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:04:00:149 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:04:02:154 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:04:02:154 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:04:07:155 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:04:07:155 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:04:07:156 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:04:07:157 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:04:09:160 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:04:09:160 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:04:14:161 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:04:14:161 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:04:14:163 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:04:14:163 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:04:16:166 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:04:16:166 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:04:21:167 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:04:21:167 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:04:21:171 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:04:21:171 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:04:23:175 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:04:23:176 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:04:28:176 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:04:28:176 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:04:28:177 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:04:28:177 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:04:30:182 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:04:30:182 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:04:35:182 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:04:35:182 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:04:35:184 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:04:35:184 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:04:37:189 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:04:37:189 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:04:42:189 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:04:42:190 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:04:42:191 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:04:42:191 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:04:44:205 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:04:44:205 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:04:49:206 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:04:49:206 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:04:49:207 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:04:49:208 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:04:51:211 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:04:51:211 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:04:54:941 COT] 00000023 SystemOut                                                    O Client connected: 192.168.0.3 [uid b833456f]
+[9/12/21, 10:04:55:443 COT] 00000144 SystemOut                                                    O 6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f"}]}
+[9/12/21, 10:04:55:697 COT] 00000094 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","width":1366,"height":768,"hidden":false,"display":"1w"}
+[9/12/21, 10:04:55:701 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","client.type":"presentation","version":"2.3.491","os.name":"Windows 10","os.version...
+[9/12/21, 10:04:56:083 COT] 00000024 SystemOut                                                    O b833456f - Syncing time to 9ms. Recent pings: [27ms, 16ms, 3ms]
+[9/12/21, 10:04:56:096 COT] 00000146 SystemOut                                                    O b833456f > {"type":"time","time":1639062296093}
+[9/12/21, 10:04:56:202 COT] 00000148 SystemOut                                                    O 6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f","width":1366,"height":768,"contest.ids":[5],"versi...
+[9/12/21, 10:04:56:212 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:04:56:212 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:04:56:213 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:04:56:213 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:04:56:552 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":null,"fps":0,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBw...
+[9/12/21, 10:04:58:218 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:04:58:218 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:05:03:218 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:05:03:218 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:05:03:220 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:05:03:220 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:05:03:915 COT] 00000025 SystemOut                                                    O 6720a0f7 < {"type":"properties","clients":[],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboar...
+[9/12/21, 10:05:03:970 COT] 00000094 com.ibm.ws.channel.ssl.internal.SSLHandshakeErrorTracker     E CWWKO0801E: No se ha podido inicializar la conexión SSL. Se ha denegado el acceso no autorizado o los valores de seguridad han caducado. La excepción es javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:285)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:180)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:164)
+	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:681)
+	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:636)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:454)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:433)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:634)
+	at com.ibm.ws.channel.ssl.internal.SSLUtils.handleHandshake(SSLUtils.java:904)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink.readyInbound(SSLConnectionLink.java:589)
+	at com.ibm.ws.channel.ssl.internal.SSLConnectionLink.ready(SSLConnectionLink.java:336)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:167)
+	at com.ibm.ws.tcpchannel.internal.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:75)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:958)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1047)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+.
+[9/12/21, 10:05:05:224 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:05:05:224 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:05:05:512 COT] 00000094 SystemOut                                                    O 6720a0f7 < {"type":"properties","clients":[],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboar...
+[9/12/21, 10:05:06:512 COT] 00000025 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":null,"fps":0,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBw...
+[9/12/21, 10:05:10:225 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:05:10:225 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:05:10:226 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:05:10:226 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:05:11:415 COT] 00000024 SystemOut                                                    O 6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.s...
+[9/12/21, 10:05:11:445 COT] 00000156 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.ScoreboardP...
+[9/12/21, 10:05:12:240 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:05:12:240 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:05:14:403 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":1,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+[9/12/21, 10:05:17:240 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:05:17:240 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:05:17:241 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:05:17:241 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:05:18:189 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:05:19:244 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:05:19:244 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:05:22:340 COT] 00000029 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:05:24:244 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:05:24:244 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:05:24:247 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:05:24:247 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:05:26:225 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:05:26:251 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:05:26:251 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:05:30:203 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:05:31:252 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:05:31:252 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:05:31:253 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:05:31:253 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:05:33:256 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:05:33:256 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:05:34:216 COT] 00000025 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:05:38:233 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:05:38:256 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:05:38:256 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:05:38:258 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:05:38:258 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:05:40:262 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:05:40:262 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:05:42:237 COT] 00000027 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:05:45:263 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:05:45:263 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:05:45:264 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:05:45:264 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:05:46:253 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:05:47:265 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:05:47:265 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:05:50:263 COT] 00000029 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:05:52:266 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:05:52:266 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:05:52:268 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:05:52:268 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:05:54:273 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:05:54:273 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:05:54:278 COT] 00000025 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:05:58:313 COT] 00000029 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:05:59:273 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:05:59:273 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:05:59:274 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:05:59:274 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:06:01:279 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:06:01:280 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:06:02:294 COT] 00000025 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:06:06:281 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:06:06:281 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:06:06:282 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:06:06:282 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:06:06:306 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:06:08:285 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:06:08:285 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:06:10:313 COT] 00000029 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:06:13:286 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:06:13:286 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:06:13:288 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:06:13:288 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:06:14:081 COT] 00000025 SystemOut                                                    O 6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.s...
+[9/12/21, 10:06:14:110 COT] 000000c0 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.TimelinePre...
+[9/12/21, 10:06:14:316 COT] 00000029 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+[9/12/21, 10:06:15:294 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:06:15:294 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:06:18:320 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+[9/12/21, 10:06:20:294 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:06:20:294 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:06:20:295 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:06:20:295 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:06:22:298 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:06:22:298 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:06:22:357 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+[9/12/21, 10:06:23:450 COT] 00000024 SystemOut                                                    O Client disconnected: 192.168.0.3 [uid b833456f]
+[9/12/21, 10:06:23:951 COT] 000001aa SystemOut                                                    O 6720a0f7 > {"type":"clients","clients":[]}
+[9/12/21, 10:06:27:299 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:06:27:299 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:06:27:300 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:06:27:300 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:06:29:315 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:06:29:315 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:06:31:741 COT] 00000022 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [CDS] [/] [org.icpc.tools.cds.presentations.PropertyServlet]: Inicialización satisfactoria.
+[9/12/21, 10:06:31:782 COT] 00000022 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [CDS] [/] [/WEB-INF/jsps/present.jsp]: Inicialización satisfactoria.
+[9/12/21, 10:06:34:315 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:06:34:315 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:06:34:316 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:06:34:316 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:06:36:320 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:06:36:320 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:06:41:320 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:06:41:320 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:06:41:321 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:06:41:321 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:06:43:338 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:06:43:338 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:06:48:338 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:06:48:338 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:06:48:339 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:06:48:339 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:06:50:344 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:06:50:345 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:06:51:411 COT] 00000023 SystemOut                                                    O Client connected: 192.168.0.3 [uid b833456f]
+[9/12/21, 10:06:51:446 COT] 000000d4 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.TimelinePre...
+[9/12/21, 10:06:51:717 COT] 00000022 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","client.type":"presentation","version":"2.3.491","os.name":"Windows 10","os.version...
+[9/12/21, 10:06:51:815 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","width":1366,"height":768,"hidden":false,"display":"1w"}
+[9/12/21, 10:06:51:916 COT] 00000070 SystemOut                                                    O 6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f"}]}
+[9/12/21, 10:06:51:965 COT] 00000070 SystemOut                                                    O 6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f","width":0,"height":0,"contest.ids":[5],"version":"...
+[9/12/21, 10:06:52:176 COT] 00000027 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":null,"fps":0,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBw...
+[9/12/21, 10:06:55:345 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:06:55:346 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:06:55:347 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:06:55:348 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:06:55:719 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":59,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+[9/12/21, 10:06:56:168 COT] 00000029 SystemOut                                                    O b833456f - Syncing time to 1ms. Recent pings: [1602ms, 2ms, 1ms, 2ms]
+[9/12/21, 10:06:56:181 COT] 000001ce SystemOut                                                    O b833456f > {"type":"time","time":1639062416171}
+[9/12/21, 10:06:57:354 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:06:57:354 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:06:57:441 COT] 00000094 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.GroupLeaderboardPresentation to 1 clients
+[9/12/21, 10:06:57:441 COT] 00000094 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.GroupLeaderboardPresentation
+[9/12/21, 10:06:57:470 COT] 00000135 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.GroupLeader...
+[9/12/21, 10:06:58:972 COT] 00000023 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation to 1 clients
+[9/12/21, 10:06:58:973 COT] 00000023 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation
+[9/12/21, 10:06:59:000 COT] 0000004b SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSoluti...
+[9/12/21, 10:06:59:101 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [CDS] [/] [org.icpc.tools.cds.service.ErrorService]: Inicialización satisfactoria.
+[9/12/21, 10:06:59:171 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [CDS] [/] [/WEB-INF/jsps/errorPage.jsp]: Inicialización satisfactoria.
+[9/12/21, 10:06:59:737 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":54,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:07:02:354 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:07:02:354 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:07:02:355 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:07:02:356 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:07:03:734 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:07:04:359 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:07:04:359 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:07:07:754 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:07:09:360 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:07:09:360 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:07:09:361 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:07:09:361 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:07:11:375 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:07:11:375 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:07:11:746 COT] 00000022 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:07:15:752 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:07:16:375 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:07:16:375 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:07:16:376 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:07:16:376 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:07:18:381 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:07:18:381 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:07:19:759 COT] 00000094 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:07:23:381 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:07:23:381 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:07:23:382 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:07:23:382 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:07:23:807 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:07:25:387 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:07:25:387 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:07:27:785 COT] 00000025 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:07:30:388 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:07:30:388 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:07:30:390 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:07:30:390 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:07:31:789 COT] 00000029 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:07:32:394 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:07:32:394 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:07:35:802 COT] 00000027 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:07:37:394 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:07:37:394 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:07:37:395 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:07:37:395 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:07:39:399 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:07:39:399 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:07:39:813 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:07:43:822 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:07:44:400 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:07:44:400 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:07:44:401 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:07:44:401 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:07:46:405 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:07:46:405 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:07:47:824 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:07:51:405 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:07:51:405 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:07:51:406 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:07:51:406 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:07:51:838 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:07:53:419 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:07:53:419 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:07:55:851 COT] 00000025 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:07:58:420 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:07:58:420 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:07:58:421 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:07:58:421 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:07:59:853 COT] 00000094 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:08:00:424 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:08:00:424 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:08:03:861 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:08:05:424 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:08:05:424 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:08:05:425 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:08:05:425 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:08:07:438 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:08:07:438 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:08:07:868 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:08:11:875 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:08:12:439 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:08:12:439 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:08:12:441 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:08:12:441 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:08:14:444 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:08:14:444 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:08:15:886 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:08:19:445 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:08:19:445 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:08:19:445 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:08:19:445 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:08:19:888 COT] 00000025 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:08:21:449 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:08:21:449 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:08:23:904 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:08:26:450 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:08:26:450 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:08:26:451 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:08:26:451 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:08:27:907 COT] 00000027 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:08:28:081 COT] 00000024 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.presentations.test.TestChartPresentation to 1 clients
+[9/12/21, 10:08:28:081 COT] 00000024 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.test.TestChartPresentation
+[9/12/21, 10:08:28:108 COT] 0000010f SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.test.Tes...
+[9/12/21, 10:08:28:455 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:08:28:455 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:08:31:923 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"TestChartPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+[9/12/21, 10:08:32:962 COT] 00000024 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.presentations.StaticLogoPresentation to 1 clients
+[9/12/21, 10:08:32:962 COT] 00000024 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.StaticLogoPresentation
+[9/12/21, 10:08:32:989 COT] 000000c3 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.StaticLo...
+[9/12/21, 10:08:33:455 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:08:33:455 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:08:33:457 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:08:33:457 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:08:35:472 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:08:35:472 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:08:36:019 COT] 00000022 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"StaticLogoPresentation","fps":4,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+[9/12/21, 10:08:36:459 COT] 00000094 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.ScoreboardPresentation to 1 clients
+[9/12/21, 10:08:36:459 COT] 00000094 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.ScoreboardPresentation
+[9/12/21, 10:08:36:486 COT] 0000011c SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.ScoreboardP...
+[9/12/21, 10:08:40:025 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:08:40:472 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:08:40:472 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:08:40:473 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:08:40:473 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:08:42:489 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:08:42:489 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:08:44:028 COT] 00000029 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:08:44:111 COT] 00000094 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation to 1 clients
+[9/12/21, 10:08:44:112 COT] 00000094 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation
+[9/12/21, 10:08:44:138 COT] 000001ac SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSoluti...
+[9/12/21, 10:08:47:489 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:08:47:489 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:08:47:490 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:08:47:490 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:08:48:045 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:08:49:336 COT] 00000027 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation to 1 clients
+[9/12/21, 10:08:49:336 COT] 00000027 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation
+[9/12/21, 10:08:49:362 COT] 00000124 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Ball...
+[9/12/21, 10:08:49:504 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:08:49:504 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:08:52:053 COT] 00000025 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"BalloonMapPresentation","fps":54,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:08:52:710 COT] 00000025 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation to 1 clients
+[9/12/21, 10:08:52:710 COT] 00000025 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation
+[9/12/21, 10:08:52:738 COT] 00000097 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Ball...
+[9/12/21, 10:08:54:505 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:08:54:506 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:08:54:507 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:08:54:507 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:08:55:242 COT] 00000024 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.presentations.map.TeamIntroPresentation to 1 clients
+[9/12/21, 10:08:55:243 COT] 00000024 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.map.TeamIntroPresentation
+[9/12/21, 10:08:55:269 COT] 00000071 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Team...
+[9/12/21, 10:08:56:063 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"TeamIntroPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+[9/12/21, 10:08:56:513 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:08:56:513 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:08:56:963 COT] 00000023 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.presentations.map.WorldPresentation to 1 clients
+[9/12/21, 10:08:56:963 COT] 00000023 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.map.WorldPresentation
+[9/12/21, 10:08:56:989 COT] 000001bf SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Worl...
+[9/12/21, 10:08:59:268 COT] 00000094 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.presentations.map.GroupPresentation to 1 clients
+[9/12/21, 10:08:59:268 COT] 00000094 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.map.GroupPresentation
+[9/12/21, 10:08:59:295 COT] 00000127 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Grou...
+[9/12/21, 10:09:00:116 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"GroupPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:09:01:513 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:09:01:513 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:09:01:514 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:09:01:514 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:09:03:530 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:09:03:530 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:09:04:087 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"GroupPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:09:04:917 COT] 00000023 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.presentations.MessagePresentation to 1 clients
+[9/12/21, 10:09:04:917 COT] 00000023 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.MessagePresentation
+[9/12/21, 10:09:04:944 COT] 000000d4 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.MessageP...
+[9/12/21, 10:09:07:190 COT] 00000094 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.presentations.ICPCToolsPresentation to 1 clients
+[9/12/21, 10:09:07:191 COT] 00000094 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.ICPCToolsPresentation
+[9/12/21, 10:09:07:218 COT] 000000d2 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.ICPCTool...
+[9/12/21, 10:09:08:103 COT] 00000029 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ICPCToolsPresentation","fps":32,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+[9/12/21, 10:09:08:530 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:09:08:530 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:09:08:531 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:09:08:531 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:09:10:535 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:09:10:535 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:09:12:103 COT] 00000029 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ICPCToolsPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+[9/12/21, 10:09:12:967 COT] 00000094 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.presentations.BillPresentation to 1 clients
+[9/12/21, 10:09:12:969 COT] 00000094 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.BillPresentation
+[9/12/21, 10:09:12:997 COT] 0000009e SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.BillPres...
+[9/12/21, 10:09:13:195 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"BillPresentation","fps":0,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBD...
+[9/12/21, 10:09:15:513 COT] 00000092 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.presentations.DoNotTouchPresentation to 1 clients
+[9/12/21, 10:09:15:513 COT] 00000092 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.DoNotTouchPresentation
+[9/12/21, 10:09:15:536 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:09:15:536 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:09:15:537 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:09:15:537 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:09:15:540 COT] 000000d5 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.DoNotTou...
+[9/12/21, 10:09:16:146 COT] 00000029 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"DoNotTouchPresentation","fps":12,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:09:17:542 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:09:17:542 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:09:20:171 COT] 00000094 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"DoNotTouchPresentation","fps":10,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:09:22:543 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:09:22:543 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:09:22:544 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:09:22:544 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:09:24:231 COT] 00000027 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"DoNotTouchPresentation","fps":10,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:09:24:547 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:09:24:547 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:09:28:328 COT] 00000029 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"DoNotTouchPresentation","fps":10,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:09:28:367 COT] 00000024 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.presentations.FireworksPresentation to 1 clients
+[9/12/21, 10:09:28:367 COT] 00000024 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.FireworksPresentation
+[9/12/21, 10:09:28:393 COT] 00000144 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.Firework...
+[9/12/21, 10:09:29:548 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:09:29:548 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:09:29:549 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:09:29:549 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:09:31:553 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:09:31:553 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:09:32:389 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"FireworksPresentation","fps":55,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+[9/12/21, 10:09:32:979 COT] 00000092 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.chart.ScoreboardChart to 1 clients
+[9/12/21, 10:09:32:979 COT] 00000092 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.ScoreboardChart
+[9/12/21, 10:09:33:005 COT] 000000e2 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.ScoreboardChart"...
+[9/12/21, 10:09:35:283 COT] 00000094 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.chart.TotalProblemsChart to 1 clients
+[9/12/21, 10:09:35:284 COT] 00000094 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.TotalProblemsChart
+[9/12/21, 10:09:35:310 COT] 00000051 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.TotalProblemsCha...
+[9/12/21, 10:09:36:350 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"TotalProblemsChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2...
+[9/12/21, 10:09:36:554 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:09:36:554 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:09:36:555 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:09:36:555 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:09:38:420 COT] 00000092 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.chart.ProblemComparisonChart to 1 clients
+[9/12/21, 10:09:38:420 COT] 00000092 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.ProblemComparisonChart
+[9/12/21, 10:09:38:446 COT] 00000153 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.ProblemCompariso...
+[9/12/21, 10:09:38:558 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:09:38:558 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:09:40:365 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"ProblemComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[9/12/21, 10:09:40:565 COT] 00000092 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.chart.LanguageSummaryChart to 1 clients
+[9/12/21, 10:09:40:565 COT] 00000092 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.LanguageSummaryChart
+[9/12/21, 10:09:40:593 COT] 000000ea SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.LanguageSummaryC...
+[9/12/21, 10:09:43:559 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:09:43:559 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:09:43:560 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:09:43:560 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:09:44:367 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"LanguageSummaryChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+[9/12/21, 10:09:45:563 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:09:45:563 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:09:46:807 COT] 00000092 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.chart.HistoricalComparisonChart to 1 clients
+[9/12/21, 10:09:46:807 COT] 00000092 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.HistoricalComparisonChart
+[9/12/21, 10:09:46:834 COT] 000000a4 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.HistoricalCompar...
+[9/12/21, 10:09:48:378 COT] 00000029 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[9/12/21, 10:09:49:283 COT] 00000022 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthChart to 1 clients
+[9/12/21, 10:09:49:284 COT] 00000022 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthChart
+[9/12/21, 10:09:49:310 COT] 00000159 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthC...
+[9/12/21, 10:09:50:563 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:09:50:564 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:09:50:565 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:09:50:566 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:09:52:574 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:09:52:574 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:09:54:022 COT] 00000029 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.presentations.BetterFireworksPresentation to 1 clients
+[9/12/21, 10:09:54:022 COT] 00000029 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.BetterFireworksPresentation
+[9/12/21, 10:09:54:049 COT] 00000162 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.BetterFi...
+[9/12/21, 10:09:54:650 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgeQueueDepthChart","fps":2,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/...
+[9/12/21, 10:09:56:464 COT] 00000094 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":44,"image":"/9j/4AAQSkZJRgABAgAA...
+[9/12/21, 10:09:57:576 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:09:57:576 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:09:57:578 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:09:57:578 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:09:59:583 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:09:59:583 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:10:00:482 COT] 00000029 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":31,"image":"/9j/4AAQSkZJRgABAgAA...
+[9/12/21, 10:10:04:516 COT] 00000029 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":30,"image":"/9j/4AAQSkZJRgABAgAA...
+[9/12/21, 10:10:04:584 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:10:04:584 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:10:04:585 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:10:04:585 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:10:06:601 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:10:06:601 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:10:08:586 COT] 00000094 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":38,"image":"/9j/4AAQSkZJRgABAgAA...
+[9/12/21, 10:10:11:601 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:10:11:601 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:10:11:602 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:10:11:602 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:10:12:574 COT] 00000094 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":41,"image":"/9j/4AAQSkZJRgABAgAA...
+[9/12/21, 10:10:13:606 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:10:13:606 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:10:16:583 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":29,"image":"/9j/4AAQSkZJRgABAgAA...
+[9/12/21, 10:10:16:965 COT] 00000027 SystemOut                                                    O Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresentation to 1 clients
+[9/12/21, 10:10:16:965 COT] 00000027 SystemOut                                                    O Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresentation
+[9/12/21, 10:10:16:992 COT] 00000067 SystemOut                                                    O b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresen...
+[9/12/21, 10:10:18:607 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:10:18:607 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:10:18:608 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:10:18:608 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:10:20:524 COT] 00000094 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:10:20:613 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:10:20:613 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:10:24:532 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:10:25:614 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:10:25:614 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:10:25:615 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:10:25:615 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:10:27:629 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:10:27:629 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:10:28:538 COT] 00000094 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:10:32:557 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:10:32:629 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:10:32:629 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:10:32:630 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:10:32:630 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:10:34:638 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:10:34:638 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:10:36:640 COT] 00000094 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:10:39:639 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:10:39:639 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:10:39:640 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:10:39:640 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:10:40:553 COT] 00000027 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":60,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:10:41:646 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:10:41:646 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:10:44:557 COT] 00000094 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:10:46:647 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:10:46:647 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:10:46:648 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:10:46:648 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:10:48:570 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:10:48:664 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:10:48:664 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:10:52:791 COT] 00000094 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:10:53:664 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:10:53:664 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:10:53:665 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:10:53:665 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:10:55:681 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:10:55:681 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:10:56:598 COT] 00000022 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:11:00:606 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:11:00:681 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:11:00:681 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:11:00:682 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:11:00:682 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:11:02:686 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:11:02:686 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:11:04:621 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:11:07:687 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:11:07:687 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:11:07:688 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:11:07:688 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:11:08:664 COT] 00000029 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:11:09:701 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:11:09:701 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:11:12:652 COT] 00000025 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:11:14:702 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:11:14:702 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:11:14:703 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:11:14:703 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:11:16:652 COT] 00000025 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:11:16:709 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:11:16:709 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:11:20:666 COT] 00000094 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:11:21:709 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:11:21:709 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:11:21:710 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:11:21:710 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:11:23:716 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:11:23:716 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:11:24:673 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:11:28:688 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:11:28:716 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:11:28:716 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:11:28:718 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:11:28:718 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:11:30:724 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:11:30:724 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:11:32:688 COT] 00000027 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":60,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:11:35:725 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:11:35:725 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:11:35:726 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:11:35:726 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:11:36:843 COT] 00000025 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:11:37:728 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:11:37:728 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:11:40:704 COT] 00000022 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:11:42:728 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:11:42:728 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:11:42:729 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:11:42:729 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:11:44:713 COT] 00000022 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:11:44:734 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:11:44:734 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:11:48:717 COT] 00000022 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:11:49:734 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:11:49:734 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:11:49:735 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:11:49:735 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:11:51:739 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:11:51:739 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:11:52:729 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:11:56:739 COT] 00000094 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:11:56:740 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:11:56:740 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:11:56:742 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:11:56:742 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:11:58:746 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:11:58:746 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:12:01:342 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:12:03:747 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:12:03:747 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:12:03:749 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:12:03:749 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:12:04:755 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:12:05:765 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:12:05:765 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:12:08:755 COT] 00000022 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:12:10:765 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:12:10:765 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:12:10:766 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:12:10:766 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:12:12:770 COT] 00000022 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:12:12:770 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:12:12:770 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:12:16:783 COT] 00000025 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:12:17:771 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:12:17:771 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:12:17:772 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:12:17:772 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:12:19:776 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:12:19:776 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:12:20:788 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:12:24:776 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:12:24:776 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:12:24:777 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:12:24:777 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:12:24:797 COT] 00000022 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:12:26:790 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:12:26:790 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:12:28:804 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:12:31:791 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:12:31:791 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:12:31:792 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:12:31:792 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:12:32:828 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:12:33:796 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:12:33:796 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:12:36:827 COT] 00000029 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:12:38:797 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:12:38:797 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:12:38:798 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:12:38:799 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:12:40:814 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:12:40:814 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:12:40:839 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:12:44:852 COT] 00000024 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:12:45:814 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:12:45:814 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:12:45:815 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:12:45:815 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:12:47:821 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:12:47:821 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:12:48:861 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:12:52:822 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:12:52:822 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:12:52:823 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:12:52:823 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:12:52:867 COT] 00000092 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:12:54:826 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:12:54:826 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:12:56:875 COT] 00000023 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:12:59:827 COT] 0000008b SystemOut                                                    O Reading contest: 5
+[9/12/21, 10:12:59:827 COT] 0000008b SystemOut                                                    O Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+[9/12/21, 10:12:59:828 COT] 0000008b SystemOut                                                    O First comment: ! 0
+[9/12/21, 10:12:59:828 COT] 0000008b SystemOut                                                    O Found feed cache up to event id: 296
+[9/12/21, 10:13:00:902 COT] 00000025 SystemOut                                                    O b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[9/12/21, 10:13:01:834 COT] 0000008b SystemErr                                                    R Error reading event feed: Connection refused: connect
+[9/12/21, 10:13:01:834 COT] 0000008b SystemOut                                                    O Waiting to reconnect
+[9/12/21, 10:13:03:166 COT] 00000012 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Conclusión del servidor solicitada el jueves, 9 de diciembre de 2021 a las 10:13 a. m.. El servidor cds se está cerrando.
+[9/12/21, 10:13:03:175 COT] 000001d8 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Esperando hasta 30 segundos para que el servidor se desactive temporalmente.
+[9/12/21, 10:13:03:227 COT] 00000025 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: El canal TCP defaultHttpEndpoint ha detenido la escucha de solicitudes en el host *  (IPv6) puerto 8080.
+[9/12/21, 10:13:03:265 COT] 00000029 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: El canal TCP defaultHttpEndpoint-ssl ha detenido la escucha de solicitudes en el host *  (IPv6) puerto 8443.
+[9/12/21, 10:13:03:267 COT] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicación web eliminada (default_host): https://roca12ultra:8443/
+[9/12/21, 10:13:04:277 COT] 000001d8 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: La desactivación temporal del servidor ha finalizado.
+[9/12/21, 10:13:04:391 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [CDS] [/] [org.icpc.tools.cds.service.LoginServlet]: Destrucción satisfactoria.
+[9/12/21, 10:13:04:392 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [CDS] [/] [org.icpc.tools.cds.service.ErrorService]: Destrucción satisfactoria.
+[9/12/21, 10:13:04:393 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [CDS] [/] [org.icpc.tools.cds.presentations.PropertyServlet]: Destrucción satisfactoria.
+[9/12/21, 10:13:04:393 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [CDS] [/] [org.icpc.tools.cds.presentations.PresentationFilesServlet]: Destrucción satisfactoria.
+[9/12/21, 10:13:04:393 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [CDS] [/] [org.icpc.tools.cds.service.ContestWebService]: Destrucción satisfactoria.
+[9/12/21, 10:13:04:398 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [CDS] [/] [org.icpc.tools.cds.service.ContestRESTService]: Destrucción satisfactoria.
+[9/12/21, 10:13:04:398 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [CDS] [/] [/WEB-INF/jsps/loginError.jsp]: Destrucción satisfactoria.
+[9/12/21, 10:13:04:399 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [CDS] [/] [/WEB-INF/jsps/errorPage.jsp]: Destrucción satisfactoria.
+[9/12/21, 10:13:04:400 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [CDS] [/] [/WEB-INF/jsps/welcome.jsp]: Destrucción satisfactoria.
+[9/12/21, 10:13:04:400 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [CDS] [/] [/WEB-INF/jsps/directory.jsp]: Destrucción satisfactoria.
+[9/12/21, 10:13:04:400 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [CDS] [/] [/WEB-INF/jsps/admin.jsp]: Destrucción satisfactoria.
+[9/12/21, 10:13:04:401 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [CDS] [/] [/WEB-INF/jsps/login.jsp]: Destrucción satisfactoria.
+[9/12/21, 10:13:04:401 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [CDS] [/] [/WEB-INF/jsps/present.jsp]: Destrucción satisfactoria.
+[9/12/21, 10:13:04:402 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [CDS] [/] [/WEB-INF/jsps/scoreboard.jsp]: Destrucción satisfactoria.
+[9/12/21, 10:13:04:402 COT] 00000094 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [CDS] [/] [org.icpc.tools.cds.web.WelcomeServlet]: Destrucción satisfactoria.
+[9/12/21, 10:13:04:411 COT] 00000094 SystemOut                                                    O Shutting down
+[9/12/21, 10:13:04:411 COT] 00000094 SystemOut                                                    O Metrics for contest 5 [REST:43,Feed:6,WS:0,Web:35,Dwnld:0,Scr:1,XML:0,Desktop:0,Webcam:0,Audio:0,Total:85]
+[9/12/21, 10:13:04:523 COT] 00000094 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: La aplicación CDS se ha detenido correctamente.
+[9/12/21, 10:13:04:852 COT] 000001d8 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: El servicio de seguridad se ha detenido.
+[9/12/21, 10:13:04:908 COT] 000001d8 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: Se ha desactivado el plugin de autenticación colectiva con el nombre de clase NullCollectiveAuthenticationPlugin. 
+[9/12/21, 10:13:06:156 COT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: El servidor cds se ha detenido después de 16 minutos, 14,027 segundos.

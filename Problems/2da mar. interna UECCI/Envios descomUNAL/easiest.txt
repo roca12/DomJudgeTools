@@ -1,0 +1,34 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+typedef long long ll;
+
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    #ifdef LOCAL
+        freopen("input.txt", "r", stdin);
+    #else
+        #define endl '\n'
+    #endif // LOCAL
+
+    int t;
+    cin >> t;
+    int cases = 0;
+    while(t--) {
+        cout << "Case " << ++cases << ": ";
+        ll a, b, c; cin >> a >> b >> c;
+        if(a <= 0 || b <= 0 || c <= 0) {
+            cout << "Invalid" << endl;
+        }
+        else if(a + b < c || a + c < b || b + c < a) {
+            cout << "Invalid" << endl;
+        } else {
+            set<ll> s = {a, b, c};
+            if(s.size() == 1) cout << "Equilateral" << endl;
+            else if(s.size() == 2) cout << "Isosceles" << endl;
+            else cout << "Scalene" << endl;
+        }
+    }
+}

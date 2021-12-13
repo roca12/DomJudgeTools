@@ -1,4 +1,70 @@
 ! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
+
+!Connection lost. Connection refused: connect after event null
+! 0
 {"id":"214","type":"contests","op":"create","data":{"formal_name":"test3","penalty_time":20,"start_time":"2021-07-07T20:40:03+02:00","end_time":"2021-07-09T20:40:00+02:00","duration":"47:59:57.000","scoreboard_freeze_duration":"24:00:00.000","id":"5","external_id":null,"name":"test3","shortname":"test3"},"time":"2021-07-07T20:26:27.809+02:00"}
 {"id":"215","type":"judgement-types","op":"create","data":{"id":"AC","name":"correct","penalty":false,"solved":true},"time":"2021-07-07T20:26:27.813+02:00"}
 {"id":"216","type":"judgement-types","op":"create","data":{"id":"CE","name":"compiler error","penalty":true,"solved":false},"time":"2021-07-07T20:26:27.815+02:00"}
@@ -32,6 +98,8 @@
 {"id":"244","type":"state","op":"update","data":{"started":"2021-07-07T20:32:05.000+02:00","ended":null,"frozen":null,"thawed":null,"finalized":null,"end_of_updates":null},"time":"2021-07-07T20:32:05.335+02:00"}
 {"id":"245","type":"contests","op":"update","data":{"formal_name":"test3","penalty_time":20,"start_time":"2021-07-07T20:32:05+02:00","end_time":"2021-07-09T20:40:00+02:00","duration":"48:07:55.000","scoreboard_freeze_duration":"24:00:00.000","id":"5","external_id":null,"name":"test3","shortname":"test3"},"time":"2021-07-07T20:32:05.332+02:00"}
 {"id":"246","type":"submissions","op":"create","data":{"language_id":"python3","time":"2021-07-07T20:32:28.709+02:00","contest_time":"0:00:23.709","id":"6","externalid":null,"team_id":"2","problem_id":"1","entry_point":null,"files":[{"href":"contests/5/submissions/6/files","mime":"application/zip"}]},"time":"2021-07-07T20:32:28.725+02:00"}
+
+!Connecting at event 246
 {"id":"247","type":"judgements","op":"create","data":{"max_run_time":null,"start_time":"2021-07-07T20:32:29.934+02:00","start_contest_time":"0:00:24.934","end_time":null,"end_contest_time":null,"id":"7","submission_id":"6","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":null},"time":"2021-07-07T20:32:29.943+02:00"}
 {"id":"248","type":"submissions","op":"update","data":{"language_id":"python3","time":"2021-07-07T20:32:28.709+02:00","contest_time":"0:00:23.709","id":"6","externalid":null,"team_id":"2","problem_id":"1","entry_point":"","files":[{"href":"contests/5/submissions/6/files","mime":"application/zip"}]},"time":"2021-07-07T20:32:30.652+02:00"}
 {"id":"249","type":"runs","op":"create","data":{"run_time":0.013,"time":"2021-07-07T20:32:31.241+02:00","contest_time":"0:00:26.241","ordinal":1,"id":"5","judgement_id":"7","judgement_type_id":"AC"},"time":"2021-07-07T20:32:31.257+02:00"}
@@ -67,102 +135,485 @@
 {"id":"279","type":"contests","op":"update","data":{"formal_name":"test3","penalty_time":20,"start_time":"2021-07-07T20:32:05+02:00","end_time":"2021-07-09T19:04:46+02:00","duration":"46:32:41.000","scoreboard_freeze_duration":"22:24:46.000","id":"5","external_id":null,"name":"test3","shortname":"test3"},"time":"2021-07-09T19:04:50.412+02:00"}
 {"id":"280","type":"state","op":"update","data":{"started":"2021-07-07T20:32:05.000+02:00","ended":"2021-07-09T19:04:46.000+02:00","frozen":"2021-07-08T20:40:00.000+02:00","thawed":"2021-07-09T19:04:50.000+02:00","finalized":"2021-07-09T19:04:54.924+02:00","end_of_updates":null},"time":"2021-07-09T19:04:55.133+02:00"}
 {"id":"281","type":"state","op":"update","data":{"started":"2021-07-07T20:32:05.000+02:00","ended":"2021-07-09T19:04:46.000+02:00","frozen":"2021-07-08T20:40:00.000+02:00","thawed":"2021-07-09T19:04:50.000+02:00","finalized":"2021-07-09T19:04:54.924+02:00","end_of_updates":"2021-07-09T19:04:54.924+02:00"},"time":"2021-07-09T19:04:55.171+02:00"}
-{"id":"282","type":"teams","op":"create","data":{"externalid":null,"group_ids":["3"],"affiliation":"GPC - UNIECCI","nationality":"COL","id":"4","icpc_id":null,"name":"NMA","organization_id":"3","members":null},"time":"2021-07-10T23:12:44.516+02:00"}
-{"id":"283","type":"teams","op":"create","data":{"externalid":null,"group_ids":["3"],"affiliation":"GPC - UNIECCI","nationality":"COL","id":"5","icpc_id":null,"name":"JaPyCmonos","organization_id":"3","members":null},"time":"2021-07-10T23:12:44.531+02:00"}
+{"id":"282","type":"contests","op":"update","data":{"formal_name":"test3","penalty_time":20,"start_time":"2021-07-07T20:32:05+02:00","end_time":"2022-07-09T19:04:46+02:00","duration":"8806:32:41.000","scoreboard_freeze_duration":"8782:24:46.000","id":"5","external_id":null,"name":"test3","shortname":"test3"},"time":"2021-12-09T15:45:56.765+01:00"}
+{"id":"283","type":"contests","op":"update","data":{"formal_name":"test3","penalty_time":20,"start_time":"2021-07-07T20:32:05+02:00","end_time":"2022-07-09T19:04:46+02:00","duration":"8806:32:41.000","scoreboard_freeze_duration":"22:24:46.000","id":"5","external_id":null,"name":"test3","shortname":"test3"},"time":"2021-12-09T15:55:32.165+01:00"}
+{"id":"284","type":"languages","op":"update","data":{"id":"c","name":"C","extensions":["c"],"filter_compiler_files":true,"allow_judge":true,"time_factor":1.0,"require_entry_point":false,"entry_point_description":null},"time":"2021-12-09T16:01:25.059+01:00"}
+{"id":"285","type":"languages","op":"update","data":{"id":"cpp","name":"C++","extensions":["cpp","cc","cxx","c++"],"filter_compiler_files":true,"allow_judge":true,"time_factor":1.0,"require_entry_point":false,"entry_point_description":null},"time":"2021-12-09T16:01:25.068+01:00"}
+{"id":"286","type":"languages","op":"update","data":{"id":"java","name":"Java","extensions":["java"],"filter_compiler_files":true,"allow_judge":true,"time_factor":1.0,"require_entry_point":false,"entry_point_description":"Main class"},"time":"2021-12-09T16:01:25.076+01:00"}
+{"id":"287","type":"languages","op":"update","data":{"id":"kotlin","name":"Kotlin","extensions":["kt"],"filter_compiler_files":true,"allow_judge":true,"time_factor":1.0,"require_entry_point":true,"entry_point_description":"Main class"},"time":"2021-12-09T16:01:25.086+01:00"}
+{"id":"288","type":"languages","op":"update","data":{"id":"python3","name":"Python 3","extensions":["py3"],"filter_compiler_files":true,"allow_judge":true,"time_factor":1.0,"require_entry_point":false,"entry_point_description":"Main file"},"time":"2021-12-09T16:01:25.092+01:00"}
+{"id":"289","type":"languages","op":"update","data":{"id":"ruby","name":"Ruby","extensions":["rb"],"filter_compiler_files":true,"allow_judge":true,"time_factor":1.0,"require_entry_point":false,"entry_point_description":"Main file"},"time":"2021-12-09T16:01:25.102+01:00"}
+{"id":"290","type":"problems","op":"update","data":{"ordinal":2,"id":"1","short_name":"Hello","label":"Hello","time_limit":5.0,"externalid":"hello","name":"Hello World","rgb":"#ffff00","color":"yellow","test_data_count":1},"time":"2021-12-09T16:01:25.120+01:00"}
+{"id":"291","type":"problems","op":"update","data":{"ordinal":1,"id":"2","short_name":"Float","label":"Float","time_limit":5.0,"externalid":"fltcmp","name":"Float special compare test","rgb":"#6105ff","color":"darkviolet","test_data_count":3},"time":"2021-12-09T16:01:25.128+01:00"}
+{"id":"292","type":"problems","op":"update","data":{"ordinal":0,"id":"3","short_name":"Boolean","label":"Boolean","time_limit":5.0,"externalid":"boolfind","name":"Boolean switch search","rgb":"#ff0313","color":"red","test_data_count":1},"time":"2021-12-09T16:01:25.136+01:00"}
+{"id":"293","type":"teams","op":"update","data":{"group_ids":["1"],"affiliation":null,"nationality":null,"id":"1","icpc_id":null,"name":"DOMjudge","display_name":null,"organization_id":null,"members":null},"time":"2021-12-09T16:01:25.166+01:00"}
+{"id":"294","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":null,"nationality":null,"id":"2","icpc_id":null,"name":"Example teamname","display_name":null,"organization_id":null,"members":null},"time":"2021-12-09T16:01:25.174+01:00"}
+{"id":"295","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"GPC - UNIECCI","nationality":"COL","id":"3","icpc_id":null,"name":"ARTEMISA","display_name":null,"organization_id":"3","members":null},"time":"2021-12-09T16:01:25.203+01:00"}
+{"id":"296","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"GPC - UNIECCI","nationality":"COL","id":"4","icpc_id":null,"name":"NMA","display_name":null,"organization_id":"3","members":null},"time":"2021-12-09T16:01:25.213+01:00"}
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
 
+!Connection lost. Connection refused: connect after event null
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
 
+!Connection lost. Connection refused: connect after event null
 
 
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+
+!Connecting at event 296
+
+!Connection lost. Connection refused: connect after event null
+
+!Connecting at event 296
+
+
+!Connection lost. Connection refused: connect after event null

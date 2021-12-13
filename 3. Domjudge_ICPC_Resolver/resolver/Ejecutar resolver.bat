@@ -1,1 +1,0 @@
-start "title" call .\resolver.bat https://localhost:8443/api/contests/3/ admin adm1n --client --test

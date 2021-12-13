@@ -13,13 +13,1083 @@ Loading CDS configuration from: C:\Users\diego\Documents\DomJudge\0. CDS server\
 Configured contests:
    5 on disk at /home/myuser/contests/test - CCS configured (score@http://192.168.0.4/domjudge/api/contests/5), Not recording reactions
 [err] Could not read from CDS config! No contests loaded
-[AUDITAR ] CWWKZ0001I: La aplicación CDS se ha iniciado en 5,026 segundos.
+[AUDITAR ] CWWKZ0001I: La aplicación CDS se ha iniciado en 5,139 segundos.
 [AUDITAR ] CWWKF0012I: El servidor ha instalado las características siguientes: [appSecurity-3.0, cdi-2.0, distributedMap-1.0, el-3.0, jndi-1.0, jsp-2.3, servlet-4.0, ssl-1.0, websocket-1.1].
-[AUDITAR ] CWWKF0011I: El servidor cds está preparado para ejecutar un planeta más inteligente. El servidor cds se ha iniciado en 34,350 segundos.
-[AUDITAR ] CWWKE0055I: Conclusión del servidor solicitada el lunes, 26 de julio de 2021 a las 8:07 p. m.. El servidor cds se está cerrando.
+[AUDITAR ] CWWKF0011I: El servidor cds está preparado para ejecutar un planeta más inteligente. El servidor cds se ha iniciado en 64,574 segundos.
+Loading contest from RESTContestSource[score|score@http://192.168.0.4/domjudge/api/contests/5]
+Importing contest info
+Contest config file (contest.yaml) not found
+Importing problem set
+Problem config file (problemset.yaml) not found
+Importing groups
+Group config file (groups.json/groups.tsv) not found
+Importing organizations
+Institutions config file (institutions.json/institutions2.tsv/institutions.tsv) not found
+Importing teams
+Team config file (teams.json/teams2.tsv/teams.tsv) not found
+Importing team-members
+Team member config file (members.json/members.tsv) not found
+Importing contest floor map
+Reading contest: 5
+[err] Error reading feed
+[err]    java.net.ConnectException: Connection refused: connect
+[err]    at org.icpc.tools.contest.model.feed.RESTContestSource.connect(RESTContestSource.java:567)
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Logging second instance of exception, will not log again
+[err] Error reading feed
+[err]    java.net.ConnectException: Connection refused: connect
+[err]    at org.icpc.tools.contest.model.feed.RESTContestSource.connect(RESTContestSource.java:567)
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[AUDITAR ] CWWKS1100A: La autenticación no se ha ejecutado correctamente para el ID de usuario admin. Se ha especificado un ID de usuario o una contraseña no válidos.
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+----- CDS config change detected -----
+Configured contests:
+   5 on disk at /home/myuser/contests/test - CCS configured (score@http://192.168.0.5/domjudge/api/contests/5), Not recording reactions
+Error reading CDS config, changes will be ignored until the file is fixed
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Loading contest from RESTContestSource[score|score@http://192.168.0.5/domjudge/api/contests/5]
+Importing contest info
+Contest config file (contest.yaml) not found
+Importing problem set
+Problem config file (problemset.yaml) not found
+Importing groups
+Group config file (groups.json/groups.tsv) not found
+Importing organizations
+Institutions config file (institutions.json/institutions2.tsv/institutions.tsv) not found
+Importing teams
+Team config file (teams.json/teams2.tsv/teams.tsv) not found
+Importing team-members
+Team member config file (members.json/members.tsv) not found
+Importing contest floor map
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: null
+Reading feed cache
+Done reading feed cache
+Unknown property ignored: contests/end_time
+Unknown property ignored: contests/external_id
+Unknown property ignored: contests/shortname
+Unknown property ignored: languages/extensions
+Unknown property ignored: languages/allow_judge
+Unknown property ignored: languages/time_factor
+Unknown property ignored: languages/require_entry_point
+Unknown property ignored: languages/entry_point_description
+Unknown property ignored: problems/short_name
+Unknown property ignored: problems/externalid
+Unknown property ignored: groups/sortorder
+Unknown property ignored: groups/color
+Unknown property ignored: organizations/shortname
+Unknown property ignored: teams/externalid
+Unknown property ignored: teams/affiliation
+Unknown property ignored: teams/nationality
+Unknown property ignored: teams/members
+Contest started: 5
+Unknown property ignored: submissions/externalid
+Download http://192.168.0.5/domjudge/api/contests/5/submissions/6/files to \home\myuser\contests\test\submissions\6\files.zip (200) (0.1kb in 222ms)
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 246
+Unknown property ignored: judgements/valid
+Unknown property ignored: judgements/judgehost
+Download http://192.168.0.5/domjudge/api/contests/5/submissions/7/files to \home\myuser\contests\test\submissions\7\files.zip (200) (0.1kb in 108ms)
+Download http://192.168.0.5/domjudge/api/contests/5/submissions/8/files to \home\myuser\contests\test\submissions\8\files.zip (200) (0.1kb in 106ms)
+Download http://192.168.0.5/domjudge/api/contests/5/submissions/9/files to \home\myuser\contests\test\submissions\9\files.zip (200) (0.1kb in 103ms)
+Download http://192.168.0.5/domjudge/api/contests/5/submissions/10/files to \home\myuser\contests\test\submissions\10\files.zip (200) (0.1kb in 99ms)
+Contest freeze! Cutting off unauthorized video feeds
+Contest frozen: 5
+Contest unfrozen: 5
+Contest unfrozen: 5
+Contest finalized: 5
+Contest unfrozen: 5
+Contest end of updates: 5
+Unknown property ignored: languages/filter_compiler_files
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+[ERROR   ] CWWKO0801E: No se ha podido inicializar la conexión SSL. Se ha denegado el acceso no autorizado o los valores de seguridad han caducado. La excepción es javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:285)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:180)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:164)
+	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:681)
+	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:636)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:454)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:433)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:634)
+	at com.ibm.ws.channel.ssl.internal.SSLUtils.handleHandshake(SSLUtils.java:904)
+	at [internal classes]
+.
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+Client connected: presAdmin [uid 6720a0f7]
+6720a0f7 < {"type":"pres_list"}
+Sending presentation lists
+6720a0f7 < {"type":"info","source":"6720a0f7","client.type":"pres-admin","version":"2.3.491","os.name":"Windows 10","os.version":...
+6720a0f7 > {"type":"clients","clients":[]}
+6720a0f7 > {"type":"pres_list","file":"UEsDBBQACAgIADFf51IAAAAAAAAAAAAAAAAaAAAATUVUQS1JTkYvcHJlc2VudGF0aW9ucy54bWzNnOtz2zYSwL/3r8...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+6720a0f7 - Syncing time to 3ms. Recent pings: [7ms, 420ms, 1ms, 1ms]
+6720a0f7 > {"type":"time","time":1639062131048}
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Client disconnected: presAdmin [uid 6720a0f7]
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Client connected: presAdmin [uid 6720a0f7]
+6720a0f7 < {"type":"pres_list"}
+Sending presentation lists
+6720a0f7 < {"type":"info","source":"6720a0f7","client.type":"pres-admin","version":"2.3.491","os.name":"Windows 10","os.version":...
+6720a0f7 > {"type":"clients","clients":[]}
+6720a0f7 > {"type":"pres_list","file":"UEsDBBQACAgIADFf51IAAAAAAAAAAAAAAAAaAAAATUVUQS1JTkYvcHJlc2VudGF0aW9ucy54bWzNnOtz2zYSwL/3r8...
+6720a0f7 - Syncing time to 12ms. Recent pings: [36ms, 350ms, 1ms, 1ms]
+6720a0f7 > {"type":"time","time":1639062182946}
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+6720a0f7 < {"type":"properties","clients":[],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboar...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Client connected: 192.168.0.3 [uid b833456f]
+6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f"}]}
+Client disconnected: 192.168.0.3 [uid b833456f]
+6720a0f7 > {"type":"clients","clients":[]}
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Client connected: 192.168.0.3 [uid b833456f]
+6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f"}]}
+b833456f < {"type":"info","source":"b833456f","width":1366,"height":768,"hidden":false,"display":"1w"}
+b833456f < {"type":"info","source":"b833456f","client.type":"presentation","version":"2.3.491","os.name":"Windows 10","os.version...
+b833456f - Syncing time to 9ms. Recent pings: [27ms, 16ms, 3ms]
+b833456f > {"type":"time","time":1639062296093}
+6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f","width":1366,"height":768,"contest.ids":[5],"versi...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":null,"fps":0,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBw...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+6720a0f7 < {"type":"properties","clients":[],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboar...
+[ERROR   ] CWWKO0801E: No se ha podido inicializar la conexión SSL. Se ha denegado el acceso no autorizado o los valores de seguridad han caducado. La excepción es javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:285)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:180)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:164)
+	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:681)
+	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:636)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:454)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:433)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:634)
+	at com.ibm.ws.channel.ssl.internal.SSLUtils.handleHandshake(SSLUtils.java:904)
+	at [internal classes]
+.
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+6720a0f7 < {"type":"properties","clients":[],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboar...
+b833456f < {"type":"info","source":"b833456f","presentation":null,"fps":0,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBw...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.s...
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.ScoreboardP...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":1,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.s...
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.TimelinePre...
+b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":63,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+Client disconnected: 192.168.0.3 [uid b833456f]
+6720a0f7 > {"type":"clients","clients":[]}
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Client connected: 192.168.0.3 [uid b833456f]
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.TimelinePre...
+b833456f < {"type":"info","source":"b833456f","client.type":"presentation","version":"2.3.491","os.name":"Windows 10","os.version...
+b833456f < {"type":"info","source":"b833456f","width":1366,"height":768,"hidden":false,"display":"1w"}
+6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f"}]}
+6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f","width":0,"height":0,"contest.ids":[5],"version":"...
+b833456f < {"type":"info","source":"b833456f","presentation":null,"fps":0,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBw...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":59,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+b833456f - Syncing time to 1ms. Recent pings: [1602ms, 2ms, 1ms, 2ms]
+b833456f > {"type":"time","time":1639062416171}
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.GroupLeaderboardPresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.GroupLeaderboardPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.GroupLeader...
+Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSoluti...
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":54,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+Setting presentation org.icpc.tools.presentation.contest.internal.presentations.test.TestChartPresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.test.TestChartPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.test.Tes...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"TestChartPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+Setting presentation org.icpc.tools.presentation.contest.internal.presentations.StaticLogoPresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.StaticLogoPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.StaticLo...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"StaticLogoPresentation","fps":4,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.ScoreboardPresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.ScoreboardPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.ScoreboardP...
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSoluti...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+Setting presentation org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Ball...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"BalloonMapPresentation","fps":54,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+Setting presentation org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Ball...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+Setting presentation org.icpc.tools.presentation.contest.internal.presentations.map.TeamIntroPresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.map.TeamIntroPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Team...
+b833456f < {"type":"info","source":"b833456f","presentation":"TeamIntroPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Setting presentation org.icpc.tools.presentation.contest.internal.presentations.map.WorldPresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.map.WorldPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Worl...
+Setting presentation org.icpc.tools.presentation.contest.internal.presentations.map.GroupPresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.map.GroupPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Grou...
+b833456f < {"type":"info","source":"b833456f","presentation":"GroupPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"GroupPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Setting presentation org.icpc.tools.presentation.contest.internal.presentations.MessagePresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.MessagePresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.MessageP...
+Setting presentation org.icpc.tools.presentation.contest.internal.presentations.ICPCToolsPresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.ICPCToolsPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.ICPCTool...
+b833456f < {"type":"info","source":"b833456f","presentation":"ICPCToolsPresentation","fps":32,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"ICPCToolsPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+Setting presentation org.icpc.tools.presentation.contest.internal.presentations.BillPresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.BillPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.BillPres...
+b833456f < {"type":"info","source":"b833456f","presentation":"BillPresentation","fps":0,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBD...
+Setting presentation org.icpc.tools.presentation.contest.internal.presentations.DoNotTouchPresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.DoNotTouchPresentation
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.DoNotTou...
+b833456f < {"type":"info","source":"b833456f","presentation":"DoNotTouchPresentation","fps":12,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"DoNotTouchPresentation","fps":10,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"DoNotTouchPresentation","fps":10,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"DoNotTouchPresentation","fps":10,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+Setting presentation org.icpc.tools.presentation.contest.internal.presentations.FireworksPresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.FireworksPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.Firework...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"FireworksPresentation","fps":55,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+Setting presentation org.icpc.tools.presentation.contest.internal.chart.ScoreboardChart to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.ScoreboardChart
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.ScoreboardChart"...
+Setting presentation org.icpc.tools.presentation.contest.internal.chart.TotalProblemsChart to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.TotalProblemsChart
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.TotalProblemsCha...
+b833456f < {"type":"info","source":"b833456f","presentation":"TotalProblemsChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+Setting presentation org.icpc.tools.presentation.contest.internal.chart.ProblemComparisonChart to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.ProblemComparisonChart
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.ProblemCompariso...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"ProblemComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+Setting presentation org.icpc.tools.presentation.contest.internal.chart.LanguageSummaryChart to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.LanguageSummaryChart
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.LanguageSummaryC...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"LanguageSummaryChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Setting presentation org.icpc.tools.presentation.contest.internal.chart.HistoricalComparisonChart to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.HistoricalComparisonChart
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.HistoricalCompar...
+b833456f < {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQ...
+Setting presentation org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthChart to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthChart
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthC...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+Setting presentation org.icpc.tools.presentation.contest.internal.presentations.BetterFireworksPresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.BetterFireworksPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.BetterFi...
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgeQueueDepthChart","fps":2,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/...
+b833456f < {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":44,"image":"/9j/4AAQSkZJRgABAgAA...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":31,"image":"/9j/4AAQSkZJRgABAgAA...
+b833456f < {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":30,"image":"/9j/4AAQSkZJRgABAgAA...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":38,"image":"/9j/4AAQSkZJRgABAgAA...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":41,"image":"/9j/4AAQSkZJRgABAgAA...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":29,"image":"/9j/4AAQSkZJRgABAgAA...
+Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresentation to 1 clients
+Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresen...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":60,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":60,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+Reading contest: 5
+Checking feed cache: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\events-5-score.log
+First comment: ! 0
+Found feed cache up to event id: 296
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+[err] Error reading event feed: Connection refused: connect
+Waiting to reconnect
+[AUDITAR ] CWWKE0055I: Conclusión del servidor solicitada el jueves, 9 de diciembre de 2021 a las 10:13 a. m.. El servidor cds se está cerrando.
 [AUDITAR ] CWWKE1100I: Esperando hasta 30 segundos para que el servidor se desactive temporalmente.
-[AUDITAR ] CWWKT0017I: Aplicación web eliminada (default_host): http://roca12ultra:8080/
+[AUDITAR ] CWWKT0017I: Aplicación web eliminada (default_host): https://roca12ultra:8443/
 Shutting down
-Metrics for contest 5 [REST:0,Feed:0,WS:0,Web:0,Dwnld:0,Scr:0,XML:0,Desktop:0,Webcam:0,Audio:0,Total:0]
+Metrics for contest 5 [REST:43,Feed:6,WS:0,Web:35,Dwnld:0,Scr:1,XML:0,Desktop:0,Webcam:0,Audio:0,Total:85]
 [AUDITAR ] CWWKZ0009I: La aplicación CDS se ha detenido correctamente.
-[AUDITAR ] CWWKE0036I: El servidor cds se ha detenido después de 42,561 segundos.
+[AUDITAR ] CWWKE0036I: El servidor cds se ha detenido después de 16 minutos, 14,027 segundos.
