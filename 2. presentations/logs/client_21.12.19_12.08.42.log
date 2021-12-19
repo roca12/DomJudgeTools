@@ -1,0 +1,66 @@
+---- ICPC Presentation Client (2.3.491) ----
+OS:  Windows 10 (amd64/10.0)
+JRE: Oracle Corporation (11.0.11)
+Folder: C:\Users\diego\Documents\DomJudge\2. presentations
+Host: ROCA12ULTRA / 192.168.0.3
+Locale/TZ: es_CO / hora estándar de Colombia
+Args: https://localhost:8443/api/contests/8/ presentation presentat1on 
+Log started 2021.12.19 12:08.42
+
+2021.12.19 12:08.43 I Contest source verified
+2021.12.19 12:08.43 I Download https://localhost:8443/presentation/ to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.localhostapicontests8\presentation\listing.dir (200) (7.8kb in 182ms)
+2021.12.19 12:08.44 I Updates found on CDS: 1
+2021.12.19 12:08.44 I Version check: 2.3.491 (local) vs 2.3.491 (remote)
+2021.12.19 12:08.44 I Display 1 found, modes:
+2021.12.19 12:08.44 I    1366x768 @ 60hz in 32bit
+2021.12.19 12:08.44 I    1280x720 @ 60hz in 32bit
+2021.12.19 12:08.44 I    1024x768 @ 60hz in 32bit
+2021.12.19 12:08.44 I    800x600 @ 60hz in 32bit
+2021.12.19 12:08.44 I    640x480 @ 60hz in 32bit
+2021.12.19 12:08.44 I    Config: false, true, true, DirectColorModel
+2021.12.19 12:08.44 I Display 2 found, modes:
+2021.12.19 12:08.44 I    1920x1080 @ 75hz in 32bit
+2021.12.19 12:08.44 I    1920x1080 @ 60hz in 32bit
+2021.12.19 12:08.44 I    1920x1080 @ 59hz in 32bit
+2021.12.19 12:08.44 I    1920x1080 @ 50hz in 32bit
+2021.12.19 12:08.44 I    1680x1050 @ 75hz in 32bit
+2021.12.19 12:08.44 I    1680x1050 @ 60hz in 32bit
+2021.12.19 12:08.44 I    1600x900 @ 75hz in 32bit
+2021.12.19 12:08.44 I    1600x900 @ 60hz in 32bit
+2021.12.19 12:08.44 I    1440x900 @ 75hz in 32bit
+2021.12.19 12:08.44 I    1440x900 @ 60hz in 32bit
+2021.12.19 12:08.44 I    1366x768 @ 75hz in 32bit
+2021.12.19 12:08.44 I    1366x768 @ 60hz in 32bit
+2021.12.19 12:08.44 I    1280x1024 @ 75hz in 32bit
+2021.12.19 12:08.44 I    1280x1024 @ 60hz in 32bit
+2021.12.19 12:08.44 I    1280x800 @ 75hz in 32bit
+2021.12.19 12:08.44 I    1280x800 @ 60hz in 32bit
+2021.12.19 12:08.44 I    1280x720 @ 75hz in 32bit
+2021.12.19 12:08.44 I    1280x720 @ 60hz in 32bit
+2021.12.19 12:08.44 I    1280x720 @ 59hz in 32bit
+2021.12.19 12:08.44 I    1280x720 @ 50hz in 32bit
+2021.12.19 12:08.44 I    1024x768 @ 75hz in 32bit
+2021.12.19 12:08.44 I    1024x768 @ 60hz in 32bit
+2021.12.19 12:08.44 I    800x600 @ 75hz in 32bit
+2021.12.19 12:08.44 I    800x600 @ 60hz in 32bit
+2021.12.19 12:08.44 I    720x576 @ 75hz in 32bit
+2021.12.19 12:08.44 I    720x576 @ 60hz in 32bit
+2021.12.19 12:08.44 I    720x576 @ 59hz in 32bit
+2021.12.19 12:08.44 I    720x576 @ 50hz in 32bit
+2021.12.19 12:08.44 I    720x480 @ 75hz in 32bit
+2021.12.19 12:08.44 I    720x480 @ 60hz in 32bit
+2021.12.19 12:08.44 I    720x480 @ 59hz in 32bit
+2021.12.19 12:08.44 I    720x400 @ 75hz in 32bit
+2021.12.19 12:08.44 I    720x400 @ 70hz in 32bit
+2021.12.19 12:08.44 I    720x400 @ 60hz in 32bit
+2021.12.19 12:08.44 I    720x400 @ 59hz in 32bit
+2021.12.19 12:08.44 I    640x480 @ 75hz in 32bit
+2021.12.19 12:08.44 I    640x480 @ 60hz in 32bit
+2021.12.19 12:08.44 I    640x480 @ 59hz in 32bit
+2021.12.19 12:08.44 I    Config: false, true, true, DirectColorModel
+2021.12.19 12:08.44 I Presentation Client [192.168.0.3] connecting to RESTContestSource[presentation|presentat1on@https://localhost:8443/api/contests/8]
+2021.12.19 12:08.44 192.168.0.3 connecting...
+2021.12.19 12:08.45 192.168.0.3 connected
+2021.12.19 12:08.45 I < {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.TimelinePre...
+2021.12.19 12:08.45 presentation: 1100|org.icpc.tools.presentation.contest.internal.scoreboard.TimelinePresentation
+2021.12.19 12:08.45 I Attempting to load class: org.icpc.tools.presentation.contest.internal.scoreboard.TimelinePresentation

@@ -3,7 +3,7 @@
   <contest location="/home/myuser/contests/test" recordReactions="false">
 
     <!-- Configure your CCS via REST -->
-<ccs url="http://2d90-190-27-105-4.ngrok.io/domjudge/api/contests/6" user="score" password="score"/>
+<ccs url="http://192.168.0.5/domjudge/api/contests/8" user="score" password="score"/>
 
     <!-- Or configure your older CCS via the XML event feed and optional start time interface -->
     <!--

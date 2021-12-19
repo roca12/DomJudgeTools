@@ -11,19 +11,12 @@ WARNING: All illegal access operations will be denied in a future release
 --- CDS (2.3.491) ---
 Loading CDS configuration from: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\config\cdsConfig.xml
 Configured contests:
-   5 on disk at /home/myuser/contests/test - CCS configured (score@http://192.168.0.5/domjudge/api/contests/5), Not recording reactions
+   8 on disk at /home/myuser/contests/test - CCS configured (score@http://192.168.0.5/domjudge/api/contests/8), Not recording reactions
 [err] Could not read from CDS config! No contests loaded
-[AUDITAR ] CWWKZ0001I: La aplicación CDS se ha iniciado en 3,255 segundos.
+[AUDITAR ] CWWKZ0001I: La aplicación CDS se ha iniciado en 8,565 segundos.
 [AUDITAR ] CWWKF0012I: El servidor ha instalado las características siguientes: [appSecurity-3.0, cdi-2.0, distributedMap-1.0, el-3.0, jndi-1.0, jsp-2.3, servlet-4.0, ssl-1.0, websocket-1.1].
-[AUDITAR ] CWWKF0011I: El servidor cds está preparado para ejecutar un planeta más inteligente. El servidor cds se ha iniciado en 46,840 segundos.
-[AUDITAR ] CWWKG0016I: Iniciando la actualización de la configuración de servidor.
-[AUDITAR ] CWWKG0028A: El proceso ha incluido el recurso de configuración: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\users.xml
-[AUDITAR ] CWWKG0017I: La configuración de servidor se ha actualizado correctamente en 0,045 segundos.
------ CDS config change detected -----
-Configured contests:
-   6 on disk at /home/myuser/contests/test - CCS configured (score@http://2d90-190-27-105-4.ngrok.io/domjudge/api/contests/6), Not recording reactions
-Error reading CDS config, changes will be ignored until the file is fixed
-Loading contest from RESTContestSource[score|score@http://2d90-190-27-105-4.ngrok.io/domjudge/api/contests/6]
+[AUDITAR ] CWWKF0011I: El servidor cds está preparado para ejecutar un planeta más inteligente. El servidor cds se ha iniciado en 108,457 segundos.
+Loading contest from RESTContestSource[score|score@http://192.168.0.5/domjudge/api/contests/8]
 Importing contest info
 Contest config file (contest.yaml) not found
 Importing problem set
@@ -37,7 +30,7 @@ Team config file (teams.json/teams2.tsv/teams.tsv) not found
 Importing team-members
 Team member config file (members.json/members.tsv) not found
 Importing contest floor map
-Reading contest: 6
+Reading contest: 8
 Reading feed cache
 Done reading feed cache
 Unknown property ignored: contests/end_time
@@ -57,350 +50,864 @@ Unknown property ignored: organizations/shortname
 Unknown property ignored: teams/affiliation
 Unknown property ignored: teams/nationality
 Unknown property ignored: teams/members
-Contest started: 6
+Unknown property ignored: clarifications/externalid
+Contest started: 8
 Unknown property ignored: submissions/externalid
-Download http://2d90-190-27-105-4.ngrok.io/domjudge/api/contests/6/submissions/615/files to \home\myuser\contests\test\submissions\615\files.zip (200) (0.2kb in 487ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/782/files to \home\myuser\contests\test\submissions\782\files.zip (200) (0.1kb in 631ms)
 Unknown property ignored: judgements/valid
 Unknown property ignored: judgements/judgehost
-Download http://2d90-190-27-105-4.ngrok.io/domjudge/api/contests/6/submissions/616/files to \home\myuser\contests\test\submissions\616\files.zip (200) (0.3kb in 461ms)
-Download http://2d90-190-27-105-4.ngrok.io/domjudge/api/contests/6/submissions/617/files to \home\myuser\contests\test\submissions\617\files.zip (200) (0.2kb in 320ms)
-Download http://2d90-190-27-105-4.ngrok.io/domjudge/api/contests/6/submissions/618/files to \home\myuser\contests\test\submissions\618\files.zip (200) (0.3kb in 312ms)
-Download http://2d90-190-27-105-4.ngrok.io/domjudge/api/contests/6/submissions/619/files to \home\myuser\contests\test\submissions\619\files.zip (200) (0.5kb in 425ms)
-Download http://2d90-190-27-105-4.ngrok.io/domjudge/api/contests/6/submissions/620/files to \home\myuser\contests\test\submissions\620\files.zip (200) (0.3kb in 394ms)
-Download http://2d90-190-27-105-4.ngrok.io/domjudge/api/contests/6/submissions/621/files to \home\myuser\contests\test\submissions\621\files.zip (200) (0.3kb in 314ms)
-Client connected: 192.168.0.3 [uid b833456f]
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.TimelinePre...
-Client disconnected: 192.168.0.3 [uid b833456f]
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/783/files to \home\myuser\contests\test\submissions\783\files.zip (200) (0.2kb in 867ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/784/files to \home\myuser\contests\test\submissions\784\files.zip (200) (0.2kb in 325ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/785/files to \home\myuser\contests\test\submissions\785\files.zip (200) (0.2kb in 672ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/786/files to \home\myuser\contests\test\submissions\786\files.zip (200) (0.3kb in 175ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/787/files to \home\myuser\contests\test\submissions\787\files.zip (200) (0.3kb in 374ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/788/files to \home\myuser\contests\test\submissions\788\files.zip (200) (0.3kb in 163ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/789/files to \home\myuser\contests\test\submissions\789\files.zip (200) (0.3kb in 306ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/790/files to \home\myuser\contests\test\submissions\790\files.zip (200) (0.1kb in 184ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/791/files to \home\myuser\contests\test\submissions\791\files.zip (200) (0.3kb in 228ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/792/files to \home\myuser\contests\test\submissions\792\files.zip (200) (0.2kb in 170ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/793/files to \home\myuser\contests\test\submissions\793\files.zip (200) (0.3kb in 148ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/794/files to \home\myuser\contests\test\submissions\794\files.zip (200) (0.2kb in 148ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/795/files to \home\myuser\contests\test\submissions\795\files.zip (200) (0.2kb in 188ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/796/files to \home\myuser\contests\test\submissions\796\files.zip (200) (0.2kb in 170ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/797/files to \home\myuser\contests\test\submissions\797\files.zip (200) (0.1kb in 117ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/798/files to \home\myuser\contests\test\submissions\798\files.zip (200) (0.2kb in 228ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/799/files to \home\myuser\contests\test\submissions\799\files.zip (200) (0.1kb in 137ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/800/files to \home\myuser\contests\test\submissions\800\files.zip (200) (0.1kb in 222ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/801/files to \home\myuser\contests\test\submissions\801\files.zip (200) (0.3kb in 146ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/802/files to \home\myuser\contests\test\submissions\802\files.zip (200) (0.4kb in 302ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/803/files to \home\myuser\contests\test\submissions\803\files.zip (200) (0.4kb in 141ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/804/files to \home\myuser\contests\test\submissions\804\files.zip (200) (0.3kb in 123ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/805/files to \home\myuser\contests\test\submissions\805\files.zip (200) (0.3kb in 185ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/806/files to \home\myuser\contests\test\submissions\806\files.zip (200) (0.3kb in 181ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/807/files to \home\myuser\contests\test\submissions\807\files.zip (200) (0.3kb in 165ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/808/files to \home\myuser\contests\test\submissions\808\files.zip (200) (0.3kb in 169ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/809/files to \home\myuser\contests\test\submissions\809\files.zip (200) (0.1kb in 168ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/810/files to \home\myuser\contests\test\submissions\810\files.zip (200) (0.2kb in 177ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/811/files to \home\myuser\contests\test\submissions\811\files.zip (200) (0.3kb in 165ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/812/files to \home\myuser\contests\test\submissions\812\files.zip (200) (0.3kb in 275ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/813/files to \home\myuser\contests\test\submissions\813\files.zip (200) (0.2kb in 155ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/814/files to \home\myuser\contests\test\submissions\814\files.zip (200) (0.2kb in 165ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/815/files to \home\myuser\contests\test\submissions\815\files.zip (200) (0.4kb in 162ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/816/files to \home\myuser\contests\test\submissions\816\files.zip (200) (0.2kb in 147ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/817/files to \home\myuser\contests\test\submissions\817\files.zip (200) (0.3kb in 166ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/818/files to \home\myuser\contests\test\submissions\818\files.zip (200) (0.2kb in 179ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/819/files to \home\myuser\contests\test\submissions\819\files.zip (200) (0.3kb in 219ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/820/files to \home\myuser\contests\test\submissions\820\files.zip (200) (0.3kb in 190ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/821/files to \home\myuser\contests\test\submissions\821\files.zip (200) (0.3kb in 215ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/822/files to \home\myuser\contests\test\submissions\822\files.zip (200) (0.4kb in 397ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/823/files to \home\myuser\contests\test\submissions\823\files.zip (200) (0.1kb in 175ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/824/files to \home\myuser\contests\test\submissions\824\files.zip (200) (0.2kb in 424ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/825/files to \home\myuser\contests\test\submissions\825\files.zip (200) (0.2kb in 101ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/826/files to \home\myuser\contests\test\submissions\826\files.zip (200) (0.2kb in 278ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/827/files to \home\myuser\contests\test\submissions\827\files.zip (200) (0.2kb in 449ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/828/files to \home\myuser\contests\test\submissions\828\files.zip (200) (0.2kb in 224ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/829/files to \home\myuser\contests\test\submissions\829\files.zip (200) (0.4kb in 221ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/830/files to \home\myuser\contests\test\submissions\830\files.zip (200) (0.2kb in 138ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/831/files to \home\myuser\contests\test\submissions\831\files.zip (200) (0.2kb in 200ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/832/files to \home\myuser\contests\test\submissions\832\files.zip (200) (0.2kb in 284ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/833/files to \home\myuser\contests\test\submissions\833\files.zip (200) (0.5kb in 272ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/834/files to \home\myuser\contests\test\submissions\834\files.zip (200) (0.4kb in 434ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/835/files to \home\myuser\contests\test\submissions\835\files.zip (200) (0.4kb in 562ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/836/files to \home\myuser\contests\test\submissions\836\files.zip (200) (0.2kb in 158ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/837/files to \home\myuser\contests\test\submissions\837\files.zip (200) (0.3kb in 214ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/838/files to \home\myuser\contests\test\submissions\838\files.zip (200) (0.3kb in 141ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/839/files to \home\myuser\contests\test\submissions\839\files.zip (200) (0.3kb in 142ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/840/files to \home\myuser\contests\test\submissions\840\files.zip (200) (0.5kb in 179ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/841/files to \home\myuser\contests\test\submissions\841\files.zip (200) (0.2kb in 216ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/842/files to \home\myuser\contests\test\submissions\842\files.zip (200) (0.2kb in 165ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/843/files to \home\myuser\contests\test\submissions\843\files.zip (200) (0.4kb in 145ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/844/files to \home\myuser\contests\test\submissions\844\files.zip (200) (0.2kb in 137ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/845/files to \home\myuser\contests\test\submissions\845\files.zip (200) (0.2kb in 173ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/846/files to \home\myuser\contests\test\submissions\846\files.zip (200) (0.2kb in 197ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/847/files to \home\myuser\contests\test\submissions\847\files.zip (200) (0.3kb in 148ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/848/files to \home\myuser\contests\test\submissions\848\files.zip (200) (0.2kb in 183ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/849/files to \home\myuser\contests\test\submissions\849\files.zip (200) (0.3kb in 150ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/850/files to \home\myuser\contests\test\submissions\850\files.zip (200) (0.4kb in 153ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/851/files to \home\myuser\contests\test\submissions\851\files.zip (200) (0.3kb in 179ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/852/files to \home\myuser\contests\test\submissions\852\files.zip (200) (0.2kb in 116ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/853/files to \home\myuser\contests\test\submissions\853\files.zip (200) (0.2kb in 186ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/854/files to \home\myuser\contests\test\submissions\854\files.zip (200) (0.2kb in 142ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/855/files to \home\myuser\contests\test\submissions\855\files.zip (200) (0.2kb in 165ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/856/files to \home\myuser\contests\test\submissions\856\files.zip (200) (0.2kb in 269ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/857/files to \home\myuser\contests\test\submissions\857\files.zip (200) (0.2kb in 189ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/858/files to \home\myuser\contests\test\submissions\858\files.zip (200) (0.2kb in 147ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/859/files to \home\myuser\contests\test\submissions\859\files.zip (200) (0.2kb in 262ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/860/files to \home\myuser\contests\test\submissions\860\files.zip (200) (0.2kb in 148ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/861/files to \home\myuser\contests\test\submissions\861\files.zip (200) (0.2kb in 204ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/862/files to \home\myuser\contests\test\submissions\862\files.zip (200) (0.2kb in 196ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/863/files to \home\myuser\contests\test\submissions\863\files.zip (200) (0.2kb in 149ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/864/files to \home\myuser\contests\test\submissions\864\files.zip (200) (0.4kb in 972ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/865/files to \home\myuser\contests\test\submissions\865\files.zip (200) (0.4kb in 188ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/866/files to \home\myuser\contests\test\submissions\866\files.zip (200) (0.4kb in 367ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/867/files to \home\myuser\contests\test\submissions\867\files.zip (200) (0.4kb in 318ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/868/files to \home\myuser\contests\test\submissions\868\files.zip (200) (0.4kb in 409ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/869/files to \home\myuser\contests\test\submissions\869\files.zip (200) (0.4kb in 487ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/870/files to \home\myuser\contests\test\submissions\870\files.zip (200) (0.3kb in 331ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/871/files to \home\myuser\contests\test\submissions\871\files.zip (200) (0.3kb in 335ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/872/files to \home\myuser\contests\test\submissions\872\files.zip (200) (0.4kb in 215ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/873/files to \home\myuser\contests\test\submissions\873\files.zip (200) (0.4kb in 418ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/874/files to \home\myuser\contests\test\submissions\874\files.zip (200) (0.4kb in 323ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/875/files to \home\myuser\contests\test\submissions\875\files.zip (200) (0.4kb in 739ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/876/files to \home\myuser\contests\test\submissions\876\files.zip (200) (0.4kb in 319ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/877/files to \home\myuser\contests\test\submissions\877\files.zip (200) (0.4kb in 201ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/878/files to \home\myuser\contests\test\submissions\878\files.zip (200) (0.4kb in 465ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/879/files to \home\myuser\contests\test\submissions\879\files.zip (200) (0.4kb in 190ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/880/files to \home\myuser\contests\test\submissions\880\files.zip (200) (0.4kb in 208ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/881/files to \home\myuser\contests\test\submissions\881\files.zip (200) (0.4kb in 343ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/882/files to \home\myuser\contests\test\submissions\882\files.zip (200) (0.4kb in 286ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/883/files to \home\myuser\contests\test\submissions\883\files.zip (200) (0.4kb in 374ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/884/files to \home\myuser\contests\test\submissions\884\files.zip (200) (0.4kb in 808ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/885/files to \home\myuser\contests\test\submissions\885\files.zip (200) (0.4kb in 538ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/886/files to \home\myuser\contests\test\submissions\886\files.zip (200) (0.5kb in 179ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/887/files to \home\myuser\contests\test\submissions\887\files.zip (200) (0.2kb in 317ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/888/files to \home\myuser\contests\test\submissions\888\files.zip (200) (0.2kb in 145ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/889/files to \home\myuser\contests\test\submissions\889\files.zip (200) (0.5kb in 164ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/890/files to \home\myuser\contests\test\submissions\890\files.zip (200) (0.4kb in 141ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/891/files to \home\myuser\contests\test\submissions\891\files.zip (200) (0.2kb in 150ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/892/files to \home\myuser\contests\test\submissions\892\files.zip (200) (0.2kb in 139ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/893/files to \home\myuser\contests\test\submissions\893\files.zip (200) (0.4kb in 132ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/894/files to \home\myuser\contests\test\submissions\894\files.zip (200) (0.2kb in 147ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/895/files to \home\myuser\contests\test\submissions\895\files.zip (200) (0.2kb in 175ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/896/files to \home\myuser\contests\test\submissions\896\files.zip (200) (0.2kb in 122ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/897/files to \home\myuser\contests\test\submissions\897\files.zip (200) (0.2kb in 133ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/898/files to \home\myuser\contests\test\submissions\898\files.zip (200) (0.3kb in 197ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/899/files to \home\myuser\contests\test\submissions\899\files.zip (200) (0.3kb in 239ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/900/files to \home\myuser\contests\test\submissions\900\files.zip (200) (0.2kb in 162ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/901/files to \home\myuser\contests\test\submissions\901\files.zip (200) (0.3kb in 141ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/902/files to \home\myuser\contests\test\submissions\902\files.zip (200) (0.2kb in 161ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/903/files to \home\myuser\contests\test\submissions\903\files.zip (200) (0.3kb in 111ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/904/files to \home\myuser\contests\test\submissions\904\files.zip (200) (0.2kb in 176ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/905/files to \home\myuser\contests\test\submissions\905\files.zip (200) (0.3kb in 135ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/906/files to \home\myuser\contests\test\submissions\906\files.zip (200) (0.3kb in 293ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/907/files to \home\myuser\contests\test\submissions\907\files.zip (200) (0.2kb in 118ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/908/files to \home\myuser\contests\test\submissions\908\files.zip (200) (0.2kb in 182ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/909/files to \home\myuser\contests\test\submissions\909\files.zip (200) (0.2kb in 164ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/910/files to \home\myuser\contests\test\submissions\910\files.zip (200) (0.4kb in 158ms)
+Contest freeze! Cutting off unauthorized video feeds
+Contest frozen: 8
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/911/files to \home\myuser\contests\test\submissions\911\files.zip (200) (0.5kb in 147ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/912/files to \home\myuser\contests\test\submissions\912\files.zip (200) (0.5kb in 159ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/913/files to \home\myuser\contests\test\submissions\913\files.zip (200) (0.5kb in 164ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/914/files to \home\myuser\contests\test\submissions\914\files.zip (200) (0.5kb in 175ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/915/files to \home\myuser\contests\test\submissions\915\files.zip (200) (0.5kb in 130ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/916/files to \home\myuser\contests\test\submissions\916\files.zip (200) (0.5kb in 166ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/917/files to \home\myuser\contests\test\submissions\917\files.zip (200) (0.5kb in 152ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/918/files to \home\myuser\contests\test\submissions\918\files.zip (200) (0.5kb in 269ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/919/files to \home\myuser\contests\test\submissions\919\files.zip (200) (0.5kb in 167ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/920/files to \home\myuser\contests\test\submissions\920\files.zip (200) (0.3kb in 164ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/921/files to \home\myuser\contests\test\submissions\921\files.zip (200) (0.5kb in 153ms)
+Download http://192.168.0.5/domjudge/api/contests/8/submissions/922/files to \home\myuser\contests\test\submissions\922\files.zip (200) (0.5kb in 188ms)
+Contest unfrozen: 8
+[AUDITAR ] CWWKS1100A: La autenticación no se ha ejecutado correctamente para el ID de usuario admin. Se ha especificado un ID de usuario o una contraseña no válidos.
+[ERROR   ] CWWKO0801E: No se ha podido inicializar la conexión SSL. Se ha denegado el acceso no autorizado o los valores de seguridad han caducado. La excepción es javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:356)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:202)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:171)
+	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:688)
+	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:643)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:461)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:440)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:637)
+	at com.ibm.ws.channel.ssl.internal.SSLUtils.handleHandshake(SSLUtils.java:904)
+	at [internal classes]
+.
+Resolver command: init
+Auto-resolved 0 judgements
+Removing 1 teams and 5 total objects
+Removing 0 invalid submissions
+Resolving...
+Invalid submission: submissions
+  id: 886
+  contest_time: 5:50:17.559
+  time: 2021-12-18T15:50:17.559-05
+  problem_id: 74
+  team_id: 1
+  language_id: java
+  entry_point: Robot
+  files: [{"href":"contests/8/submissions/886/files","mime":"application/zip"}]
+  reaction: null
+Invalid submission: submissions
+  id: 918
+  contest_time: 10:38:57.628
+  time: 2021-12-18T20:38:57.628-05
+  problem_id: 74
+  team_id: 1
+  language_id: cpp
+  entry_point: null
+  files: [{"href":"contests/8/submissions/918/files","mime":"application/zip"}]
+  reaction: null
+Resolving 12 pending submissions out of the 141 total submissions in the contest... 
+Resolving row: 38
+Resolving row: 37
+Resolving row: 36
+Resolving row: 35
+Resolving row: 34
+Resolving row: 33
+Resolving row: 32
+Resolving row: 31
+Resolving row: 30
+Resolving row: 29
+Resolving row: 28
+Resolving row: 27
+Resolving row: 26
+Resolving row: 25
+Resolving row: 24
+Resolving row: 23
+Resolving row: 22
+Resolving row: 21
+Resolving row: 20
+Resolving row: 19
+Resolving row: 18
+Resolving row: 17
+Resolving row: 16
+Resolving row: 15
+Resolving row: 14
+Resolving row: 13
+Resolving row: 12
+Resolving row: 11
+Resolving: SubmissionInfo[22, 1]
+Invalid submission: submissions
+  id: 886
+  contest_time: 5:50:17.559
+  time: 2021-12-18T15:50:17.559-05
+  problem_id: 74
+  team_id: 1
+  language_id: java
+  entry_point: Robot
+  files: [{"href":"contests/8/submissions/886/files","mime":"application/zip"}]
+  reaction: null
+Invalid submission: submissions
+  id: 918
+  contest_time: 10:38:57.628
+  time: 2021-12-18T20:38:57.628-05
+  problem_id: 74
+  team_id: 1
+  language_id: cpp
+  entry_point: null
+  files: [{"href":"contests/8/submissions/918/files","mime":"application/zip"}]
+  reaction: null
+Invalid submission: submissions
+  id: 886
+  contest_time: 5:50:17.559
+  time: 2021-12-18T15:50:17.559-05
+  problem_id: 74
+  team_id: 1
+  language_id: java
+  entry_point: Robot
+  files: [{"href":"contests/8/submissions/886/files","mime":"application/zip"}]
+  reaction: null
+Invalid submission: submissions
+  id: 918
+  contest_time: 10:38:57.628
+  time: 2021-12-18T20:38:57.628-05
+  problem_id: 74
+  team_id: 1
+  language_id: cpp
+  entry_point: null
+  files: [{"href":"contests/8/submissions/918/files","mime":"application/zip"}]
+  reaction: null
+   Not solved, no change
+Resolving row: 10
+Resolving: SubmissionInfo[44, 1]
+Invalid submission: submissions
+  id: 886
+  contest_time: 5:50:17.559
+  time: 2021-12-18T15:50:17.559-05
+  problem_id: 74
+  team_id: 1
+  language_id: java
+  entry_point: Robot
+  files: [{"href":"contests/8/submissions/886/files","mime":"application/zip"}]
+  reaction: null
+Invalid submission: submissions
+  id: 918
+  contest_time: 10:38:57.628
+  time: 2021-12-18T20:38:57.628-05
+  problem_id: 74
+  team_id: 1
+  language_id: cpp
+  entry_point: null
+  files: [{"href":"contests/8/submissions/918/files","mime":"application/zip"}]
+  reaction: null
+   Not solved, no change
+Resolving row: 9
+Resolving row: 8
+Resolving row: 7
+Resolving row: 6
+Resolving row: 5
+Resolving row: 4
+Resolving row: 3
+Resolving row: 2
+Resolving: SubmissionInfo[5, 4]
+Invalid submission: submissions
+  id: 886
+  contest_time: 5:50:17.559
+  time: 2021-12-18T15:50:17.559-05
+  problem_id: 74
+  team_id: 1
+  language_id: java
+  entry_point: Robot
+  files: [{"href":"contests/8/submissions/886/files","mime":"application/zip"}]
+  reaction: null
+Invalid submission: submissions
+  id: 918
+  contest_time: 10:38:57.628
+  time: 2021-12-18T20:38:57.628-05
+  problem_id: 74
+  team_id: 1
+  language_id: cpp
+  entry_point: null
+  files: [{"href":"contests/8/submissions/918/files","mime":"application/zip"}]
+  reaction: null
+   Solved, no change in standings
+Resolving: SubmissionInfo[5, 6]
+Invalid submission: submissions
+  id: 886
+  contest_time: 5:50:17.559
+  time: 2021-12-18T15:50:17.559-05
+  problem_id: 74
+  team_id: 1
+  language_id: java
+  entry_point: Robot
+  files: [{"href":"contests/8/submissions/886/files","mime":"application/zip"}]
+  reaction: null
+Invalid submission: submissions
+  id: 918
+  contest_time: 10:38:57.628
+  time: 2021-12-18T20:38:57.628-05
+  problem_id: 74
+  team_id: 1
+  language_id: cpp
+  entry_point: null
+  files: [{"href":"contests/8/submissions/918/files","mime":"application/zip"}]
+  reaction: null
+   Solved. Team moved from row 2 to row 0
+Resolving row: 1
+Resolving row: 0
+Resolving: SubmissionInfo[5, 7]
+Invalid submission: submissions
+  id: 886
+  contest_time: 5:50:17.559
+  time: 2021-12-18T15:50:17.559-05
+  problem_id: 74
+  team_id: 1
+  language_id: java
+  entry_point: Robot
+  files: [{"href":"contests/8/submissions/886/files","mime":"application/zip"}]
+  reaction: null
+Invalid submission: submissions
+  id: 918
+  contest_time: 10:38:57.628
+  time: 2021-12-18T20:38:57.628-05
+  problem_id: 74
+  team_id: 1
+  language_id: cpp
+  entry_point: null
+  files: [{"href":"contests/8/submissions/918/files","mime":"application/zip"}]
+  reaction: null
+   Not solved, no change
+Done resolving
+Resolver command: init
+Resolver command: forward
+Resolving to: 0 / true
+Resolver going to pause 0
+Setting property: org.icpc.tools.presentation.contest.resolver.clicks=0
+Step 0 <  Change contest state
+Step 1 <  Show presentation SPLASH
+Resolver command: forward
+Resolving to: 1 / true
+Resolver going to pause 1
+Setting property: org.icpc.tools.presentation.contest.resolver.clicks=1
+Step 3 <  Select team (none)
+Step 4 <  Select submission (none)
+Step 5 <  Submissions to judge: (none)
+Step 6 <  Scroll to row 0
+Step 7 <  Show presentation SCOREBOARD
+Resolver command: forward
+Resolving to: 2 / true
+Resolver going to pause 2
+Setting property: org.icpc.tools.presentation.contest.resolver.clicks=2
+Step 9 <  Scroll to row 28
+Resolver command: forward
+Resolving to: 3 / true
+Resolver going to pause 3
+Setting property: org.icpc.tools.presentation.contest.resolver.clicks=3
+Step 11 <  Select team 7: Wquiceno team
+Resolver command: forward
+Resolving to: 4 / true
+Resolver going to pause 4
+Setting property: org.icpc.tools.presentation.contest.resolver.clicks=4
+Step 13 <  Scroll to row 28
+Step 14 <  Select team 7: Wquiceno team
+Resolver command: forward
+Resolver command: forward
+Resolver command: forward
+Resolver command: rewind
+Step 18 <  Scroll to row 27
+Step 19 <  Select team 25: WQ Team
+Resolver command: forward
+Resolver command: forward
+Resolver command: forward
+Resolver command: forward
+Resolver command: forward
+Resolver command: forward
+Resolver command: forward
+Resolver command: forward
+Step 23 <  Scroll to row 26
+Step 24 <  Select team 23: UB
+Resolver command: fast-forward
+Resolver command: fast-forward
+Resolver command: reset
+Step 28 <  Scroll to row 25
+Step 29 <  Select team 8: tuburones
+Resolver command: init
+Step 33 <  Scroll to row 24
+Step 34 <  Select team 15: Tiburon
+Step 38 <  Scroll to row 23
+Step 39 <  Select team 10: The old NMA / Roca12
+Step 43 <  Scroll to row 22
+Step 44 <  Select team 43: Team B2ya
+Step 48 <  Scroll to row 21
+Step 49 <  Select team 38: Solo
+Step 53 <  Scroll to row 20
+Step 54 <  Select team 19: Solin solito
+Step 58 <  Scroll to row 19
+Step 59 <  Select team 29: self-taugh
+Step 63 <  Scroll to row 18
+Step 64 <  Select team 4: NMA
+Step 68 <  Scroll to row 17
+Step 69 <  Select team 21: Kyuberi
+Step 73 <  Scroll to row 16
+Step 74 <  Select team 17: KevinEMR
+Step 78 <  Scroll to row 15
+Step 79 <  Select team 14: Juan
+Step 83 <  Scroll to row 14
+Step 84 <  Select team 6: JM
+Step 88 <  Scroll to row 13
+Step 89 <  Select team 12: Globito++;
+Step 93 <  Scroll to row 12
+Step 94 <  Select team 20: GandalfBlue
+Step 98 <  Scroll to row 11
+Step 99 <  Select team 27: Fixer
+Step 103 <  Scroll to row 10
+Step 104 <  Select team 26: Doxe
+Step 108 <  Scroll to row 9
+Step 109 <  Select team 32: CriaturasDelBosque
+Step 113 <  Scroll to row 8
+Step 114 <  Select team 16: Cepeda was here
+Step 118 <  Scroll to row 7
+Step 119 <  Select team 37: BTSa
+Step 123 <  Scroll to row 6
+Step 124 <  Select team 36: BTS
+Step 128 <  Scroll to row 5
+Step 129 <  Select team 31: BounceAfterJump
+Step 133 <  Scroll to row 4
+Step 134 <  Select team 30: BECO
+Step 138 <  Scroll to row 3
+Step 139 <  Select team 11: AresAce
+Step 143 <  Scroll to row 2
+Step 144 <  Select team 39: Amefo
 Client connected: presAdmin [uid 6720a0f7]
 6720a0f7 < {"type":"pres_list"}
 Sending presentation lists
 6720a0f7 < {"type":"info","source":"6720a0f7","client.type":"pres-admin","version":"2.3.491","os.name":"Windows 10","os.version":...
 6720a0f7 > {"type":"clients","clients":[]}
 6720a0f7 > {"type":"pres_list","file":"UEsDBBQACAgIADFf51IAAAAAAAAAAAAAAAAaAAAATUVUQS1JTkYvcHJlc2VudGF0aW9ucy54bWzNnOtz2zYSwL/3r8...
-6720a0f7 - Syncing time to 11ms. Recent pings: [32ms, 338ms, 1ms, 1ms]
-6720a0f7 > {"type":"time","time":1639505477937}
+6720a0f7 - Syncing time to 7ms. Recent pings: [19ms, 193ms, 1ms, 1ms]
+6720a0f7 > {"type":"time","time":1639933667272}
+Client connected: 192.168.0.3 [uid b833456f]
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.TimelinePre...
+Client disconnected: 192.168.0.3 [uid b833456f]
+6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f"}]}
+6720a0f7 > {"type":"clients","clients":[]}
+Client connected: 192.168.0.3 [uid b833456f]
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.TimelinePre...
+6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f"}]}
+Client disconnected: 192.168.0.3 [uid b833456f]
+6720a0f7 > {"type":"clients","clients":[]}
 Client connected: 192.168.0.3 [uid b833456f]
 b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.TimelinePre...
 6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f"}]}
 b833456f < {"type":"info","source":"b833456f","client.type":"presentation","version":"2.3.491","os.name":"Windows 10","os.version...
 b833456f < {"type":"info","source":"b833456f","width":1366,"height":768,"hidden":false,"display":"1w"}
-6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f","width":0,"height":0,"contest.ids":[6],"version":"...
+6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f","width":0,"height":0,"contest.ids":[8],"version":"...
 b833456f < {"type":"info","source":"b833456f","presentation":null,"fps":0,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBw...
-b833456f - Syncing time to 2ms. Recent pings: [1686ms, 2ms, 2ms, 2ms]
-b833456f > {"type":"time","time":1639505551913}
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":50,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-[ERROR   ] CWWKO0801E: No se ha podido inicializar la conexión SSL. Se ha denegado el acceso no autorizado o los valores de seguridad han caducado. La excepción es javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
-	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:356)
-	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293)
-	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:202)
-	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:171)
-	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:688)
-	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:643)
-	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:461)
-	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:440)
-	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:637)
-	at com.ibm.ws.channel.ssl.internal.SSLUtils.handleHandshake(SSLUtils.java:904)
-	at [internal classes]
-.
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":55,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":59,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":57,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":58,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+b833456f - Syncing time to 3ms. Recent pings: [1924ms, 1ms, 7ms, 3ms]
+b833456f > {"type":"time","time":1639933743855}
 b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":60,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
 b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-Setting presentation org.icpc.tools.presentation.contest.internal.presentations.ProblemSummaryPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.ProblemSummaryPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.ProblemS...
-b833456f < {"type":"info","source":"b833456f","presentation":"ProblemSummaryPresentation","fps":4,"image":"/9j/4AAQSkZJRgABAgAAAQ...
-b833456f < {"type":"info","source":"b833456f","presentation":"ProblemSummaryPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAA...
-b833456f < {"type":"info","source":"b833456f","presentation":"ProblemSummaryPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAA...
-b833456f < {"type":"info","source":"b833456f","presentation":"ProblemSummaryPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAA...
-Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresen...
-b833456f < {"type":"info","source":"b833456f","presentation":"JudgePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
-Setting presentation org.icpc.tools.presentation.contest.internal.presentations.TeamJudgePresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.TeamJudgePresentation
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.c...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.ProblemSummaryChart
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.ProblemSummaryCh...
+b833456f < {"type":"info","source":"b833456f","presentation":"ProblemSummaryChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/...
+b833456f < {"type":"info","source":"b833456f","presentation":"ProblemSummaryChart","fps":59,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.s...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.scoreboard.ScoreboardPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.ScoreboardP...
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":60,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.TeamJudgePresentation
 b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.TeamJudg...
 b833456f < {"type":"info","source":"b833456f","presentation":"TeamJudgePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
-b833456f < {"type":"info","source":"b833456f","presentation":"TeamJudgePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
-Setting presentation org.icpc.tools.presentation.contest.internal.tile.TilePictureScoreboardPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.tile.TilePictureScoreboardPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.tile.TilePictureScoreb...
-Setting presentation org.icpc.tools.presentation.contest.internal.tile.TileListScoreboardPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.tile.TileListScoreboardPresentation
+b833456f < {"type":"info","source":"b833456f","presentation":"TeamJudgePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+b833456f < {"type":"info","source":"b833456f","presentation":"TeamJudgePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAA...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.c...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.LanguageSummaryChart
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.LanguageSummaryC...
+b833456f < {"type":"info","source":"b833456f","presentation":"LanguageSummaryChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.BetterFireworksPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.BetterFi...
+b833456f < {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":54,"image":"/9j/4AAQSkZJRgABAgAA...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.c...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthChart
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthC...
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgeQueueDepthChart","fps":21,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+b833456f < {"type":"info","source":"b833456f","presentation":"JudgeQueueDepthChart","fps":34,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.c...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.chart.ProblemComparisonChart
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.ProblemCompariso...
+b833456f < {"type":"info","source":"b833456f","presentation":"ProblemComparisonChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.clock.PolarCountdownPresentation
+b833456f < {"type":"info","source":"b833456f","presentation":"ProblemComparisonChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.clock.Po...
+b833456f < {"type":"info","source":"b833456f","presentation":"PolarCountdownPresentation","fps":58,"image":"/9j/4AAQSkZJRgABAgAAA...
+b833456f < {"type":"info","source":"b833456f","presentation":"PolarCountdownPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAA...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.OrgLogoFadePresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.OrgLogoF...
+b833456f < {"type":"info","source":"b833456f","presentation":"OrgLogoFadePresentation","fps":43,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.OrgLogoWallPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.OrgLogoW...
+b833456f < {"type":"info","source":"b833456f","presentation":"OrgLogoWallPresentation","fps":19,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
+b833456f < {"type":"info","source":"b833456f","presentation":"OrgLogoWallPresentation","fps":10,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
+b833456f < {"type":"info","source":"b833456f","presentation":"OrgLogoWallPresentation","fps":10,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
+b833456f < {"type":"info","source":"b833456f","presentation":"OrgLogoWallPresentation","fps":10,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
+b833456f < {"type":"info","source":"b833456f","presentation":"OrgLogoWallPresentation","fps":10,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
+b833456f < {"type":"info","source":"b833456f","presentation":"OrgLogoWallPresentation","fps":10,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.CCSPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.CCSPrese...
+b833456f < {"type":"info","source":"b833456f","presentation":"CCSPresentation","fps":5,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDA...
+b833456f < {"type":"info","source":"b833456f","presentation":"CCSPresentation","fps":5,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDA...
+b833456f < {"type":"info","source":"b833456f","presentation":"CCSPresentation","fps":5,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDA...
+b833456f < {"type":"info","source":"b833456f","presentation":"CCSPresentation","fps":5,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDA...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.map.BalloonMapPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Ball...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.map.GroupPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Grou...
+b833456f < {"type":"info","source":"b833456f","presentation":"GroupPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.map.TeamIntroPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Team...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.map.WorldPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.map.Worl...
+b833456f < {"type":"info","source":"b833456f","presentation":"WorldPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+b833456f < {"type":"info","source":"b833456f","presentation":"WorldPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+b833456f < {"type":"info","source":"b833456f","presentation":"WorldPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+b833456f < {"type":"info","source":"b833456f","presentation":"WorldPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+b833456f < {"type":"info","source":"b833456f","presentation":"WorldPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+b833456f < {"type":"info","source":"b833456f","presentation":"WorldPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+b833456f < {"type":"info","source":"b833456f","presentation":"WorldPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.SnakePresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.SnakePre...
+b833456f < {"type":"info","source":"b833456f","presentation":"SnakePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+b833456f < {"type":"info","source":"b833456f","presentation":"SnakePresentation","fps":20,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+b833456f < {"type":"info","source":"b833456f","presentation":"SnakePresentation","fps":20,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+b833456f < {"type":"info","source":"b833456f","presentation":"SnakePresentation","fps":20,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+b833456f < {"type":"info","source":"b833456f","presentation":"SnakePresentation","fps":20,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2w...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.StaticLogoPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.StaticLo...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.TeamDisplayPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.TeamDisp...
+b833456f < {"type":"info","source":"b833456f","presentation":"TeamDisplayPresentation","fps":19,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.WavePresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.WavePres...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.TeamVideoPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.TeamVide...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.ICPCTeamPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.ICPCTeam...
+b833456f < {"type":"info","source":"b833456f","presentation":"WavePresentation","fps":20,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wB...
+b833456f < {"type":"info","source":"b833456f","presentation":"ICPCTeamPresentation","fps":20,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.p...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.presentations.TeamVideoPresentation
+b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.TeamVide...
+b833456f < {"type":"info","source":"b833456f","presentation":"ICPCTeamPresentation","fps":20,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+b833456f < {"type":"info","source":"b833456f","presentation":"ICPCTeamPresentation","fps":20,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+b833456f < {"type":"info","source":"b833456f","presentation":"ICPCTeamPresentation","fps":20,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.t...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.tile.TileListScoreboardPresentation
 b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.tile.TileListScoreboar...
-b833456f < {"type":"info","source":"b833456f","presentation":"TileListScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABA...
-b833456f < {"type":"info","source":"b833456f","presentation":"TileListScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABA...
-Setting presentation org.icpc.tools.presentation.contest.internal.tile.TileRankScoreboardPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.tile.TileRankScoreboardPresentation
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.t...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.tile.TileRankScoreboardPresentation
 b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.tile.TileRankScoreboar...
 b833456f < {"type":"info","source":"b833456f","presentation":"TileRankScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABA...
-Setting presentation org.icpc.tools.presentation.contest.internal.tile.TileScoreboardPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.tile.TileScoreboardPresentation
+6720a0f7 < {"type":"properties","clients":[b833456f],"props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.t...
+New property: presentation: 1100|org.icpc.tools.presentation.contest.internal.tile.TileScoreboardPresentation
 b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.tile.TileScoreboardPre...
-b833456f < {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAA...
 b833456f < {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAA...
-b833456f < {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAA...
-b833456f < {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAA...
-b833456f < {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAA...
-b833456f < {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAA...
-b833456f < {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAA...
-b833456f < {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAA...
-[ERROR   ] CWWKO0801E: No se ha podido inicializar la conexión SSL. Se ha denegado el acceso no autorizado o los valores de seguridad han caducado. La excepción es javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
-	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:356)
-	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293)
-	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:202)
-	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:171)
-	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:688)
-	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:643)
-	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:461)
-	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:440)
-	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:637)
-	at com.ibm.ws.channel.ssl.internal.SSLUtils.handleHandshake(SSLUtils.java:904)
-	at [internal classes]
-.
-Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.FirstToSolvePresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstToSolvePresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstToSolv...
-b833456f < {"type":"info","source":"b833456f","presentation":"FirstToSolvePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQA...
-b833456f < {"type":"info","source":"b833456f","presentation":"FirstToSolvePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQA...
-b833456f < {"type":"info","source":"b833456f","presentation":"FirstToSolvePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQA...
-b833456f < {"type":"info","source":"b833456f","presentation":"FirstToSolvePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQA...
-Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSoluti...
-b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
-b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
-Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.AllGroupsLeaderboardPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.AllGroupsLeaderboardPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.AllGroupsLe...
-b833456f < {"type":"info","source":"b833456f","presentation":"AllGroupsLeaderboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgA...
-b833456f < {"type":"info","source":"b833456f","presentation":"AllGroupsLeaderboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgA...
-b833456f < {"type":"info","source":"b833456f","presentation":"AllGroupsLeaderboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgA...
-b833456f < {"type":"info","source":"b833456f","presentation":"AllGroupsLeaderboardPresentation","fps":60,"image":"/9j/4AAQSkZJRgA...
-b833456f < {"type":"info","source":"b833456f","presentation":"AllGroupsLeaderboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgA...
-Setting presentation org.icpc.tools.presentation.contest.internal.presentations.floor.BalloonFloorPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.floor.BalloonFloorPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.floor.Ba...
-Setting presentation org.icpc.tools.presentation.contest.internal.presentations.OrgLogoFadePresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.OrgLogoFadePresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.OrgLogoF...
-b833456f < {"type":"info","source":"b833456f","presentation":"OrgLogoFadePresentation","fps":58,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
-Setting presentation org.icpc.tools.presentation.contest.internal.presentations.OrgLogoWallPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.OrgLogoWallPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.OrgLogoW...
-Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.SingleTeamPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.SingleTeamPresentation
-b833456f < {"type":"info","source":"b833456f","presentation":"OrgLogoWallPresentation","fps":10,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.SingleTeamP...
-Setting presentation org.icpc.tools.presentation.contest.internal.presentations.clock.ClockPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.clock.ClockPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.clock.Cl...
-b833456f < {"type":"info","source":"b833456f","presentation":"SingleTeamPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
-Setting presentation org.icpc.tools.presentation.contest.internal.presentations.clock.StatusCountdownPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.clock.StatusCountdownPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.clock.St...
-b833456f < {"type":"info","source":"b833456f","presentation":"StatusCountdownPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAA...
-Setting presentation org.icpc.tools.presentation.contest.internal.presentations.clock.StatusCountdownPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.clock.StatusCountdownPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.clock.St...
-Setting presentation org.icpc.tools.presentation.contest.internal.presentations.clock.PolarCountdownPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.clock.PolarCountdownPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.clock.Po...
-b833456f < {"type":"info","source":"b833456f","presentation":"PolarCountdownPresentation","fps":53,"image":"/9j/4AAQSkZJRgABAgAAA...
-Setting presentation org.icpc.tools.presentation.contest.internal.presentations.clock.StatusCountdownPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.clock.StatusCountdownPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.clock.St...
-b833456f < {"type":"info","source":"b833456f","presentation":"StatusCountdownPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAA...
-Setting presentation org.icpc.tools.presentation.contest.internal.chart.TotalProblemsChart to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.TotalProblemsChart
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.TotalProblemsCha...
-b833456f < {"type":"info","source":"b833456f","presentation":"TotalProblemsChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2...
-b833456f < {"type":"info","source":"b833456f","presentation":"TotalProblemsChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2...
-b833456f < {"type":"info","source":"b833456f","presentation":"TotalProblemsChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2...
-b833456f < {"type":"info","source":"b833456f","presentation":"TotalProblemsChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2...
-b833456f < {"type":"info","source":"b833456f","presentation":"TotalProblemsChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2...
-Setting presentation org.icpc.tools.presentation.contest.internal.chart.ScoreboardChart to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.ScoreboardChart
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.ScoreboardChart"...
-b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBD...
-Setting presentation org.icpc.tools.presentation.contest.internal.chart.ProblemSummaryChart to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.ProblemSummaryChart
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.ProblemSummaryCh...
-b833456f < {"type":"info","source":"b833456f","presentation":"ProblemSummaryChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/...
-b833456f < {"type":"info","source":"b833456f","presentation":"ProblemSummaryChart","fps":60,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/...
-b833456f < {"type":"info","source":"b833456f","presentation":"ProblemSummaryChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/...
-b833456f < {"type":"info","source":"b833456f","presentation":"ProblemSummaryChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/...
-b833456f < {"type":"info","source":"b833456f","presentation":"ProblemSummaryChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/...
-Setting presentation org.icpc.tools.presentation.contest.internal.chart.ProblemComparisonChart to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.ProblemComparisonChart
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.ProblemCompariso...
-b833456f < {"type":"info","source":"b833456f","presentation":"ProblemComparisonChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
-b833456f < {"type":"info","source":"b833456f","presentation":"ProblemComparisonChart","fps":60,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
-Setting presentation org.icpc.tools.presentation.contest.internal.chart.JudgementChart to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.JudgementChart
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.JudgementChart"}...
-b833456f < {"type":"info","source":"b833456f","presentation":"JudgementChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDA...
-Setting presentation org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthChart to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthChart
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.JudgeQueueDepthC...
-b833456f < {"type":"info","source":"b833456f","presentation":"JudgeQueueDepthChart","fps":49,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-[ERROR   ] CWWKO0801E: No se ha podido inicializar la conexión SSL. Se ha denegado el acceso no autorizado o los valores de seguridad han caducado. La excepción es javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
-	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:356)
-	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293)
-	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:202)
-	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:171)
-	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:688)
-	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:643)
-	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:461)
-	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:440)
-	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:637)
-	at com.ibm.ws.channel.ssl.internal.SSLUtils.handleHandshake(SSLUtils.java:904)
-	at [internal classes]
-.
-b833456f < {"type":"info","source":"b833456f","presentation":"JudgeQueueDepthChart","fps":47,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-Setting presentation org.icpc.tools.presentation.contest.internal.chart.HistoricalComparisonChart to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.HistoricalComparisonChart
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.HistoricalCompar...
-b833456f < {"type":"info","source":"b833456f","presentation":"HistoricalComparisonChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
-Setting presentation org.icpc.tools.presentation.contest.internal.presentations.BetterFireworksPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.presentations.BetterFireworksPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.presentations.BetterFi...
-[ERROR   ] CWWKO0801E: No se ha podido inicializar la conexión SSL. Se ha denegado el acceso no autorizado o los valores de seguridad han caducado. La excepción es javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
-	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:356)
-	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293)
-	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:202)
-	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:171)
-	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:688)
-	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:643)
-	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:461)
-	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:440)
-	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:637)
-	at com.ibm.ws.channel.ssl.internal.SSLUtils.handleHandshake(SSLUtils.java:904)
-	at [internal classes]
-.
-b833456f < {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":44,"image":"/9j/4AAQSkZJRgABAgAA...
-b833456f < {"type":"info","source":"b833456f","presentation":"BetterFireworksPresentation","fps":26,"image":"/9j/4AAQSkZJRgABAgAA...
-Setting presentation org.icpc.tools.presentation.contest.internal.chart.LanguageSummaryChart to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.chart.LanguageSummaryChart
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.chart.LanguageSummaryC...
-b833456f < {"type":"info","source":"b833456f","presentation":"LanguageSummaryChart","fps":25,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"LanguageSummaryChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"LanguageSummaryChart","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"LanguageSummaryChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"LanguageSummaryChart","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.AllGroupsLeaderboardPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.AllGroupsLeaderboardPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.AllGroupsLe...
-Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSolutionPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstSoluti...
-b833456f < {"type":"info","source":"b833456f","presentation":"FirstSolutionPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQ...
-Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.FirstToSolvePresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstToSolvePresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.FirstToSolv...
-Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.GroupLeaderboardPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.GroupLeaderboardPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.GroupLeader...
-b833456f < {"type":"info","source":"b833456f","presentation":"GroupLeaderboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgA...
-Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.JudgePresen...
-Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.LeaderboardPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.LeaderboardPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.Leaderboard...
-b833456f < {"type":"info","source":"b833456f","presentation":"LeaderboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
-b833456f < {"type":"info","source":"b833456f","presentation":"LeaderboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
-b833456f < {"type":"info","source":"b833456f","presentation":"LeaderboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQAB...
-Setting presentation org.icpc.tools.presentation.contest.internal.scoreboard.ScoreboardPresentation to 1 clients
-Setting property: presentation=1100|org.icpc.tools.presentation.contest.internal.scoreboard.ScoreboardPresentation
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.ScoreboardP...
-b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
-b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
-b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
-b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
-b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
-b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
-b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
-b833456f < {"type":"info","source":"b833456f","presentation":"ScoreboardPresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABA...
-Restarting client b833456f
-Restarting clients
-b833456f > {"type":"command","source":"CDS","action":"restart"}
-Client disconnected: 192.168.0.3 [uid b833456f]
-6720a0f7 > {"type":"clients","clients":[]}
-Client connected: 192.168.0.3 [uid b833456f]
-b833456f > {"type":"properties","props":{"presentation":"1100|org.icpc.tools.presentation.contest.internal.scoreboard.TimelinePre...
-b833456f < {"type":"info","source":"b833456f","client.type":"presentation","version":"2.3.491","os.name":"Windows 10","os.version...
-b833456f < {"type":"info","source":"b833456f","width":1366,"height":768,"hidden":false,"display":"1w"}
-6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f"}]}
-6720a0f7 > {"type":"clients","clients":[{"name":"192.168.0.3","uid":"b833456f","width":0,"height":0,"contest.ids":[6],"version":"...
-b833456f < {"type":"info","source":"b833456f","presentation":null,"fps":0,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBw...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":2,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD/...
-b833456f - Syncing time to 2ms. Recent pings: [1795ms, 3ms, 2ms, 1ms]
-b833456f > {"type":"time","time":1639505890445}
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":59,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":62,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-b833456f < {"type":"info","source":"b833456f","presentation":"TimelinePresentation","fps":61,"image":"/9j/4AAQSkZJRgABAgAAAQABAAD...
-Client disconnected: 192.168.0.3 [uid b833456f]
-6720a0f7 > {"type":"clients","clients":[]}
-[ERROR   ] CWWKO0801E: No se ha podido inicializar la conexión SSL. Se ha denegado el acceso no autorizado o los valores de seguridad han caducado. La excepción es javax.net.ssl.SSLHandshakeException: Received fatal alert: certificate_unknown
-	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
-	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:356)
-	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293)
-	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:202)
-	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:171)
-	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:688)
-	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:643)
-	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:461)
-	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:440)
-	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:637)
-	at com.ibm.ws.channel.ssl.internal.SSLUtils.handleHandshake(SSLUtils.java:904)
-	at [internal classes]
-.
+b833456f < {"type":"info","source":"b833456f","presentation":"TileScoreboardPresentation","fps":60,"image":"/9j/4AAQSkZJRgABAgAAA...
 Client disconnected: presAdmin [uid 6720a0f7]
-[AUDITAR ] CWWKE0055I: Conclusión del servidor solicitada el martes, 14 de diciembre de 2021 a las 1:25 p. m.. El servidor cds se está cerrando.
+Error connecting to client - removing: Session is not open
+Client disconnected: 192.168.0.3 [uid b833456f]
+[AUDITAR ] CWWKS1100A: La autenticación no se ha ejecutado correctamente para el ID de usuario admin. Se ha especificado un ID de usuario o una contraseña no válidos.
+Client connected: admin [uid e2d21aa7]
+e2d21aa7 < {"type":"info","source":"e2d21aa7","client.type":"resolver","version":"2.3.491","os.name":"Windows 10","os.version":"1...
+e2d21aa7 > {"type":"clients","clients":[]}
+e2d21aa7 < {"type":"properties","clients":[],"props":{"org.icpc.tools.presentation.contest.resolver.settings":"1.0,-2147483648,0"...
+New property: org.icpc.tools.presentation.contest.resolver.settings: 1.0,-2147483648,0
+e2d21aa7 - Syncing time to 2ms. Recent pings: [6ms, 2ms, 3ms]
+e2d21aa7 > {"type":"time","time":1639934234903}
+Client disconnected: admin [uid e2d21aa7]
+Client connected: admin [uid e2d21aa7]
+e2d21aa7 < {"type":"info","source":"e2d21aa7","client.type":"resolver","version":"2.3.491","os.name":"Windows 10","os.version":"1...
+e2d21aa7 > {"type":"clients","clients":[]}
+e2d21aa7 < {"type":"properties","clients":[],"props":{"org.icpc.tools.presentation.contest.resolver.settings":"1.0,-2147483648,0"...
+New property: org.icpc.tools.presentation.contest.resolver.settings: 1.0,-2147483648,0
+e2d21aa7 - Syncing time to 1ms. Recent pings: [5ms, 1ms, 1ms]
+e2d21aa7 > {"type":"time","time":1639934338771}
+Contest unfrozen: 8
+Contest finalized: 8
+Contest unfrozen: 8
+Contest end of updates: 8
+Resolver command: init
+Resolver command: reset
+Resolving to: 0 / false
+Resolver going to pause 0
+Setting property: org.icpc.tools.presentation.contest.resolver.clicks=1000
+Step 144 <  Select team 11: AresAce
+Step 143 <  Scroll to row 3
+Step 139 <  Select team 30: BECO
+Step 138 <  Scroll to row 4
+Step 134 <  Select team 31: BounceAfterJump
+Step 133 <  Scroll to row 5
+Step 129 <  Select team 36: BTS
+Step 128 <  Scroll to row 6
+Step 124 <  Select team 37: BTSa
+Step 123 <  Scroll to row 7
+Step 119 <  Select team 16: Cepeda was here
+Step 118 <  Scroll to row 8
+Step 114 <  Select team 32: CriaturasDelBosque
+Step 113 <  Scroll to row 9
+Step 109 <  Select team 26: Doxe
+Step 108 <  Scroll to row 10
+Step 104 <  Select team 27: Fixer
+Step 103 <  Scroll to row 11
+Step 99 <  Select team 20: GandalfBlue
+Step 98 <  Scroll to row 12
+Step 94 <  Select team 12: Globito++;
+Step 93 <  Scroll to row 13
+Step 89 <  Select team 6: JM
+Step 88 <  Scroll to row 14
+Step 84 <  Select team 14: Juan
+Step 83 <  Scroll to row 15
+Step 79 <  Select team 17: KevinEMR
+Step 78 <  Scroll to row 16
+Step 74 <  Select team 21: Kyuberi
+Step 73 <  Scroll to row 17
+Step 69 <  Select team 4: NMA
+Step 68 <  Scroll to row 18
+Step 64 <  Select team 29: self-taugh
+Step 63 <  Scroll to row 19
+Step 59 <  Select team 19: Solin solito
+Step 58 <  Scroll to row 20
+Step 54 <  Select team 38: Solo
+Step 53 <  Scroll to row 21
+Step 49 <  Select team 43: Team B2ya
+Step 48 <  Scroll to row 22
+Step 44 <  Select team 10: The old NMA / Roca12
+Step 43 <  Scroll to row 23
+Step 39 <  Select team 15: Tiburon
+Step 38 <  Scroll to row 24
+Step 34 <  Select team 8: tuburones
+Step 33 <  Scroll to row 25
+Step 29 <  Select team 23: UB
+Step 28 <  Scroll to row 26
+Step 24 <  Select team 25: WQ Team
+Step 23 <  Scroll to row 27
+Step 19 <  Select team 7: Wquiceno team
+Step 18 <  Scroll to row 28
+Step 14 <  Select team 7: Wquiceno team
+Step 13 <  Scroll to row 28
+Step 11 <  Select team (none)
+Step 9 <  Scroll to row 0
+Step 7 <  Show presentation SPLASH
+Step 6 <  Scroll to row 0
+Step 5 <  Submissions to judge: (none)
+Step 4 <  Select submission (none)
+Step 3 <  Select team (none)
+e2d21aa7 > {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"1000"}}
+Resolver command: reset
+Resolver command: reset
+Resolver command: reset
+Resolver command: reset
+Resolver command: forward
+Resolving to: 1 / true
+Resolver going to pause 1
+Setting property: org.icpc.tools.presentation.contest.resolver.clicks=1
+Step 3 <  Select team (none)
+Step 4 <  Select submission (none)
+Step 5 <  Submissions to judge: (none)
+Step 6 <  Scroll to row 0
+Step 7 <  Show presentation SCOREBOARD
+e2d21aa7 > {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"1"}}
+Resolver command: forward
+Resolving to: 2 / true
+Resolver going to pause 2
+Setting property: org.icpc.tools.presentation.contest.resolver.clicks=2
+Step 9 <  Scroll to row 28
+e2d21aa7 > {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"2"}}
+Resolver command: forward
+Resolving to: 3 / true
+Resolver going to pause 3
+Setting property: org.icpc.tools.presentation.contest.resolver.clicks=3
+Step 11 <  Select team 7: Wquiceno team
+e2d21aa7 > {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"3"}}
+Resolver command: forward
+Resolving to: 4 / true
+Resolver going to pause 4
+Setting property: org.icpc.tools.presentation.contest.resolver.clicks=4
+Step 13 <  Scroll to row 28
+Step 14 <  Select team 7: Wquiceno team
+e2d21aa7 > {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"4"}}
+Resolver command: forward
+Step 18 <  Scroll to row 27
+Step 19 <  Select team 25: WQ Team
+Resolver command: forward
+Step 23 <  Scroll to row 26
+Step 24 <  Select team 23: UB
+Resolver command: forward
+Step 28 <  Scroll to row 25
+Step 29 <  Select team 8: tuburones
+Resolver command: forward
+Resolver command: forward
+Resolver command: forward
+Step 33 <  Scroll to row 24
+Step 34 <  Select team 15: Tiburon
+Resolver command: forward
+Resolver command: forward
+Resolver command: forward
+Step 38 <  Scroll to row 23
+Step 39 <  Select team 10: The old NMA / Roca12
+Resolver command: forward
+Resolver command: forward
+Resolver command: forward
+Step 43 <  Scroll to row 22
+Step 44 <  Select team 43: Team B2ya
+Resolver command: forward
+Resolver command: forward
+Step 48 <  Scroll to row 21
+Step 49 <  Select team 38: Solo
+Resolver command: forward
+Step 53 <  Scroll to row 20
+Step 54 <  Select team 19: Solin solito
+Resolver command: forward
+Step 58 <  Scroll to row 19
+Step 59 <  Select team 29: self-taugh
+Resolver command: forward
+Step 63 <  Scroll to row 18
+Step 64 <  Select team 4: NMA
+Resolver command: forward
+Step 68 <  Scroll to row 17
+Step 69 <  Select team 21: Kyuberi
+Resolver command: forward
+Step 73 <  Scroll to row 16
+Step 74 <  Select team 17: KevinEMR
+Step 78 <  Scroll to row 15
+Step 79 <  Select team 14: Juan
+Step 83 <  Scroll to row 14
+Step 84 <  Select team 6: JM
+Step 88 <  Scroll to row 13
+Step 89 <  Select team 12: Globito++;
+Step 93 <  Scroll to row 12
+Step 94 <  Select team 20: GandalfBlue
+Step 98 <  Scroll to row 11
+Step 99 <  Select team 27: Fixer
+Step 103 <  Scroll to row 10
+Step 104 <  Select team 26: Doxe
+Step 108 <  Scroll to row 9
+Step 109 <  Select team 32: CriaturasDelBosque
+Step 113 <  Scroll to row 8
+Step 114 <  Select team 16: Cepeda was here
+Step 118 <  Scroll to row 7
+Step 119 <  Select team 37: BTSa
+Step 123 <  Scroll to row 6
+Step 124 <  Select team 36: BTS
+Step 128 <  Scroll to row 5
+Step 129 <  Select team 31: BounceAfterJump
+Step 133 <  Scroll to row 4
+Step 134 <  Select team 30: BECO
+Step 138 <  Scroll to row 3
+Step 139 <  Select team 11: AresAce
+Step 143 <  Scroll to row 2
+Step 144 <  Select team 39: Amefo
+Resolver command: forward
+Resolving to: 5 / true
+Resolver going to pause 5
+Setting property: org.icpc.tools.presentation.contest.resolver.clicks=5
+Step 146 <  Scroll to row 0
+Step 147 <  Select team 22: America
+e2d21aa7 > {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"5"}}
+Resolver command: forward
+Resolving to: 6 / true
+Resolver going to pause 6
+Setting property: org.icpc.tools.presentation.contest.resolver.clicks=6
+Step 149 <  Select submission 1 for team 22
+Step 150 <  Select submission id 920
+e2d21aa7 > {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"6"}}
+Resolver command: forward
+Resolving to: 7 / true
+Resolver going to pause 7
+Setting property: org.icpc.tools.presentation.contest.resolver.clicks=7
+Step 152 <  Change contest state
+Step 153 <  Select submission id 920
+e2d21aa7 > {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"7"}}
+Resolver command: forward
+Resolving to: 8 / true
+Resolver going to pause 8
+Setting property: org.icpc.tools.presentation.contest.resolver.clicks=8
+Step 155 <  Select submission (none)
+Step 156 <  Scroll to row 0
+Step 157 <  Select team 44: MisionTic
+e2d21aa7 > {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"8"}}
+Resolver command: forward
+Resolving to: 9 / true
+Resolver going to pause 9
+Setting property: org.icpc.tools.presentation.contest.resolver.clicks=9
+Step 159 <  Select submission 1 for team 44
+Step 160 <  Select submission id 911
+e2d21aa7 > {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"9"}}
+Resolver command: forward
+Resolving to: 10 / true
+Resolver going to pause 10
+Setting property: org.icpc.tools.presentation.contest.resolver.clicks=10
+Step 162 <  Change contest state
+Step 163 <  Select submission id 911
+Step 164 <  Change contest state
+Step 165 <  Select submission id 912
+e2d21aa7 > {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"10"}}
+Client disconnected: admin [uid e2d21aa7]
+[AUDITAR ] CWWKE0055I: Conclusión del servidor solicitada el domingo, 19 de diciembre de 2021 a las 12:30 p. m.. El servidor cds se está cerrando.
 [AUDITAR ] CWWKE1100I: Esperando hasta 30 segundos para que el servidor se desactive temporalmente.
 [AUDITAR ] CWWKT0017I: Aplicación web eliminada (default_host): https://roca12ultra:8443/
 Shutting down
-Metrics for contest 6 [REST:3,Feed:2,WS:0,Web:3,Dwnld:0,Scr:1,XML:0,Desktop:0,Webcam:0,Audio:0,Total:9]
+Metrics for contest 8 [REST:167,Feed:4,WS:0,Web:274,Dwnld:0,Scr:2,XML:0,Desktop:0,Webcam:0,Audio:0,Total:447]
 [AUDITAR ] CWWKZ0009I: La aplicación CDS se ha detenido correctamente.
-[AUDITAR ] CWWKE0036I: El servidor cds se ha detenido después de 19 minutos, 52,63 segundos.
+[AUDITAR ] CWWKE0036I: El servidor cds se ha detenido después de 34 minutos, 18,208 segundos.

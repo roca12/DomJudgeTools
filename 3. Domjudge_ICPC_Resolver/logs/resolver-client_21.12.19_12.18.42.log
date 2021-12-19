@@ -1,0 +1,1203 @@
+---- ICPC Resolver (2.3.491) ----
+OS:  Windows 10 (amd64/10.0)
+JRE: Oracle Corporation (11.0.11)
+Folder: C:\Users\diego\Documents\DomJudge\3. Domjudge_ICPC_Resolver
+Host: ROCA12ULTRA / 192.168.0.3
+Locale/TZ: es_CO / hora estándar de Colombia
+Args: https://localhost:8443/api/contests/8/ admin piroloco2112 --client --test 
+Log started 2021.12.19 12:18.42
+
+2021.12.19 12:18.42 I Option found: --client 
+2021.12.19 12:18.42 I Option found: --test 
+2021.12.19 12:18.44 I Contest source verified
+2021.12.19 12:18.44 I Loading from RESTContestSource[admin|piroloco2112@https://localhost:8443/api/contests/8]
+2021.12.19 12:18.44 I Contest source verified
+2021.12.19 12:18.44 I Loading contest from RESTContestSource[admin|piroloco2112@https://localhost:8443/api/contests/8]
+2021.12.19 12:18.44 I Checking feed cache: C:\Users\diego\Documents\DomJudge\3. Domjudge_ICPC_Resolver\logs\events-8-admin.log
+2021.12.19 12:18.44 I First comment: ! 0
+2021.12.19 12:18.44 I Found feed cache up to event id: cdr1087
+2021.12.19 12:18.45 I Reading feed cache
+2021.12.19 12:18.45 I Done reading feed cache
+2021.12.19 12:18.55 I Removing 0 invalid submissions
+2021.12.19 12:18.55 W Test mode active, 0 unjudged submissions discarded.
+2021.12.19 12:18.55 W Contest is not valid. Run "eventFeed --validate" for details
+2021.12.19 12:18.55 I Checking for predetermined steps
+2021.12.19 12:18.55 I Download https://localhost:8443/api/resolver.tsv to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.localhostapicontests8\resolver.tsv (200) (9.9kb in 62ms)
+2021.12.19 12:18.55 I Predetermined steps found in C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.localhostapicontests8\resolver.tsv
+2021.12.19 12:18.55 I Initializing resolver...
+2021.12.19 12:18.55 Generating awards
+2021.12.19 12:18.55 I Removing 1 teams and 5 total objects
+2021.12.19 12:18.55 I Removing 0 invalid submissions
+2021.12.19 12:18.55 I Resolving...
+2021.12.19 12:18.55 W Invalid submission: submissions
+  id: 886
+  contest_time: 5:50:17.559
+  time: 2021-12-18T15:50:17.559-05
+  problem_id: 74
+  team_id: 1
+  language_id: java
+  entry_point: Robot
+  files: [{"href":"contests/8/submissions/886/files","mime":"application/zip"}]
+  reaction: null
+2021.12.19 12:18.55 W Invalid submission: submissions
+  id: 918
+  contest_time: 10:38:57.628
+  time: 2021-12-18T20:38:57.628-05
+  problem_id: 74
+  team_id: 1
+  language_id: cpp
+  entry_point: null
+  files: [{"href":"contests/8/submissions/918/files","mime":"application/zip"}]
+  reaction: null
+2021.12.19 12:18.55 Resolving 12 pending submissions out of the 141 total submissions in the contest... 
+2021.12.19 12:18.55 I Resolving row: 38
+2021.12.19 12:18.55 I Resolving row: 37
+2021.12.19 12:18.55 I Resolving row: 36
+2021.12.19 12:18.55 I Resolving row: 35
+2021.12.19 12:18.55 I Resolving row: 34
+2021.12.19 12:18.55 I Resolving row: 33
+2021.12.19 12:18.55 I Resolving row: 32
+2021.12.19 12:18.55 I Resolving row: 31
+2021.12.19 12:18.55 I Resolving row: 30
+2021.12.19 12:18.55 I Resolving row: 29
+2021.12.19 12:18.55 I Resolving row: 28
+2021.12.19 12:18.55 I Resolving row: 27
+2021.12.19 12:18.55 I Resolving row: 26
+2021.12.19 12:18.55 I Resolving row: 25
+2021.12.19 12:18.55 I Resolving row: 24
+2021.12.19 12:18.55 I Resolving row: 23
+2021.12.19 12:18.55 I Resolving row: 22
+2021.12.19 12:18.55 I Resolving row: 21
+2021.12.19 12:18.55 I Resolving row: 20
+2021.12.19 12:18.55 I Resolving row: 19
+2021.12.19 12:18.55 I Resolving row: 18
+2021.12.19 12:18.55 I Resolving row: 17
+2021.12.19 12:18.55 I Resolving row: 16
+2021.12.19 12:18.55 I Resolving row: 15
+2021.12.19 12:18.55 I Resolving row: 14
+2021.12.19 12:18.55 I Resolving row: 13
+2021.12.19 12:18.55 I Resolving row: 12
+2021.12.19 12:18.55 I Resolving row: 11
+2021.12.19 12:18.55 I Resolving: SubmissionInfo[22, 1]
+2021.12.19 12:18.55 W Invalid submission: submissions
+  id: 886
+  contest_time: 5:50:17.559
+  time: 2021-12-18T15:50:17.559-05
+  problem_id: 74
+  team_id: 1
+  language_id: java
+  entry_point: Robot
+  files: [{"href":"contests/8/submissions/886/files","mime":"application/zip"}]
+  reaction: null
+2021.12.19 12:18.55 W Invalid submission: submissions
+  id: 918
+  contest_time: 10:38:57.628
+  time: 2021-12-18T20:38:57.628-05
+  problem_id: 74
+  team_id: 1
+  language_id: cpp
+  entry_point: null
+  files: [{"href":"contests/8/submissions/918/files","mime":"application/zip"}]
+  reaction: null
+2021.12.19 12:18.55 W Invalid submission: submissions
+  id: 886
+  contest_time: 5:50:17.559
+  time: 2021-12-18T15:50:17.559-05
+  problem_id: 74
+  team_id: 1
+  language_id: java
+  entry_point: Robot
+  files: [{"href":"contests/8/submissions/886/files","mime":"application/zip"}]
+  reaction: null
+2021.12.19 12:18.55 W Invalid submission: submissions
+  id: 918
+  contest_time: 10:38:57.628
+  time: 2021-12-18T20:38:57.628-05
+  problem_id: 74
+  team_id: 1
+  language_id: cpp
+  entry_point: null
+  files: [{"href":"contests/8/submissions/918/files","mime":"application/zip"}]
+  reaction: null
+2021.12.19 12:18.55 I    Not solved, no change
+2021.12.19 12:18.55 I Award at row: 11 22 Universidad El Bosque
+2021.12.19 12:18.55 I Resolving row: 10
+2021.12.19 12:18.55 I Resolving: SubmissionInfo[44, 1]
+2021.12.19 12:18.55 W Invalid submission: submissions
+  id: 886
+  contest_time: 5:50:17.559
+  time: 2021-12-18T15:50:17.559-05
+  problem_id: 74
+  team_id: 1
+  language_id: java
+  entry_point: Robot
+  files: [{"href":"contests/8/submissions/886/files","mime":"application/zip"}]
+  reaction: null
+2021.12.19 12:18.55 W Invalid submission: submissions
+  id: 918
+  contest_time: 10:38:57.628
+  time: 2021-12-18T20:38:57.628-05
+  problem_id: 74
+  team_id: 1
+  language_id: cpp
+  entry_point: null
+  files: [{"href":"contests/8/submissions/918/files","mime":"application/zip"}]
+  reaction: null
+2021.12.19 12:18.55 I    Not solved, no change
+2021.12.19 12:18.55 I Award at row: 10 44
+2021.12.19 12:18.55 I Resolving row: 9
+2021.12.19 12:18.55 I Award at row: 9 28
+2021.12.19 12:18.55 I Resolving row: 8
+2021.12.19 12:18.55 I Award at row: 8 35
+2021.12.19 12:18.55 I Resolving row: 7
+2021.12.19 12:18.55 I Award at row: 7 24 Universidad El Bosque
+2021.12.19 12:18.55 I Resolving row: 6
+2021.12.19 12:18.55 I Award at row: 6 40 Grupo de programación competitiva de ROCA12
+2021.12.19 12:18.55 I Resolving row: 5
+2021.12.19 12:18.55 I Award at row: 5 42
+2021.12.19 12:18.55 I Resolving row: 4
+2021.12.19 12:18.55 I Award at row: 4 18 Universidad El Bosque
+2021.12.19 12:18.55 I Resolving row: 3
+2021.12.19 12:18.55 I Award at row: 3 41 Universidad El Bosque
+2021.12.19 12:18.55 I Resolving row: 2
+2021.12.19 12:18.55 I Resolving: SubmissionInfo[5, 4]
+2021.12.19 12:18.55 W Invalid submission: submissions
+  id: 886
+  contest_time: 5:50:17.559
+  time: 2021-12-18T15:50:17.559-05
+  problem_id: 74
+  team_id: 1
+  language_id: java
+  entry_point: Robot
+  files: [{"href":"contests/8/submissions/886/files","mime":"application/zip"}]
+  reaction: null
+2021.12.19 12:18.55 W Invalid submission: submissions
+  id: 918
+  contest_time: 10:38:57.628
+  time: 2021-12-18T20:38:57.628-05
+  problem_id: 74
+  team_id: 1
+  language_id: cpp
+  entry_point: null
+  files: [{"href":"contests/8/submissions/918/files","mime":"application/zip"}]
+  reaction: null
+2021.12.19 12:18.55 I    Solved, no change in standings
+2021.12.19 12:18.55 I Resolving: SubmissionInfo[5, 6]
+2021.12.19 12:18.55 W Invalid submission: submissions
+  id: 886
+  contest_time: 5:50:17.559
+  time: 2021-12-18T15:50:17.559-05
+  problem_id: 74
+  team_id: 1
+  language_id: java
+  entry_point: Robot
+  files: [{"href":"contests/8/submissions/886/files","mime":"application/zip"}]
+  reaction: null
+2021.12.19 12:18.55 W Invalid submission: submissions
+  id: 918
+  contest_time: 10:38:57.628
+  time: 2021-12-18T20:38:57.628-05
+  problem_id: 74
+  team_id: 1
+  language_id: cpp
+  entry_point: null
+  files: [{"href":"contests/8/submissions/918/files","mime":"application/zip"}]
+  reaction: null
+2021.12.19 12:18.55 I    Solved. Team moved from row 2 to row 0
+2021.12.19 12:18.55 I Award at row: 2 34
+2021.12.19 12:18.55 I Resolving row: 1
+2021.12.19 12:18.55 I Award at row: 1 33
+2021.12.19 12:18.55 I Resolving row: 0
+2021.12.19 12:18.55 I Resolving: SubmissionInfo[5, 7]
+2021.12.19 12:18.55 W Invalid submission: submissions
+  id: 886
+  contest_time: 5:50:17.559
+  time: 2021-12-18T15:50:17.559-05
+  problem_id: 74
+  team_id: 1
+  language_id: java
+  entry_point: Robot
+  files: [{"href":"contests/8/submissions/886/files","mime":"application/zip"}]
+  reaction: null
+2021.12.19 12:18.55 W Invalid submission: submissions
+  id: 918
+  contest_time: 10:38:57.628
+  time: 2021-12-18T20:38:57.628-05
+  problem_id: 74
+  team_id: 1
+  language_id: cpp
+  entry_point: null
+  files: [{"href":"contests/8/submissions/918/files","mime":"application/zip"}]
+  reaction: null
+2021.12.19 12:18.55 I    Not solved, no change
+2021.12.19 12:18.55 I Award at row: 0 5 Escuela Tecnológica Instituto Técnico Central
+2021.12.19 12:18.55 Done resolving
+2021.12.19 12:18.55   Playback time: 1m 49s
+2021.12.19 12:18.55   Total pauses: 41
+2021.12.19 12:18.55 I   Contest states: 12
+2021.12.19 12:18.55 I   Total steps: 342
+2021.12.19 12:18.55 I   Time to resolve: 204ms
+2021.12.19 12:18.55 I Resolution steps:
+2021.12.19 12:18.55 I   Change contest state
+2021.12.19 12:18.55 I   Show presentation SPLASH
+2021.12.19 12:18.55 I   Pause 0
+2021.12.19 12:18.55 I   Select team (none)
+2021.12.19 12:18.55 I   Select submission (none)
+2021.12.19 12:18.55 I   Submissions to judge: (none)
+2021.12.19 12:18.55 I   Scroll to row 0
+2021.12.19 12:18.55 I   Show presentation SCOREBOARD
+2021.12.19 12:18.55 I   Pause 1
+2021.12.19 12:18.55 I   Scroll to row 28
+2021.12.19 12:18.55 I   Pause 2
+2021.12.19 12:18.55 I   Select team 7: Wquiceno team
+2021.12.19 12:18.55 I   Pause 3
+2021.12.19 12:18.55 I   Scroll to row 28
+2021.12.19 12:18.55 I   Select team 7: Wquiceno team
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 27
+2021.12.19 12:18.55 I   Select team 25: WQ Team
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 26
+2021.12.19 12:18.55 I   Select team 23: UB
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 25
+2021.12.19 12:18.55 I   Select team 8: tuburones
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 24
+2021.12.19 12:18.55 I   Select team 15: Tiburon
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 23
+2021.12.19 12:18.55 I   Select team 10: The old NMA / Roca12
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 22
+2021.12.19 12:18.55 I   Select team 43: Team B2ya
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 21
+2021.12.19 12:18.55 I   Select team 38: Solo
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 20
+2021.12.19 12:18.55 I   Select team 19: Solin solito
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 19
+2021.12.19 12:18.55 I   Select team 29: self-taugh
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 18
+2021.12.19 12:18.55 I   Select team 4: NMA
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 17
+2021.12.19 12:18.55 I   Select team 21: Kyuberi
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 16
+2021.12.19 12:18.55 I   Select team 17: KevinEMR
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 15
+2021.12.19 12:18.55 I   Select team 14: Juan
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 14
+2021.12.19 12:18.55 I   Select team 6: JM
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 13
+2021.12.19 12:18.55 I   Select team 12: Globito++;
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 12
+2021.12.19 12:18.55 I   Select team 20: GandalfBlue
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 11
+2021.12.19 12:18.55 I   Select team 27: Fixer
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 10
+2021.12.19 12:18.55 I   Select team 26: Doxe
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 9
+2021.12.19 12:18.55 I   Select team 32: CriaturasDelBosque
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 8
+2021.12.19 12:18.55 I   Select team 16: Cepeda was here
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 7
+2021.12.19 12:18.55 I   Select team 37: BTSa
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 6
+2021.12.19 12:18.55 I   Select team 36: BTS
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 5
+2021.12.19 12:18.55 I   Select team 31: BounceAfterJump
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 4
+2021.12.19 12:18.55 I   Select team 30: BECO
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 3
+2021.12.19 12:18.55 I   Select team 11: AresAce
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 2
+2021.12.19 12:18.55 I   Select team 39: Amefo
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Scroll to row 1
+2021.12.19 12:18.55 I   Select team 22: America
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Select submission 1 for team 22
+2021.12.19 12:18.55 I   Select submission id 920
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Change contest state
+2021.12.19 12:18.55 I   Select submission id 920
+2021.12.19 12:18.55 I   Delay FAILED
+2021.12.19 12:18.55 I   Select submission (none)
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Select team 22: America HIGHLIGHT
+2021.12.19 12:18.55 I   Pause 4
+2021.12.19 12:18.55 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.55 I   Award (Bronze Medalist)
+2021.12.19 12:18.55 I   Pause 5
+2021.12.19 12:18.55 I   Show presentation SCOREBOARD
+2021.12.19 12:18.55 I   Pause 6
+2021.12.19 12:18.55 I   Scroll to row 0
+2021.12.19 12:18.55 I   Select team 44: MisionTic
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Select submission 1 for team 44
+2021.12.19 12:18.55 I   Select submission id 911
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Change contest state
+2021.12.19 12:18.55 I   Select submission id 911
+2021.12.19 12:18.55 I   Change contest state
+2021.12.19 12:18.55 I   Select submission id 912
+2021.12.19 12:18.55 I   Delay FAILED
+2021.12.19 12:18.55 I   Select submission (none)
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Select team 44: MisionTic HIGHLIGHT
+2021.12.19 12:18.55 I   Pause 7
+2021.12.19 12:18.55 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.55 I   Award (Bronze Medalist)
+2021.12.19 12:18.55 I   Pause 8
+2021.12.19 12:18.55 I   Show presentation SCOREBOARD
+2021.12.19 12:18.55 I   Pause 9
+2021.12.19 12:18.55 I   Scroll to row 0
+2021.12.19 12:18.55 I   Select team 28: Dinamite
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Select team 28: Dinamite HIGHLIGHT
+2021.12.19 12:18.55 I   Pause 10
+2021.12.19 12:18.55 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.55 I   Award (Bronze Medalist)
+2021.12.19 12:18.55 I   Pause 11
+2021.12.19 12:18.55 I   Show presentation SCOREBOARD
+2021.12.19 12:18.55 I   Pause 12
+2021.12.19 12:18.55 I   Scroll to row 0
+2021.12.19 12:18.55 I   Select team 35: Khvlv
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Select team 35: Khvlv HIGHLIGHT
+2021.12.19 12:18.55 I   Pause 13
+2021.12.19 12:18.55 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.55 I   Award (Bronze Medalist)
+2021.12.19 12:18.55 I   Pause 14
+2021.12.19 12:18.55 I   Show presentation SCOREBOARD
+2021.12.19 12:18.55 I   Pause 15
+2021.12.19 12:18.55 I   Scroll to row 0
+2021.12.19 12:18.55 I   Select team 24: annyjarb
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Select team 24: annyjarb HIGHLIGHT
+2021.12.19 12:18.55 I   Pause 16
+2021.12.19 12:18.55 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.55 I   Award (Silver Medalist)
+2021.12.19 12:18.55 I   Pause 17
+2021.12.19 12:18.55 I   Show presentation SCOREBOARD
+2021.12.19 12:18.55 I   Pause 18
+2021.12.19 12:18.55 I   Scroll to row 0
+2021.12.19 12:18.55 I   Select team 40: Generation Blue
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Select team 40: Generation Blue HIGHLIGHT
+2021.12.19 12:18.55 I   Pause 19
+2021.12.19 12:18.55 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.55 I   Award (Silver Medalist)
+2021.12.19 12:18.55 I   Pause 20
+2021.12.19 12:18.55 I   Show presentation SCOREBOARD
+2021.12.19 12:18.55 I   Pause 21
+2021.12.19 12:18.55 I   Scroll to row 0
+2021.12.19 12:18.55 I   Select team 42: dmm
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Select team 42: dmm HIGHLIGHT
+2021.12.19 12:18.55 I   Pause 22
+2021.12.19 12:18.55 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.55 I   Award (Silver Medalist)
+2021.12.19 12:18.55 I   Pause 23
+2021.12.19 12:18.55 I   Show presentation SCOREBOARD
+2021.12.19 12:18.55 I   Pause 24
+2021.12.19 12:18.55 I   Scroll to row 0
+2021.12.19 12:18.55 I   Select team 18: Seiju
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Select team 18: Seiju FTS_HIGHLIGHT
+2021.12.19 12:18.55 I   Pause 25
+2021.12.19 12:18.55 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.55 I   Awards (Silver Medalist, First to solve problem A)
+2021.12.19 12:18.55 I   Pause 26
+2021.12.19 12:18.55 I   Show presentation SCOREBOARD
+2021.12.19 12:18.55 I   Pause 27
+2021.12.19 12:18.55 I   Scroll to row 0
+2021.12.19 12:18.55 I   Select team 41: >><<
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Select team 41: >><< FTS_HIGHLIGHT
+2021.12.19 12:18.55 I   Pause 28
+2021.12.19 12:18.55 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.55 I   Awards (Gold Medalist, First to solve problem C)
+2021.12.19 12:18.55 I   Pause 29
+2021.12.19 12:18.55 I   Show presentation SCOREBOARD
+2021.12.19 12:18.55 I   Pause 30
+2021.12.19 12:18.55 I   Scroll to row 0
+2021.12.19 12:18.55 I   Select team 5: Edanv
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Select submission 4 for team 5
+2021.12.19 12:18.55 I   Select submission id 915
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Change contest state
+2021.12.19 12:18.55 I   Select submission id 915
+2021.12.19 12:18.55 I   Delay SOLVED_STAY
+2021.12.19 12:18.55 I   Select submission (none)
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Select submission 6 for team 5
+2021.12.19 12:18.55 I   Select submission id 913
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Change contest state
+2021.12.19 12:18.55 I   Select submission id 913
+2021.12.19 12:18.55 I   Change contest state
+2021.12.19 12:18.55 I   Select submission id 914
+2021.12.19 12:18.55 I   Change contest state
+2021.12.19 12:18.55 I   Select submission id 916
+2021.12.19 12:18.55 I   Change contest state
+2021.12.19 12:18.55 I   Select submission id 917
+2021.12.19 12:18.55 I   Change contest state
+2021.12.19 12:18.55 I   Select submission id 919
+2021.12.19 12:18.55 I   Delay SOLVED_MOVE
+2021.12.19 12:18.55 I   Select submission (none)
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Select team 34: EpaColombia
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Select team 34: EpaColombia FTS_HIGHLIGHT
+2021.12.19 12:18.55 I   Pause 31
+2021.12.19 12:18.55 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.55 I   Awards (Gold Medalist, First to solve problem E, First to solve problem G)
+2021.12.19 12:18.55 I   Pause 32
+2021.12.19 12:18.55 I   Show presentation SCOREBOARD
+2021.12.19 12:18.55 I   Pause 33
+2021.12.19 12:18.55 I   Scroll to row 0
+2021.12.19 12:18.55 I   Select team 33: Elias Garcia
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Delay DESELECT
+2021.12.19 12:18.55 I   Select team 33: Elias Garcia HIGHLIGHT
+2021.12.19 12:18.55 I   Pause 34
+2021.12.19 12:18.55 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.55 I   Award (Gold Medalist)
+2021.12.19 12:18.55 I   Pause 35
+2021.12.19 12:18.55 I   Show presentation SCOREBOARD
+2021.12.19 12:18.55 I   Pause 36
+2021.12.19 12:18.55 I   Scroll to row 0
+2021.12.19 12:18.55 I   Select team 5: Edanv
+2021.12.19 12:18.55 I   Delay SELECT_TEAM
+2021.12.19 12:18.55 I   Select submission 7 for team 5
+2021.12.19 12:18.55 I   Select submission id 921
+2021.12.19 12:18.55 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.55 I   Change contest state
+2021.12.19 12:18.55 I   Select submission id 921
+2021.12.19 12:18.55 I   Change contest state
+2021.12.19 12:18.55 I   Select submission id 922
+2021.12.19 12:18.56 I   Delay FAILED
+2021.12.19 12:18.56 I   Select submission (none)
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Select team 5: Edanv FTS_HIGHLIGHT
+2021.12.19 12:18.56 I   Pause 37
+2021.12.19 12:18.56 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.56 I   Awards (Gold Medalist, Participants Champions, First to solve problem B)
+2021.12.19 12:18.56 I   Pause 38
+2021.12.19 12:18.56 I   Show presentation SCOREBOARD
+2021.12.19 12:18.56 I   Pause 39
+2021.12.19 12:18.56 I   Select team (none)
+2021.12.19 12:18.56 I   Pause 40
+2021.12.19 12:18.56 I Resolution steps:
+2021.12.19 12:18.56 I   Change contest state
+2021.12.19 12:18.56 I   Show presentation SPLASH
+2021.12.19 12:18.56 I   Pause 0
+2021.12.19 12:18.56 I   Select team (none)
+2021.12.19 12:18.56 I   Select submission (none)
+2021.12.19 12:18.56 I   Submissions to judge: (none)
+2021.12.19 12:18.56 I   Scroll to row 0
+2021.12.19 12:18.56 I   Show presentation SCOREBOARD
+2021.12.19 12:18.56 I   Pause 1
+2021.12.19 12:18.56 I   Scroll to row 28
+2021.12.19 12:18.56 I   Pause 2
+2021.12.19 12:18.56 I   Select team 7: Wquiceno team
+2021.12.19 12:18.56 I   Pause 3
+2021.12.19 12:18.56 I   Scroll to row 28
+2021.12.19 12:18.56 I   Select team 7: Wquiceno team
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 27
+2021.12.19 12:18.56 I   Select team 25: WQ Team
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 26
+2021.12.19 12:18.56 I   Select team 23: UB
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 25
+2021.12.19 12:18.56 I   Select team 8: tuburones
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 24
+2021.12.19 12:18.56 I   Select team 15: Tiburon
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 23
+2021.12.19 12:18.56 I   Select team 10: The old NMA / Roca12
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 22
+2021.12.19 12:18.56 I   Select team 43: Team B2ya
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 21
+2021.12.19 12:18.56 I   Select team 38: Solo
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 20
+2021.12.19 12:18.56 I   Select team 19: Solin solito
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 19
+2021.12.19 12:18.56 I   Select team 29: self-taugh
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 18
+2021.12.19 12:18.56 I   Select team 4: NMA
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 17
+2021.12.19 12:18.56 I   Select team 21: Kyuberi
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 16
+2021.12.19 12:18.56 I   Select team 17: KevinEMR
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 15
+2021.12.19 12:18.56 I   Select team 14: Juan
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 14
+2021.12.19 12:18.56 I   Select team 6: JM
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 13
+2021.12.19 12:18.56 I   Select team 12: Globito++;
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 12
+2021.12.19 12:18.56 I   Select team 20: GandalfBlue
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 11
+2021.12.19 12:18.56 I   Select team 27: Fixer
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 10
+2021.12.19 12:18.56 I   Select team 26: Doxe
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 9
+2021.12.19 12:18.56 I   Select team 32: CriaturasDelBosque
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 8
+2021.12.19 12:18.56 I   Select team 16: Cepeda was here
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 7
+2021.12.19 12:18.56 I   Select team 37: BTSa
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 6
+2021.12.19 12:18.56 I   Select team 36: BTS
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 5
+2021.12.19 12:18.56 I   Select team 31: BounceAfterJump
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 4
+2021.12.19 12:18.56 I   Select team 30: BECO
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 3
+2021.12.19 12:18.56 I   Select team 11: AresAce
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 2
+2021.12.19 12:18.56 I   Select team 39: Amefo
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Scroll to row 1
+2021.12.19 12:18.56 I   Select team 22: America
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Select submission 1 for team 22
+2021.12.19 12:18.56 I   Select submission id 920
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Change contest state
+2021.12.19 12:18.56 I   Select submission id 920
+2021.12.19 12:18.56 I   Delay FAILED
+2021.12.19 12:18.56 I   Select submission (none)
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Select team 22: America HIGHLIGHT
+2021.12.19 12:18.56 I   Pause 4
+2021.12.19 12:18.56 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.56 I   Award (Bronze Medalist)
+2021.12.19 12:18.56 I   Pause 5
+2021.12.19 12:18.56 I   Show presentation SCOREBOARD
+2021.12.19 12:18.56 I   Pause 6
+2021.12.19 12:18.56 I   Scroll to row 0
+2021.12.19 12:18.56 I   Select team 44: MisionTic
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Select submission 1 for team 44
+2021.12.19 12:18.56 I   Select submission id 911
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Change contest state
+2021.12.19 12:18.56 I   Select submission id 911
+2021.12.19 12:18.56 I   Change contest state
+2021.12.19 12:18.56 I   Select submission id 912
+2021.12.19 12:18.56 I   Delay FAILED
+2021.12.19 12:18.56 I   Select submission (none)
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Select team 44: MisionTic HIGHLIGHT
+2021.12.19 12:18.56 I   Pause 7
+2021.12.19 12:18.56 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.56 I   Award (Bronze Medalist)
+2021.12.19 12:18.56 I   Pause 8
+2021.12.19 12:18.56 I   Show presentation SCOREBOARD
+2021.12.19 12:18.56 I   Pause 9
+2021.12.19 12:18.56 I   Scroll to row 0
+2021.12.19 12:18.56 I   Select team 28: Dinamite
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Select team 28: Dinamite HIGHLIGHT
+2021.12.19 12:18.56 I   Pause 10
+2021.12.19 12:18.56 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.56 I   Award (Bronze Medalist)
+2021.12.19 12:18.56 I   Pause 11
+2021.12.19 12:18.56 I   Show presentation SCOREBOARD
+2021.12.19 12:18.56 I   Pause 12
+2021.12.19 12:18.56 I   Scroll to row 0
+2021.12.19 12:18.56 I   Select team 35: Khvlv
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Select team 35: Khvlv HIGHLIGHT
+2021.12.19 12:18.56 I   Pause 13
+2021.12.19 12:18.56 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.56 I   Award (Bronze Medalist)
+2021.12.19 12:18.56 I   Pause 14
+2021.12.19 12:18.56 I   Show presentation SCOREBOARD
+2021.12.19 12:18.56 I   Pause 15
+2021.12.19 12:18.56 I   Scroll to row 0
+2021.12.19 12:18.56 I   Select team 24: annyjarb
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Select team 24: annyjarb HIGHLIGHT
+2021.12.19 12:18.56 I   Pause 16
+2021.12.19 12:18.56 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.56 I   Award (Silver Medalist)
+2021.12.19 12:18.56 I   Pause 17
+2021.12.19 12:18.56 I   Show presentation SCOREBOARD
+2021.12.19 12:18.56 I   Pause 18
+2021.12.19 12:18.56 I   Scroll to row 0
+2021.12.19 12:18.56 I   Select team 40: Generation Blue
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Select team 40: Generation Blue HIGHLIGHT
+2021.12.19 12:18.56 I   Pause 19
+2021.12.19 12:18.56 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.56 I   Award (Silver Medalist)
+2021.12.19 12:18.56 I   Pause 20
+2021.12.19 12:18.56 I   Show presentation SCOREBOARD
+2021.12.19 12:18.56 I   Pause 21
+2021.12.19 12:18.56 I   Scroll to row 0
+2021.12.19 12:18.56 I   Select team 42: dmm
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Select team 42: dmm HIGHLIGHT
+2021.12.19 12:18.56 I   Pause 22
+2021.12.19 12:18.56 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.56 I   Award (Silver Medalist)
+2021.12.19 12:18.56 I   Pause 23
+2021.12.19 12:18.56 I   Show presentation SCOREBOARD
+2021.12.19 12:18.56 I   Pause 24
+2021.12.19 12:18.56 I   Scroll to row 0
+2021.12.19 12:18.56 I   Select team 18: Seiju
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Select team 18: Seiju FTS_HIGHLIGHT
+2021.12.19 12:18.56 I   Pause 25
+2021.12.19 12:18.56 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.56 I   Awards (Silver Medalist, First to solve problem A)
+2021.12.19 12:18.56 I   Pause 26
+2021.12.19 12:18.56 I   Show presentation SCOREBOARD
+2021.12.19 12:18.56 I   Pause 27
+2021.12.19 12:18.56 I   Scroll to row 0
+2021.12.19 12:18.56 I   Select team 41: >><<
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Select team 41: >><< FTS_HIGHLIGHT
+2021.12.19 12:18.56 I   Pause 28
+2021.12.19 12:18.56 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.56 I   Awards (Gold Medalist, First to solve problem C)
+2021.12.19 12:18.56 I   Pause 29
+2021.12.19 12:18.56 I   Show presentation SCOREBOARD
+2021.12.19 12:18.56 I   Pause 30
+2021.12.19 12:18.56 I   Scroll to row 0
+2021.12.19 12:18.56 I   Select team 5: Edanv
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Select submission 4 for team 5
+2021.12.19 12:18.56 I   Select submission id 915
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Change contest state
+2021.12.19 12:18.56 I   Select submission id 915
+2021.12.19 12:18.56 I   Delay SOLVED_STAY
+2021.12.19 12:18.56 I   Select submission (none)
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Select submission 6 for team 5
+2021.12.19 12:18.56 I   Select submission id 913
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Change contest state
+2021.12.19 12:18.56 I   Select submission id 913
+2021.12.19 12:18.56 I   Change contest state
+2021.12.19 12:18.56 I   Select submission id 914
+2021.12.19 12:18.56 I   Change contest state
+2021.12.19 12:18.56 I   Select submission id 916
+2021.12.19 12:18.56 I   Change contest state
+2021.12.19 12:18.56 I   Select submission id 917
+2021.12.19 12:18.56 I   Change contest state
+2021.12.19 12:18.56 I   Select submission id 919
+2021.12.19 12:18.56 I   Delay SOLVED_MOVE
+2021.12.19 12:18.56 I   Select submission (none)
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Select team 34: EpaColombia
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Select team 34: EpaColombia FTS_HIGHLIGHT
+2021.12.19 12:18.56 I   Pause 31
+2021.12.19 12:18.56 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.56 I   Awards (Gold Medalist, First to solve problem E, First to solve problem G)
+2021.12.19 12:18.56 I   Pause 32
+2021.12.19 12:18.56 I   Show presentation SCOREBOARD
+2021.12.19 12:18.56 I   Pause 33
+2021.12.19 12:18.56 I   Scroll to row 0
+2021.12.19 12:18.56 I   Select team 33: Elias Garcia
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Select team 33: Elias Garcia HIGHLIGHT
+2021.12.19 12:18.56 I   Pause 34
+2021.12.19 12:18.56 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.56 I   Award (Gold Medalist)
+2021.12.19 12:18.56 I   Pause 35
+2021.12.19 12:18.56 I   Show presentation SCOREBOARD
+2021.12.19 12:18.56 I   Pause 36
+2021.12.19 12:18.56 I   Scroll to row 0
+2021.12.19 12:18.56 I   Select team 5: Edanv
+2021.12.19 12:18.56 I   Delay SELECT_TEAM
+2021.12.19 12:18.56 I   Select submission 7 for team 5
+2021.12.19 12:18.56 I   Select submission id 921
+2021.12.19 12:18.56 I   Delay SELECT_PROBLEM
+2021.12.19 12:18.56 I   Change contest state
+2021.12.19 12:18.56 I   Select submission id 921
+2021.12.19 12:18.56 I   Change contest state
+2021.12.19 12:18.56 I   Select submission id 922
+2021.12.19 12:18.56 I   Delay FAILED
+2021.12.19 12:18.56 I   Select submission (none)
+2021.12.19 12:18.56 I   Delay DESELECT
+2021.12.19 12:18.56 I   Select team 5: Edanv FTS_HIGHLIGHT
+2021.12.19 12:18.56 I   Pause 37
+2021.12.19 12:18.56 I   Show presentation TEAM_AWARD
+2021.12.19 12:18.56 I   Awards (Gold Medalist, Participants Champions, First to solve problem B)
+2021.12.19 12:18.56 I   Pause 38
+2021.12.19 12:18.56 I   Show presentation SCOREBOARD
+2021.12.19 12:18.56 I   Pause 39
+2021.12.19 12:18.56 I   Select team (none)
+2021.12.19 12:18.56 I   Pause 40
+2021.12.19 12:18.56 admin connecting...
+2021.12.19 12:18.56 I Display 1 found, modes:
+2021.12.19 12:18.56 I    1366x768 @ 60hz in 32bit
+2021.12.19 12:18.56 I    1280x720 @ 60hz in 32bit
+2021.12.19 12:18.56 I    1024x768 @ 60hz in 32bit
+2021.12.19 12:18.56 I    800x600 @ 60hz in 32bit
+2021.12.19 12:18.56 I    640x480 @ 60hz in 32bit
+2021.12.19 12:18.56 I    Config: false, true, true, DirectColorModel
+2021.12.19 12:18.56 I Display 2 found, modes:
+2021.12.19 12:18.56 I    1920x1080 @ 75hz in 32bit
+2021.12.19 12:18.56 I    1920x1080 @ 60hz in 32bit
+2021.12.19 12:18.56 I    1920x1080 @ 59hz in 32bit
+2021.12.19 12:18.56 I    1920x1080 @ 50hz in 32bit
+2021.12.19 12:18.56 I    1680x1050 @ 75hz in 32bit
+2021.12.19 12:18.56 I    1680x1050 @ 60hz in 32bit
+2021.12.19 12:18.56 I    1600x900 @ 75hz in 32bit
+2021.12.19 12:18.56 I    1600x900 @ 60hz in 32bit
+2021.12.19 12:18.56 I    1440x900 @ 75hz in 32bit
+2021.12.19 12:18.56 I    1440x900 @ 60hz in 32bit
+2021.12.19 12:18.56 I    1366x768 @ 75hz in 32bit
+2021.12.19 12:18.56 I    1366x768 @ 60hz in 32bit
+2021.12.19 12:18.56 I    1280x1024 @ 75hz in 32bit
+2021.12.19 12:18.56 I    1280x1024 @ 60hz in 32bit
+2021.12.19 12:18.56 I    1280x800 @ 75hz in 32bit
+2021.12.19 12:18.56 I    1280x800 @ 60hz in 32bit
+2021.12.19 12:18.56 I    1280x720 @ 75hz in 32bit
+2021.12.19 12:18.56 I    1280x720 @ 60hz in 32bit
+2021.12.19 12:18.56 I    1280x720 @ 59hz in 32bit
+2021.12.19 12:18.56 I    1280x720 @ 50hz in 32bit
+2021.12.19 12:18.56 I    1024x768 @ 75hz in 32bit
+2021.12.19 12:18.56 I    1024x768 @ 60hz in 32bit
+2021.12.19 12:18.56 I    800x600 @ 75hz in 32bit
+2021.12.19 12:18.56 I    800x600 @ 60hz in 32bit
+2021.12.19 12:18.56 I    720x576 @ 75hz in 32bit
+2021.12.19 12:18.56 I    720x576 @ 60hz in 32bit
+2021.12.19 12:18.56 I    720x576 @ 59hz in 32bit
+2021.12.19 12:18.56 I    720x576 @ 50hz in 32bit
+2021.12.19 12:18.56 I    720x480 @ 75hz in 32bit
+2021.12.19 12:18.56 I    720x480 @ 60hz in 32bit
+2021.12.19 12:18.56 I    720x480 @ 59hz in 32bit
+2021.12.19 12:18.56 I    720x400 @ 75hz in 32bit
+2021.12.19 12:18.56 I    720x400 @ 70hz in 32bit
+2021.12.19 12:18.56 I    720x400 @ 60hz in 32bit
+2021.12.19 12:18.56 I    720x400 @ 59hz in 32bit
+2021.12.19 12:18.56 I    640x480 @ 75hz in 32bit
+2021.12.19 12:18.56 I    640x480 @ 60hz in 32bit
+2021.12.19 12:18.56 I    640x480 @ 59hz in 32bit
+2021.12.19 12:18.56 I    Config: false, true, true, DirectColorModel
+2021.12.19 12:18.56 I Applying display config DisplayConfig 1 (r=java.awt.Rectangle[x=1920,y=313,width=1366,height=768],in=java.awt.Insets[top=0,left=0,bottom=40,right=0])
+2021.12.19 12:18.57 admin connected
+2021.12.19 12:18.57 I > {"type":"info","source":"e2d21aa7","client.type":"resolver","version":"2.3.491","os.name":"Windows 10","os.version":"1...
+2021.12.19 12:18.57 I **Action: FORWARD from -1**
+2021.12.19 12:18.57 I Resolving to: 0 / true
+2021.12.19 12:18.57 I Step 0 <  Change contest state
+2021.12.19 12:18.57 I Step 1 <  Show presentation SPLASH
+2021.12.19 12:18.57 I New presentation plan in 0ms
+2021.12.19 12:18.57 I Initializing presentation SplashPresentation
+2021.12.19 12:18.57 I Building presentation plan
+2021.12.19 12:18.57 I Building presentation plan
+2021.12.19 12:18.57 I Next presentation plan: Presentation plan 1639934337540 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, SplashPresentation > null > null, 0]
+2021.12.19 12:18.57 I **Paused at -1**
+2021.12.19 12:18.57 I Switching presentation plans: null -> Presentation plan 1639934337540 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, SplashPresentation > null > null, 0]
+2021.12.19 12:18.57 I < {"type":"clients","clients":[]}
+2021.12.19 12:18.57 I Client list changed: 0
+2021.12.19 12:18.57 I Sending settings: 1.0,-2147483648,0
+2021.12.19 12:18.57 I > {"type":"properties","clients":[],"props":{"org.icpc.tools.presentation.contest.resolver.settings":"1.0,-2147483648,0"...
+2021.12.19 12:18.57 I < {"type":"ping"}
+2021.12.19 12:18.57 I > {"type":"ping"}
+2021.12.19 12:18.58 I < {"type":"ping"}
+2021.12.19 12:18.58 I > {"type":"ping"}
+2021.12.19 12:18.58 I < {"type":"ping"}
+2021.12.19 12:18.58 I > {"type":"ping"}
+2021.12.19 12:18.58 I < {"type":"time","time":1639934338771}
+2021.12.19 12:18.58 I Nano time diff: 1639747013923
+2021.12.19 12:18.58 I > {"type":"ping"}
+2021.12.19 12:19.20 I < {"type":"ping"}
+2021.12.19 12:19.20 I > {"type":"ping"}
+2021.12.19 12:19.50 I < {"type":"ping"}
+2021.12.19 12:19.50 I > {"type":"ping"}
+2021.12.19 12:20.20 I < {"type":"ping"}
+2021.12.19 12:20.20 I > {"type":"ping"}
+2021.12.19 12:20.50 I < {"type":"ping"}
+2021.12.19 12:20.50 I > {"type":"ping"}
+2021.12.19 12:21.05 I Contest loaded
+2021.12.19 12:21.20 I < {"type":"ping"}
+2021.12.19 12:21.20 I > {"type":"ping"}
+2021.12.19 12:21.32 I < {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"1000"}}
+2021.12.19 12:21.32 org.icpc.tools.presentation.contest.resolver.clicks: 1000
+2021.12.19 12:21.32 I New property: org.icpc.tools.presentation.contest.resolver.clicks: 1000
+2021.12.19 12:21.32 I Move to: 0 -> 1000
+2021.12.19 12:21.40 I < {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"1"}}
+2021.12.19 12:21.40 org.icpc.tools.presentation.contest.resolver.clicks: 1
+2021.12.19 12:21.40 I New property: org.icpc.tools.presentation.contest.resolver.clicks: 1
+2021.12.19 12:21.40 I Move to: 0 -> 1
+2021.12.19 12:21.40 I Resolving to: 1 / true
+2021.12.19 12:21.40 I Step 3 <  Select team (none)
+2021.12.19 12:21.40 I Step 4 <  Select submission (none)
+2021.12.19 12:21.40 I Step 5 <  Submissions to judge: (none)
+2021.12.19 12:21.40 I Step 6 <  Scroll to row 0
+2021.12.19 12:21.40 I Step 7 <  Show presentation SCOREBOARD
+2021.12.19 12:21.40 I New presentation plan in 0ms
+2021.12.19 12:21.40 I Initializing presentation 
+2021.12.19 12:21.40 I Building presentation plan
+2021.12.19 12:21.40 I Building presentation plan
+2021.12.19 12:21.40 I Next presentation plan: Presentation plan 1639934500460 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.12.19 12:21.40 I Ending presentation plan: null
+2021.12.19 12:21.40 I Switching presentation plans: null -> Presentation plan 1639934500460 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.12.19 12:21.45 I < {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"2"}}
+2021.12.19 12:21.45 org.icpc.tools.presentation.contest.resolver.clicks: 2
+2021.12.19 12:21.45 I New property: org.icpc.tools.presentation.contest.resolver.clicks: 2
+2021.12.19 12:21.45 I Move to: 1 -> 2
+2021.12.19 12:21.45 I Resolving to: 2 / true
+2021.12.19 12:21.45 I Step 9 <  Scroll to row 28
+2021.12.19 12:21.50 I < {"type":"ping"}
+2021.12.19 12:21.50 I > {"type":"ping"}
+2021.12.19 12:21.54 I < {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"3"}}
+2021.12.19 12:21.54 org.icpc.tools.presentation.contest.resolver.clicks: 3
+2021.12.19 12:21.54 I New property: org.icpc.tools.presentation.contest.resolver.clicks: 3
+2021.12.19 12:21.54 I Move to: 2 -> 3
+2021.12.19 12:21.54 I Resolving to: 3 / true
+2021.12.19 12:21.54 I Step 11 <  Select team 7: Wquiceno team
+2021.12.19 12:21.56 I < {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"4"}}
+2021.12.19 12:21.56 org.icpc.tools.presentation.contest.resolver.clicks: 4
+2021.12.19 12:21.56 I New property: org.icpc.tools.presentation.contest.resolver.clicks: 4
+2021.12.19 12:21.56 I Move to: 3 -> 4
+2021.12.19 12:21.56 I Resolving to: 4 / true
+2021.12.19 12:21.56 I Step 13 <  Scroll to row 28
+2021.12.19 12:21.56 I Step 14 <  Select team 7: Wquiceno team
+2021.12.19 12:21.59 I Step 18 <  Scroll to row 27
+2021.12.19 12:21.59 I Step 19 <  Select team 25: WQ Team
+2021.12.19 12:22.01 I Step 23 <  Scroll to row 26
+2021.12.19 12:22.01 I Step 24 <  Select team 23: UB
+2021.12.19 12:22.04 I Step 28 <  Scroll to row 25
+2021.12.19 12:22.04 I Step 29 <  Select team 8: tuburones
+2021.12.19 12:22.06 I Step 33 <  Scroll to row 24
+2021.12.19 12:22.06 I Step 34 <  Select team 15: Tiburon
+2021.12.19 12:22.09 I Step 38 <  Scroll to row 23
+2021.12.19 12:22.09 I Step 39 <  Select team 10: The old NMA / Roca12
+2021.12.19 12:22.12 I Step 43 <  Scroll to row 22
+2021.12.19 12:22.12 I Step 44 <  Select team 43: Team B2ya
+2021.12.19 12:22.14 I Step 48 <  Scroll to row 21
+2021.12.19 12:22.14 I Step 49 <  Select team 38: Solo
+2021.12.19 12:22.17 I Step 53 <  Scroll to row 20
+2021.12.19 12:22.17 I Step 54 <  Select team 19: Solin solito
+2021.12.19 12:22.19 I Step 58 <  Scroll to row 19
+2021.12.19 12:22.19 I Step 59 <  Select team 29: self-taugh
+2021.12.19 12:22.20 I < {"type":"ping"}
+2021.12.19 12:22.20 I > {"type":"ping"}
+2021.12.19 12:22.22 I Step 63 <  Scroll to row 18
+2021.12.19 12:22.22 I Step 64 <  Select team 4: NMA
+2021.12.19 12:22.24 I Step 68 <  Scroll to row 17
+2021.12.19 12:22.24 I Step 69 <  Select team 21: Kyuberi
+2021.12.19 12:22.27 I Step 73 <  Scroll to row 16
+2021.12.19 12:22.27 I Step 74 <  Select team 17: KevinEMR
+2021.12.19 12:22.29 I Step 78 <  Scroll to row 15
+2021.12.19 12:22.29 I Step 79 <  Select team 14: Juan
+2021.12.19 12:22.32 I Step 83 <  Scroll to row 14
+2021.12.19 12:22.32 I Step 84 <  Select team 6: JM
+2021.12.19 12:22.34 I Step 88 <  Scroll to row 13
+2021.12.19 12:22.34 I Step 89 <  Select team 12: Globito++;
+2021.12.19 12:22.37 I Step 93 <  Scroll to row 12
+2021.12.19 12:22.37 I Step 94 <  Select team 20: GandalfBlue
+2021.12.19 12:22.40 I Step 98 <  Scroll to row 11
+2021.12.19 12:22.40 I Step 99 <  Select team 27: Fixer
+2021.12.19 12:22.42 I Step 103 <  Scroll to row 10
+2021.12.19 12:22.42 I Step 104 <  Select team 26: Doxe
+2021.12.19 12:22.45 I Step 108 <  Scroll to row 9
+2021.12.19 12:22.45 I Step 109 <  Select team 32: CriaturasDelBosque
+2021.12.19 12:22.47 I Step 113 <  Scroll to row 8
+2021.12.19 12:22.47 I Step 114 <  Select team 16: Cepeda was here
+2021.12.19 12:22.50 I Step 118 <  Scroll to row 7
+2021.12.19 12:22.50 I Step 119 <  Select team 37: BTSa
+2021.12.19 12:22.50 I < {"type":"ping"}
+2021.12.19 12:22.50 I > {"type":"ping"}
+2021.12.19 12:22.52 I Step 123 <  Scroll to row 6
+2021.12.19 12:22.52 I Step 124 <  Select team 36: BTS
+2021.12.19 12:22.55 I Step 128 <  Scroll to row 5
+2021.12.19 12:22.55 I Step 129 <  Select team 31: BounceAfterJump
+2021.12.19 12:22.57 I Step 133 <  Scroll to row 4
+2021.12.19 12:22.57 I Step 134 <  Select team 30: BECO
+2021.12.19 12:23.00 I Step 138 <  Scroll to row 3
+2021.12.19 12:23.00 I Step 139 <  Select team 11: AresAce
+2021.12.19 12:23.03 I Step 143 <  Scroll to row 2
+2021.12.19 12:23.03 I Step 144 <  Select team 39: Amefo
+2021.12.19 12:23.05 I Step 148 <  Scroll to row 1
+2021.12.19 12:23.05 I Step 149 <  Select team 22: America
+2021.12.19 12:23.06 I Step 151 <  Select submission 1 for team 22
+2021.12.19 12:23.06 I Step 152 <  Select submission id 920
+2021.12.19 12:23.07 I Step 154 <  Change contest state
+2021.12.19 12:23.07 I Step 155 <  Select submission id 920
+2021.12.19 12:23.08 I Step 157 <  Select submission (none)
+2021.12.19 12:23.08 I Step 159 <  Select team 22: America HIGHLIGHT
+2021.12.19 12:23.19 I < {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"5"}}
+2021.12.19 12:23.19 org.icpc.tools.presentation.contest.resolver.clicks: 5
+2021.12.19 12:23.19 I New property: org.icpc.tools.presentation.contest.resolver.clicks: 5
+2021.12.19 12:23.19 I < {"type":"ping"}
+2021.12.19 12:23.19 I > {"type":"ping"}
+2021.12.19 12:23.19 I Move to: 4 -> 5
+2021.12.19 12:23.19 I Resolving to: 5 / true
+2021.12.19 12:23.19 I Step 161 <  Show presentation TEAM_AWARD
+2021.12.19 12:23.19 I New presentation plan in 0ms
+2021.12.19 12:23.19 I Initializing presentation 
+2021.12.19 12:23.19 I Building presentation plan
+2021.12.19 12:23.19 I Building presentation plan
+2021.12.19 12:23.19 I Next presentation plan: Presentation plan 1639934599964 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.12.19 12:23.19 I Step 162 <  Award (Bronze Medalist)
+2021.12.19 12:23.19 I Ending presentation plan: null
+2021.12.19 12:23.19 I Switching presentation plans: null -> Presentation plan 1639934599964 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.12.19 12:23.23 I < {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"6"}}
+2021.12.19 12:23.23 org.icpc.tools.presentation.contest.resolver.clicks: 6
+2021.12.19 12:23.23 I New property: org.icpc.tools.presentation.contest.resolver.clicks: 6
+2021.12.19 12:23.23 I Move to: 5 -> 6
+2021.12.19 12:23.23 I Resolving to: 6 / true
+2021.12.19 12:23.23 I Step 164 <  Show presentation SCOREBOARD
+2021.12.19 12:23.23 I New presentation plan in 0ms
+2021.12.19 12:23.23 I Initializing presentation 
+2021.12.19 12:23.23 I Building presentation plan
+2021.12.19 12:23.23 I Building presentation plan
+2021.12.19 12:23.23 I Next presentation plan: Presentation plan 1639934603827 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.12.19 12:23.23 I Ending presentation plan: null
+2021.12.19 12:23.23 I Switching presentation plans: null -> Presentation plan 1639934603827 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.12.19 12:23.25 I < {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"7"}}
+2021.12.19 12:23.25 org.icpc.tools.presentation.contest.resolver.clicks: 7
+2021.12.19 12:23.25 I New property: org.icpc.tools.presentation.contest.resolver.clicks: 7
+2021.12.19 12:23.25 I Move to: 6 -> 7
+2021.12.19 12:23.25 I Resolving to: 7 / true
+2021.12.19 12:23.25 I Step 166 <  Scroll to row 0
+2021.12.19 12:23.25 I Step 167 <  Select team 44: MisionTic
+2021.12.19 12:23.27 I Step 169 <  Select submission 1 for team 44
+2021.12.19 12:23.27 I Step 170 <  Select submission id 911
+2021.12.19 12:23.27 I < {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"8"}}
+2021.12.19 12:23.27 org.icpc.tools.presentation.contest.resolver.clicks: 8
+2021.12.19 12:23.27 I New property: org.icpc.tools.presentation.contest.resolver.clicks: 8
+2021.12.19 12:23.28 I Step 172 <  Change contest state
+2021.12.19 12:23.28 I Step 173 <  Select submission id 911
+2021.12.19 12:23.28 I Step 174 <  Change contest state
+2021.12.19 12:23.28 I Step 175 <  Select submission id 912
+2021.12.19 12:23.28 I Step 177 <  Select submission (none)
+2021.12.19 12:23.29 I Step 179 <  Select team 44: MisionTic HIGHLIGHT
+2021.12.19 12:23.29 I < {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"9"}}
+2021.12.19 12:23.29 org.icpc.tools.presentation.contest.resolver.clicks: 9
+2021.12.19 12:23.29 I New property: org.icpc.tools.presentation.contest.resolver.clicks: 9
+2021.12.19 12:23.29 I Move to: 7 -> 9
+2021.12.19 12:23.29 I Resolving to: 9 / false
+2021.12.19 12:23.29 I Step 181 <  Show presentation TEAM_AWARD
+2021.12.19 12:23.29 I New presentation plan in 0ms
+2021.12.19 12:23.29 I Initializing presentation 
+2021.12.19 12:23.29 I Building presentation plan
+2021.12.19 12:23.29 I Building presentation plan
+2021.12.19 12:23.29 I Next presentation plan: Presentation plan 1639934609260 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.12.19 12:23.29 I Step 182 <  Award (Bronze Medalist)
+2021.12.19 12:23.29 I Step 184 <  Show presentation SCOREBOARD
+2021.12.19 12:23.29 I New presentation plan in 0ms
+2021.12.19 12:23.29 I Initializing presentation 
+2021.12.19 12:23.29 I Building presentation plan
+2021.12.19 12:23.29 I Building presentation plan
+2021.12.19 12:23.29 I Next presentation plan: Presentation plan 1639934609261 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.12.19 12:23.29 I Ending presentation plan: null
+2021.12.19 12:23.29 I Switching presentation plans: null -> Presentation plan 1639934609261 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000,  > null > null, 0]
+2021.12.19 12:23.30 I < {"type":"properties","props":{"org.icpc.tools.presentation.contest.resolver.clicks":"10"}}
+2021.12.19 12:23.30 org.icpc.tools.presentation.contest.resolver.clicks: 10
+2021.12.19 12:23.30 I New property: org.icpc.tools.presentation.contest.resolver.clicks: 10
+2021.12.19 12:23.30 I Move to: 9 -> 10
+2021.12.19 12:23.30 I Resolving to: 10 / true
+2021.12.19 12:23.30 I Step 186 <  Scroll to row 0
+2021.12.19 12:23.30 I Step 187 <  Select team 28: Dinamite
+2021.12.19 12:23.33 I Step 191 <  Select team 28: Dinamite HIGHLIGHT

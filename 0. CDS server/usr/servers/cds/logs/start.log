@@ -1,0 +1,25 @@
+java.io.FileNotFoundException: C:\Users\diego\Documents\DomJudge\0. CDS server\usr\servers\cds\workarea\.sCommand (El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at com.ibm.ws.kernel.boot.internal.commands.ServerCommandClient.createServerCommand(ServerCommandClient.java:74)
+	at com.ibm.ws.kernel.boot.internal.commands.ServerCommandClient.write(ServerCommandClient.java:104)
+	at com.ibm.ws.kernel.boot.internal.commands.ServerCommandClient.startStatus(ServerCommandClient.java:205)
+	at com.ibm.ws.kernel.boot.internal.commands.ProcessControlHelper.startStatus(ProcessControlHelper.java:245)
+	at com.ibm.ws.kernel.boot.Launcher.handleActions(Launcher.java:270)
+	at com.ibm.ws.kernel.boot.Launcher.createPlatform(Launcher.java:117)
+	at com.ibm.ws.kernel.boot.cmdline.EnvCheck.main(EnvCheck.java:59)
+	at com.ibm.ws.kernel.boot.cmdline.EnvCheck.main(EnvCheck.java:35)
+
+arg0=cds
+arg1=--status:start
+exit=22
+
+                   Command:  "java" "-javaagent:C:\Users\diego\Documents\DomJudge\0. CDS server\bin\tools\ws-javaagent.jar" -Djdk.attach.allowAttachSelf=true -Djava.awt.headless=true   -jar "C:\Users\diego\Documents\DomJudge\0. CDS server\bin\tools\ws-server.jar" --batch-file start cds
+                 Java home:  C:\Program Files\Java\jdk-11.0.11
+              Install root:  C:/Users/diego/Documents/DomJudge/0. CDS server/
+          System libraries:  C:/Users/diego/Documents/DomJudge/0. CDS server/lib/
+                 User root:  C:/Users/diego/Documents/DomJudge/0. CDS server/usr/
+                    Config:  C:/Users/diego/Documents/DomJudge/0. CDS server/usr/servers/cds/
+                    Output:  C:/Users/diego/Documents/DomJudge/0. CDS server/usr/servers/cds/
+

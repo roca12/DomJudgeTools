@@ -1,1 +1,1 @@
-start "title" call .\resolver.bat https://localhost:8443/api/contests/3/ admin adm1n --client --test
+start "title" call .\resolver.bat https://localhost:8443/api/contests/8/ admin piroloco2112 --client --test
