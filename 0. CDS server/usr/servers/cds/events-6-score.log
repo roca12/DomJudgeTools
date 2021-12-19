@@ -1,0 +1,208 @@
+! 0
+{"id":"15148","type":"contests","op":"create","data":{"formal_name":"Competencia de fin de a\u00f1o 2021","penalty_time":20,"start_time":"2021-12-14T12:00:00-05:00","end_time":"2021-12-14T22:00:00-05:00","duration":"10:00:00.000","scoreboard_freeze_duration":"2:00:00.000","id":"6","external_id":null,"name":"Competencia de fin de a\u00f1o 2021","shortname":"2021FIN"},"time":"2021-12-14T11:53:41.971-05:00"}
+{"id":"15149","type":"judgement-types","op":"create","data":{"id":"AC","name":"correct","penalty":false,"solved":true},"time":"2021-12-14T11:53:41.986-05:00"}
+{"id":"15150","type":"judgement-types","op":"create","data":{"id":"CE","name":"compiler error","penalty":true,"solved":false},"time":"2021-12-14T11:53:41.990-05:00"}
+{"id":"15151","type":"judgement-types","op":"create","data":{"id":"MLE","name":"memory limit","penalty":true,"solved":false},"time":"2021-12-14T11:53:41.993-05:00"}
+{"id":"15152","type":"judgement-types","op":"create","data":{"id":"NO","name":"no output","penalty":true,"solved":false},"time":"2021-12-14T11:53:41.995-05:00"}
+{"id":"15153","type":"judgement-types","op":"create","data":{"id":"OLE","name":"output limit","penalty":true,"solved":false},"time":"2021-12-14T11:53:41.998-05:00"}
+{"id":"15154","type":"judgement-types","op":"create","data":{"id":"PE","name":"presentation error","penalty":true,"solved":false},"time":"2021-12-14T11:53:42.001-05:00"}
+{"id":"15155","type":"judgement-types","op":"create","data":{"id":"RTE","name":"run error","penalty":true,"solved":false},"time":"2021-12-14T11:53:42.004-05:00"}
+{"id":"15156","type":"judgement-types","op":"create","data":{"id":"TLE","name":"timelimit","penalty":true,"solved":false},"time":"2021-12-14T11:53:42.030-05:00"}
+{"id":"15157","type":"judgement-types","op":"create","data":{"id":"WA","name":"wrong answer","penalty":true,"solved":false},"time":"2021-12-14T11:53:42.033-05:00"}
+{"id":"15158","type":"languages","op":"create","data":{"id":"c","name":"C","extensions":["c"],"filter_compiler_files":true,"allow_judge":true,"time_factor":1.0,"require_entry_point":false,"entry_point_description":null},"time":"2021-12-14T11:53:42.096-05:00"}
+{"id":"15159","type":"languages","op":"create","data":{"id":"cpp","name":"C++","extensions":["cpp","cc","cxx","c++"],"filter_compiler_files":true,"allow_judge":true,"time_factor":1.0,"require_entry_point":false,"entry_point_description":null},"time":"2021-12-14T11:53:42.100-05:00"}
+{"id":"15160","type":"languages","op":"create","data":{"id":"java","name":"Java","extensions":["java"],"filter_compiler_files":true,"allow_judge":true,"time_factor":1.0,"require_entry_point":false,"entry_point_description":"Main class"},"time":"2021-12-14T11:53:42.102-05:00"}
+{"id":"15161","type":"languages","op":"create","data":{"id":"kotlin","name":"Kotlin","extensions":["kt"],"filter_compiler_files":true,"allow_judge":true,"time_factor":1.0,"require_entry_point":true,"entry_point_description":"Main class"},"time":"2021-12-14T11:53:42.107-05:00"}
+{"id":"15162","type":"languages","op":"create","data":{"id":"python3","name":"Python 3","extensions":["py3, py"],"filter_compiler_files":true,"allow_judge":true,"time_factor":1.0,"require_entry_point":false,"entry_point_description":"Main file"},"time":"2021-12-14T11:53:42.109-05:00"}
+{"id":"15163","type":"languages","op":"create","data":{"id":"ruby","name":"Ruby","extensions":["rb"],"filter_compiler_files":true,"allow_judge":true,"time_factor":1.0,"require_entry_point":false,"entry_point_description":"Main file"},"time":"2021-12-14T11:53:42.113-05:00"}
+{"id":"15164","type":"problems","op":"create","data":{"ordinal":0,"id":"66","short_name":"Pizza","label":"Pizza","time_limit":1.0,"externalid":null,"name":"Me encanta la pizza","rgb":"#e6ff08","color":"yellow","test_data_count":1},"time":"2021-12-14T11:53:42.514-05:00"}
+{"id":"15165","type":"groups","op":"create","data":{"hidden":true,"icpc_id":"1","id":"1","name":"System","sortorder":9,"color":"#ff2bea"},"time":"2021-12-14T11:53:42.609-05:00"}
+{"id":"15166","type":"groups","op":"create","data":{"hidden":false,"icpc_id":"2","id":"2","name":"Auto Registrado","sortorder":8,"color":"#33cc44"},"time":"2021-12-14T11:53:42.612-05:00"}
+{"id":"15167","type":"groups","op":"create","data":{"hidden":false,"icpc_id":"3","id":"3","name":"Participants","sortorder":0,"color":"#ffffff"},"time":"2021-12-14T11:53:42.626-05:00"}
+{"id":"15168","type":"groups","op":"create","data":{"hidden":false,"icpc_id":"4","id":"4","name":"Observers","sortorder":1,"color":"#ffcc33"},"time":"2021-12-14T11:53:42.630-05:00"}
+{"id":"15169","type":"groups","op":"create","data":{"hidden":true,"icpc_id":"5","id":"5","name":"Organisation","sortorder":1,"color":"#ff99cc"},"time":"2021-12-14T11:53:42.631-05:00"}
+{"id":"15170","type":"organizations","op":"create","data":{"icpc_id":"10","shortname":"UCENTRAL","id":"10","name":"UCENTRAL","formal_name":"Universidad Central","country":"COL"},"time":"2021-12-14T11:53:42.737-05:00"}
+{"id":"15171","type":"organizations","op":"create","data":{"icpc_id":"11","shortname":"FUKL","id":"11","name":"FUKL","formal_name":"Fundaci\u00f3n Universitaria Konrad Lorenz","country":"COL"},"time":"2021-12-14T11:53:42.740-05:00"}
+{"id":"15172","type":"organizations","op":"create","data":{"icpc_id":"12","shortname":"GPC-R12","id":"12","name":"GPC-R12","formal_name":"Grupo de programaci\u00f3n competitiva de ROCA12","country":"COL"},"time":"2021-12-14T11:53:42.743-05:00"}
+{"id":"15173","type":"organizations","op":"create","data":{"icpc_id":"13","shortname":"IND","id":"13","name":"IND","formal_name":"Competidor Independiente","country":"COL"},"time":"2021-12-14T11:53:42.746-05:00"}
+{"id":"15174","type":"organizations","op":"create","data":{"icpc_id":"14","shortname":"UNITEC","id":"14","name":"UNITEC","formal_name":"Corporaci\u00f3n Universitaria UNITEC","country":"COL"},"time":"2021-12-14T11:53:42.749-05:00"}
+{"id":"15175","type":"organizations","op":"create","data":{"icpc_id":"15","shortname":"REPUBL","id":"15","name":"REPUBL","formal_name":"Corporaci\u00f3n Universitaria Republicana","country":"COL"},"time":"2021-12-14T11:53:42.752-05:00"}
+{"id":"15176","type":"organizations","op":"create","data":{"icpc_id":"16","shortname":"UNIMINUTO","id":"16","name":"UNIMINUTO","formal_name":"Corporaci\u00f3n Universitaria Minuto de Dios","country":"COL"},"time":"2021-12-14T11:53:42.755-05:00"}
+{"id":"15177","type":"organizations","op":"create","data":{"icpc_id":"17","shortname":"PUJB","id":"17","name":"PUJB","formal_name":"Pontificia Universidad Javeriana - Bogot\u00e1","country":"COL"},"time":"2021-12-14T11:53:42.760-05:00"}
+{"id":"15178","type":"organizations","op":"create","data":{"icpc_id":"18","shortname":"UPILOTO","id":"18","name":"UPILOTO","formal_name":"Universidad Piloto de Colombia","country":"COL"},"time":"2021-12-14T11:53:42.762-05:00"}
+{"id":"15179","type":"organizations","op":"create","data":{"icpc_id":"19","shortname":"ECI","id":"19","name":"ECI","formal_name":"Escuela Colombiana de Ingenier\u00eda Julio Garavito","country":"COL"},"time":"2021-12-14T11:53:42.764-05:00"}
+{"id":"15180","type":"organizations","op":"create","data":{"icpc_id":"20","shortname":"UNIAGUSTINIANA","id":"20","name":"UNIAGUSTINIANA","formal_name":"Universitaria Agustiniana","country":"COL"},"time":"2021-12-14T11:53:42.767-05:00"}
+{"id":"15181","type":"organizations","op":"create","data":{"icpc_id":"21","shortname":"UMB","id":"21","name":"UMB","formal_name":"Universidad Manuela Beltran","country":"COL"},"time":"2021-12-14T11:53:42.770-05:00"}
+{"id":"15182","type":"organizations","op":"create","data":{"icpc_id":"22","shortname":"UAN","id":"22","name":"UAN","formal_name":"Universidad Antonio Nari\u00f1o","country":"COL"},"time":"2021-12-14T11:53:42.777-05:00"}
+{"id":"15183","type":"organizations","op":"create","data":{"icpc_id":"23","shortname":"UMNG","id":"23","name":"UMNG","formal_name":"Universidad Militar Nueva Granada","country":"COL"},"time":"2021-12-14T11:53:42.780-05:00"}
+{"id":"15184","type":"organizations","op":"create","data":{"icpc_id":"24","shortname":"SENA","id":"24","name":"SENA","formal_name":"Servicio Nacional de Aprendizaje","country":"COL"},"time":"2021-12-14T11:53:42.784-05:00"}
+{"id":"15185","type":"organizations","op":"create","data":{"icpc_id":"25","shortname":"UDEC","id":"25","name":"UDEC","formal_name":"Universidad de Cundinamarca","country":"COL"},"time":"2021-12-14T11:53:42.788-05:00"}
+{"id":"15186","type":"organizations","op":"create","data":{"icpc_id":"26","shortname":"UNILIBRE","id":"26","name":"UNILIBRE","formal_name":"Universidad Libre","country":"COL"},"time":"2021-12-14T11:53:42.793-05:00"}
+{"id":"15187","type":"organizations","op":"create","data":{"icpc_id":"27","shortname":"EAL","id":"27","name":"EAL","formal_name":"Corporaci\u00f3n Escuela de Artes y Letras","country":"COL"},"time":"2021-12-14T11:53:42.796-05:00"}
+{"id":"15188","type":"organizations","op":"create","data":{"icpc_id":"28","shortname":"UAMERICA","id":"28","name":"UAMERICA","formal_name":"Fundaci\u00f3n Universidad de Am\u00e9rica","country":"COL"},"time":"2021-12-14T11:53:42.800-05:00"}
+{"id":"15189","type":"organizations","op":"create","data":{"icpc_id":"29","shortname":"AREANDINA","id":"29","name":"AREANDINA","formal_name":"Fundaci\u00f3n Universitaria del \u00c1rea Andina","country":"COL"},"time":"2021-12-14T11:53:42.802-05:00"}
+{"id":"15190","type":"organizations","op":"create","data":{"icpc_id":"3","shortname":"UECCI","id":"3","name":"UECCI","formal_name":"Universidad ECCI","country":"COL"},"time":"2021-12-14T11:53:42.805-05:00"}
+{"id":"15191","type":"organizations","op":"create","data":{"icpc_id":"30","shortname":"CUN","id":"30","name":"CUN","formal_name":"Corporaci\u00f3n Unificada Nacional de Educaci\u00f3n Superior","country":"COL"},"time":"2021-12-14T11:53:42.809-05:00"}
+{"id":"15192","type":"organizations","op":"create","data":{"icpc_id":"31","shortname":"UCATOLICA","id":"31","name":"UCATOLICA","formal_name":"Universidad Cat\u00f3lica De Colombia","country":"COL"},"time":"2021-12-14T11:53:42.812-05:00"}
+{"id":"15193","type":"organizations","op":"create","data":{"icpc_id":"32","shortname":"EAN","id":"32","name":"EAN","formal_name":"Universidad EAN","country":"COL"},"time":"2021-12-14T11:53:42.814-05:00"}
+{"id":"15194","type":"organizations","op":"create","data":{"icpc_id":"33","shortname":"UTADEO","id":"33","name":"UTADEO","formal_name":"Universidad Jorge Tadeo Lozano","country":"COL"},"time":"2021-12-14T11:53:42.819-05:00"}
+{"id":"15195","type":"organizations","op":"create","data":{"icpc_id":"4","shortname":"UEB","id":"4","name":"UEB","formal_name":"Universidad El Bosque","country":"COL"},"time":"2021-12-14T11:53:42.824-05:00"}
+{"id":"15196","type":"organizations","op":"create","data":{"icpc_id":"5","shortname":"ETITC","id":"5","name":"ETITC","formal_name":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","country":"COL"},"time":"2021-12-14T11:53:42.828-05:00"}
+{"id":"15197","type":"organizations","op":"create","data":{"icpc_id":"6","shortname":"UD","id":"6","name":"UD","formal_name":"Universidad Distrital Francisco Jos\u00e9 de Caldas","country":"COL"},"time":"2021-12-14T11:53:42.831-05:00"}
+{"id":"15198","type":"organizations","op":"create","data":{"icpc_id":"7","shortname":"UN - BOG","id":"7","name":"UN - BOG","formal_name":"Universidad Nacional de Colombia","country":"COL"},"time":"2021-12-14T11:53:42.834-05:00"}
+{"id":"15199","type":"organizations","op":"create","data":{"icpc_id":"8","shortname":"POLI","id":"8","name":"POLI","formal_name":"Polit\u00e9cnico Grancolombiano","country":"COL"},"time":"2021-12-14T11:53:42.838-05:00"}
+{"id":"15200","type":"organizations","op":"create","data":{"icpc_id":"9","shortname":"UANDES","id":"9","name":"UANDES","formal_name":"Universidad de los Andes","country":"COL"},"time":"2021-12-14T11:53:42.840-05:00"}
+{"id":"15201","type":"teams","op":"create","data":{"group_ids":["1"],"affiliation":null,"nationality":null,"id":"1","icpc_id":null,"name":"DOMjudge","display_name":null,"organization_id":null,"members":null},"time":"2021-12-14T11:53:43.019-05:00"}
+{"id":"15202","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":null,"nationality":null,"id":"2","icpc_id":null,"name":"Example teamname","display_name":null,"organization_id":null,"members":null},"time":"2021-12-14T11:53:43.024-05:00"}
+{"id":"15203","type":"teams","op":"create","data":{"group_ids":["5"],"affiliation":"Grupo de programaci\u00f3n competitiva de ROCA12","nationality":"COL","id":"3","icpc_id":null,"name":"ARTEMISA","display_name":"NMA - Artemisa","organization_id":"12","members":"ING. Diego Rodr\u00edguez"},"time":"2021-12-14T11:53:43.027-05:00"}
+{"id":"15204","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad ECCI","nationality":"COL","id":"4","icpc_id":null,"name":"NMA","display_name":null,"organization_id":"3","members":null},"time":"2021-12-14T11:53:43.030-05:00"}
+{"id":"15205","type":"teams","op":"create","data":{"group_ids":["2"],"affiliation":null,"nationality":null,"id":"5","icpc_id":null,"name":"new Team();","display_name":null,"organization_id":null,"members":null},"time":"2021-12-14T11:53:43.033-05:00"}
+{"id":"15206","type":"state","op":"update","data":{"started":null,"ended":null,"frozen":null,"thawed":null,"finalized":null,"end_of_updates":null},"time":"2021-12-14T11:53:43.040-05:00"}
+{"id":"15207","type":"contests","op":"create","data":{"formal_name":"Competencia de fin de a\u00f1o 2021","penalty_time":20,"start_time":"2021-12-14T12:00:00-05:00","end_time":"2021-12-14T22:00:00-05:00","duration":"10:00:00.000","scoreboard_freeze_duration":"2:00:00.000","id":"6","external_id":null,"name":"Competencia de fin de a\u00f1o 2021","shortname":"2021FIN"},"time":"2021-12-14T11:53:41.968-05:00"}
+{"id":"15208","type":"contests","op":"update","data":{"formal_name":"Competencia de fin de a\u00f1o 2021","penalty_time":20,"start_time":"2021-12-14T12:00:00-05:00","end_time":"2021-12-14T22:00:00-05:00","duration":"10:00:00.000","scoreboard_freeze_duration":"2:00:00.000","id":"6","external_id":null,"name":"Competencia de fin de a\u00f1o 2021","shortname":"2021FIN"},"time":"2021-12-14T11:55:18.682-05:00"}
+{"id":"15209","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Grupo de programaci\u00f3n competitiva de ROCA12","nationality":"COL","id":"6","icpc_id":null,"name":"JM","display_name":null,"organization_id":"12","members":null},"time":"2021-12-14T11:58:23.249-05:00"}
+{"id":"15210","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"5","icpc_id":null,"name":"new Team();","display_name":null,"organization_id":"5","members":null},"time":"2021-12-14T11:58:45.949-05:00"}
+{"id":"15211","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Grupo de programaci\u00f3n competitiva de ROCA12","nationality":"COL","id":"7","icpc_id":null,"name":"Wquiceno team","display_name":null,"organization_id":"12","members":null},"time":"2021-12-14T11:59:14.189-05:00"}
+{"id":"15212","type":"state","op":"update","data":{"started":"2021-12-14T12:00:00.000-05:00","ended":null,"frozen":null,"thawed":null,"finalized":null,"end_of_updates":null},"time":"2021-12-14T12:04:49.760-05:00"}
+{"id":"15213","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Grupo de programaci\u00f3n competitiva de ROCA12","nationality":"COL","id":"8","icpc_id":null,"name":"tuburones","display_name":null,"organization_id":"12","members":null},"time":"2021-12-14T12:04:49.752-05:00"}
+{"id":"15214","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"10","icpc_id":null,"name":"SharkPower","display_name":null,"organization_id":"4","members":null},"time":"2021-12-14T12:11:55.096-05:00"}
+{"id":"15215","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":null,"nationality":null,"id":"9","icpc_id":null,"name":"DC","display_name":null,"organization_id":null,"members":null},"time":"2021-12-14T12:12:10.326-05:00"}
+{"id":"15216","type":"groups","op":"update","data":{"hidden":false,"icpc_id":"2","id":"2","name":"Auto Registrado","sortorder":8,"color":"#ff9999"},"time":"2021-12-14T12:12:33.108-05:00"}
+{"id":"15217","type":"teams","op":"delete","data":{"id":"2"},"time":"2021-12-14T12:13:35.283-05:00"}
+{"id":"15218","type":"problems","op":"create","data":{"ordinal":4,"id":"1","short_name":"Hello","label":"Hello","time_limit":5.0,"externalid":"hello","name":"Hello World","rgb":"#3300ff","color":"blue","test_data_count":1},"time":"2021-12-14T12:29:36.654-05:00"}
+{"id":"15219","type":"problems","op":"create","data":{"ordinal":1,"id":"62","short_name":"Chocolate","label":"Chocolate","time_limit":1.0,"externalid":null,"name":"El gran chocolate","rgb":"#ffffff","color":"white","test_data_count":1},"time":"2021-12-14T12:29:36.663-05:00"}
+{"id":"15220","type":"problems","op":"create","data":{"ordinal":3,"id":"64","short_name":"Feynman","label":"Feynman","time_limit":1.0,"externalid":null,"name":"Feynman","rgb":"#050505","color":"black","test_data_count":1},"time":"2021-12-14T12:29:36.665-05:00"}
+{"id":"15221","type":"problems","op":"update","data":{"ordinal":6,"id":"66","short_name":"Pizza","label":"Pizza","time_limit":1.0,"externalid":null,"name":"Me encanta la pizza","rgb":"#e6ff08","color":"yellow","test_data_count":1},"time":"2021-12-14T12:29:36.675-05:00"}
+{"id":"15222","type":"problems","op":"create","data":{"ordinal":5,"id":"70","short_name":"Nessy","label":"Nessy","time_limit":1.0,"externalid":null,"name":"Searching for Nessy","rgb":"#ff1717","color":"red","test_data_count":1},"time":"2021-12-14T12:29:36.693-05:00"}
+{"id":"15223","type":"problems","op":"create","data":{"ordinal":0,"id":"73","short_name":"Broken","label":"Broken","time_limit":2.0,"externalid":null,"name":"Broken Keyboard","rgb":"#00ddff","color":"deepskyblue","test_data_count":1},"time":"2021-12-14T12:29:36.721-05:00"}
+{"id":"15224","type":"problems","op":"create","data":{"ordinal":2,"id":"75","short_name":"Divisors","label":"Divisors","time_limit":2.0,"externalid":null,"name":"Divisors","rgb":"#33ff00","color":"lime","test_data_count":1},"time":"2021-12-14T12:29:36.728-05:00"}
+{"id":"15225","type":"submissions","op":"create","data":{"language_id":"cpp","time":"2021-12-14T12:29:30.591-05:00","contest_time":"0:29:30.591","id":"615","externalid":null,"team_id":"5","problem_id":"1","entry_point":null,"files":[{"href":"contests/6/submissions/615/files","mime":"application/zip"}]},"time":"2021-12-14T12:29:33.085-05:00"}
+{"id":"15226","type":"judgements","op":"create","data":{"max_run_time":null,"start_time":"2021-12-14T12:29:38.272-05:00","start_contest_time":"0:29:38.272","end_time":null,"end_contest_time":null,"id":"437","submission_id":"615","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":null},"time":"2021-12-14T12:29:38.515-05:00"}
+{"id":"15227","type":"problems","op":"update","data":{"ordinal":3,"id":"64","short_name":"Feynman","label":"Feynman","time_limit":1.0,"externalid":null,"name":"Feynman","rgb":"#050505","color":"black","test_data_count":1},"time":"2021-12-14T12:29:49.511-05:00"}
+{"id":"15228","type":"runs","op":"create","data":{"run_time":0.0,"time":"2021-12-14T12:29:55.147-05:00","contest_time":"0:29:55.147","ordinal":1,"id":"13271","judgement_id":"437","judgement_type_id":"AC"},"time":"2021-12-14T12:29:55.348-05:00"}
+{"id":"15229","type":"judgements","op":"update","data":{"max_run_time":0.0,"start_time":"2021-12-14T12:29:38.272-05:00","start_contest_time":"0:29:38.272","end_time":"2021-12-14T12:29:55.428-05:00","end_contest_time":"0:29:55.428","id":"437","submission_id":"615","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":"AC"},"time":"2021-12-14T12:29:55.514-05:00"}
+{"id":"15230","type":"problems","op":"update","data":{"ordinal":0,"id":"73","short_name":"Broken","label":"Broken","time_limit":2.0,"externalid":null,"name":"Broken Keyboard","rgb":"#00ddff","color":"deepskyblue","test_data_count":1},"time":"2021-12-14T12:30:18.665-05:00"}
+{"id":"15231","type":"submissions","op":"create","data":{"language_id":"java","time":"2021-12-14T12:33:26.101-05:00","contest_time":"0:33:26.101","id":"616","externalid":null,"team_id":"10","problem_id":"62","entry_point":null,"files":[{"href":"contests/6/submissions/616/files","mime":"application/zip"}]},"time":"2021-12-14T12:33:26.205-05:00"}
+{"id":"15232","type":"judgements","op":"create","data":{"max_run_time":null,"start_time":"2021-12-14T12:33:27.597-05:00","start_contest_time":"0:33:27.597","end_time":null,"end_contest_time":null,"id":"438","submission_id":"616","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":null},"time":"2021-12-14T12:33:27.708-05:00"}
+{"id":"15233","type":"submissions","op":"update","data":{"language_id":"java","time":"2021-12-14T12:33:26.101-05:00","contest_time":"0:33:26.101","id":"616","externalid":null,"team_id":"10","problem_id":"62","entry_point":"Main","files":[{"href":"contests/6/submissions/616/files","mime":"application/zip"}]},"time":"2021-12-14T12:33:38.440-05:00"}
+{"id":"15234","type":"runs","op":"create","data":{"run_time":0.294,"time":"2021-12-14T12:33:41.454-05:00","contest_time":"0:33:41.454","ordinal":1,"id":"13272","judgement_id":"438","judgement_type_id":"TLE"},"time":"2021-12-14T12:33:41.491-05:00"}
+{"id":"15235","type":"judgements","op":"update","data":{"max_run_time":0.294,"start_time":"2021-12-14T12:33:27.597-05:00","start_contest_time":"0:33:27.597","end_time":"2021-12-14T12:33:41.506-05:00","end_contest_time":"0:33:41.506","id":"438","submission_id":"616","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":"TLE"},"time":"2021-12-14T12:33:41.532-05:00"}
+{"id":"15236","type":"submissions","op":"create","data":{"language_id":"cpp","time":"2021-12-14T12:35:18.205-05:00","contest_time":"0:35:18.205","id":"617","externalid":null,"team_id":"5","problem_id":"62","entry_point":null,"files":[{"href":"contests/6/submissions/617/files","mime":"application/zip"}]},"time":"2021-12-14T12:35:18.265-05:00"}
+{"id":"15237","type":"judgements","op":"create","data":{"max_run_time":null,"start_time":"2021-12-14T12:35:19.120-05:00","start_contest_time":"0:35:19.120","end_time":null,"end_contest_time":null,"id":"439","submission_id":"617","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":null},"time":"2021-12-14T12:35:19.216-05:00"}
+{"id":"15238","type":"runs","op":"create","data":{"run_time":0.0,"time":"2021-12-14T12:35:20.694-05:00","contest_time":"0:35:20.694","ordinal":1,"id":"13273","judgement_id":"439","judgement_type_id":"AC"},"time":"2021-12-14T12:35:20.725-05:00"}
+{"id":"15239","type":"judgements","op":"update","data":{"max_run_time":0.0,"start_time":"2021-12-14T12:35:19.120-05:00","start_contest_time":"0:35:19.120","end_time":"2021-12-14T12:35:20.761-05:00","end_contest_time":"0:35:20.761","id":"439","submission_id":"617","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":"AC"},"time":"2021-12-14T12:35:20.882-05:00"}
+{"id":"15240","type":"submissions","op":"create","data":{"language_id":"java","time":"2021-12-14T12:46:54.138-05:00","contest_time":"0:46:54.138","id":"618","externalid":null,"team_id":"10","problem_id":"62","entry_point":null,"files":[{"href":"contests/6/submissions/618/files","mime":"application/zip"}]},"time":"2021-12-14T12:46:54.164-05:00"}
+{"id":"15241","type":"judgements","op":"create","data":{"max_run_time":null,"start_time":"2021-12-14T12:46:56.623-05:00","start_contest_time":"0:46:56.623","end_time":null,"end_contest_time":null,"id":"440","submission_id":"618","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":null},"time":"2021-12-14T12:46:56.713-05:00"}
+{"id":"15242","type":"submissions","op":"update","data":{"language_id":"java","time":"2021-12-14T12:46:54.138-05:00","contest_time":"0:46:54.138","id":"618","externalid":null,"team_id":"10","problem_id":"62","entry_point":"chocolate","files":[{"href":"contests/6/submissions/618/files","mime":"application/zip"}]},"time":"2021-12-14T12:47:02.408-05:00"}
+{"id":"15243","type":"runs","op":"create","data":{"run_time":0.487,"time":"2021-12-14T12:47:04.077-05:00","contest_time":"0:47:04.077","ordinal":1,"id":"13274","judgement_id":"440","judgement_type_id":"AC"},"time":"2021-12-14T12:47:04.083-05:00"}
+{"id":"15244","type":"judgements","op":"update","data":{"max_run_time":0.487,"start_time":"2021-12-14T12:46:56.623-05:00","start_contest_time":"0:46:56.623","end_time":"2021-12-14T12:47:04.102-05:00","end_contest_time":"0:47:04.102","id":"440","submission_id":"618","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":"AC"},"time":"2021-12-14T12:47:04.210-05:00"}
+{"id":"15245","type":"submissions","op":"create","data":{"language_id":"java","time":"2021-12-14T12:58:16.943-05:00","contest_time":"0:58:16.943","id":"619","externalid":null,"team_id":"10","problem_id":"66","entry_point":null,"files":[{"href":"contests/6/submissions/619/files","mime":"application/zip"}]},"time":"2021-12-14T12:58:17.008-05:00"}
+{"id":"15246","type":"judgements","op":"create","data":{"max_run_time":null,"start_time":"2021-12-14T12:58:19.642-05:00","start_contest_time":"0:58:19.642","end_time":null,"end_contest_time":null,"id":"441","submission_id":"619","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":null},"time":"2021-12-14T12:58:19.698-05:00"}
+{"id":"15247","type":"submissions","op":"update","data":{"language_id":"java","time":"2021-12-14T12:58:16.943-05:00","contest_time":"0:58:16.943","id":"619","externalid":null,"team_id":"10","problem_id":"66","entry_point":"pizza","files":[{"href":"contests/6/submissions/619/files","mime":"application/zip"}]},"time":"2021-12-14T12:58:24.154-05:00"}
+{"id":"15248","type":"runs","op":"create","data":{"run_time":0.377,"time":"2021-12-14T12:58:25.260-05:00","contest_time":"0:58:25.260","ordinal":1,"id":"13275","judgement_id":"441","judgement_type_id":"AC"},"time":"2021-12-14T12:58:25.332-05:00"}
+{"id":"15249","type":"judgements","op":"update","data":{"max_run_time":0.377,"start_time":"2021-12-14T12:58:19.642-05:00","start_contest_time":"0:58:19.642","end_time":"2021-12-14T12:58:25.381-05:00","end_contest_time":"0:58:25.381","id":"441","submission_id":"619","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":"AC"},"time":"2021-12-14T12:58:25.449-05:00"}
+{"id":"15250","type":"submissions","op":"create","data":{"language_id":"java","time":"2021-12-14T13:03:16.122-05:00","contest_time":"1:03:16.122","id":"620","externalid":null,"team_id":"10","problem_id":"64","entry_point":null,"files":[{"href":"contests/6/submissions/620/files","mime":"application/zip"}]},"time":"2021-12-14T13:03:16.165-05:00"}
+{"id":"15251","type":"judgements","op":"create","data":{"max_run_time":null,"start_time":"2021-12-14T13:03:17.502-05:00","start_contest_time":"1:03:17.502","end_time":null,"end_contest_time":null,"id":"442","submission_id":"620","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":null},"time":"2021-12-14T13:03:17.551-05:00"}
+{"id":"15252","type":"submissions","op":"update","data":{"language_id":"java","time":"2021-12-14T13:03:16.122-05:00","contest_time":"1:03:16.122","id":"620","externalid":null,"team_id":"10","problem_id":"64","entry_point":"feynman","files":[{"href":"contests/6/submissions/620/files","mime":"application/zip"}]},"time":"2021-12-14T13:03:21.781-05:00"}
+{"id":"15253","type":"runs","op":"create","data":{"run_time":0.389,"time":"2021-12-14T13:03:22.874-05:00","contest_time":"1:03:22.874","ordinal":1,"id":"13276","judgement_id":"442","judgement_type_id":"AC"},"time":"2021-12-14T13:03:23.024-05:00"}
+{"id":"15254","type":"judgements","op":"update","data":{"max_run_time":0.389,"start_time":"2021-12-14T13:03:17.502-05:00","start_contest_time":"1:03:17.502","end_time":"2021-12-14T13:03:23.052-05:00","end_contest_time":"1:03:23.052","id":"442","submission_id":"620","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":"AC"},"time":"2021-12-14T13:03:23.117-05:00"}
+{"id":"15255","type":"submissions","op":"create","data":{"language_id":"cpp","time":"2021-12-14T13:05:03.030-05:00","contest_time":"1:05:03.030","id":"621","externalid":null,"team_id":"5","problem_id":"70","entry_point":null,"files":[{"href":"contests/6/submissions/621/files","mime":"application/zip"}]},"time":"2021-12-14T13:05:03.147-05:00"}
+{"id":"15256","type":"judgements","op":"create","data":{"max_run_time":null,"start_time":"2021-12-14T13:05:06.130-05:00","start_contest_time":"1:05:06.130","end_time":null,"end_contest_time":null,"id":"443","submission_id":"621","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":null},"time":"2021-12-14T13:05:06.178-05:00"}
+{"id":"15257","type":"runs","op":"create","data":{"run_time":0.014,"time":"2021-12-14T13:05:08.053-05:00","contest_time":"1:05:08.053","ordinal":1,"id":"13277","judgement_id":"443","judgement_type_id":"AC"},"time":"2021-12-14T13:05:08.268-05:00"}
+{"id":"15258","type":"judgements","op":"update","data":{"max_run_time":0.014,"start_time":"2021-12-14T13:05:06.130-05:00","start_contest_time":"1:05:06.130","end_time":"2021-12-14T13:05:08.300-05:00","end_contest_time":"1:05:08.300","id":"443","submission_id":"621","valid":true,"judgehost":"domjudge-live-0","judgement_type_id":"AC"},"time":"2021-12-14T13:05:08.356-05:00"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

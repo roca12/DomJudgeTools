@@ -1,0 +1,179 @@
+---- ICPC Standalone Presentations (2.3.491) ----
+OS:  Windows 10 (amd64/10.0)
+JRE: Oracle Corporation (11.0.11)
+Folder: C:\Users\diego\Documents\DomJudge\2. presentations
+Host: ROCA12ULTRA / 192.168.0.3
+Locale/TZ: es_CO / hora estándar de Colombia
+Args: http://4644-190-27-105-4.ngrok.io/domjudge/api/v4/contests/8 score score --display_name {team.name} ({org.name}) --p 5 6 7 8 9 10 12 41 42 43 44 45 46 47 49 62 63 64 65 
+Log started 2021.12.18 12:11.12
+
+2021.12.18 12:11.12 I ->- Loading presentations ->-
+2021.12.18 12:11.12 I -<- Done loading presentations -<-
+2021.12.18 12:11.12 I Option found: --display_name {team.name} ({org.name})
+2021.12.18 12:11.12 I Option found: --p 5 6 7 8 9 10 12 41 42 43 44 45 46 47 49 62 63 64 65
+2021.12.18 12:11.13 I Loading contest from RESTContestSource[score|score@http://4644-190-27-105-4.ngrok.io/domjudge/api/v4/contests/8]
+2021.12.18 12:11.13 I Checking feed cache: C:\Users\diego\Documents\DomJudge\2. presentations\logs\events-8-score.log
+2021.12.18 12:11.13 I First comment: ! 0
+2021.12.18 12:11.13 I Found feed cache up to event id: 16863
+2021.12.18 12:11.15 I Reading feed cache
+2021.12.18 12:11.15 W Unknown property ignored: contests/end_time
+2021.12.18 12:11.15 W Unknown property ignored: contests/external_id
+2021.12.18 12:11.15 W Unknown property ignored: contests/shortname
+2021.12.18 12:11.15 W Unknown property ignored: languages/extensions
+2021.12.18 12:11.15 W Unknown property ignored: languages/filter_compiler_files
+2021.12.18 12:11.15 W Unknown property ignored: languages/allow_judge
+2021.12.18 12:11.15 W Unknown property ignored: languages/time_factor
+2021.12.18 12:11.15 W Unknown property ignored: languages/require_entry_point
+2021.12.18 12:11.15 W Unknown property ignored: languages/entry_point_description
+2021.12.18 12:11.15 W Unknown property ignored: problems/short_name
+2021.12.18 12:11.15 W Unknown property ignored: problems/externalid
+2021.12.18 12:11.15 W Unknown property ignored: groups/sortorder
+2021.12.18 12:11.15 W Unknown property ignored: groups/color
+2021.12.18 12:11.15 W Unknown property ignored: organizations/shortname
+2021.12.18 12:11.15 W Unknown property ignored: teams/affiliation
+2021.12.18 12:11.15 W Unknown property ignored: teams/nationality
+2021.12.18 12:11.15 W Unknown property ignored: teams/members
+2021.12.18 12:11.15 W Unknown property ignored: clarifications/externalid
+2021.12.18 12:11.15 W Unknown property ignored: submissions/externalid
+2021.12.18 12:11.15 W Unknown property ignored: judgements/valid
+2021.12.18 12:11.15 W Unknown property ignored: judgements/judgehost
+2021.12.18 12:11.15 I Done reading feed cache
+2021.12.18 12:11.15 I Contest source verified
+2021.12.18 12:11.15 I Launching presentation
+2021.12.18 12:11.15 I Source: RESTContestSource[score|score@http://4644-190-27-105-4.ngrok.io/domjudge/api/v4/contests/8]
+2021.12.18 12:11.15 I Presentations:
+2021.12.18 12:11.15 I    org.icpc.tools.presentation.contest.chart.queue.depth - Judge Queue Depth
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.chart.judgement.time - Judgement time
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.chart.language - Languages
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.chart.problem.comparison - Problem comparison
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.chart.problem.detail - Problem detail
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.chart.problem.summary - Problem summary
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.chart.total.problems - Total Problems
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.leaderboard.group.all - All Groups leaderboard
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.first.solution - First solution
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.first.to.solve - First to solve
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.leaderboard.group - Group leaderboard
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.judge - Judge queue
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.leaderboard - Leaderboard
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.scoreboard - Scoreboard
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.scoreboard.timeline - Timeline
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.tile.team - Team scoreboard
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.tile.scoreboard.list - Tile list
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.tile.scoreboard.rank - Tile rank
+2021.12.18 12:11.16 I    org.icpc.tools.presentation.contest.tile.scoreboard - Tiles
+2021.12.18 12:11.16 I Download http://4644-190-27-105-4.ngrok.io/presentation/fts/2013.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.4644190271054ngrokiodomjudgeapiv4contests8\presentation\fts\2013.png (404)
+2021.12.18 12:11.16 I Download http://4644-190-27-105-4.ngrok.io/presentation/fts/2014.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.4644190271054ngrokiodomjudgeapiv4contests8\presentation\fts\2014.png (404)
+2021.12.18 12:11.17 I Display 1 found, modes:
+2021.12.18 12:11.17 I    1366x768 @ 60hz in 32bit
+2021.12.18 12:11.17 I    1280x720 @ 60hz in 32bit
+2021.12.18 12:11.17 I    1024x768 @ 60hz in 32bit
+2021.12.18 12:11.17 I    800x600 @ 60hz in 32bit
+2021.12.18 12:11.17 I    640x480 @ 60hz in 32bit
+2021.12.18 12:11.17 I    Config: false, true, true, DirectColorModel
+2021.12.18 12:11.17 I Display 2 found, modes:
+2021.12.18 12:11.17 I    1920x1080 @ 75hz in 32bit
+2021.12.18 12:11.17 I    1920x1080 @ 60hz in 32bit
+2021.12.18 12:11.17 I    1920x1080 @ 59hz in 32bit
+2021.12.18 12:11.17 I    1920x1080 @ 50hz in 32bit
+2021.12.18 12:11.17 I    1680x1050 @ 75hz in 32bit
+2021.12.18 12:11.17 I    1680x1050 @ 60hz in 32bit
+2021.12.18 12:11.17 I    1600x900 @ 75hz in 32bit
+2021.12.18 12:11.17 I    1600x900 @ 60hz in 32bit
+2021.12.18 12:11.17 I    1440x900 @ 75hz in 32bit
+2021.12.18 12:11.17 I    1440x900 @ 60hz in 32bit
+2021.12.18 12:11.17 I    1366x768 @ 75hz in 32bit
+2021.12.18 12:11.17 I    1366x768 @ 60hz in 32bit
+2021.12.18 12:11.17 I    1280x1024 @ 75hz in 32bit
+2021.12.18 12:11.17 I    1280x1024 @ 60hz in 32bit
+2021.12.18 12:11.17 I    1280x800 @ 75hz in 32bit
+2021.12.18 12:11.17 I    1280x800 @ 60hz in 32bit
+2021.12.18 12:11.17 I    1280x720 @ 75hz in 32bit
+2021.12.18 12:11.17 I    1280x720 @ 60hz in 32bit
+2021.12.18 12:11.17 I    1280x720 @ 59hz in 32bit
+2021.12.18 12:11.17 I    1280x720 @ 50hz in 32bit
+2021.12.18 12:11.17 I    1024x768 @ 75hz in 32bit
+2021.12.18 12:11.17 I    1024x768 @ 60hz in 32bit
+2021.12.18 12:11.17 I    800x600 @ 75hz in 32bit
+2021.12.18 12:11.17 I    800x600 @ 60hz in 32bit
+2021.12.18 12:11.17 I    720x576 @ 75hz in 32bit
+2021.12.18 12:11.17 I    720x576 @ 60hz in 32bit
+2021.12.18 12:11.17 I    720x576 @ 59hz in 32bit
+2021.12.18 12:11.17 I    720x576 @ 50hz in 32bit
+2021.12.18 12:11.17 I    720x480 @ 75hz in 32bit
+2021.12.18 12:11.17 I    720x480 @ 60hz in 32bit
+2021.12.18 12:11.17 I    720x480 @ 59hz in 32bit
+2021.12.18 12:11.17 I    720x400 @ 75hz in 32bit
+2021.12.18 12:11.17 I    720x400 @ 70hz in 32bit
+2021.12.18 12:11.17 I    720x400 @ 60hz in 32bit
+2021.12.18 12:11.17 I    720x400 @ 59hz in 32bit
+2021.12.18 12:11.17 I    640x480 @ 75hz in 32bit
+2021.12.18 12:11.17 I    640x480 @ 60hz in 32bit
+2021.12.18 12:11.17 I    640x480 @ 59hz in 32bit
+2021.12.18 12:11.17 I    Config: false, true, true, DirectColorModel
+2021.12.18 12:11.17 I Applying display config DisplayConfig 1 (r=java.awt.Rectangle[x=1920,y=313,width=1366,height=768],in=java.awt.Insets[top=0,left=0,bottom=40,right=0])
+2021.12.18 12:11.17 I New presentation plan in 0ms
+2021.12.18 12:11.17 I Initializing presentation JudgeQueueDepthChart
+2021.12.18 12:11.17 I Initializing presentation JudgementChart
+2021.12.18 12:11.17 I Initializing presentation LanguageSummaryChart
+2021.12.18 12:11.17 I Initializing presentation ProblemComparisonChart
+2021.12.18 12:11.17 I Initializing presentation ProblemDetailChart
+2021.12.18 12:11.17 I Initializing presentation ProblemSummaryChart
+2021.12.18 12:11.17 I Initializing presentation TotalProblemsChart
+2021.12.18 12:11.17 I Initializing presentation AllGroupsLeaderboardPresentation
+2021.12.18 12:11.17 I Initializing presentation FirstSolutionPresentation
+2021.12.18 12:11.17 I Initializing presentation FirstToSolvePresentation
+2021.12.18 12:11.17 I Initializing presentation GroupLeaderboardPresentation
+2021.12.18 12:11.17 I Initializing presentation JudgePresentation
+2021.12.18 12:11.17 I Initializing presentation LeaderboardPresentation
+2021.12.18 12:11.17 I Initializing presentation ScoreboardPresentation
+2021.12.18 12:11.17 I Initializing presentation TimelinePresentation
+2021.12.18 12:11.17 I Initializing presentation TilePictureScoreboardPresentation
+2021.12.18 12:11.17 I Download http://4644-190-27-105-4.ngrok.io/presentation/fts/2015.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.4644190271054ngrokiodomjudgeapiv4contests8\presentation\fts\2015.png (404)
+2021.12.18 12:11.17 I Initializing presentation TileListScoreboardPresentation
+2021.12.18 12:11.17 I Initializing presentation TileRankScoreboardPresentation
+2021.12.18 12:11.17 I Initializing presentation TileScoreboardPresentation
+2021.12.18 12:11.17 I Building presentation plan
+2021.12.18 12:11.17 I Building presentation plan
+2021.12.18 12:11.17 I Next presentation plan: Presentation plan 1639847477464 -> 9223372036854775807, 359714
+  Segment [0 -> 15000, JudgeQueueDepthChart > null > null, 0]
+  Segment [15000 -> 30000, JudgementChart > null > null, 0]
+  Segment [30000 -> 45000, LanguageSummaryChart > null > null, 0]
+  Segment [45000 -> 60000, ProblemComparisonChart > null > null, 0]
+  Segment [60000 -> 75000, ProblemDetailChart > null > null, 0]
+  Segment [75000 -> 90000, ProblemSummaryChart > null > null, 0]
+  Segment [90000 -> 105000, TotalProblemsChart > null > null, 0]
+  Segment [105000 -> 115000, AllGroupsLeaderboardPresentation > null > null, 0]
+  Segment [115000 -> 125000, FirstSolutionPresentation > null > null, 0]
+  Segment [125000 -> 135000, FirstToSolvePresentation > null > null, 0]
+  Segment [135000 -> 145000, GroupLeaderboardPresentation > null > null, 0]
+  Segment [145000 -> 155000, JudgePresentation > null > null, 0]
+  Segment [155000 -> 165000, LeaderboardPresentation > null > null, 0]
+  Segment [165000 -> 217000, ScoreboardPresentation > null > null, 0]
+  Segment [217000 -> 269000, TimelinePresentation > null > null, 0]
+  Segment [269000 -> 279000, TilePictureScoreboardPresentation > null > null, 0]
+  Segment [279000 -> 309000, TileListScoreboardPresentation > null > null, 0]
+  Segment [309000 -> 329714, TileRankScoreboardPresentation > null > null, 0]
+  Segment [329714 -> 359714, TileScoreboardPresentation > null > null, 0]
+2021.12.18 12:11.17 I Switching presentation plans: null -> Presentation plan 1639847477464 -> 9223372036854775807, 359714
+  Segment [0 -> 15000, JudgeQueueDepthChart > null > null, 0]
+  Segment [15000 -> 30000, JudgementChart > null > null, 0]
+  Segment [30000 -> 45000, LanguageSummaryChart > null > null, 0]
+  Segment [45000 -> 60000, ProblemComparisonChart > null > null, 0]
+  Segment [60000 -> 75000, ProblemDetailChart > null > null, 0]
+  Segment [75000 -> 90000, ProblemSummaryChart > null > null, 0]
+  Segment [90000 -> 105000, TotalProblemsChart > null > null, 0]
+  Segment [105000 -> 115000, AllGroupsLeaderboardPresentation > null > null, 0]
+  Segment [115000 -> 125000, FirstSolutionPresentation > null > null, 0]
+  Segment [125000 -> 135000, FirstToSolvePresentation > null > null, 0]
+  Segment [135000 -> 145000, GroupLeaderboardPresentation > null > null, 0]
+  Segment [145000 -> 155000, JudgePresentation > null > null, 0]
+  Segment [155000 -> 165000, LeaderboardPresentation > null > null, 0]
+  Segment [165000 -> 217000, ScoreboardPresentation > null > null, 0]
+  Segment [217000 -> 269000, TimelinePresentation > null > null, 0]
+  Segment [269000 -> 279000, TilePictureScoreboardPresentation > null > null, 0]
+  Segment [279000 -> 309000, TileListScoreboardPresentation > null > null, 0]
+  Segment [309000 -> 329714, TileRankScoreboardPresentation > null > null, 0]
+  Segment [329714 -> 359714, TileScoreboardPresentation > null > null, 0]
+2021.12.18 12:11.18 I Download http://4644-190-27-105-4.ngrok.io/presentation/fts/2016.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.4644190271054ngrokiodomjudgeapiv4contests8\presentation\fts\2016.png (404)
+2021.12.18 12:11.18 I Download http://4644-190-27-105-4.ngrok.io/presentation/fts/2017.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.4644190271054ngrokiodomjudgeapiv4contests8\presentation\fts\2017.png (404)
+2021.12.18 12:11.18 I Download http://4644-190-27-105-4.ngrok.io/presentation/fts/2018.png to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.4644190271054ngrokiodomjudgeapiv4contests8\presentation\fts\2018.png (404)

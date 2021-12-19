@@ -1,7 +1,7 @@
 <server description="ICPC contest clients">
    <!-- Change passwords immediately to secure the contest -->
    <basicRegistry>
-      <user name="admin" password="adm1n"/>
+      <user name="admin" password="piroloco2112"/>
       <user name="presAdmin" password="padm1n"/>
       <user name="blue" password="blu3"/>
       <user name="balloon" password="balloonPr1nter"/>
