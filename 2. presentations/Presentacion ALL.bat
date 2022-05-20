@@ -1,1 +1,1 @@
-start "Scoreboard" call .\standalone.bat http://4644-190-27-105-4.ngrok.io/domjudge/api/v4/contests/8 score score --display_name "{team.name} ({org.name})" --p 5 6 7 8 9 10 12 41 42 43 44 45 46 47 49 62 63 64 65
+start "Scoreboard" call .\standalone.bat http://domjudgeroca12.sa.ngrok.io/domjudge/api/v4/contests/10 score score --display_name "{team.name} ({org.name})" --p 5 6 7 8 9 10 12 13 41 43  44 45 46 47 49 63 64 65

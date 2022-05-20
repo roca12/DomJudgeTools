@@ -1,0 +1,1 @@
+start "Scoreboard" call .\standalone.bat http://192.168.56.103/domjudge/api/v4/contests/10 score score --display_name "{team.name} ({org.name})" --p 5 6 7 8 9 10 12 13 41 43  44 45 46 47 49 63 64 65

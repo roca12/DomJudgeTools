@@ -1,0 +1,75 @@
+Sistema de archivos
+ruta absoluta y relativa
+que es un numero primo
+miller rabin
+criba de sundaram
+criba de atkin
+exponenciacion binaria
+contar los digitos en un numero
+Biginteger modular
+residuo chino
+logaritmo discreto
+eliminación gaussiana
+potencias de dos
+ecuaciones de diofanes
+exponenciacion de matrices
+cuadrados magicos
+esquinas de un vector
+multiplicacion modular
+next permutation
+prev permutation
+tripletas pitagoricas
+reloj digital
+factorizacion prima
+raiz primitiva
+series geometricas
+biseccion
+interpolación de lagrange
+raiz mediante newton
+newton raphson
+teorema de lucas
+angulos
+puntos 2d
+perimetro de un poligono
+area de un poligono
+interseccion de circulos
+distancia euclideana
+vector geometrico
+punto dentro de un poligono
+lazo de zapato
+algoritmo de jarvis
+algoritmo z
+trie
+hash 
+substrings
+orden lexicografico
+compuerta xor
+multiplicacion bitwise
+bitmasking
+camino mas largo en un grafo
+puntos de articulacion en un grafo
+puentes en un grafo
+conjuntos disjuntos
+ford fulkerson
+antecesor comun
+serpientes y escaleras
+camino mas corto desde multiples origenes
+grafo muytietapa
+algoritmo de trajano
+lazy propagation
+componentes biconectados
+vector circular
+arbol de fenwick
+rmq
+sparse table
+heap sort
+quickselect
+fechas y horas
+locales
+numeros decimales y su formateo
+
+
+
+
+
+

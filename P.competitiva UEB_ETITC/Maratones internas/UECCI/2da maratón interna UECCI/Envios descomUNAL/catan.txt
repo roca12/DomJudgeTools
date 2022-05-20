@@ -1,0 +1,50 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+typedef long long ll;
+typedef pair<int, int> pii;
+
+const int N = 202;
+
+map<pii, int> dp;
+vector<vector<pii>> g;
+
+int go(int mask, int node) {
+    pii c = {mask, node};
+    if(dp.count(c)) return dp[c];
+    int &r = dp[c];
+    r = 1;
+    for(auto e : g[node]) {
+        if(mask >> e.second & 1) continue;
+        r = max(r, 1+go(mask | (1<<e.second), e.first));
+    }
+    return r;
+}
+
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    #ifdef LOCAL
+        freopen("input.txt", "r", stdin);
+    #else
+        #define endl '\n'
+    #endif // LOCAL
+
+    int n, m;
+    while(cin >> n >> m) {
+        if(n+m == 0) break;
+        g.assign(n+1, {});
+        for(int i = 0; i < m; i++) {
+            int a, b; cin >> a >> b;
+            g[a].push_back({b, i});
+            g[b].push_back({a, i});
+        }
+        int ans = 0;
+        dp.clear();
+        for(int i = 0; i < n; i++) {
+            ans = max(ans, go(0, i));
+        }
+        cout << ans-1 << endl;
+    }
+}

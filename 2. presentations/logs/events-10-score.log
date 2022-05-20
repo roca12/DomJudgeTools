@@ -1,0 +1,583 @@
+! 0
+{"id":"1723","type":"contests","op":"create","data":{"formal_name":"Marat\u00f3n de programaci\u00f3n  Universidad El Bosque 2022-I","penalty_time":20,"start_time":"2022-06-11T10:00:00-05:00","end_time":"2022-06-11T15:00:00-05:00","duration":"5:00:00.000","scoreboard_freeze_duration":"5:00:00.000","id":"10","external_id":null,"name":"Marat\u00f3n de programaci\u00f3n  Universidad El Bosque 2022-I","shortname":"interna2022-1R"},"time":"2022-05-18T17:22:23.951-05:00"}
+{"id":"1724","type":"judgement-types","op":"create","data":{"id":"AC","name":"correct","penalty":false,"solved":true},"time":"2022-05-18T17:22:23.955-05:00"}
+{"id":"1725","type":"judgement-types","op":"create","data":{"id":"CE","name":"compiler error","penalty":true,"solved":false},"time":"2022-05-18T17:22:23.956-05:00"}
+{"id":"1726","type":"judgement-types","op":"create","data":{"id":"MLE","name":"memory limit","penalty":true,"solved":false},"time":"2022-05-18T17:22:23.959-05:00"}
+{"id":"1727","type":"judgement-types","op":"create","data":{"id":"NO","name":"no output","penalty":true,"solved":false},"time":"2022-05-18T17:22:23.962-05:00"}
+{"id":"1728","type":"judgement-types","op":"create","data":{"id":"OLE","name":"output limit","penalty":true,"solved":false},"time":"2022-05-18T17:22:23.963-05:00"}
+{"id":"1729","type":"judgement-types","op":"create","data":{"id":"PE","name":"presentation error","penalty":true,"solved":false},"time":"2022-05-18T17:22:23.964-05:00"}
+{"id":"1730","type":"judgement-types","op":"create","data":{"id":"RTE","name":"run error","penalty":true,"solved":false},"time":"2022-05-18T17:22:23.965-05:00"}
+{"id":"1731","type":"judgement-types","op":"create","data":{"id":"TLE","name":"timelimit","penalty":true,"solved":false},"time":"2022-05-18T17:22:23.966-05:00"}
+{"id":"1732","type":"judgement-types","op":"create","data":{"id":"WA","name":"wrong answer","penalty":true,"solved":false},"time":"2022-05-18T17:22:23.968-05:00"}
+{"id":"1733","type":"languages","op":"create","data":{"id":"c","name":"C","extensions":["c"],"filter_compiler_files":true,"allow_judge":true,"time_factor":1.0,"require_entry_point":false,"entry_point_description":null},"time":"2022-05-18T17:22:23.973-05:00"}
+{"id":"1734","type":"languages","op":"create","data":{"id":"cpp","name":"C++","extensions":["cpp","cc","cxx","c++"],"filter_compiler_files":true,"allow_judge":true,"time_factor":1.0,"require_entry_point":false,"entry_point_description":null},"time":"2022-05-18T17:22:23.976-05:00"}
+{"id":"1735","type":"languages","op":"create","data":{"id":"java","name":"Java","extensions":["java"],"filter_compiler_files":true,"allow_judge":true,"time_factor":1.0,"require_entry_point":false,"entry_point_description":"Main class"},"time":"2022-05-18T17:22:23.980-05:00"}
+{"id":"1736","type":"languages","op":"create","data":{"id":"python3","name":"Python 3","extensions":["py3","py"],"filter_compiler_files":true,"allow_judge":true,"time_factor":1.0,"require_entry_point":false,"entry_point_description":"Main file"},"time":"2022-05-18T17:22:23.982-05:00"}
+{"id":"1737","type":"problems","op":"create","data":{"ordinal":11,"id":"38","short_name":"L","label":"L","time_limit":3.0,"externalid":null,"name":"Tree Recovery","rgb":"#996f1a","color":"sienna","test_data_count":1},"time":"2022-05-18T17:22:23.994-05:00"}
+{"id":"1738","type":"problems","op":"create","data":{"ordinal":10,"id":"39","short_name":"K","label":"K","time_limit":3.0,"externalid":null,"name":"The Other Two Trees","rgb":"#0f0f0f","color":"black","test_data_count":1},"time":"2022-05-18T17:22:23.997-05:00"}
+{"id":"1739","type":"problems","op":"create","data":{"ordinal":9,"id":"40","short_name":"J","label":"J","time_limit":3.0,"externalid":null,"name":"Walk Through the Forest","rgb":"#8c8c8c","color":"gray","test_data_count":2},"time":"2022-05-18T17:22:23.999-05:00"}
+{"id":"1740","type":"problems","op":"create","data":{"ordinal":8,"id":"41","short_name":"I","label":"I","time_limit":1.0,"externalid":null,"name":"Directed Forest","rgb":"#ffffff","color":"white","test_data_count":1},"time":"2022-05-18T17:22:24.001-05:00"}
+{"id":"1741","type":"problems","op":"create","data":{"ordinal":7,"id":"42","short_name":"H","label":"H","time_limit":3.0,"externalid":null,"name":"Ecological Bin Packing","rgb":"#ff21f8","color":"fuchsia","test_data_count":1},"time":"2022-05-18T17:22:24.003-05:00"}
+{"id":"1742","type":"problems","op":"create","data":{"ordinal":6,"id":"43","short_name":"G","label":"G","time_limit":3.0,"externalid":null,"name":"Ecological Premium","rgb":"#0008ff","color":"blue","test_data_count":1},"time":"2022-05-18T17:22:24.004-05:00"}
+{"id":"1743","type":"problems","op":"create","data":{"ordinal":5,"id":"44","short_name":"F","label":"F","time_limit":3.0,"externalid":null,"name":"Feynman","rgb":"#1cffff","color":"aqua","test_data_count":1},"time":"2022-05-18T17:22:24.006-05:00"}
+{"id":"1744","type":"problems","op":"create","data":{"ordinal":4,"id":"45","short_name":"E","label":"E","time_limit":3.0,"externalid":null,"name":"The Land of Justice","rgb":"#10571b","color":"darkgreen","test_data_count":1},"time":"2022-05-18T17:22:24.009-05:00"}
+{"id":"1745","type":"problems","op":"create","data":{"ordinal":3,"id":"46","short_name":"D","label":"D","time_limit":3.0,"externalid":null,"name":"Sending email","rgb":"#2bff00","color":"lime","test_data_count":1},"time":"2022-05-18T17:22:24.012-05:00"}
+{"id":"1746","type":"problems","op":"create","data":{"ordinal":2,"id":"47","short_name":"C","label":"C","time_limit":3.0,"externalid":null,"name":"The Knights Of The Round Table","rgb":"#ff9340","color":"coral","test_data_count":1},"time":"2022-05-18T17:22:24.014-05:00"}
+{"id":"1747","type":"problems","op":"create","data":{"ordinal":1,"id":"48","short_name":"B","label":"B","time_limit":3.0,"externalid":null,"name":"Risk","rgb":"#f7ff00","color":"yellow","test_data_count":1},"time":"2022-05-18T17:22:24.016-05:00"}
+{"id":"1748","type":"problems","op":"create","data":{"ordinal":0,"id":"49","short_name":"A","label":"A","time_limit":1.0,"externalid":null,"name":"Numbering Roads","rgb":"#ff0000","color":"red","test_data_count":1},"time":"2022-05-18T17:22:24.017-05:00"}
+{"id":"1749","type":"groups","op":"create","data":{"hidden":true,"icpc_id":"1","id":"1","name":"System","sortorder":9,"color":"#1ad60d"},"time":"2022-05-18T17:22:24.024-05:00"}
+{"id":"1750","type":"groups","op":"create","data":{"hidden":false,"icpc_id":"2","id":"2","name":"Auto Registrado","sortorder":0,"color":"#f7ff00"},"time":"2022-05-18T17:22:24.027-05:00"}
+{"id":"1751","type":"groups","op":"create","data":{"hidden":false,"icpc_id":"3","id":"3","name":"Participantes","sortorder":0,"color":null},"time":"2022-05-18T17:22:24.028-05:00"}
+{"id":"1752","type":"groups","op":"create","data":{"hidden":false,"icpc_id":"4","id":"4","name":"Observadores","sortorder":3,"color":"#ffb0b0"},"time":"2022-05-18T17:22:24.029-05:00"}
+{"id":"1753","type":"groups","op":"create","data":{"hidden":false,"icpc_id":"5","id":"5","name":"Coach","sortorder":1,"color":"#70ffff"},"time":"2022-05-18T17:22:24.030-05:00"}
+{"id":"1754","type":"groups","op":"create","data":{"hidden":false,"icpc_id":"6","id":"6","name":"Coach/Jueces","sortorder":2,"color":"#17ff1f"},"time":"2022-05-18T17:22:24.031-05:00"}
+{"id":"1755","type":"groups","op":"create","data":{"hidden":false,"icpc_id":"7","id":"7","name":"Directivos","sortorder":5,"color":"#ff9436"},"time":"2022-05-18T17:22:24.034-05:00"}
+{"id":"1756","type":"organizations","op":"create","data":{"icpc_id":"10","shortname":"UAMERICA","id":"10","name":"UAMERICA","formal_name":"Fundaci\u00f3n Universidad de Am\u00e9rica","country":"COL"},"time":"2022-05-18T17:22:24.044-05:00"}
+{"id":"1757","type":"organizations","op":"create","data":{"icpc_id":"11","shortname":"AREANDINA","id":"11","name":"AREANDINA","formal_name":"Fundaci\u00f3n Universitaria del \u00c1rea Andina","country":"COL"},"time":"2022-05-18T17:22:24.046-05:00"}
+{"id":"1758","type":"organizations","op":"create","data":{"icpc_id":"12","shortname":"FUKL","id":"12","name":"FUKL","formal_name":"Fundaci\u00f3n Universitaria Konrad Lorenz","country":"COL"},"time":"2022-05-18T17:22:24.047-05:00"}
+{"id":"1759","type":"organizations","op":"create","data":{"icpc_id":"13","shortname":"CDP-GPC","id":"13","name":"CDP-GPC","formal_name":"La Cueva del Profe","country":"COL"},"time":"2022-05-18T17:22:24.049-05:00"}
+{"id":"1760","type":"organizations","op":"create","data":{"icpc_id":"14","shortname":"POLI","id":"14","name":"POLI","formal_name":"Polit\u00e9cnico Grancolombiano","country":"COL"},"time":"2022-05-18T17:22:24.050-05:00"}
+{"id":"1761","type":"organizations","op":"create","data":{"icpc_id":"15","shortname":"PUJB","id":"15","name":"PUJB","formal_name":"Pontificia Universidad Javeriana - Bogot\u00e1","country":"COL"},"time":"2022-05-18T17:22:24.051-05:00"}
+{"id":"1762","type":"organizations","op":"create","data":{"icpc_id":"16","shortname":"SENA","id":"16","name":"SENA","formal_name":"Servicio Nacional de Aprendizaje","country":"COL"},"time":"2022-05-18T17:22:24.053-05:00"}
+{"id":"1763","type":"organizations","op":"create","data":{"icpc_id":"17","shortname":"UAN","id":"17","name":"UAN","formal_name":"Universidad Antonio Nari\u00f1o","country":"COL"},"time":"2022-05-18T17:22:24.055-05:00"}
+{"id":"1764","type":"organizations","op":"create","data":{"icpc_id":"18","shortname":"UCATOLICA","id":"18","name":"UCATOLICA","formal_name":"Universidad Cat\u00f3lica De Colombia","country":"COL"},"time":"2022-05-18T17:22:24.056-05:00"}
+{"id":"1765","type":"organizations","op":"create","data":{"icpc_id":"19","shortname":"UCENTRAL","id":"19","name":"UCENTRAL","formal_name":"Universidad Central","country":"COL"},"time":"2022-05-18T17:22:24.058-05:00"}
+{"id":"1766","type":"organizations","op":"create","data":{"icpc_id":"2","shortname":"IND","id":"2","name":"IND","formal_name":"Competidor Independiente","country":"COL"},"time":"2022-05-18T17:22:24.061-05:00"}
+{"id":"1767","type":"organizations","op":"create","data":{"icpc_id":"20","shortname":"UDEC","id":"20","name":"UDEC","formal_name":"Universidad de Cundinamarca","country":"COL"},"time":"2022-05-18T17:22:24.063-05:00"}
+{"id":"1768","type":"organizations","op":"create","data":{"icpc_id":"21","shortname":"UANDES","id":"21","name":"UANDES","formal_name":"Universidad de los Andes","country":"COL"},"time":"2022-05-18T17:22:24.066-05:00"}
+{"id":"1769","type":"organizations","op":"create","data":{"icpc_id":"22","shortname":"UD","id":"22","name":"UD","formal_name":"Universidad Distrital Francisco Jos\u00e9 de Caldas","country":"COL"},"time":"2022-05-18T17:22:24.067-05:00"}
+{"id":"1770","type":"organizations","op":"create","data":{"icpc_id":"23","shortname":"EAN","id":"23","name":"EAN","formal_name":"Universidad EAN","country":"COL"},"time":"2022-05-18T17:22:24.069-05:00"}
+{"id":"1771","type":"organizations","op":"create","data":{"icpc_id":"24","shortname":"UECCI","id":"24","name":"UECCI","formal_name":"Universidad ECCI","country":"COL"},"time":"2022-05-18T17:22:24.079-05:00"}
+{"id":"1772","type":"organizations","op":"create","data":{"icpc_id":"25","shortname":"UEB","id":"25","name":"UEB","formal_name":"Universidad El Bosque","country":"COL"},"time":"2022-05-18T17:22:24.081-05:00"}
+{"id":"1773","type":"organizations","op":"create","data":{"icpc_id":"26","shortname":"UTADEO","id":"26","name":"UTADEO","formal_name":"Universidad Jorge Tadeo Lozano","country":"COL"},"time":"2022-05-18T17:22:24.082-05:00"}
+{"id":"1774","type":"organizations","op":"create","data":{"icpc_id":"27","shortname":"UNILIBRE","id":"27","name":"UNILIBRE","formal_name":"Universidad Libre","country":"COL"},"time":"2022-05-18T17:22:24.083-05:00"}
+{"id":"1775","type":"organizations","op":"create","data":{"icpc_id":"28","shortname":"UMB","id":"28","name":"UMB","formal_name":"Universidad Manuela Beltran","country":"COL"},"time":"2022-05-18T17:22:24.085-05:00"}
+{"id":"1776","type":"organizations","op":"create","data":{"icpc_id":"29","shortname":"UMNG","id":"29","name":"UMNG","formal_name":"Universidad Militar Nueva Granada","country":"COL"},"time":"2022-05-18T17:22:24.087-05:00"}
+{"id":"1777","type":"organizations","op":"create","data":{"icpc_id":"3","shortname":"EAL","id":"3","name":"EAL","formal_name":"Corporaci\u00f3n Escuela de Artes y Letras","country":"COL"},"time":"2022-05-18T17:22:24.089-05:00"}
+{"id":"1778","type":"organizations","op":"create","data":{"icpc_id":"30","shortname":"UNAD","id":"30","name":"UNAD","formal_name":"Universidad Nacional Abierta y a Distancia","country":"COL"},"time":"2022-05-18T17:22:24.093-05:00"}
+{"id":"1779","type":"organizations","op":"create","data":{"icpc_id":"31","shortname":"UN - BOG","id":"31","name":"UN - BOG","formal_name":"Universidad Nacional de Colombia","country":"COL"},"time":"2022-05-18T17:22:24.095-05:00"}
+{"id":"1780","type":"organizations","op":"create","data":{"icpc_id":"32","shortname":"UPILOTO","id":"32","name":"UPILOTO","formal_name":"Universidad Piloto de Colombia","country":"COL"},"time":"2022-05-18T17:22:24.097-05:00"}
+{"id":"1781","type":"organizations","op":"create","data":{"icpc_id":"33","shortname":"UNIAGUSTINIANA","id":"33","name":"UNIAGUSTINIANA","formal_name":"Universitaria Agustiniana","country":"COL"},"time":"2022-05-18T17:22:24.100-05:00"}
+{"id":"1782","type":"organizations","op":"create","data":{"icpc_id":"4","shortname":"CUN","id":"4","name":"CUN","formal_name":"Corporaci\u00f3n Unificada Nacional de Educaci\u00f3n Superior","country":"COL"},"time":"2022-05-18T17:22:24.102-05:00"}
+{"id":"1783","type":"organizations","op":"create","data":{"icpc_id":"5","shortname":"UNIMINUTO","id":"5","name":"UNIMINUTO","formal_name":"Corporaci\u00f3n Universitaria Minuto de Dios","country":"COL"},"time":"2022-05-18T17:22:24.104-05:00"}
+{"id":"1784","type":"organizations","op":"create","data":{"icpc_id":"6","shortname":"REPUBL","id":"6","name":"REPUBL","formal_name":"Corporaci\u00f3n Universitaria Republicana","country":"COL"},"time":"2022-05-18T17:22:24.105-05:00"}
+{"id":"1785","type":"organizations","op":"create","data":{"icpc_id":"7","shortname":"UNITEC","id":"7","name":"UNITEC","formal_name":"Corporaci\u00f3n Universitaria UNITEC","country":"COL"},"time":"2022-05-18T17:22:24.109-05:00"}
+{"id":"1786","type":"organizations","op":"create","data":{"icpc_id":"8","shortname":"ECI","id":"8","name":"ECI","formal_name":"Escuela Colombiana de Ingenier\u00eda Julio Garavito","country":"COL"},"time":"2022-05-18T17:22:24.111-05:00"}
+{"id":"1787","type":"organizations","op":"create","data":{"icpc_id":"9","shortname":"ETITC","id":"9","name":"ETITC","formal_name":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","country":"COL"},"time":"2022-05-18T17:22:24.112-05:00"}
+{"id":"1788","type":"teams","op":"create","data":{"group_ids":["4"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"114","icpc_id":null,"name":"Alexander Sabogal","display_name":"Alexander Sabogal","organization_id":"9","members":null},"time":"2022-05-18T17:22:24.129-05:00"}
+{"id":"1789","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"124","icpc_id":null,"name":"team001","display_name":"Team Arepitas","organization_id":"25","members":"Andr\u00e9s Felipe Espitia Rodriguez\r\nJuan Camilo Uribe Pava"},"time":"2022-05-18T17:22:24.133-05:00"}
+{"id":"1790","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"125","icpc_id":null,"name":"team002","display_name":"Team a mimir","organization_id":"25","members":"Juan David Prada Ram\u00edrez\r\nEsteban Avila Ruiz"},"time":"2022-05-18T17:22:24.135-05:00"}
+{"id":"1791","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad Nacional Abierta y a Distancia","nationality":"COL","id":"126","icpc_id":null,"name":"team003","display_name":"Team 404","organization_id":"30","members":"DAYRON ALEXANDER PERILLA AVILA\r\nANDRES FELIPE LOZADA ANDRADE"},"time":"2022-05-18T17:22:24.138-05:00"}
+{"id":"1792","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"127","icpc_id":null,"name":"team004","display_name":"T1","organization_id":"25","members":"Gabriel Alejandro Ortega Maricuto\r\nJuan David Alberto Quintero Gaona"},"time":"2022-05-18T17:22:24.143-05:00"}
+{"id":"1793","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"128","icpc_id":null,"name":"team005","display_name":"Arbolitos Estrobosc\u00f3picos","organization_id":"25","members":"Boris Nicolas Leon Vargas\r\nMateo Alejandro Losada Ordo\u00f1ez"},"time":"2022-05-18T17:22:24.146-05:00"}
+{"id":"1794","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"129","icpc_id":null,"name":"team006","display_name":"Pola Overflow","organization_id":"25","members":"Juan Andres Castillo Fuenmayor\r\nAndr\u00e9s Felipe Galvis Bol\u00edvar"},"time":"2022-05-18T17:22:24.149-05:00"}
+{"id":"1795","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"130","icpc_id":null,"name":"team007","display_name":"Team NMA()","organization_id":"9","members":"Edwin Andres Villarraga Ardila\r\nLuciano Alberto Chavarria Orozco"},"time":"2022-05-18T17:22:24.153-05:00"}
+{"id":"1796","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"131","icpc_id":null,"name":"team008","display_name":"Crypthon","organization_id":"9","members":"Brian Ferney Rojas Garcia\r\nDavid Esteban Fajardo Torres"},"time":"2022-05-18T17:22:24.155-05:00"}
+{"id":"1797","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"132","icpc_id":null,"name":"team009","display_name":"Maddi","organization_id":"9","members":"Jonathan Steven Conde Ruiz\r\nNicol\u00e1s Javier Infante Florez"},"time":"2022-05-18T17:22:24.159-05:00"}
+{"id":"1798","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"133","icpc_id":null,"name":"team010","display_name":"Juan Pablo","organization_id":"25","members":"Juan Pablo R\u00edos"},"time":"2022-05-18T17:22:24.162-05:00"}
+{"id":"1799","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad ECCI","nationality":"COL","id":"134","icpc_id":null,"name":"team011","display_name":"Par de novatos","organization_id":"24","members":"Laura Daniela Aldana Rodr\u00edguez\r\nDaniel Felipe Lozano Avellaneda"},"time":"2022-05-18T17:22:24.165-05:00"}
+{"id":"1800","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"135","icpc_id":null,"name":"team012","display_name":"Team Chicharr\u00f3n","organization_id":"25","members":"Juan Camilo Florez Paez\r\nAndr\u00e9s Felipe Prado Pardo"},"time":"2022-05-18T17:22:24.168-05:00"}
+{"id":"1801","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad ECCI","nationality":"COL","id":"136","icpc_id":null,"name":"team013","display_name":"Bit Bait!","organization_id":"24","members":"Bryann Andrei Valderrama Avila\r\nCristian David Maldonado Robles"},"time":"2022-05-18T17:22:24.170-05:00"}
+{"id":"1802","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"137","icpc_id":null,"name":"team014","display_name":"GMC","organization_id":"25","members":"Gabriel Malpica Cruz"},"time":"2022-05-18T17:22:24.175-05:00"}
+{"id":"1803","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"138","icpc_id":null,"name":"team015","display_name":"KAMB","organization_id":"25","members":"Kevin Andr\u00e9s Mart\u00ednez Bele\u00f1o"},"time":"2022-05-18T17:22:24.178-05:00"}
+{"id":"1804","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"139","icpc_id":null,"name":"team016","display_name":"LECHUGA","organization_id":"25","members":"Santiago Caicedo D\u00edaz"},"time":"2022-05-18T17:22:24.180-05:00"}
+{"id":"1805","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"140","icpc_id":null,"name":"team017","display_name":"Mimidos","organization_id":"25","members":"Sergio Mauricio Cristancho solorzano\r\nMar\u00eda Camila ardila Hern\u00e1ndez"},"time":"2022-05-18T17:22:24.184-05:00"}
+{"id":"1806","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"141","icpc_id":null,"name":"team018","display_name":".","organization_id":"25","members":"Juan Pablo Carre\u00f1o Moreno \r\nCristian S\u00e1nchez Molina"},"time":"2022-05-18T17:22:24.187-05:00"}
+{"id":"1807","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"142","icpc_id":null,"name":"team019","display_name":"Medmen","organization_id":"25","members":"Juan Diego Mendoza Su\u00e1rez \r\nFederico Medina Ospina"},"time":"2022-05-18T17:22:24.195-05:00"}
+{"id":"1808","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"143","icpc_id":null,"name":"team020","display_name":"(JuanDavid)\u00b2","organization_id":"25","members":"Juan David Castro Garc\u00eda \r\nJuan David Garz\u00f3n Lozano"},"time":"2022-05-18T17:22:24.198-05:00"}
+{"id":"1809","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"144","icpc_id":null,"name":"team022","display_name":"Ark","organization_id":"25","members":"Julio Cesar Barrios Sanchez\r\nLaura Sofia Morales Hernandez"},"time":"2022-05-18T17:22:24.201-05:00"}
+{"id":"1810","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"145","icpc_id":null,"name":"team021","display_name":"\u00e6","organization_id":"25","members":"Maria Paula Silva Rojas \r\nAndres Felipe Londo\u00f1o Blanco"},"time":"2022-05-18T17:22:24.204-05:00"}
+{"id":"1811","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"146","icpc_id":null,"name":"team023","display_name":"Error 404","organization_id":"9","members":"Sergio Nicol\u00e1s Guti\u00e9rrez Suarez \r\nLaura Andrea G\u00f3mez Agudelo"},"time":"2022-05-18T17:22:24.210-05:00"}
+{"id":"1812","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"147","icpc_id":null,"name":"team029","display_name":"Kunkunh","organization_id":"25","members":"Antonio Miguel Arrieta Severiche\r\nKevin Alejandro Gonz\u00e1lez Agudelo"},"time":"2022-05-18T17:22:24.214-05:00"}
+{"id":"1813","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"148","icpc_id":null,"name":"team024","display_name":"Sebka","organization_id":"25","members":"Karen Julieth M\u00e9ndez Urbina \r\nSebasti\u00e1n Andres Quintana Guti\u00e9rrez"},"time":"2022-05-18T17:22:24.217-05:00"}
+{"id":"1814","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"149","icpc_id":null,"name":"team025","display_name":"Programa en desarrollo","organization_id":"25","members":"Sebastian Enrique Barreto Pacheco"},"time":"2022-05-18T17:22:24.220-05:00"}
+{"id":"1815","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"150","icpc_id":null,"name":"team026","display_name":"Javalimos2/3","organization_id":"9","members":"Julian David G\u00f3mez Perilla\r\nCarlos Enrique Luna Garcia"},"time":"2022-05-18T17:22:24.223-05:00"}
+{"id":"1816","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"151","icpc_id":null,"name":"team027","display_name":"Los Bonsai","organization_id":"25","members":"Juan David Ni\u00f1o Moreno\r\nGabriel Malpica Cruz"},"time":"2022-05-18T17:22:24.229-05:00"}
+{"id":"1817","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"152","icpc_id":null,"name":"team028","display_name":"Perejil sudado","organization_id":"25","members":"William Andres Castillo Garc\u00eda \r\nEdwar Santiago Gonz\u00e1lez Ruge"},"time":"2022-05-18T17:22:24.232-05:00"}
+{"id":"1818","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"153","icpc_id":null,"name":"team030","display_name":"Semillitas","organization_id":"25","members":"Diego Alejandro Forero Espitia \r\nJaime Esteban Mejia Arevalo"},"time":"2022-05-18T17:22:24.235-05:00"}
+{"id":"1819","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"154","icpc_id":null,"name":"team031","display_name":"Isabella","organization_id":"25","members":"Isabella Herr\u00e1n Castellanos"},"time":"2022-05-18T17:22:24.239-05:00"}
+{"id":"1820","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"155","icpc_id":null,"name":"team032","display_name":"Peaky blinder","organization_id":"25","members":"Hernan Alvarado"},"time":"2022-05-18T17:22:24.243-05:00"}
+{"id":"1821","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"156","icpc_id":null,"name":"team033","display_name":"ImplacableJavPy","organization_id":"9","members":"Ruth Yibeth Lizcano Prada\r\nDavid Andr\u00e9s Valero Vanegas"},"time":"2022-05-18T17:22:24.247-05:00"}
+{"id":"1822","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"157","icpc_id":null,"name":"team034","display_name":"J\u00f3venes Cabal","organization_id":"9","members":"Brian Camilo Hamon Serna\r\nGabriel Adriam Jose Gonzalez Tapias"},"time":"2022-05-18T17:22:24.250-05:00"}
+{"id":"1823","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Fundaci\u00f3n Universitaria Konrad Lorenz","nationality":"COL","id":"158","icpc_id":null,"name":"team035","display_name":"Kbs","organization_id":"12","members":"Gabriel Andr\u00e9s Rodriguez Acevedo"},"time":"2022-05-18T17:22:24.253-05:00"}
+{"id":"1824","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Fundaci\u00f3n Universitaria Konrad Lorenz","nationality":"COL","id":"159","icpc_id":null,"name":"team036","display_name":"Juan's-1Konrad","organization_id":"12","members":"Juan Felipe Jimenez Pacheco\r\nJuan Pablo Moreno Cadena"},"time":"2022-05-18T17:22:24.256-05:00"}
+{"id":"1825","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Escuela Colombiana de Ingenier\u00eda Julio Garavito","nationality":"COL","id":"160","icpc_id":null,"name":"team037","display_name":"ECIGMA RB15","organization_id":"8","members":"David Eduardo Valencia Cardona"},"time":"2022-05-18T17:22:24.261-05:00"}
+{"id":"1826","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Escuela Colombiana de Ingenier\u00eda Julio Garavito","nationality":"COL","id":"161","icpc_id":null,"name":"team038","display_name":"ECIGMA 117","organization_id":"8","members":"Mateo Olaya Garzon"},"time":"2022-05-18T17:22:24.271-05:00"}
+{"id":"1827","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Escuela Colombiana de Ingenier\u00eda Julio Garavito","nationality":"COL","id":"162","icpc_id":null,"name":"team039","display_name":"ECIGMA Error 404","organization_id":"8","members":"Samuel Rojas Yopasa\r\nFederico Cardona Mart\u00ednez"},"time":"2022-05-18T17:22:24.276-05:00"}
+{"id":"1828","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Escuela Colombiana de Ingenier\u00eda Julio Garavito","nationality":"COL","id":"163","icpc_id":null,"name":"team040","display_name":"ECIGMA PHI","organization_id":"8","members":"Juli\u00e1n Felipe Camacho Rico\r\nMiguel \u00c1ngel Gonz\u00e1lez Mahecha"},"time":"2022-05-18T17:22:24.281-05:00"}
+{"id":"1829","type":"teams","op":"create","data":{"group_ids":["4"],"affiliation":"Universidad ECCI","nationality":"COL","id":"174","icpc_id":null,"name":"German Salas","display_name":"German Salas","organization_id":"24","members":null},"time":"2022-05-18T17:22:24.284-05:00"}
+{"id":"1830","type":"teams","op":"create","data":{"group_ids":["6"],"affiliation":"Fundaci\u00f3n Universitaria Konrad Lorenz","nationality":"COL","id":"175","icpc_id":null,"name":"Arles Ernesto Rodriguez","display_name":"Arles Ernesto Rodriguez","organization_id":"12","members":null},"time":"2022-05-18T17:22:24.287-05:00"}
+{"id":"1831","type":"teams","op":"create","data":{"group_ids":["6"],"affiliation":"Escuela Colombiana de Ingenier\u00eda Julio Garavito","nationality":"COL","id":"177","icpc_id":null,"name":"Wilmer Edicson Garz\u00f3n","display_name":"Wilmer Edicson Garz\u00f3n","organization_id":"8","members":null},"time":"2022-05-18T17:22:24.290-05:00"}
+{"id":"1832","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Escuela Colombiana de Ingenier\u00eda Julio Garavito","nationality":"COL","id":"178","icpc_id":null,"name":"team041","display_name":"ECIGMA Tyr","organization_id":"8","members":"Juliana Brice\u00f1o Castro\r\nErick Santiago Montero Sutachan"},"time":"2022-05-18T17:22:24.294-05:00"}
+{"id":"1833","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":"Fundaci\u00f3n Universitaria Konrad Lorenz","nationality":"COL","id":"179","icpc_id":null,"name":"team042","display_name":"ST Junior","organization_id":"12","members":"Santiago Jair Torres Rivera"},"time":"2022-05-18T17:22:24.297-05:00"}
+{"id":"1834","type":"teams","op":"create","data":{"group_ids":["3"],"affiliation":null,"nationality":null,"id":"180","icpc_id":null,"name":"team043","display_name":null,"organization_id":null,"members":null},"time":"2022-05-18T17:22:24.300-05:00"}
+{"id":"1835","type":"teams","op":"create","data":{"group_ids":["6"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"78","icpc_id":null,"name":"Diego Rodriguez","display_name":"Diego Rodriguez","organization_id":"25","members":null},"time":"2022-05-18T17:22:24.303-05:00"}
+{"id":"1836","type":"teams","op":"create","data":{"group_ids":["4"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"79","icpc_id":null,"name":"Hernando Camargo","display_name":"Hernando Camargo","organization_id":"25","members":null},"time":"2022-05-18T17:22:24.306-05:00"}
+{"id":"1837","type":"teams","op":"create","data":{"group_ids":["6"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"80","icpc_id":null,"name":"Fran Romero","display_name":"Fran Romero","organization_id":"25","members":null},"time":"2022-05-18T17:22:24.313-05:00"}
+{"id":"1838","type":"teams","op":"create","data":{"group_ids":["6"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"81","icpc_id":null,"name":"Gonzalo Rodriguez","display_name":"Gonzalo Rodriguez","organization_id":"9","members":null},"time":"2022-05-18T17:22:24.316-05:00"}
+{"id":"1839","type":"teams","op":"create","data":{"group_ids":["7"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"98","icpc_id":null,"name":"Socrates Rojas","display_name":"Socrates Rojas","organization_id":"9","members":null},"time":"2022-05-18T17:22:24.320-05:00"}
+{"id":"1840","type":"teams","op":"create","data":{"group_ids":["7"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"99","icpc_id":null,"name":"Natalia Parra","display_name":"Natalia Parra","organization_id":"25","members":null},"time":"2022-05-18T17:22:24.324-05:00"}
+{"id":"1841","type":"state","op":"update","data":{"started":null,"ended":null,"frozen":null,"thawed":null,"finalized":null,"end_of_updates":null},"time":"2022-05-18T17:22:24.334-05:00"}
+{"id":"1842","type":"contests","op":"create","data":{"formal_name":"Marat\u00f3n de programaci\u00f3n  Universidad El Bosque 2022-I","penalty_time":20,"start_time":"2022-06-11T10:00:00-05:00","end_time":"2022-06-11T15:00:00-05:00","duration":"5:00:00.000","scoreboard_freeze_duration":"5:00:00.000","id":"10","external_id":null,"name":"Marat\u00f3n de programaci\u00f3n  Universidad El Bosque 2022-I","shortname":"interna2022-1R"},"time":"2022-05-18T17:22:23.948-05:00"}
+{"id":"1857","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Escuela Colombiana de Ingenier\u00eda Julio Garavito","nationality":"COL","id":"162","icpc_id":null,"name":"ECIGMA Error 404","display_name":"ECIGMA Error 404","organization_id":"8","members":"Samuel Rojas Yopasa\r\nFederico Cardona Mart\u00ednez"},"time":"2022-05-18T18:57:28.722-05:00"}
+{"id":"1858","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Escuela Colombiana de Ingenier\u00eda Julio Garavito","nationality":"COL","id":"161","icpc_id":null,"name":"ECIGMA 117","display_name":"ECIGMA 117","organization_id":"8","members":"Mateo Olaya Garzon"},"time":"2022-05-18T18:57:36.362-05:00"}
+{"id":"1859","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"131","icpc_id":null,"name":"Crypthon","display_name":"Crypthon","organization_id":"9","members":"Brian Ferney Rojas Garcia\r\nDavid Esteban Fajardo Torres"},"time":"2022-05-18T18:57:44.587-05:00"}
+{"id":"1860","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad ECCI","nationality":"COL","id":"136","icpc_id":null,"name":"Bit Bait!","display_name":"Bit Bait!","organization_id":"24","members":"Bryann Andrei Valderrama Avila\r\nCristian David Maldonado Robles"},"time":"2022-05-18T18:57:51.896-05:00"}
+{"id":"1861","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"144","icpc_id":null,"name":"Ark","display_name":"Ark","organization_id":"25","members":"Julio Cesar Barrios Sanchez\r\nLaura Sofia Morales Hernandez"},"time":"2022-05-18T18:58:02.670-05:00"}
+{"id":"1862","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"128","icpc_id":null,"name":"Arbolitos Estrobosc\u00f3picos","display_name":"Arbolitos Estrobosc\u00f3picos","organization_id":"25","members":"Boris Nicolas Leon Vargas\r\nMateo Alejandro Losada Ordo\u00f1ez"},"time":"2022-05-18T18:59:19.288-05:00"}
+{"id":"1863","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"145","icpc_id":null,"name":"\u00e6","display_name":"\u00e6","organization_id":"25","members":"Maria Paula Silva Rojas \r\nAndres Felipe Londo\u00f1o Blanco"},"time":"2022-05-18T18:59:26.343-05:00"}
+{"id":"1864","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"143","icpc_id":null,"name":"(JuanDavid)\u00b2","display_name":"(JuanDavid)\u00b2","organization_id":"25","members":"Juan David Castro Garc\u00eda \r\nJuan David Garz\u00f3n Lozano"},"time":"2022-05-18T18:59:34.701-05:00"}
+{"id":"1865","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"141","icpc_id":null,"name":".","display_name":".","organization_id":"25","members":"Juan Pablo Carre\u00f1o Moreno \r\nCristian S\u00e1nchez Molina"},"time":"2022-05-18T18:59:51.416-05:00"}
+{"id":"1866","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"130","icpc_id":null,"name":"Team NMA()","display_name":"Team NMA()","organization_id":"9","members":"Edwin Andres Villarraga Ardila\r\nLuciano Alberto Chavarria Orozco"},"time":"2022-05-18T19:00:00.040-05:00"}
+{"id":"1867","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"135","icpc_id":null,"name":"Team Chicharr\u00f3n","display_name":"Team Chicharr\u00f3n","organization_id":"25","members":"Juan Camilo Florez Paez\r\nAndr\u00e9s Felipe Prado Pardo"},"time":"2022-05-18T19:00:07.704-05:00"}
+{"id":"1868","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"124","icpc_id":null,"name":"Team Arepitas","display_name":"Team Arepitas","organization_id":"25","members":"Andr\u00e9s Felipe Espitia Rodriguez\r\nJuan Camilo Uribe Pava"},"time":"2022-05-18T19:00:15.141-05:00"}
+{"id":"1869","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"125","icpc_id":null,"name":"Team a mimir","display_name":"Team a mimir","organization_id":"25","members":"Juan David Prada Ram\u00edrez\r\nEsteban Avila Ruiz"},"time":"2022-05-18T19:00:28.018-05:00"}
+{"id":"1870","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad Nacional Abierta y a Distancia","nationality":"COL","id":"126","icpc_id":null,"name":"Team 404","display_name":"Team 404","organization_id":"30","members":"DAYRON ALEXANDER PERILLA AVILA\r\nANDRES FELIPE LOZADA ANDRADE"},"time":"2022-05-18T19:00:36.643-05:00"}
+{"id":"1871","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"127","icpc_id":null,"name":"T1","display_name":"T1","organization_id":"25","members":"Gabriel Alejandro Ortega Maricuto\r\nJuan David Alberto Quintero Gaona"},"time":"2022-05-18T19:00:46.570-05:00"}
+{"id":"1872","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Fundaci\u00f3n Universitaria Konrad Lorenz","nationality":"COL","id":"179","icpc_id":null,"name":"ST Junior","display_name":"ST Junior","organization_id":"12","members":"Santiago Jair Torres Rivera"},"time":"2022-05-18T19:00:53.529-05:00"}
+{"id":"1873","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"153","icpc_id":null,"name":"Semillitas","display_name":"Semillitas","organization_id":"25","members":"Diego Alejandro Forero Espitia \r\nJaime Esteban Mejia Arevalo"},"time":"2022-05-18T19:01:34.681-05:00"}
+{"id":"1874","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"148","icpc_id":null,"name":"Sebka","display_name":"Sebka","organization_id":"25","members":"Karen Julieth M\u00e9ndez Urbina \r\nSebasti\u00e1n Andres Quintana Guti\u00e9rrez"},"time":"2022-05-18T19:01:42.027-05:00"}
+{"id":"1875","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"149","icpc_id":null,"name":"Programa en desarrollo","display_name":"Programa en desarrollo","organization_id":"25","members":"Sebastian Enrique Barreto Pacheco"},"time":"2022-05-18T19:01:50.608-05:00"}
+{"id":"1876","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"129","icpc_id":null,"name":"Pola Overflow","display_name":"Pola Overflow","organization_id":"25","members":"Juan Andres Castillo Fuenmayor\r\nAndr\u00e9s Felipe Galvis Bol\u00edvar"},"time":"2022-05-18T19:01:57.762-05:00"}
+{"id":"1877","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"152","icpc_id":null,"name":"Perejil sudado","display_name":"Perejil sudado","organization_id":"25","members":"William Andres Castillo Garc\u00eda \r\nEdwar Santiago Gonz\u00e1lez Ruge"},"time":"2022-05-18T19:02:04.638-05:00"}
+{"id":"1878","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"155","icpc_id":null,"name":"Peaky blinder","display_name":"Peaky blinder","organization_id":"25","members":"Hernan Alvarado"},"time":"2022-05-18T19:02:12.208-05:00"}
+{"id":"1879","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad ECCI","nationality":"COL","id":"134","icpc_id":null,"name":"Par de novatos","display_name":"Par de novatos","organization_id":"24","members":"Laura Daniela Aldana Rodr\u00edguez\r\nDaniel Felipe Lozano Avellaneda"},"time":"2022-05-18T19:02:19.051-05:00"}
+{"id":"1880","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"140","icpc_id":null,"name":"Mimidos","display_name":"Mimidos","organization_id":"25","members":"Sergio Mauricio Cristancho solorzano\r\nMar\u00eda Camila ardila Hern\u00e1ndez"},"time":"2022-05-18T19:02:27.101-05:00"}
+{"id":"1881","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"142","icpc_id":null,"name":"Medmen","display_name":"Medmen","organization_id":"25","members":"Juan Diego Mendoza Su\u00e1rez \r\nFederico Medina Ospina"},"time":"2022-05-18T19:02:33.962-05:00"}
+{"id":"1882","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"132","icpc_id":null,"name":"Maddi","display_name":"Maddi","organization_id":"9","members":"Jonathan Steven Conde Ruiz\r\nNicol\u00e1s Javier Infante Florez"},"time":"2022-05-18T19:02:45.515-05:00"}
+{"id":"1883","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"151","icpc_id":null,"name":"Los Bonsai","display_name":"Los Bonsai","organization_id":"25","members":"Juan David Ni\u00f1o Moreno\r\nGabriel Malpica Cruz"},"time":"2022-05-18T19:02:53.827-05:00"}
+{"id":"1884","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"139","icpc_id":null,"name":"LECHUGA","display_name":"LECHUGA","organization_id":"25","members":"Santiago Caicedo D\u00edaz"},"time":"2022-05-18T19:03:01.653-05:00"}
+{"id":"1885","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"147","icpc_id":null,"name":"Kunkunh","display_name":"Kunkunh","organization_id":"25","members":"Antonio Miguel Arrieta Severiche\r\nKevin Alejandro Gonz\u00e1lez Agudelo"},"time":"2022-05-18T19:03:08.342-05:00"}
+{"id":"1886","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Fundaci\u00f3n Universitaria Konrad Lorenz","nationality":"COL","id":"158","icpc_id":null,"name":"Kbs","display_name":"Kbs","organization_id":"12","members":"Gabriel Andr\u00e9s Rodriguez Acevedo"},"time":"2022-05-18T19:03:14.758-05:00"}
+{"id":"1887","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"138","icpc_id":null,"name":"KAMB","display_name":"KAMB","organization_id":"25","members":"Kevin Andr\u00e9s Mart\u00ednez Bele\u00f1o"},"time":"2022-05-18T19:03:20.964-05:00"}
+{"id":"1888","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Fundaci\u00f3n Universitaria Konrad Lorenz","nationality":"COL","id":"159","icpc_id":null,"name":"Juan's-1Konrad","display_name":"Juan's-1Konrad","organization_id":"12","members":"Juan Felipe Jimenez Pacheco\r\nJuan Pablo Moreno Cadena"},"time":"2022-05-18T19:03:30.422-05:00"}
+{"id":"1889","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"133","icpc_id":null,"name":"Juan Pablo","display_name":"Juan Pablo","organization_id":"25","members":"Juan Pablo R\u00edos"},"time":"2022-05-18T19:03:38.514-05:00"}
+{"id":"1890","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"157","icpc_id":null,"name":"J\u00f3venes Cabal","display_name":"J\u00f3venes Cabal","organization_id":"9","members":"Brian Camilo Hamon Serna\r\nGabriel Adriam Jose Gonzalez Tapias"},"time":"2022-05-18T19:03:45.414-05:00"}
+{"id":"1891","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"150","icpc_id":null,"name":"Javalimos2/3","display_name":"Javalimos2/3","organization_id":"9","members":"Julian David G\u00f3mez Perilla\r\nCarlos Enrique Luna Garcia"},"time":"2022-05-18T19:03:53.540-05:00"}
+{"id":"1892","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"154","icpc_id":null,"name":"Isabella","display_name":"Isabella","organization_id":"25","members":"Isabella Herr\u00e1n Castellanos"},"time":"2022-05-18T19:04:01.045-05:00"}
+{"id":"1893","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"156","icpc_id":null,"name":"ImplacableJavPy","display_name":"ImplacableJavPy","organization_id":"9","members":"Ruth Yibeth Lizcano Prada\r\nDavid Andr\u00e9s Valero Vanegas"},"time":"2022-05-18T19:04:07.357-05:00"}
+{"id":"1894","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Universidad El Bosque","nationality":"COL","id":"137","icpc_id":null,"name":"GMC","display_name":"GMC","organization_id":"25","members":"Gabriel Malpica Cruz"},"time":"2022-05-18T19:04:15.016-05:00"}
+{"id":"1895","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","nationality":"COL","id":"146","icpc_id":null,"name":"Error 404","display_name":"Error 404","organization_id":"9","members":"Sergio Nicol\u00e1s Guti\u00e9rrez Suarez \r\nLaura Andrea G\u00f3mez Agudelo"},"time":"2022-05-18T19:04:21.868-05:00"}
+{"id":"1896","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Escuela Colombiana de Ingenier\u00eda Julio Garavito","nationality":"COL","id":"178","icpc_id":null,"name":"ECIGMA Tyr","display_name":"ECIGMA Tyr","organization_id":"8","members":"Juliana Brice\u00f1o Castro\r\nErick Santiago Montero Sutachan"},"time":"2022-05-18T19:04:29.586-05:00"}
+{"id":"1897","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Escuela Colombiana de Ingenier\u00eda Julio Garavito","nationality":"COL","id":"160","icpc_id":null,"name":"ECIGMA RB15","display_name":"ECIGMA RB15","organization_id":"8","members":"David Eduardo Valencia Cardona"},"time":"2022-05-18T19:04:36.498-05:00"}
+{"id":"1898","type":"teams","op":"update","data":{"group_ids":["3"],"affiliation":"Escuela Colombiana de Ingenier\u00eda Julio Garavito","nationality":"COL","id":"163","icpc_id":null,"name":"ECIGMA PHI","display_name":"ECIGMA PHI","organization_id":"8","members":"Juli\u00e1n Felipe Camacho Rico\r\nMiguel \u00c1ngel Gonz\u00e1lez Mahecha"},"time":"2022-05-18T19:04:44.154-05:00"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!Connection lost. Error parsing event feed after event 1898
+
+!Connecting at event 1898
+
+!Connection lost. connect timed out after event 1898
+
+!Connecting at event 1898
+
+!Connection lost. connect timed out after event 1898
+
+!Connecting at event 1898
+
+!Connection lost. connect timed out after event 1898
+
+!Connecting at event 1898
+
+!Connection lost. connect timed out after event 1898
+
+!Connecting at event 1898
+
+!Connection lost. connect timed out after event 1898
+
+!Connecting at event 1898
+
+!Connection lost. connect timed out after event 1898
+
+!Connecting at event 1898
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

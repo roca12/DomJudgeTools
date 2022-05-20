@@ -1,0 +1,125 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+typedef long long ll;
+typedef double lf;
+typedef pair<int, int> pii;
+
+const int N = 202;
+const lf PI = acos(-1);
+
+struct pt {
+    ll x, y, z;
+    void print() {
+        cout << "( " << x << ", " << y << ", " << z << ")" << endl;
+    }
+};
+
+struct box {
+    ll x1, y1, z1, x2, y2, z2;
+    ll volume() {
+        return abs(x1-x2) * abs(y1-y2) * abs(z1-z2);
+    }
+};
+
+bool inside_box(pt p, box b) {
+    return min(b.x1, b.x2) < p.x && p.x < max(b.x1, b.x2) &&
+           min(b.y1, b.y2) < p.y && p.y < max(b.y1, b.y2) &&
+           min(b.z1, b.z2) < p.z && p.z < max(b.z1, b.z2);
+}
+
+ll dist2(pt a, pt b) {
+    return (a.x-b.x)*(a.x-b.x) + (a.y-b.y)*(a.y-b.y) + (a.z-b.z)*(a.z-b.z);
+}
+
+lf dist(pt a, pt b) { return sqrt(dist2(a, b)); }
+
+lf get_dist_to_circle(pt p, lf r, pt q) {
+    return max(lf(0.0), dist(p, q) - r);
+}
+
+lf r[10];
+
+lf solve(vector<pt> &p, box &b) {
+    int n = p.size();
+    vector<int> order(n);
+    iota(order.begin(), order.end(), 0);
+    lf max_volume = 0;
+    do {
+        vector<pt> cur(n);
+        for(int i = 0; i < n; i++) {
+            cur[i] = p[ order[i] ];
+        }
+        lf cur_volume = 0;
+        for(int i = 0; i < n; i++) {
+            r[i] = 1e18;
+            r[i] = min(r[i], lf(abs(cur[i].x-b.x1)));
+            r[i] = min(r[i], lf(abs(cur[i].x-b.x2)));
+            r[i] = min(r[i], lf(abs(cur[i].y-b.y1)));
+            r[i] = min(r[i], lf(abs(cur[i].y-b.y2)));
+            r[i] = min(r[i], lf(abs(cur[i].z-b.z1)));
+            r[i] = min(r[i], lf(abs(cur[i].z-b.z2)));
+
+            for(int j = 0; j < i; j++) {
+                r[i] = min(r[i], get_dist_to_circle(cur[j], r[j], cur[i]));
+            }
+            cur_volume += 4 * PI * r[i] * r[i] * r[i] / 3.0;
+        }
+        max_volume = max(max_volume, cur_volume);
+    } while(next_permutation(order.begin(), order.end()));
+    return max_volume;
+}
+
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    #ifdef LOCAL
+        freopen("input.txt", "r", stdin);
+//        freopen("output.txt", "w", stdout);
+    #else
+        #define endl '\n'
+    #endif // LOCAL
+//    cout << get_dist_to_circle({3,3,3}, 10, {5,5,5});
+//    return 0;
+
+    int n;
+    int cases = 0;
+    while(cin >> n) {
+        if(n == 0) break;
+        ll x1, y1, z1; cin >> x1 >> y1 >> z1;
+        ll x2, y2, z2; cin >> x2 >> y2 >> z2;
+        assert(x1 != x2);
+        assert(y1 != y2);
+        assert(z1 != z2);
+        box b = {x1, y1, z1, x2, y2, z2};
+        vector<pt> p;
+        for(int i = 0; i < n; i++) {
+            pt cur;
+            cin >> cur.x >> cur.y >> cur.z;
+            if(inside_box(cur, b)) {
+                p.push_back(cur);
+//                cout << i << "  inside" << endl;
+            }
+        }
+        cout << "Box " << ++cases << ": ";
+        n = p.size();
+        lf max_volume = 0;
+        for(int mask = 1; mask < (1<<n); mask++) {
+            vector<pt> cur;
+            for(int i = 0; i < n; i++) {
+                if(mask >> i & 1) {
+                    cur.push_back(p[i]);
+                }
+            }
+            max_volume = max(max_volume, solve(cur, b));
+        }
+//        cout << b.volume() << endl;
+//        cout << b.volume() << " - " << max_volume << endl;
+        ll ans = b.volume() - ll(max_volume+0.5);
+        assert(ans >= 0.0);
+        cout << ans << endl;
+        cout << endl;
+
+    }
+}

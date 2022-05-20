@@ -1,0 +1,45 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+typedef long long ll;
+
+const int N = 202;
+
+vector<vector<int>> g;
+int color[N];
+
+bool go(int u, int c) {
+    color[u] = c;
+    for(int v : g[u]) {
+        if(color[v] == -1) {
+            if(!go(v, 1-c)) return false;
+        } else if(color[v] != 1-c)
+            return false;
+    }
+    return true;
+}
+
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    #ifdef LOCAL
+        freopen("input.txt", "r", stdin);
+    #else
+        #define endl '\n'
+    #endif // LOCAL
+
+    int n;
+    while(cin >> n && n) {
+        int m; cin >> m;
+        memset(color, -1, sizeof color);
+        g.assign(n, {});
+        for(int i = 0; i < m; i++) {
+            int a, b; cin >> a >> b;
+            g[a].push_back(b);
+            g[b].push_back(a);
+        }
+        if(go(0, 0)) cout << "BICOLORABLE." << endl;
+        else cout << "NOT BICOLORABLE." << endl;
+    }
+}

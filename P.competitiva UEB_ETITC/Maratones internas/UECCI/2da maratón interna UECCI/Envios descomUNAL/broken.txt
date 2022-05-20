@@ -1,0 +1,44 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+typedef long long ll;
+
+const int N = 202;
+
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    #ifdef LOCAL
+        freopen("input.txt", "r", stdin);
+    #else
+        #define endl '\n'
+    #endif // LOCAL
+
+    string s;
+    while(cin >> s) {
+        deque<char> ans;
+        vector<char> cur;
+        s.push_back(']');
+        int n = s.size();
+        bool init = 0;
+        for(char c : s) {
+            if(c == '[' || c == ']') {
+                reverse(cur.begin(), cur.end());
+                for(char e : cur) ans.push_front(e);
+                cur.clear();
+                if(c == '[') init = 1;
+                else init = 0;
+            }
+            else {
+                if(init == 0) ans.push_back(c);
+                else cur.push_back(c);
+            }
+        }
+        for(int i = 0; i < ans.size(); i++) {
+            cout << ans[i];
+        }
+        cout << endl;
+
+    }
+}
