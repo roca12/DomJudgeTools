@@ -1,1 +1,1 @@
-start "cliente" call client.bat https://localhost:8443/api/contests/8/ presentation presentat1on
+start "cliente" call client.bat https://localhost:8443/api/contests/10/ presentation presentat1on

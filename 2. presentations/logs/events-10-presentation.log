@@ -1,0 +1,187 @@
+! 0
+{"type":"contests","id":"cds0","op":"create","data":{"id":"10","name":"Marat\u00f3n de programaci\u00f3n  Universidad El Bosque 2022-I","formal_name":"Marat\u00f3n de programaci\u00f3n  Universidad El Bosque 2022-I","start_time":"2022-06-11T10:00:00.000-05","duration":"5:00:00.000","scoreboard_freeze_duration":"5:00:00.000","penalty_time":20}}
+{"type":"judgement-types","id":"cds1","op":"create","data":{"id":"AC","name":"correct","penalty":false,"solved":true}}
+{"type":"judgement-types","id":"cds2","op":"create","data":{"id":"CE","name":"compiler error","penalty":true,"solved":false}}
+{"type":"judgement-types","id":"cds3","op":"create","data":{"id":"MLE","name":"memory limit","penalty":true,"solved":false}}
+{"type":"judgement-types","id":"cds4","op":"create","data":{"id":"NO","name":"no output","penalty":true,"solved":false}}
+{"type":"judgement-types","id":"cds5","op":"create","data":{"id":"OLE","name":"output limit","penalty":true,"solved":false}}
+{"type":"judgement-types","id":"cds6","op":"create","data":{"id":"PE","name":"presentation error","penalty":true,"solved":false}}
+{"type":"judgement-types","id":"cds7","op":"create","data":{"id":"RTE","name":"run error","penalty":true,"solved":false}}
+{"type":"judgement-types","id":"cds8","op":"create","data":{"id":"TLE","name":"timelimit","penalty":true,"solved":false}}
+{"type":"judgement-types","id":"cds9","op":"create","data":{"id":"WA","name":"wrong answer","penalty":true,"solved":false}}
+{"type":"languages","id":"cds10","op":"create","data":{"id":"c","name":"C"}}
+{"type":"languages","id":"cds11","op":"create","data":{"id":"cpp","name":"C++"}}
+{"type":"languages","id":"cds12","op":"create","data":{"id":"java","name":"Java"}}
+{"type":"languages","id":"cds13","op":"create","data":{"id":"python3","name":"Python 3"}}
+{"type":"groups","id":"cds14","op":"create","data":{"id":"2","icpc_id":"2","name":"Auto Registrado"}}
+{"type":"groups","id":"cds15","op":"create","data":{"id":"3","icpc_id":"3","name":"Participantes"}}
+{"type":"groups","id":"cds16","op":"create","data":{"id":"4","icpc_id":"4","name":"Observadores"}}
+{"type":"groups","id":"cds17","op":"create","data":{"id":"5","icpc_id":"5","name":"Coach"}}
+{"type":"groups","id":"cds18","op":"create","data":{"id":"6","icpc_id":"6","name":"Coach/Jueces"}}
+{"type":"groups","id":"cds19","op":"create","data":{"id":"7","icpc_id":"7","name":"Directivos"}}
+{"type":"organizations","id":"cds20","op":"create","data":{"id":"10","icpc_id":"10","name":"UAMERICA","formal_name":"Fundaci\u00f3n Universidad de Am\u00e9rica","country":"COL"}}
+{"type":"organizations","id":"cds21","op":"create","data":{"id":"11","icpc_id":"11","name":"AREANDINA","formal_name":"Fundaci\u00f3n Universitaria del \u00c1rea Andina","country":"COL"}}
+{"type":"organizations","id":"cds22","op":"create","data":{"id":"12","icpc_id":"12","name":"FUKL","formal_name":"Fundaci\u00f3n Universitaria Konrad Lorenz","country":"COL"}}
+{"type":"organizations","id":"cds23","op":"create","data":{"id":"13","icpc_id":"13","name":"CDP-GPC","formal_name":"La Cueva del Profe","country":"COL"}}
+{"type":"organizations","id":"cds24","op":"create","data":{"id":"14","icpc_id":"14","name":"POLI","formal_name":"Polit\u00e9cnico Grancolombiano","country":"COL"}}
+{"type":"organizations","id":"cds25","op":"create","data":{"id":"15","icpc_id":"15","name":"PUJB","formal_name":"Pontificia Universidad Javeriana - Bogot\u00e1","country":"COL"}}
+{"type":"organizations","id":"cds26","op":"create","data":{"id":"16","icpc_id":"16","name":"SENA","formal_name":"Servicio Nacional de Aprendizaje","country":"COL"}}
+{"type":"organizations","id":"cds27","op":"create","data":{"id":"17","icpc_id":"17","name":"UAN","formal_name":"Universidad Antonio Nari\u00f1o","country":"COL"}}
+{"type":"organizations","id":"cds28","op":"create","data":{"id":"18","icpc_id":"18","name":"UCATOLICA","formal_name":"Universidad Cat\u00f3lica De Colombia","country":"COL"}}
+{"type":"organizations","id":"cds29","op":"create","data":{"id":"19","icpc_id":"19","name":"UCENTRAL","formal_name":"Universidad Central","country":"COL"}}
+{"type":"organizations","id":"cds30","op":"create","data":{"id":"2","icpc_id":"2","name":"IND","formal_name":"Competidor Independiente","country":"COL"}}
+{"type":"organizations","id":"cds31","op":"create","data":{"id":"20","icpc_id":"20","name":"UDEC","formal_name":"Universidad de Cundinamarca","country":"COL"}}
+{"type":"organizations","id":"cds32","op":"create","data":{"id":"21","icpc_id":"21","name":"UANDES","formal_name":"Universidad de los Andes","country":"COL"}}
+{"type":"organizations","id":"cds33","op":"create","data":{"id":"22","icpc_id":"22","name":"UD","formal_name":"Universidad Distrital Francisco Jos\u00e9 de Caldas","country":"COL"}}
+{"type":"organizations","id":"cds34","op":"create","data":{"id":"23","icpc_id":"23","name":"EAN","formal_name":"Universidad EAN","country":"COL"}}
+{"type":"organizations","id":"cds35","op":"create","data":{"id":"24","icpc_id":"24","name":"UECCI","formal_name":"Universidad ECCI","country":"COL"}}
+{"type":"organizations","id":"cds36","op":"create","data":{"id":"25","icpc_id":"25","name":"UEB","formal_name":"Universidad El Bosque","country":"COL"}}
+{"type":"organizations","id":"cds37","op":"create","data":{"id":"26","icpc_id":"26","name":"UTADEO","formal_name":"Universidad Jorge Tadeo Lozano","country":"COL"}}
+{"type":"organizations","id":"cds38","op":"create","data":{"id":"27","icpc_id":"27","name":"UNILIBRE","formal_name":"Universidad Libre","country":"COL"}}
+{"type":"organizations","id":"cds39","op":"create","data":{"id":"28","icpc_id":"28","name":"UMB","formal_name":"Universidad Manuela Beltran","country":"COL"}}
+{"type":"organizations","id":"cds40","op":"create","data":{"id":"29","icpc_id":"29","name":"UMNG","formal_name":"Universidad Militar Nueva Granada","country":"COL"}}
+{"type":"organizations","id":"cds41","op":"create","data":{"id":"3","icpc_id":"3","name":"EAL","formal_name":"Corporaci\u00f3n Escuela de Artes y Letras","country":"COL"}}
+{"type":"organizations","id":"cds42","op":"create","data":{"id":"30","icpc_id":"30","name":"UNAD","formal_name":"Universidad Nacional Abierta y a Distancia","country":"COL"}}
+{"type":"organizations","id":"cds43","op":"create","data":{"id":"31","icpc_id":"31","name":"UN - BOG","formal_name":"Universidad Nacional de Colombia","country":"COL"}}
+{"type":"organizations","id":"cds44","op":"create","data":{"id":"32","icpc_id":"32","name":"UPILOTO","formal_name":"Universidad Piloto de Colombia","country":"COL"}}
+{"type":"organizations","id":"cds45","op":"create","data":{"id":"33","icpc_id":"33","name":"UNIAGUSTINIANA","formal_name":"Universitaria Agustiniana","country":"COL"}}
+{"type":"organizations","id":"cds46","op":"create","data":{"id":"4","icpc_id":"4","name":"CUN","formal_name":"Corporaci\u00f3n Unificada Nacional de Educaci\u00f3n Superior","country":"COL"}}
+{"type":"organizations","id":"cds47","op":"create","data":{"id":"5","icpc_id":"5","name":"UNIMINUTO","formal_name":"Corporaci\u00f3n Universitaria Minuto de Dios","country":"COL"}}
+{"type":"organizations","id":"cds48","op":"create","data":{"id":"6","icpc_id":"6","name":"REPUBL","formal_name":"Corporaci\u00f3n Universitaria Republicana","country":"COL"}}
+{"type":"organizations","id":"cds49","op":"create","data":{"id":"7","icpc_id":"7","name":"UNITEC","formal_name":"Corporaci\u00f3n Universitaria UNITEC","country":"COL"}}
+{"type":"organizations","id":"cds50","op":"create","data":{"id":"8","icpc_id":"8","name":"ECI","formal_name":"Escuela Colombiana de Ingenier\u00eda Julio Garavito","country":"COL"}}
+{"type":"organizations","id":"cds51","op":"create","data":{"id":"9","icpc_id":"9","name":"ETITC","formal_name":"Escuela Tecnol\u00f3gica Instituto T\u00e9cnico Central","country":"COL"}}
+{"type":"teams","id":"cds52","op":"create","data":{"id":"114","name":"Alexander Sabogal","display_name":"Alexander Sabogal","group_ids":["4"],"organization_id":"9"}}
+{"type":"teams","id":"cds53","op":"create","data":{"id":"124","name":"team001","display_name":"Team Arepitas","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds54","op":"create","data":{"id":"125","name":"team002","display_name":"Team a mimir","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds55","op":"create","data":{"id":"126","name":"team003","display_name":"Team 404","group_ids":["3"],"organization_id":"30"}}
+{"type":"teams","id":"cds56","op":"create","data":{"id":"127","name":"team004","display_name":"T1","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds57","op":"create","data":{"id":"128","name":"team005","display_name":"Arbolitos Estrobosc\u00f3picos","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds58","op":"create","data":{"id":"129","name":"team006","display_name":"Pola Overflow","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds59","op":"create","data":{"id":"130","name":"team007","display_name":"Team NMA()","group_ids":["3"],"organization_id":"9"}}
+{"type":"teams","id":"cds60","op":"create","data":{"id":"131","name":"team008","display_name":"Crypthon","group_ids":["3"],"organization_id":"9"}}
+{"type":"teams","id":"cds61","op":"create","data":{"id":"132","name":"team009","display_name":"Maddi","group_ids":["3"],"organization_id":"9"}}
+{"type":"teams","id":"cds62","op":"create","data":{"id":"133","name":"team010","display_name":"Juan Pablo","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds63","op":"create","data":{"id":"134","name":"team011","display_name":"Par de novatos","group_ids":["3"],"organization_id":"24"}}
+{"type":"teams","id":"cds64","op":"create","data":{"id":"135","name":"team012","display_name":"Team Chicharr\u00f3n","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds65","op":"create","data":{"id":"136","name":"team013","display_name":"Bit Bait!","group_ids":["3"],"organization_id":"24"}}
+{"type":"teams","id":"cds66","op":"create","data":{"id":"137","name":"team014","display_name":"GMC","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds67","op":"create","data":{"id":"138","name":"team015","display_name":"KAMB","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds68","op":"create","data":{"id":"139","name":"team016","display_name":"LECHUGA","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds69","op":"create","data":{"id":"140","name":"team017","display_name":"Mimidos","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds70","op":"create","data":{"id":"141","name":"team018","display_name":".","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds71","op":"create","data":{"id":"142","name":"team019","display_name":"Medmen","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds72","op":"create","data":{"id":"143","name":"team020","display_name":"(JuanDavid)\u00b2","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds73","op":"create","data":{"id":"144","name":"team022","display_name":"Ark","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds74","op":"create","data":{"id":"145","name":"team021","display_name":"\u00e6","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds75","op":"create","data":{"id":"146","name":"team023","display_name":"Error 404","group_ids":["3"],"organization_id":"9"}}
+{"type":"teams","id":"cds76","op":"create","data":{"id":"147","name":"team029","display_name":"Kunkunh","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds77","op":"create","data":{"id":"148","name":"team024","display_name":"Sebka","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds78","op":"create","data":{"id":"149","name":"team025","display_name":"Programa en desarrollo","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds79","op":"create","data":{"id":"150","name":"team026","display_name":"Javalimos2/3","group_ids":["3"],"organization_id":"9"}}
+{"type":"teams","id":"cds80","op":"create","data":{"id":"151","name":"team027","display_name":"Los Bonsai","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds81","op":"create","data":{"id":"152","name":"team028","display_name":"Perejil sudado","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds82","op":"create","data":{"id":"153","name":"team030","display_name":"Semillitas","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds83","op":"create","data":{"id":"154","name":"team031","display_name":"Isabella","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds84","op":"create","data":{"id":"155","name":"team032","display_name":"Peaky blinder","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds85","op":"create","data":{"id":"156","name":"team033","display_name":"ImplacableJavPy","group_ids":["3"],"organization_id":"9"}}
+{"type":"teams","id":"cds86","op":"create","data":{"id":"157","name":"team034","display_name":"J\u00f3venes Cabal","group_ids":["3"],"organization_id":"9"}}
+{"type":"teams","id":"cds87","op":"create","data":{"id":"158","name":"team035","display_name":"Kbs","group_ids":["3"],"organization_id":"12"}}
+{"type":"teams","id":"cds88","op":"create","data":{"id":"159","name":"team036","display_name":"Juan's-1Konrad","group_ids":["3"],"organization_id":"12"}}
+{"type":"teams","id":"cds89","op":"create","data":{"id":"160","name":"team037","display_name":"ECIGMA RB15","group_ids":["3"],"organization_id":"8"}}
+{"type":"teams","id":"cds90","op":"create","data":{"id":"161","name":"team038","display_name":"ECIGMA 117","group_ids":["3"],"organization_id":"8"}}
+{"type":"teams","id":"cds91","op":"create","data":{"id":"162","name":"team039","display_name":"ECIGMA Error 404","group_ids":["3"],"organization_id":"8"}}
+{"type":"teams","id":"cds92","op":"create","data":{"id":"163","name":"team040","display_name":"ECIGMA PHI","group_ids":["3"],"organization_id":"8"}}
+{"type":"teams","id":"cds93","op":"create","data":{"id":"174","name":"German Salas","display_name":"German Salas","group_ids":["4"],"organization_id":"24"}}
+{"type":"teams","id":"cds94","op":"create","data":{"id":"175","name":"Arles Ernesto Rodriguez","display_name":"Arles Ernesto Rodriguez","group_ids":["6"],"organization_id":"12"}}
+{"type":"teams","id":"cds95","op":"create","data":{"id":"177","name":"Wilmer Edicson Garz\u00f3n","display_name":"Wilmer Edicson Garz\u00f3n","group_ids":["6"],"organization_id":"8"}}
+{"type":"teams","id":"cds96","op":"create","data":{"id":"178","name":"team041","display_name":"ECIGMA Tyr","group_ids":["3"],"organization_id":"8"}}
+{"type":"teams","id":"cds97","op":"create","data":{"id":"179","name":"team042","display_name":"ST Junior","group_ids":["3"],"organization_id":"12"}}
+{"type":"teams","id":"cds98","op":"create","data":{"id":"180","name":"team043","group_ids":["3"]}}
+{"type":"teams","id":"cds99","op":"create","data":{"id":"78","name":"Diego Rodriguez","display_name":"Diego Rodriguez","group_ids":["6"],"organization_id":"25"}}
+{"type":"teams","id":"cds100","op":"create","data":{"id":"79","name":"Hernando Camargo","display_name":"Hernando Camargo","group_ids":["4"],"organization_id":"25"}}
+{"type":"teams","id":"cds101","op":"create","data":{"id":"80","name":"Fran Romero","display_name":"Fran Romero","group_ids":["6"],"organization_id":"25"}}
+{"type":"teams","id":"cds102","op":"create","data":{"id":"81","name":"Gonzalo Rodriguez","display_name":"Gonzalo Rodriguez","group_ids":["6"],"organization_id":"9"}}
+{"type":"teams","id":"cds103","op":"create","data":{"id":"98","name":"Socrates Rojas","display_name":"Socrates Rojas","group_ids":["7"],"organization_id":"9"}}
+{"type":"teams","id":"cds104","op":"create","data":{"id":"99","name":"Natalia Parra","display_name":"Natalia Parra","group_ids":["7"],"organization_id":"25"}}
+{"type":"state","id":"cds105","op":"create","data":{"started":null,"ended":null,"finalized":null,"end_of_updates":null}}
+{"type":"teams","id":"cds106","op":"update","data":{"id":"162","name":"ECIGMA Error 404","display_name":"ECIGMA Error 404","group_ids":["3"],"organization_id":"8"}}
+{"type":"teams","id":"cds107","op":"update","data":{"id":"161","name":"ECIGMA 117","display_name":"ECIGMA 117","group_ids":["3"],"organization_id":"8"}}
+{"type":"teams","id":"cds108","op":"update","data":{"id":"131","name":"Crypthon","display_name":"Crypthon","group_ids":["3"],"organization_id":"9"}}
+{"type":"teams","id":"cds109","op":"update","data":{"id":"136","name":"Bit Bait!","display_name":"Bit Bait!","group_ids":["3"],"organization_id":"24"}}
+{"type":"teams","id":"cds110","op":"update","data":{"id":"144","name":"Ark","display_name":"Ark","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds111","op":"update","data":{"id":"128","name":"Arbolitos Estrobosc\u00f3picos","display_name":"Arbolitos Estrobosc\u00f3picos","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds112","op":"update","data":{"id":"145","name":"\u00e6","display_name":"\u00e6","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds113","op":"update","data":{"id":"143","name":"(JuanDavid)\u00b2","display_name":"(JuanDavid)\u00b2","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds114","op":"update","data":{"id":"141","name":".","display_name":".","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds115","op":"update","data":{"id":"130","name":"Team NMA()","display_name":"Team NMA()","group_ids":["3"],"organization_id":"9"}}
+{"type":"teams","id":"cds116","op":"update","data":{"id":"135","name":"Team Chicharr\u00f3n","display_name":"Team Chicharr\u00f3n","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds117","op":"update","data":{"id":"124","name":"Team Arepitas","display_name":"Team Arepitas","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds118","op":"update","data":{"id":"125","name":"Team a mimir","display_name":"Team a mimir","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds119","op":"update","data":{"id":"126","name":"Team 404","display_name":"Team 404","group_ids":["3"],"organization_id":"30"}}
+{"type":"teams","id":"cds120","op":"update","data":{"id":"127","name":"T1","display_name":"T1","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds121","op":"update","data":{"id":"179","name":"ST Junior","display_name":"ST Junior","group_ids":["3"],"organization_id":"12"}}
+{"type":"teams","id":"cds122","op":"update","data":{"id":"153","name":"Semillitas","display_name":"Semillitas","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds123","op":"update","data":{"id":"148","name":"Sebka","display_name":"Sebka","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds124","op":"update","data":{"id":"149","name":"Programa en desarrollo","display_name":"Programa en desarrollo","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds125","op":"update","data":{"id":"129","name":"Pola Overflow","display_name":"Pola Overflow","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds126","op":"update","data":{"id":"152","name":"Perejil sudado","display_name":"Perejil sudado","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds127","op":"update","data":{"id":"155","name":"Peaky blinder","display_name":"Peaky blinder","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds128","op":"update","data":{"id":"134","name":"Par de novatos","display_name":"Par de novatos","group_ids":["3"],"organization_id":"24"}}
+{"type":"teams","id":"cds129","op":"update","data":{"id":"140","name":"Mimidos","display_name":"Mimidos","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds130","op":"update","data":{"id":"142","name":"Medmen","display_name":"Medmen","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds131","op":"update","data":{"id":"132","name":"Maddi","display_name":"Maddi","group_ids":["3"],"organization_id":"9"}}
+{"type":"teams","id":"cds132","op":"update","data":{"id":"151","name":"Los Bonsai","display_name":"Los Bonsai","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds133","op":"update","data":{"id":"139","name":"LECHUGA","display_name":"LECHUGA","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds134","op":"update","data":{"id":"147","name":"Kunkunh","display_name":"Kunkunh","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds135","op":"update","data":{"id":"158","name":"Kbs","display_name":"Kbs","group_ids":["3"],"organization_id":"12"}}
+{"type":"teams","id":"cds136","op":"update","data":{"id":"138","name":"KAMB","display_name":"KAMB","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds137","op":"update","data":{"id":"159","name":"Juan's-1Konrad","display_name":"Juan's-1Konrad","group_ids":["3"],"organization_id":"12"}}
+{"type":"teams","id":"cds138","op":"update","data":{"id":"133","name":"Juan Pablo","display_name":"Juan Pablo","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds139","op":"update","data":{"id":"157","name":"J\u00f3venes Cabal","display_name":"J\u00f3venes Cabal","group_ids":["3"],"organization_id":"9"}}
+{"type":"teams","id":"cds140","op":"update","data":{"id":"150","name":"Javalimos2/3","display_name":"Javalimos2/3","group_ids":["3"],"organization_id":"9"}}
+{"type":"teams","id":"cds141","op":"update","data":{"id":"154","name":"Isabella","display_name":"Isabella","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds142","op":"update","data":{"id":"156","name":"ImplacableJavPy","display_name":"ImplacableJavPy","group_ids":["3"],"organization_id":"9"}}
+{"type":"teams","id":"cds143","op":"update","data":{"id":"137","name":"GMC","display_name":"GMC","group_ids":["3"],"organization_id":"25"}}
+{"type":"teams","id":"cds144","op":"update","data":{"id":"146","name":"Error 404","display_name":"Error 404","group_ids":["3"],"organization_id":"9"}}
+{"type":"teams","id":"cds145","op":"update","data":{"id":"178","name":"ECIGMA Tyr","display_name":"ECIGMA Tyr","group_ids":["3"],"organization_id":"8"}}
+{"type":"teams","id":"cds146","op":"update","data":{"id":"160","name":"ECIGMA RB15","display_name":"ECIGMA RB15","group_ids":["3"],"organization_id":"8"}}
+{"type":"teams","id":"cds147","op":"update","data":{"id":"163","name":"ECIGMA PHI","display_name":"ECIGMA PHI","group_ids":["3"],"organization_id":"8"}}
+{"type":"teams","id":"cds148","op":"update","data":{"id":"180","name":"Pegasus","display_name":"Pegasus","group_ids":["3"],"organization_id":"9"}}
+{"type":"teams","id":"cds149","op":"delete","data":{"id":"140"}}
+{"type":"contests","id":"cds150","op":"update","data":{"id":"10","name":"Marat\u00f3n de programaci\u00f3n  Universidad El Bosque 2022-I","formal_name":"Marat\u00f3n de programaci\u00f3n  Universidad El Bosque 2022-I","start_time":"2022-06-11T10:00:00.000-05","duration":"5:00:00.000","scoreboard_freeze_duration":"0:50:00.000","penalty_time":20}}
+
+!Connecting at event cds150
+
+
+
+
+!Connecting at event cds150
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

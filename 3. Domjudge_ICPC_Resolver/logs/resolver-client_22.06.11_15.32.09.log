@@ -1,0 +1,1244 @@
+---- ICPC Resolver (2.3.491) ----
+OS:  Windows 10 (amd64/10.0)
+JRE: Oracle Corporation (11.0.11)
+Folder: C:\Users\diego\Documents\GitHub\DomJudgeTools\3. Domjudge_ICPC_Resolver
+Host: roca12red / 192.168.56.1
+Locale/TZ: es_CO / hora estándar de Colombia
+Args: https://localhost:8443/api/contests/8/ admin piroloco2112 --client --test 
+Log started 2022.06.11 15:32.09
+
+2022.06.11 15:32.09 I Option found: --client 
+2022.06.11 15:32.09 I Option found: --test 
+2022.06.11 15:32.11 The URL did not point to a specific contest, but one contest was found.
+2022.06.11 15:32.11 Auto-connecting to: https://localhost:8443/api/contests/10
+2022.06.11 15:32.11 I Contest source verified
+2022.06.11 15:32.11 I Loading from RESTContestSource[admin|piroloco2112@https://localhost:8443/api/contests/10]
+2022.06.11 15:32.11 I Contest source verified
+2022.06.11 15:32.11 I Loading contest from RESTContestSource[admin|piroloco2112@https://localhost:8443/api/contests/10]
+2022.06.11 15:32.11 I Checking feed cache: C:\Users\diego\Documents\GitHub\DomJudgeTools\3. Domjudge_ICPC_Resolver\logs\events-8-admin.log
+2022.06.11 15:32.11 I First comment: ! 0
+2022.06.11 15:32.11 I Found feed cache up to event id: cdE1080
+2022.06.11 15:32.13 I Reading feed cache
+2022.06.11 15:32.13 I Done reading feed cache
+2022.06.11 15:32.23 I Removing 0 invalid submissions
+2022.06.11 15:32.25 W Test mode active, 0 unjudged submissions discarded.
+2022.06.11 15:32.25 W Contest is not valid. Run "eventFeed --validate" for details
+2022.06.11 15:32.25 I Checking for predetermined steps
+2022.06.11 15:32.25 I Download https://localhost:8443/api/resolver.tsv to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.localhostapicontests8\resolver.tsv (200) (10.0kb in 102ms)
+2022.06.11 15:32.25 I Predetermined steps found in C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.localhostapicontests8\resolver.tsv
+2022.06.11 15:32.25 I Initializing resolver...
+2022.06.11 15:32.25 Generating awards
+2022.06.11 15:32.25 I Removing 0 teams and 0 total objects
+2022.06.11 15:32.25 I Removing 0 invalid submissions
+2022.06.11 15:32.25 I Resolving...
+2022.06.11 15:32.25 Resolving 34 pending submissions out of the 155 total submissions in the contest... 
+2022.06.11 15:32.25 I Resolving row: 53
+2022.06.11 15:32.25 I Resolving row: 52
+2022.06.11 15:32.25 I Resolving row: 51
+2022.06.11 15:32.25 I Resolving row: 50
+2022.06.11 15:32.25 I Resolving: SubmissionInfo[126, 7]
+2022.06.11 15:32.25 I    Not solved, no change
+2022.06.11 15:32.25 I Resolving row: 49
+2022.06.11 15:32.25 I Resolving row: 48
+2022.06.11 15:32.25 I Resolving row: 47
+2022.06.11 15:32.25 I Resolving: SubmissionInfo[148, 6]
+2022.06.11 15:32.25 I    Not solved, no change
+2022.06.11 15:32.25 I Resolving row: 46
+2022.06.11 15:32.25 I Resolving row: 45
+2022.06.11 15:32.25 I Resolving row: 44
+2022.06.11 15:32.25 I Resolving row: 43
+2022.06.11 15:32.25 I Resolving: SubmissionInfo[134, 6]
+2022.06.11 15:32.25 I    Not solved, no change
+2022.06.11 15:32.25 I Resolving row: 42
+2022.06.11 15:32.25 I Resolving row: 41
+2022.06.11 15:32.25 I Resolving row: 40
+2022.06.11 15:32.25 I Resolving row: 39
+2022.06.11 15:32.25 I Resolving row: 38
+2022.06.11 15:32.25 I Resolving: SubmissionInfo[151, 6]
+2022.06.11 15:32.25 I    Not solved, no change
+2022.06.11 15:32.25 I Resolving row: 37
+2022.06.11 15:32.25 I Resolving row: 36
+2022.06.11 15:32.25 I Resolving row: 35
+2022.06.11 15:32.25 I Resolving row: 34
+2022.06.11 15:32.25 I Resolving row: 33
+2022.06.11 15:32.25 I Resolving row: 32
+2022.06.11 15:32.25 I Resolving row: 31
+2022.06.11 15:32.25 I Resolving row: 30
+2022.06.11 15:32.25 I Resolving row: 29
+2022.06.11 15:32.25 I Resolving row: 28
+2022.06.11 15:32.25 I Resolving row: 27
+2022.06.11 15:32.25 I Resolving row: 26
+2022.06.11 15:32.25 I Resolving row: 25
+2022.06.11 15:32.25 I Resolving row: 24
+2022.06.11 15:32.25 I Resolving row: 23
+2022.06.11 15:32.25 I Resolving row: 22
+2022.06.11 15:32.25 I Resolving row: 21
+2022.06.11 15:32.25 I Resolving row: 20
+2022.06.11 15:32.25 I Award at row: 20 175 Fundación Universitaria Konrad Lorenz
+2022.06.11 15:32.25 I Resolving row: 19
+2022.06.11 15:32.25 I Resolving: SubmissionInfo[143, 7]
+2022.06.11 15:32.25 I    Not solved, no change
+2022.06.11 15:32.25 I Resolving row: 18
+2022.06.11 15:32.25 I Resolving row: 17
+2022.06.11 15:32.25 I Resolving: SubmissionInfo[180, 5]
+2022.06.11 15:32.25 I    Not solved, no change
+2022.06.11 15:32.25 I Resolving row: 16
+2022.06.11 15:32.25 I Resolving: SubmissionInfo[179, 7]
+2022.06.11 15:32.25 I    Solved, no change in standings
+2022.06.11 15:32.25 I Resolving row: 15
+2022.06.11 15:32.25 I Award at row: 15 81 Escuela Tecnológica Instituto Técnico Central
+2022.06.11 15:32.25 I Resolving row: 14
+2022.06.11 15:32.25 I Resolving row: 13
+2022.06.11 15:32.25 I Resolving row: 12
+2022.06.11 15:32.25 I Resolving: SubmissionInfo[158, 0]
+2022.06.11 15:32.25 I    Solved. Team moved from row 12 to row 7
+2022.06.11 15:32.25 I Resolving: SubmissionInfo[146, 5]
+2022.06.11 15:32.25 I    Not solved, no change
+2022.06.11 15:32.25 I Resolving row: 11
+2022.06.11 15:32.25 I Award at row: 11 181 Universidad El Bosque
+2022.06.11 15:32.25 I Resolving row: 10
+2022.06.11 15:32.25 I Resolving: SubmissionInfo[152, 0]
+2022.06.11 15:32.25 I    Not solved, no change
+2022.06.11 15:32.25 I Resolving: SubmissionInfo[152, 5]
+2022.06.11 15:32.25 I    Not solved, no change
+2022.06.11 15:32.25 I Award at row: 10 152 Universidad El Bosque
+2022.06.11 15:32.25 I Resolving row: 9
+2022.06.11 15:32.25 I Award at row: 9 130 Escuela Tecnológica Instituto Técnico Central
+2022.06.11 15:32.25 I Resolving row: 8
+2022.06.11 15:32.25 I Resolving: SubmissionInfo[136, 0]
+2022.06.11 15:32.25 I    Not solved, no change
+2022.06.11 15:32.25 I Award at row: 8 136 Universidad ECCI
+2022.06.11 15:32.25 I Resolving row: 7
+2022.06.11 15:32.25 I Award at row: 7 158 Fundación Universitaria Konrad Lorenz
+2022.06.11 15:32.25 I Resolving row: 6
+2022.06.11 15:32.25 I Award at row: 6 153 Universidad El Bosque
+2022.06.11 15:32.25 I Resolving row: 5
+2022.06.11 15:32.25 I Resolving: SubmissionInfo[163, 12]
+2022.06.11 15:32.25 I    Solved. Team moved from row 5 to row 1
+2022.06.11 15:32.25 I Resolving: SubmissionInfo[160, 0]
+2022.06.11 15:32.25 I    Not solved, no change
+2022.06.11 15:32.25 I Award at row: 5 160 Escuela Colombiana de Ingeniería Julio Garavito
+2022.06.11 15:32.25 I Resolving row: 4
+2022.06.11 15:32.25 I Resolving: SubmissionInfo[161, 7]
+2022.06.11 15:32.25 I    Solved. Team moved from row 4 to row 1
+2022.06.11 15:32.25 I Award at row: 4 178 Escuela Colombiana de Ingeniería Julio Garavito
+2022.06.11 15:32.25 I Resolving row: 3
+2022.06.11 15:32.25 I Award at row: 3 124 Universidad El Bosque
+2022.06.11 15:32.25 I Resolving row: 2
+2022.06.11 15:32.25 I Award at row: 2 163 Escuela Colombiana de Ingeniería Julio Garavito
+2022.06.11 15:32.25 I Resolving row: 1
+2022.06.11 15:32.25 I Award at row: 1 161 Escuela Colombiana de Ingeniería Julio Garavito
+2022.06.11 15:32.25 I Resolving row: 0
+2022.06.11 15:32.25 I Resolving: SubmissionInfo[162, 5]
+2022.06.11 15:32.25 I    Solved, no change in standings
+2022.06.11 15:32.25 I Award at row: 0 162 Escuela Colombiana de Ingeniería Julio Garavito
+2022.06.11 15:32.25 Done resolving
+2022.06.11 15:32.25   Playback time: 2m 45s
+2022.06.11 15:32.25   Total pauses: 47
+2022.06.11 15:32.25 I   Contest states: 35
+2022.06.11 15:32.25 I   Total steps: 529
+2022.06.11 15:32.25 I   Time to resolve: 228ms
+2022.06.11 15:32.25 I Resolution steps:
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Show presentation SPLASH
+2022.06.11 15:32.25 I   Pause 0
+2022.06.11 15:32.25 I   Select team (none)
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Submissions to judge: (none)
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 1
+2022.06.11 15:32.25 I   Scroll to row 43
+2022.06.11 15:32.25 I   Pause 2
+2022.06.11 15:32.25 I   Select team 177: Wilmer Edicson Garzón
+2022.06.11 15:32.25 I   Pause 3
+2022.06.11 15:32.25 I   Scroll to row 43
+2022.06.11 15:32.25 I   Select team 177: Wilmer Edicson Garzón
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 42
+2022.06.11 15:32.25 I   Select team 135: Team Chicharrón
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 41
+2022.06.11 15:32.25 I   Select team 125: Team a mimir
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 40
+2022.06.11 15:32.25 I   Select team 126: Team 404
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 7 for team 126
+2022.06.11 15:32.25 I   Select submission id 260
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 260
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 39
+2022.06.11 15:32.25 I   Select team 127: T1
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 38
+2022.06.11 15:32.25 I   Select team 98: Socrates Rojas
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 37
+2022.06.11 15:32.25 I   Select team 148: Sebka
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 6 for team 148
+2022.06.11 15:32.25 I   Select submission id 261
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 261
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 267
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 36
+2022.06.11 15:32.25 I   Select team 149: Programa en desarrollo
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 35
+2022.06.11 15:32.25 I   Select team 129: Pola Overflow
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 34
+2022.06.11 15:32.25 I   Select team 155: Peaky blinder
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 33
+2022.06.11 15:32.25 I   Select team 134: Par de novatos
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 6 for team 134
+2022.06.11 15:32.25 I   Select submission id 263
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 263
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 32
+2022.06.11 15:32.25 I   Select team 182: Null pointer
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 31
+2022.06.11 15:32.25 I   Select team 99: Natalia Parra
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 30
+2022.06.11 15:32.25 I   Select team 142: Medmen
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 29
+2022.06.11 15:32.25 I   Select team 132: Maddi
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 28
+2022.06.11 15:32.25 I   Select team 151: Los Bonsai
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 6 for team 151
+2022.06.11 15:32.25 I   Select submission id 279
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 279
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 27
+2022.06.11 15:32.25 I   Select team 139: LECHUGA
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 26
+2022.06.11 15:32.25 I   Select team 147: Kunkunh
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 25
+2022.06.11 15:32.25 I   Select team 138: KAMB
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 24
+2022.06.11 15:32.25 I   Select team 133: Juan Pablo
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 23
+2022.06.11 15:32.25 I   Select team 157: Jóvenes Cabal
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 22
+2022.06.11 15:32.25 I   Select team 150: Javalimos2/3
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 21
+2022.06.11 15:32.25 I   Select team 154: Isabella
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 20
+2022.06.11 15:32.25 I   Select team 79: Hernando Camargo
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 19
+2022.06.11 15:32.25 I   Select team 137: GMC
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 18
+2022.06.11 15:32.25 I   Select team 174: German Salas
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 17
+2022.06.11 15:32.25 I   Select team 80: Fran Romero
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 16
+2022.06.11 15:32.25 I   Select team 78: Diego Rodriguez
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 15
+2022.06.11 15:32.25 I   Select team 131: Crypthon
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 14
+2022.06.11 15:32.25 I   Select team 128: Arbolitos Estroboscópicos
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 13
+2022.06.11 15:32.25 I   Select team 114: Alexander Sabogal
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 12
+2022.06.11 15:32.25 I   Select team 145: æ
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 11
+2022.06.11 15:32.25 I   Select team 141: .
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 10
+2022.06.11 15:32.25 I   Select team 175: Arles Ernesto Rodriguez
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 175: Arles Ernesto Rodriguez FTS_HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 4
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (First to solve problem C)
+2022.06.11 15:32.25 I   Pause 5
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 6
+2022.06.11 15:32.25 I   Scroll to row 9
+2022.06.11 15:32.25 I   Select team 143: (JuanDavid)²
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 7 for team 143
+2022.06.11 15:32.25 I   Select submission id 283
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 283
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 8
+2022.06.11 15:32.25 I   Select team 144: Ark
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 7
+2022.06.11 15:32.25 I   Select team 180: Pegasus
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 5 for team 180
+2022.06.11 15:32.25 I   Select submission id 270
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 270
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 271
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 272
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 273
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 280
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 6
+2022.06.11 15:32.25 I   Select team 179: ST Junior
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 7 for team 179
+2022.06.11 15:32.25 I   Select submission id 277
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 277
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 282
+2022.06.11 15:32.25 I   Delay SOLVED_STAY
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 5
+2022.06.11 15:32.25 I   Select team 81: Gonzalo Rodriguez
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 81: Gonzalo Rodriguez HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 7
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (Coach/Jueces Champions)
+2022.06.11 15:32.25 I   Pause 8
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 9
+2022.06.11 15:32.25 I   Scroll to row 4
+2022.06.11 15:32.25 I   Select team 159: Juan's-1Konrad
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 3
+2022.06.11 15:32.25 I   Select team 156: ImplacableJavPy
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 2
+2022.06.11 15:32.25 I   Select team 158: Kbs
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 0 for team 158
+2022.06.11 15:32.25 I   Select submission id 251
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 251
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 257
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 262
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 275
+2022.06.11 15:32.25 I   Delay SOLVED_MOVE
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 146: Error 404
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 5 for team 146
+2022.06.11 15:32.25 I   Select submission id 252
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 252
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 256
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 258
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 1
+2022.06.11 15:32.25 I   Select team 181: T2
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 181: T2 HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 10
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Awards (Bronze Medalist, Auto Registrado Champions)
+2022.06.11 15:32.25 I   Pause 11
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 12
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 152: Perejil sudado
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 0 for team 152
+2022.06.11 15:32.25 I   Select submission id 253
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 253
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 264
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select submission 5 for team 152
+2022.06.11 15:32.25 I   Select submission id 276
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 276
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 152: Perejil sudado HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 13
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (Bronze Medalist)
+2022.06.11 15:32.25 I   Pause 14
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 15
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 130: Team NMA()
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 130: Team NMA() FTS_HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 16
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Awards (Bronze Medalist, First to solve problem F)
+2022.06.11 15:32.25 I   Pause 17
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 18
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 136: Bit Bait!
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 0 for team 136
+2022.06.11 15:32.25 I   Select submission id 254
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 254
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 136: Bit Bait! FTS_HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 19
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Awards (Bronze Medalist, First to solve problem G)
+2022.06.11 15:32.25 I   Pause 20
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 21
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 158: Kbs
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 158: Kbs HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 22
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (Silver Medalist)
+2022.06.11 15:32.25 I   Pause 23
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 24
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 153: Semillitas
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 153: Semillitas HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 25
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (Silver Medalist)
+2022.06.11 15:32.25 I   Pause 26
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 27
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 163: ECIGMA PHI
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 12 for team 163
+2022.06.11 15:32.25 I   Select submission id 274
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 274
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 278
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 281
+2022.06.11 15:32.25 I   Delay SOLVED_MOVE
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 160: ECIGMA RB15
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 0 for team 160
+2022.06.11 15:32.25 I   Select submission id 255
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 255
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 265
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 266
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 268
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 269
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 160: ECIGMA RB15 HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 28
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (Silver Medalist)
+2022.06.11 15:32.25 I   Pause 29
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 30
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 161: ECIGMA 117
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 7 for team 161
+2022.06.11 15:32.25 I   Select submission id 250
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 250
+2022.06.11 15:32.25 I   Delay SOLVED_MOVE
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 178: ECIGMA Tyr
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 178: ECIGMA Tyr HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 31
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (Silver Medalist)
+2022.06.11 15:32.25 I   Pause 32
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 33
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 124: Team Arepitas
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 124: Team Arepitas HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 34
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (Gold Medalist)
+2022.06.11 15:32.25 I   Pause 35
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 36
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 163: ECIGMA PHI
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 163: ECIGMA PHI HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 37
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (Gold Medalist)
+2022.06.11 15:32.25 I   Pause 38
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 39
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 161: ECIGMA 117
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 161: ECIGMA 117 FTS_HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 40
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Awards (Gold Medalist, First to solve problem L)
+2022.06.11 15:32.25 I   Pause 41
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 42
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 162: ECIGMA Error 404
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 5 for team 162
+2022.06.11 15:32.25 I   Select submission id 259
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 259
+2022.06.11 15:32.25 I   Delay SOLVED_STAY
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 162: ECIGMA Error 404 FTS_HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 43
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Awards (Gold Medalist, Participantes Champions, First to solve problem A, First to solve problem E, First to solve problem H)
+2022.06.11 15:32.25 I   Pause 44
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 45
+2022.06.11 15:32.25 I   Select team (none)
+2022.06.11 15:32.25 I   Pause 46
+2022.06.11 15:32.25 I Resolution steps:
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Show presentation SPLASH
+2022.06.11 15:32.25 I   Pause 0
+2022.06.11 15:32.25 I   Select team (none)
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Submissions to judge: (none)
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 1
+2022.06.11 15:32.25 I   Scroll to row 43
+2022.06.11 15:32.25 I   Pause 2
+2022.06.11 15:32.25 I   Select team 177: Wilmer Edicson Garzón
+2022.06.11 15:32.25 I   Pause 3
+2022.06.11 15:32.25 I   Scroll to row 43
+2022.06.11 15:32.25 I   Select team 177: Wilmer Edicson Garzón
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 42
+2022.06.11 15:32.25 I   Select team 135: Team Chicharrón
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 41
+2022.06.11 15:32.25 I   Select team 125: Team a mimir
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 40
+2022.06.11 15:32.25 I   Select team 126: Team 404
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 7 for team 126
+2022.06.11 15:32.25 I   Select submission id 260
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 260
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 39
+2022.06.11 15:32.25 I   Select team 127: T1
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 38
+2022.06.11 15:32.25 I   Select team 98: Socrates Rojas
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 37
+2022.06.11 15:32.25 I   Select team 148: Sebka
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 6 for team 148
+2022.06.11 15:32.25 I   Select submission id 261
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 261
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 267
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 36
+2022.06.11 15:32.25 I   Select team 149: Programa en desarrollo
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 35
+2022.06.11 15:32.25 I   Select team 129: Pola Overflow
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 34
+2022.06.11 15:32.25 I   Select team 155: Peaky blinder
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 33
+2022.06.11 15:32.25 I   Select team 134: Par de novatos
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 6 for team 134
+2022.06.11 15:32.25 I   Select submission id 263
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 263
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 32
+2022.06.11 15:32.25 I   Select team 182: Null pointer
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 31
+2022.06.11 15:32.25 I   Select team 99: Natalia Parra
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 30
+2022.06.11 15:32.25 I   Select team 142: Medmen
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 29
+2022.06.11 15:32.25 I   Select team 132: Maddi
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 28
+2022.06.11 15:32.25 I   Select team 151: Los Bonsai
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 6 for team 151
+2022.06.11 15:32.25 I   Select submission id 279
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 279
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 27
+2022.06.11 15:32.25 I   Select team 139: LECHUGA
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 26
+2022.06.11 15:32.25 I   Select team 147: Kunkunh
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 25
+2022.06.11 15:32.25 I   Select team 138: KAMB
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 24
+2022.06.11 15:32.25 I   Select team 133: Juan Pablo
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 23
+2022.06.11 15:32.25 I   Select team 157: Jóvenes Cabal
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 22
+2022.06.11 15:32.25 I   Select team 150: Javalimos2/3
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 21
+2022.06.11 15:32.25 I   Select team 154: Isabella
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 20
+2022.06.11 15:32.25 I   Select team 79: Hernando Camargo
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 19
+2022.06.11 15:32.25 I   Select team 137: GMC
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 18
+2022.06.11 15:32.25 I   Select team 174: German Salas
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 17
+2022.06.11 15:32.25 I   Select team 80: Fran Romero
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 16
+2022.06.11 15:32.25 I   Select team 78: Diego Rodriguez
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 15
+2022.06.11 15:32.25 I   Select team 131: Crypthon
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 14
+2022.06.11 15:32.25 I   Select team 128: Arbolitos Estroboscópicos
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 13
+2022.06.11 15:32.25 I   Select team 114: Alexander Sabogal
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 12
+2022.06.11 15:32.25 I   Select team 145: æ
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 11
+2022.06.11 15:32.25 I   Select team 141: .
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 10
+2022.06.11 15:32.25 I   Select team 175: Arles Ernesto Rodriguez
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 175: Arles Ernesto Rodriguez FTS_HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 4
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (First to solve problem C)
+2022.06.11 15:32.25 I   Pause 5
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 6
+2022.06.11 15:32.25 I   Scroll to row 9
+2022.06.11 15:32.25 I   Select team 143: (JuanDavid)²
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 7 for team 143
+2022.06.11 15:32.25 I   Select submission id 283
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 283
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 8
+2022.06.11 15:32.25 I   Select team 144: Ark
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 7
+2022.06.11 15:32.25 I   Select team 180: Pegasus
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 5 for team 180
+2022.06.11 15:32.25 I   Select submission id 270
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 270
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 271
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 272
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 273
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 280
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 6
+2022.06.11 15:32.25 I   Select team 179: ST Junior
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 7 for team 179
+2022.06.11 15:32.25 I   Select submission id 277
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 277
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 282
+2022.06.11 15:32.25 I   Delay SOLVED_STAY
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 5
+2022.06.11 15:32.25 I   Select team 81: Gonzalo Rodriguez
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 81: Gonzalo Rodriguez HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 7
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (Coach/Jueces Champions)
+2022.06.11 15:32.25 I   Pause 8
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 9
+2022.06.11 15:32.25 I   Scroll to row 4
+2022.06.11 15:32.25 I   Select team 159: Juan's-1Konrad
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 3
+2022.06.11 15:32.25 I   Select team 156: ImplacableJavPy
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 2
+2022.06.11 15:32.25 I   Select team 158: Kbs
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 0 for team 158
+2022.06.11 15:32.25 I   Select submission id 251
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 251
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 257
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 262
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 275
+2022.06.11 15:32.25 I   Delay SOLVED_MOVE
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 146: Error 404
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 5 for team 146
+2022.06.11 15:32.25 I   Select submission id 252
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 252
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 256
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 258
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Scroll to row 1
+2022.06.11 15:32.25 I   Select team 181: T2
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 181: T2 HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 10
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Awards (Bronze Medalist, Auto Registrado Champions)
+2022.06.11 15:32.25 I   Pause 11
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 12
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 152: Perejil sudado
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 0 for team 152
+2022.06.11 15:32.25 I   Select submission id 253
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 253
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 264
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select submission 5 for team 152
+2022.06.11 15:32.25 I   Select submission id 276
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 276
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 152: Perejil sudado HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 13
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (Bronze Medalist)
+2022.06.11 15:32.25 I   Pause 14
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 15
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 130: Team NMA()
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 130: Team NMA() FTS_HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 16
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Awards (Bronze Medalist, First to solve problem F)
+2022.06.11 15:32.25 I   Pause 17
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 18
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 136: Bit Bait!
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 0 for team 136
+2022.06.11 15:32.25 I   Select submission id 254
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 254
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 136: Bit Bait! FTS_HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 19
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Awards (Bronze Medalist, First to solve problem G)
+2022.06.11 15:32.25 I   Pause 20
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 21
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 158: Kbs
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 158: Kbs HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 22
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (Silver Medalist)
+2022.06.11 15:32.25 I   Pause 23
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 24
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 153: Semillitas
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 153: Semillitas HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 25
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (Silver Medalist)
+2022.06.11 15:32.25 I   Pause 26
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 27
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 163: ECIGMA PHI
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 12 for team 163
+2022.06.11 15:32.25 I   Select submission id 274
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 274
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 278
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 281
+2022.06.11 15:32.25 I   Delay SOLVED_MOVE
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 160: ECIGMA RB15
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 0 for team 160
+2022.06.11 15:32.25 I   Select submission id 255
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 255
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 265
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 266
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 268
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 269
+2022.06.11 15:32.25 I   Delay FAILED
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 160: ECIGMA RB15 HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 28
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (Silver Medalist)
+2022.06.11 15:32.25 I   Pause 29
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 30
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 161: ECIGMA 117
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 7 for team 161
+2022.06.11 15:32.25 I   Select submission id 250
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 250
+2022.06.11 15:32.25 I   Delay SOLVED_MOVE
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 178: ECIGMA Tyr
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 178: ECIGMA Tyr HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 31
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (Silver Medalist)
+2022.06.11 15:32.25 I   Pause 32
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 33
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 124: Team Arepitas
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 124: Team Arepitas HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 34
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (Gold Medalist)
+2022.06.11 15:32.25 I   Pause 35
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 36
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 163: ECIGMA PHI
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 163: ECIGMA PHI HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 37
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Award (Gold Medalist)
+2022.06.11 15:32.25 I   Pause 38
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 39
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 161: ECIGMA 117
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 161: ECIGMA 117 FTS_HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 40
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Awards (Gold Medalist, First to solve problem L)
+2022.06.11 15:32.25 I   Pause 41
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 42
+2022.06.11 15:32.25 I   Scroll to row 0
+2022.06.11 15:32.25 I   Select team 162: ECIGMA Error 404
+2022.06.11 15:32.25 I   Delay SELECT_TEAM
+2022.06.11 15:32.25 I   Select submission 5 for team 162
+2022.06.11 15:32.25 I   Select submission id 259
+2022.06.11 15:32.25 I   Delay SELECT_PROBLEM
+2022.06.11 15:32.25 I   Change contest state
+2022.06.11 15:32.25 I   Select submission id 259
+2022.06.11 15:32.25 I   Delay SOLVED_STAY
+2022.06.11 15:32.25 I   Select submission (none)
+2022.06.11 15:32.25 I   Delay DESELECT
+2022.06.11 15:32.25 I   Select team 162: ECIGMA Error 404 FTS_HIGHLIGHT
+2022.06.11 15:32.25 I   Pause 43
+2022.06.11 15:32.25 I   Show presentation TEAM_AWARD
+2022.06.11 15:32.25 I   Awards (Gold Medalist, Participantes Champions, First to solve problem A, First to solve problem E, First to solve problem H)
+2022.06.11 15:32.25 I   Pause 44
+2022.06.11 15:32.25 I   Show presentation SCOREBOARD
+2022.06.11 15:32.25 I   Pause 45
+2022.06.11 15:32.25 I   Select team (none)
+2022.06.11 15:32.25 I   Pause 46
+2022.06.11 15:32.25 admin connecting...
+2022.06.11 15:32.26 I Display 1 found, modes:
+2022.06.11 15:32.26 I    1366x768 @ 60hz in 32bit
+2022.06.11 15:32.26 I    1280x720 @ 60hz in 32bit
+2022.06.11 15:32.26 I    1024x768 @ 60hz in 32bit
+2022.06.11 15:32.26 I    800x600 @ 60hz in 32bit
+2022.06.11 15:32.26 I    640x480 @ 60hz in 32bit
+2022.06.11 15:32.26 I    Config: false, true, true, DirectColorModel
+2022.06.11 15:32.26 I Applying display config DisplayConfig 1 (r=java.awt.Rectangle[x=0,y=0,width=1366,height=768],in=java.awt.Insets[top=0,left=0,bottom=40,right=0])
+2022.06.11 15:32.27 I Device: 1366x768
+2022.06.11 15:32.27 admin connected
+2022.06.11 15:32.27 I > {"type":"info","source":"77739db2","client.type":"resolver","version":"2.3.491","os.name":"Windows 10","os.version":"1...
+2022.06.11 15:32.27 I **Action: FORWARD from -1**
+2022.06.11 15:32.27 I Resolving to: 0 / true
+2022.06.11 15:32.27 I Step 0 <  Change contest state
+2022.06.11 15:32.27 I Step 1 <  Show presentation SPLASH
+2022.06.11 15:32.27 I New presentation plan in 0ms
+2022.06.11 15:32.27 I Initializing presentation SplashPresentation
+2022.06.11 15:32.27 I Building presentation plan
+2022.06.11 15:32.27 I Building presentation plan
+2022.06.11 15:32.27 I Next presentation plan: Presentation plan 1654979547742 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, SplashPresentation > null > null, 0]
+2022.06.11 15:32.27 I **Paused at -1**
+2022.06.11 15:32.27 I Switching presentation plans: null -> Presentation plan 1654979547742 -> 9223372036854775807, 315360000000
+  Segment [0 -> 315360000000, SplashPresentation > null > null, 0]
+2022.06.11 15:32.27 I < {"type":"clients","clients":[]}
+2022.06.11 15:32.27 I Client list changed: 0
+2022.06.11 15:32.27 I Sending settings: 1.0,-2147483648,0
+2022.06.11 15:32.27 I > {"type":"properties","clients":[],"props":{"org.icpc.tools.presentation.contest.resolver.settings":"1.0,-2147483648,0"...
+2022.06.11 15:32.27 I < {"type":"ping"}
+2022.06.11 15:32.27 I > {"type":"ping"}
+2022.06.11 15:32.28 I < {"type":"ping"}
+2022.06.11 15:32.28 I > {"type":"ping"}
+2022.06.11 15:32.28 I < {"type":"ping"}
+2022.06.11 15:32.28 I > {"type":"ping"}
+2022.06.11 15:32.28 I < {"type":"time","time":1654979548439}
+2022.06.11 15:32.28 I Nano time diff: 1654818586446
+2022.06.11 15:32.28 I > {"type":"ping"}
+2022.06.11 15:32.28 I < {"type":"ping"}
+2022.06.11 15:32.28 I > {"type":"ping"}
+2022.06.11 15:32.59 I < {"type":"ping"}
+2022.06.11 15:32.59 I > {"type":"ping"}
+2022.06.11 15:33.29 I < {"type":"ping"}
+2022.06.11 15:33.29 I > {"type":"ping"}

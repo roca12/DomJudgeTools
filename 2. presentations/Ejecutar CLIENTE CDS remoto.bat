@@ -1,0 +1,1 @@
+start "cliente" call client.bat https://cdsroca12.ngrok.io/api/contests/10/ presentation presentat1on --display_name "{team.name} ({org.name})"

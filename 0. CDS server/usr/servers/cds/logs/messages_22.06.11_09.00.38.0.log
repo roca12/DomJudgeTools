@@ -1,0 +1,47 @@
+********************************************************************************
+product = Open Liberty 21.0.0.1 (wlp-1.0.48.cl210120210113-1459)
+wlp.install.dir = C:/Users/diego/Documents/GitHub/DomJudgeTools/0. CDS server/
+java.home = C:\Program Files\Java\jdk-11.0.11
+java.version = 11.0.11
+java.runtime = Java(TM) SE Runtime Environment (11.0.11+9-LTS-194)
+os = Windows 10 (10.0; amd64) (es_CO)
+process = 128@roca12red
+********************************************************************************
+[10/06/22, 14:31:53:382 COT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: El servidor cds se ha lanzado.
+[10/06/22, 14:31:55:145 COT] 00000017 com.ibm.ws.config.xml.internal.XMLConfigParser               A CWWKG0028A: El proceso ha incluido el recurso de configuración: C:\Users\diego\Documents\GitHub\DomJudgeTools\0. CDS server\usr\servers\cds\users.xml
+[10/06/22, 14:31:55:536 COT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: El kernel se ha iniciado después de 32,262 segundos
+[10/06/22, 14:31:55:586 COT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: La actualización de características se ha iniciado.
+[10/06/22, 14:31:56:057 COT] 00000016 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: El servicio de seguridad se está iniciando...
+[10/06/22, 14:31:56:663 COT] 00000018 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Supervisando aplicaciones de dropins.
+[10/06/22, 14:31:57:540 COT] 00000019 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: La instancia de memoria caché dinámica de WebSphere con nombre baseCache se ha inicializado correctamente.
+[10/06/22, 14:31:57:549 COT] 00000019 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: Se está utilizando el proveedor de memoria caché default.
+[10/06/22, 14:31:57:551 COT] 00000019 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: La memoria caché dinámica (memoria caché de objeto) se ha inicializado correctamente.
+[10/06/22, 14:31:58:490 COT] 00000016 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: Se ha activado el plugin de autenticación colectivo con el nombre de clase NullCollectiveAuthenticationPlugin. 
+[10/06/22, 14:31:58:868 COT] 00000023 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0008I: El servicio de seguridad está listo.
+[10/06/22, 14:31:58:875 COT] 00000023 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: La configuración de LTPA estará lista después de 0,469 segundos.
+[10/06/22, 14:31:59:532 COT] 0000001e com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: C:/Users/diego/Documents/GitHub/DomJudgeTools/0. CDS server/usr/servers/cds/resources/security/key.jks of type: JKS
+[10/06/22, 14:31:59:636 COT] 00000016 com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: Se está utilizando la clase AuthConfigFactory com.ibm.ws.security.jaspi.ProviderRegistry de JASPIC (Java Authentication SPI for Containers) predeterminada porque la propiedad de seguridad Java authconfigprovider.factory no está establecida. 
+[10/06/22, 14:32:04:930 COT] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando la aplicación CDS.
+[10/06/22, 14:32:04:934 COT] 00000026 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0136I: La aplicación CDS está utilizando el archivo de archivado en la ubicación C:\Users\diego\Documents\GitHub\DomJudgeTools\0. CDS server\usr\servers\cds\apps\CDS.war.
+[10/06/22, 14:32:06:212 COT] 00000026 com.ibm.ws.session.WASSessionCore                            I SESN8501I: El gestor de sesiones no ha encontrado una ubicación de almacenamiento persistente; los objetos HttpSession se almacenarán en la memoria del servidor de aplicaciones local.
+[10/06/22, 14:32:06:303 COT] 00000026 org.jboss.weld.Version                                       I WELD-000900: 3.1.4 (Final)
+[10/06/22, 14:32:07:347 COT] 00000026 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Cargando módulo web: CDS.
+[10/06/22, 14:32:07:356 COT] 00000026 com.ibm.ws.webcontainer                                      I SRVE0250I: El módulo web CDS se ha enlazado con default_host.
+[10/06/22, 14:32:07:361 COT] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicación web disponible (default_host): http://roca12red:8080/
+[10/06/22, 14:32:07:609 COT] 00000024 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Se creará un nuevo contexto de sesión para la clave de aplicación default_host/
+[10/06/22, 14:32:07:630 COT] 00000024 com.ibm.ws.util                                              I SESN0172I: El gestor de sesiones está utilizando la implementación de SecureRandom Java por omisión para la generación del ID de sesión.
+[10/06/22, 14:32:07:742 COT] 00000024 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: La memoria caché dinámica (memoria caché de objeto) se ha inicializado correctamente.
+[10/06/22, 14:32:07:793 COT] 00000024 com.ibm.ws.wsoc.EndpointManager                              I CWWKH0046I: Añadiendo un ServerEndpoint de WebSocket con el siguiente URI: /contests/{id}/startstatus
+[10/06/22, 14:32:07:801 COT] 00000024 com.ibm.ws.wsoc.EndpointManager                              I CWWKH0046I: Añadiendo un ServerEndpoint de WebSocket con el siguiente URI: /presentation/ws
+[10/06/22, 14:32:07:867 COT] 00000024 SystemOut                                                    O --- CDS (2.3.491) ---
+[10/06/22, 14:32:08:062 COT] 00000024 SystemOut                                                    O Loading CDS configuration from: C:\Users\diego\Documents\GitHub\DomJudgeTools\0. CDS server\usr\servers\cds\config\cdsConfig.xml
+[10/06/22, 14:32:08:134 COT] 00000024 SystemOut                                                    O Configured contests:
+[10/06/22, 14:32:08:135 COT] 00000024 SystemOut                                                    O    10 on disk at /home/myuser/contests/test - CCS configured (score@http://domjudgeroca12.sa.ngrok.io/domjudge/api/contests/10), Not recording reactions
+[10/06/22, 14:32:08:138 COT] 00000024 SystemErr                                                    R Could not read from CDS config! No contests loaded
+[10/06/22, 14:32:08:152 COT] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: La aplicación CDS se ha iniciado en 3,221 segundos.
+[10/06/22, 14:32:08:212 COT] 00000022 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: El canal TCP defaultHttpEndpoint se ha iniciado y ahora está a la escucha de solicitudes en el host *  (IPv6) puerto 8080.
+[10/06/22, 14:32:08:219 COT] 00000022 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: El canal TCP defaultHttpEndpoint-ssl se ha iniciado y ahora está a la escucha de solicitudes en el host *  (IPv6) puerto 8443.
+[10/06/22, 14:32:08:237 COT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: El servidor ha instalado las características siguientes: [appSecurity-3.0, cdi-2.0, distributedMap-1.0, el-3.0, jndi-1.0, jsp-2.3, servlet-4.0, ssl-1.0, websocket-1.1].
+[10/06/22, 14:32:08:239 COT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: La actualización de características se ha completado en 12,705 segundos.
+[10/06/22, 14:32:08:240 COT] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: El servidor cds está preparado para ejecutar un planeta más inteligente. El servidor cds se ha iniciado en 44,972 segundos.
+[10/06/22, 14:32:08:301 COT] 00000026 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Se ha generado automáticamente un archivo de configuración para un plug-in de servidor web para este servidor en C:\Users\diego\Documents\GitHub\DomJudgeTools\0. CDS server\usr\servers\cds\logs\state\plugin-cfg.xml.

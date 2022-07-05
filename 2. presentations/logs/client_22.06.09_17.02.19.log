@@ -1,0 +1,25 @@
+---- ICPC Presentation Client (2.3.491) ----
+OS:  Windows 10 (amd64/10.0)
+JRE: Oracle Corporation (11.0.11)
+Folder: C:\Users\diego\Documents\GitHub\DomJudgeTools\2. presentations
+Host: roca12red / 192.168.5.108
+Locale/TZ: es_CO / hora estándar de Colombia
+Args: https://cdsroca12.ngrok.io/api/contests/10/ presentation presentat1on 
+Log started 2022.06.09 17:02.19
+
+2022.06.09 17:02.21 I Contest source verified
+2022.06.09 17:02.21 I Download https://cdsroca12.ngrok.io/presentation/ to C:\Users\diego\AppData\Local\Temp\org.icpc.tools.cache.cdsroca12ngrokioapicontests10\presentation\listing.dir (200) (7.9kb in 501ms)
+2022.06.09 17:02.21 I Updates found on CDS: 1
+2022.06.09 17:02.21 I Version check: 2.3.491 (local) vs 2.3.491 (remote)
+2022.06.09 17:02.22 I Display 1 found, modes:
+2022.06.09 17:02.22 I    1366x768 @ 60hz in 32bit
+2022.06.09 17:02.22 I    1280x720 @ 60hz in 32bit
+2022.06.09 17:02.22 I    1024x768 @ 60hz in 32bit
+2022.06.09 17:02.22 I    800x600 @ 60hz in 32bit
+2022.06.09 17:02.22 I    640x480 @ 60hz in 32bit
+2022.06.09 17:02.22 I    Config: false, true, true, DirectColorModel
+2022.06.09 17:02.22 I Presentation Client [192.168.5.108] connecting to RESTContestSource[presentation|presentat1on@https://cdsroca12.ngrok.io/api/contests/10]
+2022.06.09 17:02.22 192.168.5.108 connecting...
+2022.06.09 17:02.23 192.168.5.108 connected
+2022.06.09 17:02.23 I < {"type":"ping"}
+2022.06.09 17:02.23 I > {"type":"ping"}
